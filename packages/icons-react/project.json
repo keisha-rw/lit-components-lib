@@ -1,0 +1,75 @@
+{
+  "name": "icons-react",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/icons-react/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "executor": "nx:run-commands",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "command": "npm run build:icons-react"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "packages/icons-react/**/*.ts"
+        ]
+      }
+    },
+    "storybook": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run storybook-icons-react-cmd"
+      }
+    },
+    "build-storybook": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build-storybook-icons-react-cmd"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
+      "options": {
+        "jestConfig": "packages/icons-react/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
