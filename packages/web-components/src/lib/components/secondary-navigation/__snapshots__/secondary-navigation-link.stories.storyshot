@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation link Active 1`] = `"<pds-secondary-navigation-link href="#" activepage="true">Test link</pds-secondary-navigation-link>"`;
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation link Default 1`] = `"<pds-secondary-navigation-link href="#">Test link</pds-secondary-navigation-link>"`;

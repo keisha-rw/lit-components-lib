@@ -1,0 +1,78 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #RADIO-GROUP
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-radio-group {
+  // remove fieldset styling
+  border: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pds-c-radio-group__label {
+  @include pds-semantic-form-label-default;
+
+  display: block;
+  color: var(--pds-semantic-text-default);
+  // TODOv2: remove the following line for v2; we'll add it to our css resets
+  padding-inline: 0;
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+
+  .pds-c-radio-group--hidden-label & {
+    @include pds-util-sr-only;
+  }
+}
+
+.pds-c-radio-group__required-indicator {
+  color: var(--pds-semantic-text-error);
+}
+
+.pds-c-radio-group__help-text {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-default);
+  line-height: size(2.25);
+  margin-bottom: size(1);
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+}
+
+.pds-c-radio-group__radios {
+  // space between label/helpText and the radios
+  margin-top: size(2);
+}
+
+.pds-c-radio-group__error-message {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-error);
+  display: flex;
+  align-items: center;
+  gap: size(1);
+  margin-top: size(0.25);
+}
+
+::slotted(pds-radio:not(:last-child)) {
+  margin-bottom: size(1);
+
+  .pds-c-radio-group--spacing-sm & {
+    margin-bottom: 0;
+  }
+}

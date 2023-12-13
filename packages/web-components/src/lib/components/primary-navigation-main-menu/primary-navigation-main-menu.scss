@@ -1,0 +1,188 @@
+/*------------------------------------*\
+ #MAIN_NAV
+\*------------------------------------*/
+
+.pds-c-primary-navigation-main-menu {
+  float: none;
+  display: block;
+  padding: size(2) size(3) 0 size(3);
+
+  @media all and (min-width: $pds-bp-lg) {
+    float: left;
+    display: inline;
+    padding: size(1.5);
+  }
+
+  @media all and (width < $pds-bp-lg) {
+    padding: size(3) size(3) 0 size(3);
+  }
+}
+
+// Default mobile nav
+.pds-c-primary-navigation-main-menu--default {
+  // Submenu styles
+  --pds-primary-navigation-main-menu-item-link-background: var(
+    --pds-component-primary-nav-default-mobile-submenu-background
+  );
+  --pds-primary-navigation-main-menu-item-link-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-label
+  );
+  --pds-primary-navigation-main-menu-item-icon-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-icon
+  );
+  --pds-primary-navigation-main-menu-item-link-hover-background: var(
+    --pds-component-primary-nav-default-mobile-submenu-hover-background
+  );
+  --pds-primary-navigation-main-menu-item-link-hover-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-hover-label
+  );
+  --pds-primary-navigation-main-menu-item-icon-hover-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-hover-icon
+  );
+  --pds-primary-navigation-main-menu-item-link-active-background: var(
+    --pds-component-primary-nav-default-mobile-submenu-active-background
+  );
+  --pds-primary-navigation-main-menu-item-link-active-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-active-label
+  );
+  --pds-primary-navigation-main-menu-item-icon-active-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-active-icon
+  );
+
+  // Links below submenu
+  --pds-primary-navigation-main-menu-item-href-color: var(
+    --pds-component-primary-nav-default-mobile-link
+  );
+  --pds-primary-navigation-main-menu-item-href-hover-color: var(
+    --pds-component-primary-nav-default-mobile-hover-link
+  );
+
+  // Default desktop styles
+  @media all and (min-width: $pds-bp-lg) {
+    --pds-primary-navigation-main-menu-item-dropdown-background: var(
+      --pds-component-primary-nav-default-dropdown-background
+    );
+    --pds-primary-navigation-main-menu-item-dropdown-arrow-top-position: 160%;
+    --pds-primary-navigation-main-menu-item-link-background: var(
+      --pds-component-primary-nav-default-nav-item-background
+    );
+    --pds-primary-navigation-main-menu-item-link-color: var(
+      --pds-component-primary-nav-default-nav-item-text
+    );
+    --pds-primary-navigation-main-menu-item-icon-color: var(
+      --pds-component-primary-nav-default-nav-item-icon
+    );
+    --pds-primary-navigation-main-menu-item-divider: var(
+      --pds-component-primary-nav-default-nav-item-divider
+    );
+    --pds-primary-navigation-main-menu-item-link-hover-background: var(
+      --pds-component-primary-nav-default-nav-item-hover-background
+    );
+    --pds-primary-navigation-main-menu-item-link-hover-color: var(
+      --pds-component-primary-nav-default-nav-item-hover-text
+    );
+    --pds-primary-navigation-main-menu-item-icon-hover-color: var(
+      --pds-component-primary-nav-default-nav-item-hover-icon
+    );
+    --pds-primary-navigation-main-menu-item-link-active-background: var(
+      --pds-component-primary-nav-default-nav-item-active-background
+    );
+    --pds-primary-navigation-main-menu-item-link-active-color: var(
+      --pds-component-primary-nav-default-nav-item-active-text
+    );
+    --pds-primary-navigation-main-menu-item-icon-active-color: var(
+      --pds-component-primary-nav-default-nav-item-active-icon
+    );
+  }
+}
+
+// Inverted mobile styles
+.pds-c-primary-navigation-main-menu--inverted {
+  // Submenu styles
+  --pds-primary-navigation-main-menu-item-link-background: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-background
+  );
+  --pds-primary-navigation-main-menu-item-link-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-label
+  );
+  --pds-primary-navigation-main-menu-item-icon-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-icon
+  );
+  --pds-primary-navigation-main-menu-item-link-hover-background: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-hover-background
+  );
+  --pds-primary-navigation-main-menu-item-link-hover-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-hover-label
+  );
+  --pds-primary-navigation-main-menu-item-icon-hover-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-hover-icon
+  );
+  --pds-primary-navigation-main-menu-item-link-active-background: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-active-background
+  );
+  --pds-primary-navigation-main-menu-item-link-active-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-active-label
+  );
+  --pds-primary-navigation-main-menu-item-icon-active-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-active-icon
+  );
+
+  // Links below submenu
+  --pds-primary-navigation-main-menu-item-href-color: var(
+    --pds-component-primary-nav-inverted-mobile-link
+  );
+  --pds-primary-navigation-main-menu-item-href-hover-color: var(
+    --pds-component-primary-nav-inverted-mobile-hover-link
+  );
+
+  // Inverted desktop styles
+  @media all and (min-width: $pds-bp-lg) {
+    --pds-primary-navigation-main-menu-item-dropdown-background: var(
+      --pds-component-primary-nav-inverted-dropdown-background
+    );
+    --pds-primary-navigation-main-menu-item-dropdown-arrow-top-position: 160%;
+    --pds-primary-navigation-main-menu-item-link-background: var(
+      --pds-component-primary-nav-inverted-nav-item-background
+    );
+    --pds-primary-navigation-main-menu-item-link-color: var(
+      --pds-component-primary-nav-inverted-nav-item-text
+    );
+    --pds-primary-navigation-main-menu-item-icon-color: var(
+      --pds-component-primary-nav-inverted-nav-item-icon
+    );
+    --pds-primary-navigation-main-menu-item-divider: var(
+      --pds-component-primary-nav-inverted-nav-item-divider
+    );
+    --pds-primary-navigation-main-menu-item-link-hover-background: var(
+      --pds-component-primary-nav-inverted-nav-item-hover-background
+    );
+    --pds-primary-navigation-main-menu-item-icon-hover-color: var(
+      --pds-component-primary-nav-inverted-nav-item-hover-icon
+    );
+    --pds-primary-navigation-main-menu-item-link-hover-color: var(
+      --pds-component-primary-nav-inverted-nav-item-hover-text
+    );
+    --pds-primary-navigation-main-menu-item-link-active-background: var(
+      --pds-component-primary-nav-inverted-nav-item-active-background
+    );
+    --pds-primary-navigation-main-menu-item-link-active-color: var(
+      --pds-component-primary-nav-inverted-nav-item-active-text
+    );
+    --pds-primary-navigation-main-menu-item-icon-active-color: var(
+      --pds-component-primary-nav-inverted-nav-item-active-icon
+    );
+  }
+}
+
+.pds-c-primary-navigation-main-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: size(1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media all and (min-width: $pds-bp-lg) {
+    flex-direction: row;
+  }
+}

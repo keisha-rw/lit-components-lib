@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primary-navigation unit tests works as expected with alternate props passed in 1`] = `
+"<pds-primary-navigation variant="inverted" loginlink="none" includeaction="notification" logoarialabel="Custom logo aria label" messagescount="5" messageshref="https://www.google.com" othernotificationshref="https://www.google.com">
+        <pds-primary-navigation-main-menu slot="primary-navigation-main-menu" arialabel="Main navigation area" variant="inverted">
+        <pds-primary-navigation-main-menu-item dropdown="" text="Dropdown">
+          <pds-list size="sm" spacing="sm">
+            <pds-list-item size="sm"><pds-primary-navigation-dropdown-link arrow="true" href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+            <pds-list-item size="sm"><pds-primary-navigation-dropdown-link arrow="true" href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+            <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+            <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          </pds-list>
+        </pds-primary-navigation-main-menu-item>
+        <pds-primary-navigation-main-menu-item megamenu="" text="Megamenu">
+          <pds-grid break="slower" class="pds-u-margin-bottom-16" variant="1-3up">
+            <pds-grid-item>
+              <div class="pds-u-inline-block pds-u-margin-right-8 pds-u-margin-top-4" style="vertical-align: top;">
+                <pds-icon-alert-circle></pds-icon-alert-circle>
+              </div>
+              <div class="pds-u-inline-block">
+                <pds-heading headingtag="h2" variant="label-lg">Some heading text goes here</pds-heading>
+                <pds-list size="sm" spacing="sm">
+                  <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                  <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                  <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                  <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                  <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                  <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                </pds-list>
+              </div>
+            </pds-grid-item>
+            <pds-grid-item>
+              <pds-heading headingtag="h2" variant="label-lg">Some heading text goes here</pds-heading>
+              <pds-list size="sm" spacing="sm">
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+              </pds-list>
+            </pds-grid-item>
+            <pds-grid-item>
+              <pds-heading headingtag="h2" variant="label-lg">Some heading text goes here</pds-heading>
+              <pds-list size="sm" spacing="sm">
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+                <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+              </pds-list>
+            </pds-grid-item>
+          </pds-grid>
+          <div>
+            <pds-heading headingtag="h2" variant="label-lg">Some heading text goes here</pds-heading>
+            <pds-text-passage>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis. Lorem
+              ipsum dolor amet, consectetur adipiscing elit.Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Faucibus a
+              pellentesque sit amet. Tristique
+            </pds-text-passage>
+          </div>
+        </pds-primary-navigation-main-menu-item>
+        <pds-primary-navigation-main-menu-item text="Megamenu" megamenu="">
+          <placeholder-element>Megamenu content</placeholder-element>
+        </pds-primary-navigation-main-menu-item>
+        <pds-primary-navigation-main-menu-item href="#" text="Link" arrow="true" divider="true"></pds-primary-navigation-main-menu-item>
+        </pds-primary-navigation-main-menu>
+        <pds-primary-navigation-utility-menu slot="primary-navigation-utility-menu" variant="inverted"><pds-primary-navigation-utility-menu-item href="#">Link</pds-primary-navigation-utility-menu-item></pds-primary-navigation-utility-menu>
+      </pds-primary-navigation>"
+`;

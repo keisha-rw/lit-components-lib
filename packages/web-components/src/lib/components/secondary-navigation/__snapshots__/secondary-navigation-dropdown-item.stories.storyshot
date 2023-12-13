@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation dropdown item Default 1`] = `
+"<pds-secondary-navigation-dropdown-item dropdown="" text="Dropdown">
+      <pds-list size="sm" spacing="sm">
+        <pds-list-item size="sm"><!----> <li role="listitem" class=" pds-c-secondary-navigation-dropdown-item pds-c-secondary-navigation-dropdown-item--dropdown ">
+      <button aria-label="dropdown link" part="secondary-navigation-dropdown-item-link" aria-expanded="false" class="pds-c-secondary-navigation-dropdown-item__link">
+        <span class="pds-c-secondary-navigation-dropdown-item__text">Dropdown</span>
+        <span part="secondary-navigation-dropdown-item-link-icon" class="pds-c-secondary-navigation-dropdown-item__icon"><pds-icon-chevron-down size="sm"></pds-icon-chevron-down></span>
+      </button>
+      
+            <div part="secondary-navigation-dropdown-item-panel" class="pds-c-secondary-navigation-dropdown-item__panel">
+              <div data-popper-arrow=""></div>
+              <div class="pds-c-secondary-navigation-dropdown-item__panel-content">
+                <slot></slot>
+              </div>
+            </div>
+          
+    </li><style>default</style><pds-secondary-navigation-link href="#">This is a link</pds-secondary-navigation-link></pds-list-item>
+        <pds-list-item size="sm"><pds-secondary-navigation-link href="#">This is a link</pds-secondary-navigation-link></pds-list-item>
+        <pds-list-item size="sm"><pds-secondary-navigation-link href="#">This is a link</pds-secondary-navigation-link></pds-list-item>
+        <pds-list-item size="sm"><pds-secondary-navigation-link href="#">This is a link</pds-secondary-navigation-link></pds-list-item>
+      </pds-list>
+    </pds-secondary-navigation-dropdown-item>"
+`;

@@ -1,0 +1,76 @@
+/*------------------------------------*\
+ #NAV_DROPDOWN_LINK
+\*------------------------------------*/
+
+pds-icon-arrow-right {
+  display: inline-block;
+  position: relative;
+  top: size(0.25);
+  left: size(1);
+}
+
+.pds-c-primary-navigation-dropdown-link {
+  @include pds-semantic-body-default;
+
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--pds-component-primary-nav-default-dropdown-link);
+  text-underline-offset: size(0.75);
+
+  &:hover {
+    pds-icon-arrow-right {
+      transform: translateX(size(0.5));
+      color: var(--pds-component-primary-nav-default-dropdown-hover-link);
+      transition: ease-in 0.3s;
+    }
+  }
+}
+
+.pds-primary-navigation-dropdown-link__content {
+  .pds-c-primary-navigation-dropdown-link:hover & {
+    color: var(--pds-component-primary-nav-default-dropdown-hover-link);
+    text-decoration: underline;
+  }
+}
+
+@media all and (max-width: $pds-bp-lg) {
+  .pds-c-primary-navigation-dropdown-link--inverted {
+    color: var(--pds-component-primary-nav-inverted-mobile-link);
+
+    &:hover {
+      pds-icon-arrow-right {
+        transform: translateX(size(0.5));
+        color: var(--pds-component-primary-nav-inverted-mobile-hover-link);
+        transition: ease-in 0.3s;
+      }
+    }
+  }
+
+  .pds-primary-navigation-dropdown-link__content {
+    .pds-c-primary-navigation-dropdown-link--inverted:hover & {
+      color: var(--pds-component-primary-nav-inverted-mobile-hover-link);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media all and (min-width: $pds-bp-lg) {
+  .pds-c-primary-navigation-dropdown-link--inverted {
+    color: var(--pds-component-primary-nav-inverted-dropdown-link);
+
+    &:hover {
+      pds-icon-arrow-right {
+        transform: translateX(size(0.5));
+        color: var(--pds-component-primary-nav-inverted-dropdown-hover-link);
+        transition: ease-in 0.3s;
+      }
+    }
+  }
+
+  .pds-primary-navigation-dropdown-link__content {
+    .pds-c-primary-navigation-dropdown-link--inverted:hover & {
+      color: var(--pds-component-primary-nav-inverted-dropdown-hover-link);
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Primary navigation/Primary navigation utility menu/Primary navigation utility menu item Default 1`] = `"<pds-primary-navigation-utility-menu-item href="#">Link</pds-primary-navigation-utility-menu-item>"`;

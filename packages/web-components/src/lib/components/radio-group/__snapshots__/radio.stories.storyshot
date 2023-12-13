@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Radio group/Radio Default 1`] = `
+"<pds-radio label="Option 1" value="option-1"><!----><div class=" pds-c-radio ">
+      <input type="radio" tabindex="-1" class="pds-c-radio__input" name="" id="option-1-field" value="option-1">
+       <label for="option-1-field" class="pds-c-radio__label">
+      <span class="pds-c-radio__circle">
+        <span class="pds-c-radio__inner-circle"></span>
+      </span>
+      <span class="pds-c-radio__label-text">
+        <slot name="label">Option 1</slot>
+      </span>
+      <slot name="label-after"></slot>
+      <!-- DEPRECATED - this slot will be removed in a future release -->
+      <slot name="labelAfter"></slot>
+    </label>
+    </div><style>default</style></pds-radio>"
+`;
+
+exports[`Storyshots Components/Radio group/Radio Disabled 1`] = `
+"<pds-radio label="Option 1" value="option-1" disabled=""><!----><div class=" pds-c-radio pds-is-disabled ">
+      <input type="radio" tabindex="-1" class="pds-c-radio__input" name="" id="option-1-field" value="option-1" disabled="">
+       <label for="option-1-field" class="pds-c-radio__label">
+      <span class="pds-c-radio__circle">
+        <span class="pds-c-radio__inner-circle"></span>
+      </span>
+      <span class="pds-c-radio__label-text">
+        <slot name="label">Option 1</slot>
+      </span>
+      <slot name="label-after"></slot>
+      <!-- DEPRECATED - this slot will be removed in a future release -->
+      <slot name="labelAfter"></slot>
+    </label>
+    </div><style>default</style></pds-radio>"
+`;
+
+exports[`Storyshots Components/Radio group/Radio Named 1`] = `
+"<pds-radio label="Option 1" value="option-1" name="group-name"><!----><div class=" pds-c-radio ">
+      <input type="radio" tabindex="-1" class="pds-c-radio__input" name="group-name" id="option-1-field" value="option-1">
+       <label for="option-1-field" class="pds-c-radio__label">
+      <span class="pds-c-radio__circle">
+        <span class="pds-c-radio__inner-circle"></span>
+      </span>
+      <span class="pds-c-radio__label-text">
+        <slot name="label">Option 1</slot>
+      </span>
+      <slot name="label-after"></slot>
+      <!-- DEPRECATED - this slot will be removed in a future release -->
+      <slot name="labelAfter"></slot>
+    </label>
+    </div><style>default</style></pds-radio>"
+`;

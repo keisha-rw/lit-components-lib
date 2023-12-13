@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Radio group Default 1`] = `
+"<pds-radio-group label="A group of radios" name="default" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Disabled 1`] = `
+"<pds-radio-group label="A group of radios" name="disabled" ?disabled="true" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Error 1`] = `
+"<pds-radio-group label="A group of radios" name="errorMessage" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Help text 1`] = `
+"<pds-radio-group label="A group of radios" name="helpText" helptext="This is some help text." aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Hidden label 1`] = `
+"<pds-radio-group label="A group of radios" ?hidelabel="true" name="helpText" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group One option disabled 1`] = `
+"<pds-radio-group label="A group of radios" name="disabledOne" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Radios already named 1`] = `
+"<pds-radio-group label="A group of radios already named" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Required 1`] = `
+"<pds-radio-group label="A group of radios" name="required" ?required="true" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;
+
+exports[`Storyshots Components/Radio group Spacing small 1`] = `
+"<pds-radio-group label="A group of radios" name="sm" spacing="sm" aria-invalid="true" internals-invalid="">
+      ,
+    </pds-radio-group>"
+`;

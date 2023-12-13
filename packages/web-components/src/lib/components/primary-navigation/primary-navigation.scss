@@ -1,0 +1,486 @@
+/*------------------------------------*\
+ #PRIMARY_NAVIGATION
+\*------------------------------------*/
+
+.pds-c-primary-navigation--default {
+  background: var(--pds-component-primary-nav-default-background);
+
+  --pds-primary-nav-dropdown-background: var(
+    --pds-component-primary-nav-default-mobile-menu-background
+  );
+
+  // mobile
+  --pds-primary-nav-notification-item-text: var(
+    --pds-component-primary-nav-default-mobile-notification-item-text
+  );
+  --pds-primary-nav-notification-item-background: var(
+    --pds-component-primary-nav-default-mobile-notification-item-background
+  );
+  --pds-primary-nav-notification-item-hover-text: var(
+    --pds-component-primary-nav-default-mobile-notification-item-hover-text
+  );
+  --pds-primary-nav-notification-item-hover-background: var(
+    --pds-component-primary-nav-default-mobile-notification-item-hover-background
+  );
+  --pds-primary-nav-notification-badge-background: var(
+    --pds-component-primary-nav-default-mobile-notification-badge-background
+  );
+  --pds-primary-nav-notification-badge-border: var(
+    --pds-component-primary-nav-default-mobile-notification-badge-border
+  );
+  --pds-primary-nav-notification-badge-text: var(
+    --pds-component-primary-nav-default-mobile-notification-badge-text
+  );
+
+  // desktop
+  @media all and (min-width: $pds-bp-lg) {
+    --pds-primary-nav-dropdown-background: var(
+      --pds-component-primary-nav-default-dropdown-background
+    );
+    --pds-primary-nav-notification-item-text: var(
+      --pds-component-primary-nav-default-notification-item-text
+    );
+    --pds-primary-nav-notification-item-background: var(
+      --pds-component-primary-nav-default-notification-item-background
+    );
+    --pds-primary-nav-notification-item-hover-text: var(
+      --pds-component-primary-nav-default-notification-item-hover-text
+    );
+    --pds-primary-nav-notification-item-hover-background: var(
+      --pds-component-primary-nav-default-notification-item-hover-background
+    );
+    --pds-primary-nav-notification-badge-background: var(
+      --pds-component-primary-nav-default-notification-badge-background
+    );
+    --pds-primary-nav-notification-badge-border: var(
+      --pds-component-primary-nav-default-notification-badge-border
+    );
+    --pds-primary-nav-notification-badge-text: var(
+      --pds-component-primary-nav-default-notification-badge-text
+    );
+  }
+}
+
+.pds-c-primary-navigation--inverted {
+  background: var(--pds-component-primary-nav-inverted-background);
+
+  --pds-primary-nav-dropdown-background: var(
+    --pds-component-primary-nav-inverted-mobile-menu-background
+  );
+
+  // mobile
+  --pds-primary-nav-notification-item-text: var(
+    --pds-component-primary-nav-inverted-mobile-notification-item-text
+  );
+  --pds-primary-nav-notification-item-background: var(
+    --pds-component-primary-nav-inverted-mobile-notification-item-background
+  );
+  --pds-primary-nav-notification-item-hover-text: var(
+    --pds-component-primary-nav-inverted-mobile-notification-item-hover-text
+  );
+  --pds-primary-nav-notification-item-hover-background: var(
+    --pds-component-primary-nav-inverted-mobile-notification-item-hover-background
+  );
+  --pds-primary-nav-notification-badge-background: var(
+    --pds-component-primary-nav-inverted-mobile-notification-badge-background
+  );
+  --pds-primary-nav-notification-badge-border: var(
+    --pds-component-primary-nav-inverted-mobile-notification-badge-border
+  );
+  --pds-primary-nav-notification-badge-text: var(
+    --pds-component-primary-nav-inverted-mobile-notification-badge-text
+  );
+
+  // desktop
+  @media all and (min-width: $pds-bp-lg) {
+    --pds-primary-nav-dropdown-background: var(
+      --pds-component-primary-nav-inverted-dropdown-background
+    );
+    --pds-primary-nav-notification-item-text: var(
+      --pds-component-primary-nav-inverted-notification-item-text
+    );
+    --pds-primary-nav-notification-item-background: var(
+      --pds-component-primary-nav-inverted-notification-item-background
+    );
+    --pds-primary-nav-notification-item-hover-text: var(
+      --pds-component-primary-nav-inverted-notification-item-hover-text
+    );
+    --pds-primary-nav-notification-item-hover-background: var(
+      --pds-component-primary-nav-inverted-notification-item-hover-background
+    );
+    --pds-primary-nav-notification-badge-background: var(
+      --pds-component-primary-nav-inverted-notification-badge-background
+    );
+    --pds-primary-nav-notification-badge-border: var(
+      --pds-component-primary-nav-inverted-notification-badge-border
+    );
+    --pds-primary-nav-notification-badge-text: var(
+      --pds-component-primary-nav-inverted-notification-badge-text
+    );
+  }
+}
+
+.pds-c-primary-navigation {
+  position: relative;
+  align-items: center;
+  padding: 0;
+  // Shadow tokens are currently in development stage. In the meantime, design has given us the OK to hardcode these values.
+  // This color is #000 (black) with 25% opacity.
+  box-shadow: 0 size(0.5) size(0.5) 0
+    var(--pds-component-primary-nav-inverted-nav-item-active-background);
+
+  @media only screen and (max-width: $pds-bp-md) {
+    padding: 0 size(1);
+  }
+
+  @media only screen and (min-width: $pds-bp-md) {
+    padding: 0 size(2);
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    gap: size(5);
+    padding: 0 size(3);
+  }
+
+  .pds-c-primary-navigation__skip-to-main {
+    @include pds-semantic-body-bold-default;
+
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+    border-bottom: 0;
+
+    &:focus {
+      // Rely on browser defaults for skip to main but need to ensure the background color is always white,
+      // regardless of theme (which is why this is ok being a semantic token instead of component-level).
+      background-color: var(--pds-component-primary-nav-default-background);
+      left: size(2);
+      top: size(1);
+      padding: size(1);
+      border-radius: size(0.5);
+      text-align: center;
+      z-index: 900;
+      width: auto;
+      height: auto;
+      overflow: auto;
+    }
+  }
+
+  // We stack primary-navigation-main-menu and primary-navigation-utility-menu within the mobile menu
+  // We need to add padding between them on mobile if they're both populated
+  slot[name='primary-navigation-main-menu']
+    + slot[name='primary-navigation-utility-menu'] {
+    @media all and (width < $pds-bp-lg) {
+      display: block;
+    }
+  }
+}
+
+// This is the inner of the actual navbar, not the navigation dropdowns on mobile.
+.pds-c-primary-navigation__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: size(7.5);
+
+  @media all and (min-width: $pds-bp-lg) {
+    position: relative;
+  }
+}
+
+.pds-c-primary-navigation__menu-button {
+  display: block;
+  margin-left: size(1);
+
+  @media all and (min-width: $pds-bp-lg) {
+    display: none;
+  }
+}
+
+.pds-c-primary-navigation__icons-nav {
+  padding: 0 size(1);
+  margin-left: auto;
+
+  @media all and (min-width: $pds-bp-lg) {
+    padding: 0 size(2);
+  }
+}
+
+.pds-c-primary-navigation__icons-nav.pds-is-notification-active {
+  @media all and (min-width: $pds-bp-lg) {
+    position: relative;
+  }
+}
+
+.pds-c-primary-navigation__notification-panel--left-column {
+  float: left;
+
+  a {
+    text-decoration: none;
+    color: var(--pds-primary-nav-notification-item-text);
+    background-color: var(--pds-primary-nav-notification-item-background);
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--pds-primary-nav-notification-item-hover-text);
+      background-color: var(
+        --pds-primary-nav-notification-item-hover-background
+      );
+    }
+  }
+}
+
+.pds-c-primary-navigation__notification-panel--right-column,
+.pds-c-primary-navigation__notification-panel--right-column-large {
+  @include pds-semantic-label-sm;
+
+  display: flex;
+  color: var(--pds-primary-nav-notification-badge-text);
+  background-color: var(--pds-primary-nav-notification-badge-background);
+  justify-content: center;
+  align-items: center;
+  height: size(3);
+  border: 1px solid var(--pds-primary-nav-notification-badge-border);
+  border-radius: 50%;
+  position: absolute;
+  right: size(2.5);
+}
+
+.pds-c-primary-navigation__notification-panel--right-column {
+  width: size(3);
+}
+
+.pds-c-primary-navigation__notification-panel--right-column-large {
+  padding: 0 size(1);
+  border-radius: size(2);
+}
+
+.pds-c-primary-navigation__notification-panel,
+.pds-c-primary-navigation__search-panel {
+  display: none;
+  z-index: 2;
+  // Width is 100% - padding
+  width: calc(100% - #{size(4)});
+  flex-direction: column;
+  background: var(--pds-primary-nav-dropdown-background);
+
+  @media all and (min-width: $pds-bp-lg) {
+    width: size(50);
+    // Shadow tokens are currently in development stage. In the meantime, design has given us the OK to hardcode these values.
+    // This color is #333 (gray 1) with 20% opacity.
+    box-shadow: 0 0 size(1)
+      var(--pds-component-primary-nav-inverted-nav-item-hover-background);
+    border-radius: size(1);
+  }
+
+  .pds-is-notification-active & {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    justify-content: flex-end;
+    left: unset;
+    right: 0;
+
+    @media all and (min-width: $pds-bp-lg) {
+      display: block;
+    }
+
+    @media all and (width <= calc($pds-bp-lg - 1px)) {
+      height: 100vh;
+      width: 100%;
+      flex-direction: row;
+      background-color: var(--pds-semantic-background-opacity-dim);
+      padding: 0;
+    }
+
+    .pds-c-primary-navigation__notification-panel--inner-card,
+    .pds-c-primary-navigation__search-panel--inner-card {
+      padding: size(2);
+      background-color: var(--pds-primary-nav-dropdown-background);
+      border-radius: size(1);
+
+      @media all and (width <= calc($pds-bp-lg - 1px)) {
+        border-radius: 0;
+        height: 100vh;
+        width: 100%;
+        padding: size(2);
+        box-shadow:
+          inset 0 size(0.5) size(0.5) 0
+            var(--pds-component-primary-nav-inverted-nav-item-active-background),
+          size(-0.5) size(0.5) size(0.5) 0
+            var(--pds-component-primary-nav-inverted-nav-item-active-background); // TODO: Change to shadow token
+      }
+
+      @media all and (min-width: $pds-bp-md) and (max-width: $pds-bp-lg) {
+        width: 25rem;
+      }
+    }
+
+    pds-list-item {
+      cursor: pointer;
+      padding: size(1);
+
+      &:hover {
+        background-color: var(
+          --pds-primary-nav-notification-item-hover-background
+        );
+      }
+    }
+  }
+}
+
+.pds-c-primary-navigation__notification-panel--close-notifications,
+.pds-c-primary-navigation__search-panel--close-search {
+  display: block;
+  margin-top: size(4);
+  align-self: center;
+
+  @media all and (min-width: $pds-bp-lg) {
+    display: none;
+  }
+}
+
+.pds-c-primary-navigation__buttons-nav {
+  display: contents;
+
+  pds-button {
+    vertical-align: middle;
+  }
+
+  .pds-c-primary-navigation__buttons-nav--desktop-button {
+    display: none;
+
+    @media all and (min-width: $pds-bp-sm) {
+      display: inline-block;
+    }
+  }
+
+  .pds-c-primary-navigation__buttons-nav--mobile-button {
+    @media all and (min-width: $pds-bp-sm) {
+      display: none;
+    }
+  }
+}
+
+.pds-c-primary-navigation__logo-link {
+  display: inline-block;
+  min-width: fit-content;
+  max-width: size(42);
+  max-height: size(7.25);
+  overflow: hidden;
+
+  ::slotted(img),
+  ::slotted(svg) {
+    max-height: size(7.25);
+  }
+}
+
+.pds-c-primary-navigation__logo--desktop {
+  @media all and (min-width: $pds-bp-md) {
+    display: block;
+    max-width: size(16.75);
+  }
+
+  @media all and (max-width: $pds-bp-md) {
+    display: none;
+  }
+}
+
+.pds-c-primary-navigation__logo--mobile {
+  position: relative;
+  top: size(0.5);
+  width: size(13.75);
+
+  @media only screen and (max-width: $pds-bp-md) {
+    margin-left: size(1);
+    width: size(11.75);
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    display: none;
+  }
+
+  @media all and (max-width: $pds-bp-md) {
+    display: inline-block;
+  }
+}
+
+.pds-c-primary-navigation__primary-navigation-main-menu-item {
+  display: block;
+}
+
+.pds-c-primary-navigation__primary-navigation-container {
+  @media all and (max-width: $pds-bp-lg) {
+    .pds-c-primary-navigation:not(.pds-is-active) & {
+      display: none;
+    }
+
+    .pds-c-primary-navigation.pds-is-active & {
+      display: block;
+      z-index: 100; // TODO: make this a max to be sure it always displays on top
+    }
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    display: block;
+    flex: 1;
+
+    .pds-c-primary-navigation:not(.pds-is-active) & {
+      display: block;
+      flex: 1;
+    }
+  }
+}
+
+.pds-c-primary-navigation__button {
+  margin-left: auto;
+}
+
+.pds-c-primary-navigation__primary-navigation-utility-menu-item {
+  margin-left: auto;
+}
+
+.pds-c-primary-navigation__megamenu-heading {
+  display: block;
+  margin-bottom: size(1);
+}
+
+.pds-c-primary-navigation__megamenu-bottom {
+  margin-top: size(4);
+}
+
+[data-popper-arrow] {
+  @media all and (min-width: $pds-bp-lg) {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: size(-2);
+      width: 0;
+      height: 0;
+      transform: translateX(-50%);
+      border-left: size(2) solid transparent;
+      border-right: size(2) solid transparent;
+      border-bottom: size(2) solid var(--pds-primary-nav-dropdown-background);
+      z-index: 3;
+      pointer-events: none;
+      // TODO: replace with box shadow token when avaliable
+      filter: drop-shadow(
+        0 size(-0.2) size(0.2)
+          var(
+            --pds-component-primary-nav-inverted-mobile-notification-item-hover-background
+          )
+      );
+    }
+  }
+}
+
+.pds-c-primary-navigation--remove-padding {
+  padding: 0;
+}

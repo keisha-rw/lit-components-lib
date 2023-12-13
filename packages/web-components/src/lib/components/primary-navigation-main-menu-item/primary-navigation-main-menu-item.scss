@@ -1,0 +1,214 @@
+.pds-c-primary-navigation-main-menu-item--dropdown,
+.pds-c-primary-navigation-main-menu-item--megamenu {
+  position: relative;
+}
+
+@media all and (min-width: $pds-bp-lg) {
+  .pds-c-primary-navigation-main-menu-item--divider {
+    border-left: 1px solid var(--pds-primary-navigation-main-menu-item-divider);
+    padding-left: size(3);
+  }
+}
+
+.pds-c-primary-navigation-main-menu-item__icon {
+  display: block;
+  margin-left: auto;
+  transition: transform 0.25s ease-in 0s;
+  color: var(--pds-primary-navigation-main-menu-item-icon-color);
+  align-self: center;
+
+  .pds-c-primary-navigation-main-menu-item.pds-is-active & {
+    transform: rotate(180deg);
+    color: var(--pds-primary-navigation-main-menu-item-icon-active-color);
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    margin-left: size(0.5);
+  }
+}
+
+.pds-c-primary-navigation-main-menu-item__link {
+  @include pds-semantic-label-default;
+
+  appearance: none;
+  border: none;
+  background: var(--pds-primary-navigation-main-menu-item-link-background);
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  text-underline-offset: size(0.75);
+  padding: size(1.5);
+  border-radius: size(0.5);
+  color: var(--pds-primary-navigation-main-menu-item-link-color);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: var(--pds-primary-navigation-main-menu-item-link-hover-color);
+    background-color: var(
+      --pds-primary-navigation-main-menu-item-link-hover-background
+    );
+
+    .pds-c-primary-navigation-main-menu-item__icon {
+      color: var(--pds-primary-navigation-main-menu-item-icon-hover-color);
+    }
+  }
+
+  &:active {
+    color: var(--pds-primary-navigation-main-menu-item-link-active-color);
+    background-color: var(
+      --pds-primary-navigation-main-menu-item-link-active-background
+    );
+  }
+
+  .pds-c-primary-navigation-main-menu-item--megamenu &,
+  .pds-c-primary-navigation-main-menu-item--dropdown & {
+    position: relative;
+    list-style: none;
+  }
+
+  // large screen and up
+  @media all and (min-width: $pds-bp-lg) {
+    width: auto;
+    border-radius: size(2.5);
+    background: --pds-primary-navigation-main-menu-item-link-background;
+    padding: size(0.25) size(1);
+    color: var(--pds-primary-navigation-main-menu-item-link-color);
+
+    &:hover,
+    &:focus {
+      background-color: var(
+        --pds-primary-navigation-main-menu-item-link-hover-background
+      );
+    }
+
+    .pds-c-primary-navigation-main-menu-item__arrow--mobile {
+      display: none;
+    }
+  }
+}
+
+.pds-c-primary-navigation-main-menu-item__arrow,
+.pds-c-primary-navigation-main-menu-item__arrow--mobile {
+  margin-left: size(0.5);
+}
+
+@media all and (width < $pds-bp-lg) {
+  a.pds-c-primary-navigation-main-menu-item__link[href] {
+    @include pds-semantic-body-bold-default;
+
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: var(--pds-primary-navigation-main-menu-item-href-color);
+
+    &:hover {
+      .pds-c-primary-navigation-main-menu-item__arrow,
+      .pds-c-primary-navigation-main-menu-item__arrow--mobile {
+        color: var(--pds-primary-navigation-main-menu-item-href-hover-color);
+      }
+    }
+  }
+
+  .pds-c-primary-navigation-main-menu-item__text {
+    a.pds-c-primary-navigation-main-menu-item__link[href]:hover & {
+      text-decoration: underline;
+      color: var(--pds-primary-navigation-main-menu-item-href-hover-color);
+    }
+  }
+}
+
+.pds-c-primary-navigation-main-menu-item__link[aria-expanded='true'] {
+  background: var(
+    --pds-primary-navigation-main-menu-item-link-active-background
+  );
+
+  @media all and (min-width: $pds-bp-lg) {
+    background: var(
+      --pds-primary-navigation-main-menu-item-link-active-background
+    );
+  }
+
+  .pds-c-primary-navigation-main-menu-item--active-section & {
+    @media all and (min-width: $pds-bp-lg) {
+      background-image: linear-gradient(
+        to right,
+        var(--pds-semantic-border-interactive-default),
+        var(--pds-semantic-border-interactive-default)
+      );
+      background-position: bottom;
+      background-repeat: repeat-x;
+      background-size: 100% size(0.5);
+      position: relative;
+    }
+  }
+}
+
+.pds-c-primary-navigation-main-menu-item__panel {
+  display: none;
+  padding: size(3);
+  z-index: 900;
+
+  @media all and (min-width: $pds-bp-lg) {
+    padding: 0;
+  }
+
+  .pds-c-primary-navigation-main-menu-item--megamenu & {
+    width: 100%;
+    padding: 0;
+  }
+
+  .pds-c-primary-navigation-main-menu-item.pds-is-active & {
+    display: block;
+  }
+
+  .pds-c-primary-navigation-main-menu-item--megamenu.pds-is-active & {
+    @media all and (min-width: $pds-bp-lg) {
+      max-width: 63.75rem;
+      width: max-content;
+    }
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    max-width: size(50);
+    width: max-content;
+    border-radius: size(2);
+    background: var(
+      --pds-primary-navigation-main-menu-item-dropdown-background
+    );
+    // Shadow tokens are currently in development stage. In the meantime, design has given us the OK to hardcode these values.
+    box-shadow: 0 0 size(1) var(--pds-base-color-opacity-gray-01-20);
+  }
+}
+
+.pds-c-primary-navigation-main-menu-item__panel-content {
+  margin: size(2);
+
+  .pds-c-primary-navigation-main-menu-item--megamenu & {
+    margin: size(4);
+  }
+}
+
+[data-popper-arrow] {
+  @media all and (min-width: $pds-bp-lg) {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: size(-2);
+      left: size(-2);
+      width: 0;
+      height: 0;
+      border-left: size(2) solid transparent;
+      border-right: size(2) solid transparent;
+      border-bottom: size(2) solid
+        var(--pds-primary-navigation-main-menu-item-dropdown-background);
+      z-index: 3;
+      pointer-events: none;
+      filter: drop-shadow(
+        0 size(-0.2) size(0.2) #3333331a
+      ); // TODO: Change ^ base token to drop shadow token when they are created. This is gray 1 10%.
+    }
+  }
+}

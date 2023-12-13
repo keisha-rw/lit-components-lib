@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Primary navigation/Primary navigation main menu/Primary navigation main menu item/Primary navigation dropdown link Default 1`] = `"<pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link>"`;
+
+exports[`Storyshots Components/Primary navigation/Primary navigation main menu/Primary navigation main menu item/Primary navigation dropdown link Inverted 1`] = `"<pds-primary-navigation-dropdown-link href="#" variant="inverted">This is a link</pds-primary-navigation-dropdown-link>"`;

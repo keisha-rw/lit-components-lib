@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryNavigationUtilityMenu unit tests does not populate the slot correctly with any element not type of pds-primary-navigation-utility-menu-item 1`] = `
+<pds-primary-navigation-utility-menu
+  variant="default"
+/>
+`;

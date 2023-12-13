@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryNavigationDropdownLink unit tests populates the arrow icon when provided: This is a link 1`] = `
+<pds-primary-navigation-dropdown-link
+  arrow=""
+>
+  This is a link
+</pds-primary-navigation-dropdown-link>
+`;

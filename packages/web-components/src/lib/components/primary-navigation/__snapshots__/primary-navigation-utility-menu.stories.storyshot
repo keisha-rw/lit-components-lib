@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Primary navigation/Primary navigation utility menu Default 1`] = `
+"<pds-primary-navigation-utility-menu><!----><pds-hr class="pds-c-primary-navigation-utility-menu__divider"></pds-hr>
+      <nav class=" pds-c-primary-navigation-utility-menu pds-c-primary-navigation-utility-menu--default ">
+        <ul class="pds-c-primary-navigation-utility-menu__list" role="list">
+          <slot allowed-elements="pds-primary-navigation-utility-menu-item"></slot>
+        </ul>
+      </nav><style>default</style><pds-primary-navigation-utility-menu-item href="#">Link</pds-primary-navigation-utility-menu-item></pds-primary-navigation-utility-menu>"
+`;

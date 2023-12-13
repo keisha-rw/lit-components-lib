@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Phone number input Basic 1`] = `
+"<pds-phone-number-input name="basicPhoneNumberInput" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="basicPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="basicPhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="basicPhoneNumberInput" id="basicPhoneNumberInput-field" aria-invalid="true" aria-describedby="basicPhoneNumberInput-help-text basicPhoneNumberInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="basicPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Default value 1`] = `
+"<pds-phone-number-input name="defaultValuePhoneNumberInput" value="800-986-3343" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="defaultValuePhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="defaultValuePhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="defaultValuePhoneNumberInput" id="defaultValuePhoneNumberInput-field" aria-invalid="true" aria-describedby="defaultValuePhoneNumberInput-help-text defaultValuePhoneNumberInput-error-message" value="800-986-3343">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="defaultValuePhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Disabled 1`] = `
+"<pds-phone-number-input name="disabledPhoneNumberInput" ?disabled="true" helptext="Please enter a valid mobile phone number" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="disabledPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="disabledPhoneNumberInput-help-text">
+          <slot name="help-text">Please enter a valid mobile phone number</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="disabledPhoneNumberInput" id="disabledPhoneNumberInput-field" aria-invalid="true" aria-describedby="disabledPhoneNumberInput-help-text disabledPhoneNumberInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="disabledPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Error 1`] = `
+"<pds-phone-number-input name="errorPhoneNumberInput" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="errorPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="errorPhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="errorPhoneNumberInput" id="errorPhoneNumberInput-field" aria-invalid="true" aria-describedby="errorPhoneNumberInput-help-text errorPhoneNumberInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="errorPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          Error message goes here.
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Help text 1`] = `
+"<pds-phone-number-input name="phoneNumberHelpTextInput" helptext="Please enter a valid mobile phone number" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="phoneNumberHelpTextInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="phoneNumberHelpTextInput-help-text">
+          <slot name="help-text">Please enter a valid mobile phone number</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="phoneNumberHelpTextInput" id="phoneNumberHelpTextInput-field" aria-invalid="true" aria-describedby="phoneNumberHelpTextInput-help-text phoneNumberHelpTextInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="phoneNumberHelpTextInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Hidden label 1`] = `
+"<pds-phone-number-input name="hiddenLabelPhoneNumberInput" label="Mobile phone number" ?hidelabel="true" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="hiddenLabelPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="hiddenLabelPhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="hiddenLabelPhoneNumberInput" id="hiddenLabelPhoneNumberInput-field" aria-invalid="true" aria-describedby="hiddenLabelPhoneNumberInput-help-text hiddenLabelPhoneNumberInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="hiddenLabelPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Readonly 1`] = `
+"<pds-phone-number-input name="readonlyPhoneNumberInput" value="800-986-3343" ?readonly="true" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="readonlyPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="readonlyPhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="readonlyPhoneNumberInput" id="readonlyPhoneNumberInput-field" aria-invalid="true" aria-describedby="readonlyPhoneNumberInput-help-text readonlyPhoneNumberInput-error-message" value="800-986-3343">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="readonlyPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Required 1`] = `
+"<pds-phone-number-input name="requiredPhoneNumberInput" ?required="true" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-is-error ">
+      <label for="requiredPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="requiredPhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="requiredPhoneNumberInput" id="requiredPhoneNumberInput-field" aria-invalid="true" aria-describedby="requiredPhoneNumberInput-help-text requiredPhoneNumberInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="requiredPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;
+
+exports[`Storyshots Components/Phone number input Small 1`] = `
+"<pds-phone-number-input name="smallPhoneNumberInput" size="sm" label="Mobile phone number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-phone-number-input pds-c-phone-number-input--sm pds-is-error ">
+      <label for="smallPhoneNumberInput-field" class="pds-c-phone-number-input__label">
+      <slot name="label">Mobile phone number</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-phone-number-input__help-text" id="smallPhoneNumberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-phone-number-input__input-wrapper">
+        <input type="tel" inputmode="tel" class="pds-c-phone-number-input__input" name="smallPhoneNumberInput" id="smallPhoneNumberInput-field" aria-invalid="true" aria-describedby="smallPhoneNumberInput-help-text smallPhoneNumberInput-error-message">
+      </div>
+      <div class="pds-c-phone-number-input__error-message" id="smallPhoneNumberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-phone-number-input>"
+`;

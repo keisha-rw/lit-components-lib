@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Primary navigation/Primary navigation main menu Default 1`] = `
+"<pds-primary-navigation-main-menu variant="default" arialabel=",">
+      <pds-primary-navigation-main-menu-item dropdown="" text="Dropdown">
+        <pds-list size="sm" spacing="sm">
+          <pds-list-item size="sm"><!----><div class=" pds-c-primary-navigation-main-menu pds-c-primary-navigation-main-menu--default " aria-label=",">
+      <ul class="pds-c-primary-navigation-main-menu__list" role="list">
+        <slot allowed-elements="pds-primary-navigation-main-menu-item"></slot>
+      </ul>
+    </div><style>default</style><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+        </pds-list>
+      </pds-primary-navigation-main-menu-item>
+      <pds-primary-navigation-main-menu-item megamenu="" text="Megamenu">
+        <pds-grid variant="1-3up" break="slower">
+          <pds-grid-item>
+            <placeholder-element>Item 1</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 2</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 3</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 4</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 5</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 6</placeholder-element>
+          </pds-grid-item>
+        </pds-grid>
+      </pds-primary-navigation-main-menu-item>
+      <pds-primary-navigation-main-menu-item href="#" text="Link"></pds-primary-navigation-main-menu-item>
+    </pds-primary-navigation-main-menu>"
+`;
+
+exports[`Storyshots Components/Primary navigation/Primary navigation main menu Link with icon 1`] = `
+"<pds-primary-navigation-main-menu variant="default" arialabel=",">
+      <pds-primary-navigation-main-menu-item dropdown="" text="Dropdown">
+        <pds-list size="sm" spacing="sm">
+          <pds-list-item size="sm"><!----><div class=" pds-c-primary-navigation-main-menu pds-c-primary-navigation-main-menu--default " aria-label=",">
+      <ul class="pds-c-primary-navigation-main-menu__list" role="list">
+        <slot allowed-elements="pds-primary-navigation-main-menu-item"></slot>
+      </ul>
+    </div><style>default</style><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+          <pds-list-item size="sm"><pds-primary-navigation-dropdown-link href="#">This is a link</pds-primary-navigation-dropdown-link></pds-list-item>
+        </pds-list>
+      </pds-primary-navigation-main-menu-item>
+      <pds-primary-navigation-main-menu-item megamenu="" text="Megamenu">
+        <pds-grid variant="1-3up" break="slower">
+          <pds-grid-item>
+            <placeholder-element>Item 1</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 2</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 3</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 4</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 5</placeholder-element>
+          </pds-grid-item>
+          <pds-grid-item>
+            <placeholder-element>Item 6</placeholder-element>
+          </pds-grid-item>
+        </pds-grid>
+      </pds-primary-navigation-main-menu-item>
+      <pds-primary-navigation-main-menu-item arrow="" href="#" text="Link"></pds-primary-navigation-main-menu-item>
+    </pds-primary-navigation-main-menu>"
+`;

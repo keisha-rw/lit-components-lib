@@ -1,0 +1,44 @@
+@import '../text-input/text-input-mixin';
+
+/*------------------------------------*\
+ #PHONE_NUMBER_INPUT
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-phone-number-input__label {
+  @include pds-text-input-label;
+
+  .pds-c-phone-number-input--hidden-label & {
+    @include pds-util-sr-only;
+  }
+}
+
+.pds-c-phone-number-input__required-indicator {
+  @include pds-text-input-required-indicator;
+}
+
+.pds-c-phone-number-input__help-text {
+  @include pds-text-input-help-text;
+}
+
+.pds-c-phone-number-input__input-wrapper {
+  @include pds-text-input-wrapper;
+}
+
+.pds-c-phone-number-input__input {
+  @include pds-text-input;
+
+  .pds-c-phone-number-input--sm & {
+    height: size(5);
+  }
+}
+
+.pds-c-phone-number-input__error-message {
+  @include pds-text-input-error-message;
+}

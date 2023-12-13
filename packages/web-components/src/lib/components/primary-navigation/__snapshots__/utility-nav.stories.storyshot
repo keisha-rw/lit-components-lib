@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Primary navigation/Utility nav Default 1`] = `
+"<pds-utility-nav><!----><pds-hr class="pds-c-utility-nav__divider"></pds-hr>
+      <nav class=" pds-c-utility-nav pds-c-utility-nav--default ">
+        <ul class="pds-c-utility-nav__list" role="list">
+          <slot allowed-elements="pds-utility-nav-item"></slot>
+        </ul>
+      </nav><style>default</style><pds-utility-nav-item href="#">Link</pds-utility-nav-item></pds-utility-nav>"
+`;

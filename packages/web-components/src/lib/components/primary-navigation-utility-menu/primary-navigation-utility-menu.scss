@@ -1,0 +1,137 @@
+.pds-c-primary-navigation-utility-menu__divider {
+  padding: 0 size(3) size(5) size(3);
+
+  @media all and (min-width: $pds-bp-lg) {
+    display: none;
+  }
+
+  @media all and (width < $pds-bp-lg) {
+    padding: size(3);
+  }
+}
+
+.pds-c-primary-navigation-utility-menu {
+  float: none;
+  display: block;
+  padding: 0 size(3);
+
+  @media all and (min-width: $pds-bp-lg) {
+    float: right;
+    display: inline;
+    border: none;
+    padding: size(1.5);
+  }
+}
+
+.pds-c-primary-navigation-utility-menu--default {
+  --pds-primary-navigation-utility-menu-item-link-background: var(
+    --pds-component-primary-nav-default-mobile-submenu-background
+  );
+  --pds-primary-navigation-utility-menu-item-link-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-label
+  );
+  --pds-primary-navigation-utility-menu-item-href-color: var(
+    --pds-component-primary-nav-default-mobile-link
+  );
+  --pds-primary-navigation-utility-menu-item-href-hover-color: var(
+    --pds-component-primary-nav-default-mobile-hover-link
+  );
+  --pds-primary-navigation-utility-menu-item-link-hover-background: var(
+    --pds-component-primary-nav-default-mobile-submenu-hover-background
+  );
+  --pds-primary-navigation-utility-menu-item-link-hover-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-hover-label
+  );
+  --pds-primary-navigation-utility-menu-item-link-active-background: var(
+    --pds-component-primary-nav-default-mobile-submenu-active-background
+  );
+  --pds-primary-navigation-utility-menu-item-link-active-color: var(
+    --pds-component-primary-nav-default-mobile-submenu-active-label
+  );
+
+  @media all and (min-width: $pds-bp-lg) {
+    --pds-primary-navigation-utility-menu-item-link-background: var(
+      --pds-component-primary-nav-default-nav-item-background
+    );
+    --pds-primary-navigation-utility-menu-item-link-color: var(
+      --pds-component-primary-nav-default-nav-item-text
+    );
+    --pds-primary-navigation-utility-menu-item-link-hover-background: var(
+      --pds-component-primary-nav-default-nav-item-hover-background
+    );
+    --pds-primary-navigation-utility-menu-item-link-hover-color: var(
+      --pds-component-primary-nav-default-nav-item-hover-text
+    );
+    --pds-primary-navigation-utility-menu-item-link-active-background: var(
+      --pds-component-primary-nav-default-nav-item-active-background
+    );
+    --pds-primary-navigation-utility-menu-item-link-active-color: var(
+      --pds-component-primary-nav-default-nav-item-active-text
+    );
+  }
+}
+
+.pds-c-primary-navigation-utility-menu--inverted {
+  --pds-primary-navigation-utility-menu-item-link-background: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-background
+  );
+  --pds-primary-navigation-utility-menu-item-link-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-label
+  );
+  --pds-primary-navigation-utility-menu-item-href-color: var(
+    --pds-component-primary-nav-inverted-mobile-link
+  );
+  --pds-primary-navigation-utility-menu-item-href-hover-color: var(
+    --pds-component-primary-nav-inverted-mobile-hover-link
+  );
+  --pds-primary-navigation-utility-menu-item-link-hover-background: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-hover-label
+  );
+  --pds-primary-navigation-utility-menu-item-link-hover-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-hover-label
+  );
+  --pds-primary-navigation-utility-menu-item-link-active-background: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-active-label
+  );
+  --pds-primary-navigation-utility-menu-item-link-active-color: var(
+    --pds-component-primary-nav-inverted-mobile-submenu-active-label
+  );
+
+  @media all and (min-width: $pds-bp-lg) {
+    --pds-primary-navigation-utility-menu-item-link-background: var(
+      --pds-component-primary-nav-inverted-nav-item-background
+    );
+    --pds-primary-navigation-utility-menu-item-link-color: var(
+      --pds-component-primary-nav-inverted-nav-item-text
+    );
+    --pds-primary-navigation-utility-menu-item-link-hover-background: var(
+      --pds-component-primary-nav-inverted-nav-item-hover-background
+    );
+    --pds-primary-navigation-utility-menu-item-link-hover-color: var(
+      --pds-component-primary-nav-inverted-nav-item-hover-text
+    );
+    --pds-primary-navigation-utility-menu-item-link-active-background: var(
+      --pds-component-primary-nav-inverted-nav-item-active-background
+    );
+    --pds-primary-navigation-utility-menu-item-link-active-color: var(
+      --pds-component-primary-nav-inverted-nav-item-active-text
+    );
+  }
+}
+
+.pds-c-primary-navigation-utility-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: size(1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media all and (min-width: $pds-bp-lg) {
+    flex-direction: row;
+  }
+
+  @media all and (width < $pds-bp-lg) {
+    gap: size(3);
+  }
+}

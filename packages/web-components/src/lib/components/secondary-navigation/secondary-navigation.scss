@@ -1,0 +1,120 @@
+/*------------------------------------*\
+ #SECONDARY_NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+
+  --pds-collapsible-border-bottom: none;
+  --pds-link-text-alt-hover: var(
+    --pds-semantic-text-interactive-inverted-default
+  );
+  --pds-collapsible-border-icon-hover: var(
+    --pds-semantic-border-inverted-default
+  );
+  --pds-collapsible-border-top: none;
+}
+
+.pds-c-secondary-navigation {
+  background-color: var(--pds-semantic-background-default);
+
+  pds-collapsible::part(collapsible-summary) {
+    background-color: var(--pds-semantic-background-brand-xstrong);
+    padding-top: size(0.75);
+    padding-bottom: size(0.75);
+  }
+
+  pds-collapsible::part(summary-description) {
+    color: var(--pds-semantic-text-interactive-inverted-default);
+  }
+
+  pds-collapsible::part(collapsible-content) {
+    padding: 0;
+  }
+}
+
+.pds-c-secondary-navigation__category-title {
+  grid-row-start: 1;
+}
+
+.pds-c-secondary-navigation--mobile {
+  display: block;
+
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: none;
+  }
+
+  .pds-c-secondary-navigation__category-title {
+    @include pds-semantic-title-xs;
+  }
+}
+
+.pds-c-secondary-navigation--desktop {
+  display: none;
+
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: block;
+  }
+
+  .pds-c-secondary-navigation__category-title {
+    @include pds-semantic-meta-default;
+  }
+}
+
+.pds-c-secondary-navigation__desktop-wrapper {
+  padding-top: size(7);
+  margin-bottom: size(3);
+}
+
+.pds-c-secondary-navigation__container {
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: grid;
+  }
+}
+
+.pds-c-secondary-navigation__category-title::part(text-passage) {
+  padding-left: size(1.5);
+}
+
+.pds-c-secondary-navigation__description {
+  @include pds-semantic-body-default;
+}
+
+.pds-c-secondary-navigation__nav-container {
+  float: none;
+  display: block;
+  padding: size(1.5) 0 0 0;
+  grid-column-start: 1;
+  grid-row-start: 3;
+
+  @media all and (min-width: $pds-bp-lg) {
+    float: left;
+    display: inline;
+  }
+}
+
+.pds-c-secondary-navigation__nav-container-list {
+  display: flex;
+  flex-direction: column;
+  gap: size(1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media all and (min-width: $pds-bp-lg) {
+    flex-direction: row;
+  }
+}
+
+.pds-c-secondary-navigation__hr {
+  grid-column: 1 / 3;
+}
+
+.pds-c-secondary-navigation__logo {
+  grid-column-start: 2;
+  grid-row: 1 / 4;
+  justify-self: end;
+}
