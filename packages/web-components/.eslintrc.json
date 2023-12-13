@@ -1,0 +1,107 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "plugins": ["jest"],
+  "ignorePatterns": [
+    "!**/*",
+    "*.d.ts",
+    "src/localization/**",
+    "src/element-internals-polyfill"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", ".storybook/**/*.ts"],
+      "parserOptions": {
+        "project": ["packages/web-components/tsconfig.lib.json"]
+      },
+      "extends": [
+        "plugin:lit/recommended"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "curly": ["error", "all"],
+        "import/export": "off",
+        "import/prefer-default-export": "off",
+        "import/extensions": ["error", "never", { "js": "ignorePackages" }],
+        "class-methods-use-this": "off",
+        "no-console": ["error", { "allow": ["warn", "error"] }]
+      }
+    },
+    {
+      "files": ["build/**/vite.config.ts", "build/vite.config.shared.ts"],
+      "parserOptions": {
+        "project": ["packages/web-components/tsconfig.lib.json"]
+      },
+      "extends": [],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off",
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["*.spec.ts", "test/**/*.ts"],
+      "parserOptions": {
+        "project": ["packages/web-components/tsconfig.spec.json"]
+      },
+      "extends": [],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off",
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["jest.config.ts"],
+      "parserOptions": {
+        "project": ["packages/web-components/tsconfig.spec.json"]
+      },
+      "extends": [],
+      "rules": {
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["*.stories.ts"],
+      "parserOptions": {
+        "project": ["packages/web-components/tsconfig.stories.json"]
+      },
+      "extends": [],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off",
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {},
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+      }
+    },
+    {
+      "files": [".storybook/*.js", ".storybook/*.jsx", "__mocks__/*.js"],
+      "rules": {},
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018,
+        "project": ["packages/web-components/.storybook/tsconfig.json"]
+      }
+    },
+    {
+      "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
+      "parserOptions": {
+        "project": ["packages/web-components/tsconfig.*?.json"]
+      },
+      "rules": {
+        "jest/consistent-test-it": "error",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+      }
+    }
+  ]
+}

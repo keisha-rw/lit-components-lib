@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "types": []
+  },
+  "include": ["**/*.ts", "**/vite.config.ts", ".storybook/**/*.ts", "__mocks__/tabbable.js", ".storybook/main.js", ".storybook/preview.js"],
+  "exclude": [
+    "jest.config.ts",
+    "test/utils/snapshots.ts",
+    "**/*.spec.ts",
+    ".storybook/**/*.spec.ts",
+    "**/*.stories.ts"
+  ]
+}
