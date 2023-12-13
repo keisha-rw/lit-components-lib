@@ -1,0 +1,40 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "ignorePatterns": ["!**/*", "*.d.ts"],
+  "rules": {
+    "import/no-extraneous-dependencies": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {
+        "curly": ["error", "all"]
+      },
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "curly": ["error", "all"]
+      },
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015,
+        "project": ["packages/tokens/tsconfig.spec.json"]
+      }
+    },
+    {
+      "files": ["jest.config.ts"],
+      "parserOptions": {
+        "project": ["packages/tokens/tsconfig.spec.json"]
+      },
+      "extends": [],
+      "rules": {
+        "curly": ["error", "all"]
+      }
+    }
+  ]
+}
