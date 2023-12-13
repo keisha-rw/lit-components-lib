@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2017",
+      "dom",
+      "dom.iterable"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@keisha-design-system/generators": [
+        "libs/generators/src/index.ts"
+      ],
+      "@keisha/design-system": [
+        "packages/web-components/src/index.ts"
+      ],
+      "@keisha/design-system-icons-react": [
+        "dist/packages/icons-react"
+      ],
+      "@keisha/design-system-icons-web": [
+        "dist/packages/icons-web"
+      ],
+      "@keisha/design-system-react": [
+        "packages/react/src/index.ts"
+      ],
+      "@keisha/design-system-tokens": [
+        "dist/packages/tokens"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

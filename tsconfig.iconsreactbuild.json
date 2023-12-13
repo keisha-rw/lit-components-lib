@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "jsxImportSource": "@lit-labs/ssr-react",
+      "target": "es5",
+      "module": "esnext",
+      "lib": ["es5", "dom"],
+      "moduleResolution": "node",
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": false,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false,
+      "typeRoots": ["./node_modules/@types"],
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowJs": false,
+      "baseUrl": ".",
+      "paths": {
+        "@keisha/design-system-tokens": ["dist/packages/tokens"],
+        "@keisha/design-system-icons-web": ["dist/packages/icons-web"]
+      }
+    },
+    "include": ["packages/icons-react/src/**/*.ts"],
+    "exclude": [
+      "node_modules",
+      "dist",
+      "packages/tokens",
+      "packages/**/node_modules"
+    ]
+  }

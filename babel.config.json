@@ -1,0 +1,28 @@
+{
+  "babelrcRoots": ["*"],
+  "compact": true,
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-private-property-in-object", {"loose": true}],
+    ["@babel/plugin-transform-private-methods", {"loose": true}],
+    ["@babel/plugin-transform-class-properties", {"loose": true}]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        ["@babel/plugin-transform-private-property-in-object", {"loose": true}],
+        ["@babel/plugin-transform-private-methods", {"loose": true}],
+        ["@babel/plugin-transform-class-properties", {"loose": true}]
+      ]
+    }
+  }
+}

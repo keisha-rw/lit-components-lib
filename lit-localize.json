@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lit/lit/main/packages/localize-tools/config.schema.json",
+  "sourceLocale": "en",
+  "targetLocales": ["es-419"],
+  "tsConfig": "./tsconfig.base.json",
+  "output": {
+    "localeCodesModule": "./packages/web-components/src/localization/lit-localization-module/lit-localization-module.ts",
+    "mode": "runtime",
+    "outputDir": "./packages/web-components/src/localization/locales"
+  },
+  "interchange": {
+    "format": "xliff",
+    "xliffDir": "./packages/web-components/src/xliff/"
+  }
+}
