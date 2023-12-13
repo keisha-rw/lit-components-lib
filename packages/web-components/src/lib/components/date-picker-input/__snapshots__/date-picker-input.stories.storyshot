@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Date picker input Alt 1`] = `
+"<pds-date-picker-input name="datePickerInput-alt" dateformat="DD/MM/YYYY" label="Select a date" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-date-picker-input pds-is-error ">
+      <label for="datePickerInput-alt-field" class="pds-c-date-picker-input__label">
+      <slot name="label">Select a date</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-date-picker-input__help-text" id="datePickerInput-alt-help-text">
+          <slot name="help-text">Please follow the DD/MM/YYYY format.</slot>
+        </div>
+      <div class="pds-c-date-picker-input__input-wrapper">
+        <input type="text" inputmode="numeric" maxlength="10" class="pds-c-date-picker-input__input" placeholder="DD/MM/YYYY" pattern="((0[1-9]|1[0-9]|2[0-9]|3[01])/(0[1-9]|1[0-2])/[0-9]{4})" name="datePickerInput-alt" id="datePickerInput-alt-field" aria-label="Press the down arrow key to access the calendar." aria-describedby="datePickerInput-alt-help-text datePickerInput-alt-error-message" aria-invalid="true">
+        <!-- aria-hidden and not tabbable for a11y purposes -->
+        <button class="pds-c-date-picker-input__button" tabindex="-1" aria-hidden="true">
+          <pds-icon-calendar size="lg"></pds-icon-calendar>
+        </button>
+      </div>
+      
+      <div class="pds-c-date-picker-input__error-message" id="datePickerInput-alt-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div> <style>default</style><pds-date-picker slot="datepicker"></pds-date-picker></pds-date-picker-input>"
+`;
+
+exports[`Storyshots Components/Date picker input Default 1`] = `
+"<pds-date-picker-input name="datePickerInput" dateformat="MM/DD/YYYY" label="Select a date" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-date-picker-input pds-is-error ">
+      <label for="datePickerInput-field" class="pds-c-date-picker-input__label">
+      <slot name="label">Select a date</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-date-picker-input__help-text" id="datePickerInput-help-text">
+          <slot name="help-text">Please follow the MM/DD/YYYY format.</slot>
+        </div>
+      <div class="pds-c-date-picker-input__input-wrapper">
+        <input type="text" inputmode="numeric" maxlength="10" class="pds-c-date-picker-input__input" placeholder="MM/DD/YYYY" pattern="((0[1-9]|1[0-2])/(0[1-9]|1[0-9]|2[0-9]|3[01])/[0-9]{4})" name="datePickerInput" id="datePickerInput-field" aria-label="Press the down arrow key to access the calendar." aria-describedby="datePickerInput-help-text datePickerInput-error-message" aria-invalid="true">
+        <!-- aria-hidden and not tabbable for a11y purposes -->
+        <button class="pds-c-date-picker-input__button" tabindex="-1" aria-hidden="true">
+          <pds-icon-calendar size="lg"></pds-icon-calendar>
+        </button>
+      </div>
+      
+      <div class="pds-c-date-picker-input__error-message" id="datePickerInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div> <style>default</style><pds-date-picker slot="datepicker"></pds-date-picker></pds-date-picker-input>"
+`;
+
+exports[`Storyshots Components/Date picker input Disabled 1`] = `
+"<pds-date-picker-input name="datePickerInput-disabled" dateformat="MM/DD/YYYY" ?disabled="true" label="Select a date" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-date-picker-input pds-is-error ">
+      <label for="datePickerInput-disabled-field" class="pds-c-date-picker-input__label">
+      <slot name="label">Select a date</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-date-picker-input__help-text" id="datePickerInput-disabled-help-text">
+          <slot name="help-text">Please follow the MM/DD/YYYY format.</slot>
+        </div>
+      <div class="pds-c-date-picker-input__input-wrapper">
+        <input type="text" inputmode="numeric" maxlength="10" class="pds-c-date-picker-input__input" placeholder="MM/DD/YYYY" pattern="((0[1-9]|1[0-2])/(0[1-9]|1[0-9]|2[0-9]|3[01])/[0-9]{4})" name="datePickerInput-disabled" id="datePickerInput-disabled-field" aria-label="Press the down arrow key to access the calendar." aria-describedby="datePickerInput-disabled-help-text datePickerInput-disabled-error-message" aria-invalid="true">
+        <!-- aria-hidden and not tabbable for a11y purposes -->
+        <button class="pds-c-date-picker-input__button" tabindex="-1" aria-hidden="true">
+          <pds-icon-calendar size="lg"></pds-icon-calendar>
+        </button>
+      </div>
+      
+      <div class="pds-c-date-picker-input__error-message" id="datePickerInput-disabled-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div> <style>default</style><pds-date-picker slot="datepicker"></pds-date-picker></pds-date-picker-input>"
+`;
+
+exports[`Storyshots Components/Date picker input Disabled weekends 1`] = `
+"<pds-date-picker-input name="datePickerInput-disabledWeekends" dateformat="MM/DD/YYYY" label="Select a date" .custominvaliddates="(date) => {
+    if (date.getDay() === 6 || date.getDay() === 0) {
+        return false;
+    }
+    return true;
+}" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-date-picker-input pds-is-error ">
+      <label for="datePickerInput-disabledWeekends-field" class="pds-c-date-picker-input__label">
+      <slot name="label">Select a date</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-date-picker-input__help-text" id="datePickerInput-disabledWeekends-help-text">
+          <slot name="help-text">Please follow the MM/DD/YYYY format.</slot>
+        </div>
+      <div class="pds-c-date-picker-input__input-wrapper">
+        <input type="text" inputmode="numeric" maxlength="10" class="pds-c-date-picker-input__input" placeholder="MM/DD/YYYY" pattern="((0[1-9]|1[0-2])/(0[1-9]|1[0-9]|2[0-9]|3[01])/[0-9]{4})" name="datePickerInput-disabledWeekends" id="datePickerInput-disabledWeekends-field" aria-label="Press the down arrow key to access the calendar." aria-describedby="datePickerInput-disabledWeekends-help-text datePickerInput-disabledWeekends-error-message" aria-invalid="true">
+        <!-- aria-hidden and not tabbable for a11y purposes -->
+        <button class="pds-c-date-picker-input__button" tabindex="-1" aria-hidden="true">
+          <pds-icon-calendar size="lg"></pds-icon-calendar>
+        </button>
+      </div>
+      
+      <div class="pds-c-date-picker-input__error-message" id="datePickerInput-disabledWeekends-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div> <style>default</style><pds-date-picker disabledate="disable-weekends" slot="datepicker"></pds-date-picker></pds-date-picker-input>"
+`;
+
+exports[`Storyshots Components/Date picker input Spanish 1`] = `
+"<pds-date-picker-input name="datePickerInput-spanish" dateformat="MM/DD/AAAA" label="Seleccione una fecha" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-date-picker-input pds-is-error ">
+      <label for="datePickerInput-spanish-field" class="pds-c-date-picker-input__label">
+      <slot name="label">Seleccione una fecha</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-date-picker-input__help-text" id="datePickerInput-spanish-help-text">
+          <slot name="help-text">Please follow the MM/DD/AAAA format.</slot>
+        </div>
+      <div class="pds-c-date-picker-input__input-wrapper">
+        <input type="text" inputmode="numeric" maxlength="10" class="pds-c-date-picker-input__input" placeholder="MM/DD/AAAA" pattern="((0[1-9]|1[0-2])/(0[1-9]|1[0-9]|2[0-9]|3[01])/[0-9]{4})" name="datePickerInput-spanish" id="datePickerInput-spanish-field" aria-label="Para acceder al calendario pulsa la flecha hacia abajo." aria-describedby="datePickerInput-spanish-help-text datePickerInput-spanish-error-message" aria-invalid="true">
+        <!-- aria-hidden and not tabbable for a11y purposes -->
+        <button class="pds-c-date-picker-input__button" tabindex="-1" aria-hidden="true">
+          <pds-icon-calendar size="lg"></pds-icon-calendar>
+        </button>
+      </div>
+      
+      <div class="pds-c-date-picker-input__error-message" id="datePickerInput-spanish-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div> <style>default</style><pds-date-picker locale="es-US" slot="datepicker"></pds-date-picker></pds-date-picker-input>"
+`;

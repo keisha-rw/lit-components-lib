@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/ArticleFeatureBlock Default 1`] = `
+"<article-feature-block eyebrow=\\"1:00 PM CT | May 18, 2022\\" ?fullwidth=\\",\\">
+      <img slot=\\"media\\" class=\\"c-article-feature-block__image\\" src=\\"https://via.placeholder.com/800x400/\\" alt=\\"placeholder\\">
+      <pds-heading slot=\\"heading\\" tagname=\\"h3\\" variant=\\"title-default\\">
+        A beginner's guide to investing
+      </pds-heading>
+      <pds-text-passage slot=\\"description\\">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+        libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor
+        amet, consectetur adipiscing elit.</pds-text-passage>
+      <pds-button slot=\\"contentFooter\\">Register for the upcoming webinar</pds-button>
+    </article-feature-block>"
+`;
+
+exports[`Storyshots Recipes/ArticleFeatureBlock Full width 1`] = `
+"<article-feature-block eyebrow=\\"1:00 PM CT | May 18, 2022\\" ?fullwidth=\\",\\">
+      <img slot=\\"media\\" class=\\"c-article-feature-block__image\\" src=\\"https://via.placeholder.com/800x400/\\" alt=\\"placeholder\\">
+      <pds-heading slot=\\"heading\\" tagname=\\"h3\\" variant=\\"title-default\\">
+        A beginner's guide to investing
+      </pds-heading>
+      <pds-text-passage slot=\\"description\\">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+        libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor
+        amet, consectetur adipiscing elit.</pds-text-passage>
+      <pds-button slot=\\"contentFooter\\">Register for the upcoming webinar</pds-button>
+    </article-feature-block>"
+`;

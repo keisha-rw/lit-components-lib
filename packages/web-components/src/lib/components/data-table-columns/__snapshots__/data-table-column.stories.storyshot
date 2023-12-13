@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Data table/Data table columns/Data table column Default 1`] = `"<pds-data-table-column columnid="storybook"><!----><slot id="slot"></slot><style>default</style></pds-data-table-column>"`;

@@ -1,0 +1,204 @@
+@import '../table/table';
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #DATA_TABLE
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-data-table__filter-input {
+  margin-left: auto;
+  width: size(43);
+  color: var(--pds-semantic-border-interactive-default);
+
+  @media all and (max-width: $pds-bp-lg) {
+    width: 100%;
+  }
+}
+
+.pds-c-data-table__header {
+  margin-bottom: size(2);
+}
+
+.pds-c-data-table__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: size(1);
+}
+
+.pds-c-data-table {
+  display: none;
+
+  &.pds-c-data-table--table-visible {
+    display: inline;
+  }
+}
+
+.pds-c-table__tbody {
+  display: none;
+
+  .pds-c-data-table--rendered & {
+    display: table-row-group;
+  }
+}
+
+.pds-c-data-table--sortable-header {
+  @include pds-semantic-label-default;
+
+  color: var(--pds-semantic-text-default);
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+
+  &:hover::after,
+  &:focus::after {
+    content: '';
+    position: absolute;
+    width: calc(100% + size(2));
+    height: calc(100% + size(2));
+    top: size(-1);
+    left: size(-1);
+    border-radius: size(1);
+    background-color: var(--pds-semantic-background-subtle);
+    z-index: -1;
+    cursor: pointer;
+  }
+}
+
+.pds-c-data-table__sort-chevrons {
+  position: relative;
+  margin-left: size(3);
+}
+
+pds-icon-chevron-down {
+  .pds-c-data-table--sortable-header & {
+    position: absolute;
+    right: 0;
+    top: size(1.5);
+  }
+
+  .pds-c-data-table__sort-chevrons[data-sort='asc'] & {
+    visibility: hidden;
+  }
+}
+
+pds-icon-chevron-up {
+  .pds-c-data-table--sortable-header & {
+    position: absolute;
+    right: 0;
+  }
+
+  .pds-c-data-table__sort-chevrons[data-sort='desc'] & {
+    visibility: hidden;
+  }
+}
+
+.pds-c-data-table__column-header-text {
+  .pds-c-data-table--align-right & {
+    text-align: right;
+  }
+
+  .pds-c-data-table--align-center & {
+    text-align: center;
+  }
+}
+
+.pds-c-data-table__cell-text,
+.pds-c-data-table__cell-text > div {
+  .pds-c-data-table--align-right & {
+    text-align: right;
+  }
+
+  .pds-c-data-table--align-center & {
+    text-align: center;
+  }
+}
+
+.pds-c-data-table__cell-text > div * {
+  .pds-c-data-table--align-right & {
+    text-align: left;
+  }
+
+  .pds-c-data-table--align-center & {
+    text-align: left;
+  }
+}
+
+.pds-c-data-table__hidden-filter-text {
+  display: none;
+}
+
+.pds-c-data-table__heading-loader {
+  margin-top: size(0.25);
+}
+
+.pds-c-data-table__body-loader {
+  margin-top: size(1);
+}
+
+.pds-c-data-table__show-entries {
+  @include pds-base-type-100-16;
+
+  margin-right: size(3.5);
+
+  @media only screen and (max-width: $pds-bp-md) {
+    display: none;
+  }
+}
+
+.pds-c-data-table__pagination-select {
+  display: inline-block;
+  margin: 0 size(1);
+}
+
+pds-pagination-item {
+  .pds-c-data-table__paginator & {
+    @media only screen and (max-width: $pds-bp-sm) {
+      display: none;
+    }
+  }
+}
+
+.pds-c-data-table__display-cell + .pds-c-data-table__display-cell,
+.pds-c-data-table__accessor-cell + .pds-c-data-table__display-cell {
+  .pds-c-data-table--with-border & {
+    border-left: 1px solid var(--pds-semantic-border-subtle);
+  }
+}
+
+// couldn't fix this issue due to stylelint problems parsing the parent selector
+/* stylelint-disable no-descending-specificity */
+.pds-c-data-table__accessor-cell + .pds-c-data-table__display-cell {
+  .pds-c-data-table--with-border & {
+    border-left: 1px solid var(--pds-semantic-border-subtle);
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+.pds-c-data-table__display-cell + .pds-c-data-table__accessor-cell {
+  .pds-c-data-table--with-border & {
+    border-left: 1px solid var(--pds-semantic-border-subtle);
+  }
+}
+
+.pds-c-data-table--caption-hidden,
+.pds-c-data-table--filter-hidden {
+  padding-bottom: size(2);
+}
+
+.pds-c-data-table__caption {
+  @include pds-util-sr-only;
+}

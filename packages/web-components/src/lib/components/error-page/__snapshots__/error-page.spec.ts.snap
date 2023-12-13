@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage unit tests renders correct content for 403 errorCode 1`] = `
+<pds-error-page
+  errorcode="403"
+  linkhref="https://www.google.com"
+  linktext="Test"
+/>
+`;
+
+exports[`ErrorPage unit tests renders correct content for 500 errorCode 1`] = `
+<pds-error-page
+  errorcode="500"
+  linkhref="https://www.google.com"
+  linktext="Test"
+/>
+`;
+
+exports[`ErrorPage unit tests renders correct content for 503 errorCode 1`] = `
+<pds-error-page
+  errorcode="503"
+  linkhref="https://www.google.com"
+  linktext="Test"
+/>
+`;

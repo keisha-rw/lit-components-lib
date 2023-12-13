@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Data table/Data table columns/Data table input column Default 1`] = `
+"<pds-data-table-input-column columnid="storybook" datasyncid="datasync"><!----><slot id="slot"></slot>
+      <slot allowed-elements="pds-select, pds-text-input, pds-switch, span" name="input"></slot><style>default</style></pds-data-table-input-column>"
+`;

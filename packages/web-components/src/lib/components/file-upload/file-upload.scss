@@ -1,0 +1,197 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+@import '../link/link-mixin';
+
+/*------------------------------------*\
+ #FILE_UPLOAD
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box; // Override Box-sizing
+}
+
+.pds-c-file-upload__current-file,
+.pds-c-file-upload__new-file {
+  @include pds-semantic-body-default;
+
+  font-style: italic;
+  overflow-wrap: break-word;
+}
+
+.pds-c-file-upload__current-file {
+  padding-bottom: size(3);
+}
+
+.pds-c-file-upload__close-modal {
+  padding-right: size(3);
+}
+
+.pds-c-file-upload {
+  @include pds-semantic-body-default;
+}
+
+.pds-c-file-upload__attach-files-label {
+  @include pds-semantic-body-default-compact;
+
+  margin: 0;
+}
+
+.pds-c-file-upload__required-indicator {
+  color: var(--pds-semantic-text-error);
+}
+
+.pds-c-file-upload__help-text {
+  @include pds-semantic-body-sm;
+
+  margin: 0;
+}
+
+.pds-c-file-upload__upload-container {
+  cursor: pointer;
+  background-color: var(--pds-semantic-background-default);
+  border-radius: size(0.5);
+  border: 1px dashed var(--pds-semantic-border-strong);
+  max-width: size(62.5);
+  min-height: size(18.5);
+  position: relative;
+
+  &:hover {
+    background-color: var(--pds-semantic-background-subtle);
+    border-color: var(--pds-semantic-border-interactive-strong);
+  }
+
+  .pds-c-file-upload__upload-label {
+    cursor: pointer;
+    max-width: size(62.5);
+    min-height: size(18.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > div {
+      display: inline;
+      text-align: center;
+      padding-bottom: size(4);
+    }
+
+    // Logic to display the right text on mobile vs. desktop
+    .pds-c-file-upload__label-text-desktop {
+      display: none;
+    }
+
+    .pds-c-file-upload__label-text-mobile {
+      display: block;
+    }
+
+    @media only screen and (min-width: $pds-bp-md) {
+      .pds-c-file-upload__label-text-desktop {
+        display: block;
+      }
+
+      .pds-c-file-upload__label-text-mobile {
+        display: none;
+      }
+    }
+  }
+
+  .pds-is-dragging & {
+    background-color: var(--pds-semantic-background-subtle);
+    border-color: var(--pds-semantic-border-interactive-strong);
+  }
+
+  input[type='file'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+.pds-c-file-upload__upload-link {
+  @include link;
+  @include link-emphasis;
+
+  border: none;
+  background: none;
+}
+
+pds-icon-upload {
+  color: var(--pds-semantic-border-strong);
+  margin-top: size(4);
+  margin-bottom: size(2);
+}
+
+.pds-c-file-upload__invalid-file {
+  @include pds-semantic-body-bold-default;
+
+  color: var(--pds-semantic-text-error);
+  display: inline-flex;
+
+  pds-icon-alert-circle {
+    align-self: center;
+    color: var(--pds-semantic-border-error);
+    padding-right: size(1.5);
+  }
+}
+
+.pds-c-file-upload__file-section {
+  margin-top: size(0.5);
+
+  .pds-c-file-upload__file-text {
+    @include pds-semantic-body-sm;
+  }
+
+  .pds-c-file-upload__file-uploaded {
+    display: flex;
+    justify-content: space-between;
+    margin-top: size(2);
+    background: var(--pds-semantic-background-default);
+    border: 1px solid var(--pds-semantic-border-default);
+    border-radius: size(0.5);
+    min-height: size(7);
+    max-width: size(62.5);
+    align-items: center;
+
+    .pds-c-file-upload__filename {
+      display: inline-flex;
+      align-items: center;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+      padding: size(1.75) 0;
+
+      pds-icon-paperclip {
+        padding-left: size(2);
+        padding-right: size(1.5);
+        color: var(--pds-semantic-border-icon-default);
+      }
+    }
+
+    .pds-c-file-upload__trash-button {
+      margin: 0 size(1.25);
+
+      > pds-icon-trash {
+        align-items: end;
+        color: var(--pds-semantic-border-interactive-default);
+      }
+
+      &:hover {
+        > pds-icon-trash {
+          color: var(--pds-semantic-border-interactive-strong);
+        }
+      }
+    }
+  }
+}

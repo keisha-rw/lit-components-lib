@@ -1,0 +1,2797 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Date picker input/Date picker Default 1`] = `
+"<pds-date-picker><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        February 14, 2023
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2023</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!----><!--?--><!----><!---->February<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-5">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-06" key="cell-1-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-07" key="cell-1-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-08" key="cell-1-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-09" key="cell-1-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-10" key="cell-1-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-11" key="cell-1-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 11
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-12">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-12" key="cell-1-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-13" key="cell-1-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--today " data-date="2023-02-14" key="cell-1-14" tabindex="0">
+                        <em aria-hidden="true">14</em><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-15" key="cell-1-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-16" key="cell-1-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-17" key="cell-1-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-18" key="cell-1-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 18
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-19">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-19" key="cell-1-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-20" key="cell-1-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-21" key="cell-1-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-22" key="cell-1-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-23" key="cell-1-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-24" key="cell-1-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-25" key="cell-1-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 25
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-26" key="cell-1-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-27" key="cell-1-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-28" key="cell-1-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-01" key="cell-2-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-02" key="cell-2-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-03" key="cell-2-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-04" key="cell-2-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker Disable single date 1`] = `
+"<pds-date-picker disabledate="2017-01-01" initialdisplayedmonth="2017-01-01"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        January 1, 2017
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2017</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!---->January<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-1">
+                    <!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--disabled " data-date="2017-01-01" key="cell-0-1" tabindex="0">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-02" key="cell-0-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-03" key="cell-0-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-04" key="cell-0-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-05" key="cell-0-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-06" key="cell-0-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-07" key="cell-0-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 7
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-8">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-08" key="cell-0-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-09" key="cell-0-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-10" key="cell-0-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-11" key="cell-0-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 11
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-12" key="cell-0-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-13" key="cell-0-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-14" key="cell-0-14" tabindex="-1">
+                        <span aria-hidden="true">14</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 14
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-15">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-15" key="cell-0-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-16" key="cell-0-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-17" key="cell-0-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-18" key="cell-0-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 18
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-19" key="cell-0-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-20" key="cell-0-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-21" key="cell-0-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 21
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-22">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-22" key="cell-0-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-23" key="cell-0-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-24" key="cell-0-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-25" key="cell-0-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 25
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-26" key="cell-0-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-27" key="cell-0-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-28" key="cell-0-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 28
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker Disable weekends 1`] = `
+"<pds-date-picker disabledate="disable-weekends" initialdisplayedmonth="2017-01-01"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        January 1, 2017
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2017</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!---->January<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-1">
+                    <!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--disabled " data-date="2017-01-01" key="cell-0-1" tabindex="0">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-02" key="cell-0-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-03" key="cell-0-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-04" key="cell-0-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-05" key="cell-0-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-06" key="cell-0-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-07" key="cell-0-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 7
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-8">
+                    <!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-08" key="cell-0-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-09" key="cell-0-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-10" key="cell-0-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-11" key="cell-0-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 11
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-12" key="cell-0-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-13" key="cell-0-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-14" key="cell-0-14" tabindex="-1">
+                        <span aria-hidden="true">14</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 14
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-15">
+                    <!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-15" key="cell-0-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-16" key="cell-0-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-17" key="cell-0-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-18" key="cell-0-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 18
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-19" key="cell-0-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-20" key="cell-0-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-21" key="cell-0-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 21
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-22">
+                    <!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-22" key="cell-0-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-23" key="cell-0-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-24" key="cell-0-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-25" key="cell-0-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 25
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-26" key="cell-0-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-27" key="cell-0-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-28" key="cell-0-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 28
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled " data-date="2017-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2017-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2017-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="true" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--disabled pds-c-date-picker__date--overflowing " data-date="2017-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker Disabled 1`] = `
+"<pds-date-picker disabled="true"><!---->
+      <div role="group" aria-disabled="true" aria-label="Choose date" class=" pds-c-date-picker pds-c-date-picker--disabled ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        February 14, 2023
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button" disabled="">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2023</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button" disabled="">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button" disabled="">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!----><!--?--><!----><!---->February<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button" disabled="">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-5">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-06" key="cell-1-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-07" key="cell-1-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-08" key="cell-1-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-09" key="cell-1-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-10" key="cell-1-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-11" key="cell-1-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 11
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-12">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-12" key="cell-1-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-13" key="cell-1-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--today " data-date="2023-02-14" key="cell-1-14" tabindex="-1">
+                        <em aria-hidden="true">14</em><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-15" key="cell-1-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-16" key="cell-1-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-17" key="cell-1-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-18" key="cell-1-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 18
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-19">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-19" key="cell-1-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-20" key="cell-1-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-21" key="cell-1-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-22" key="cell-1-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-23" key="cell-1-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-24" key="cell-1-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-25" key="cell-1-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 25
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-26" key="cell-1-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-27" key="cell-1-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-28" key="cell-1-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-01" key="cell-2-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-02" key="cell-2-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-03" key="cell-2-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-04" key="cell-2-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker First day of week 1`] = `
+"<pds-date-picker firstdayofweek="1"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        February 14, 2023
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2023</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!----><!--?--><!----><!---->February<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-30">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-6">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-06" key="cell-1-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-07" key="cell-1-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-08" key="cell-1-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-09" key="cell-1-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-10" key="cell-1-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-11" key="cell-1-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 11
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-12" key="cell-1-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 12
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-13">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-13" key="cell-1-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--today " data-date="2023-02-14" key="cell-1-14" tabindex="0">
+                        <em aria-hidden="true">14</em><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-15" key="cell-1-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-16" key="cell-1-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-17" key="cell-1-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-18" key="cell-1-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 18
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-19" key="cell-1-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 19
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-20">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-20" key="cell-1-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-21" key="cell-1-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-22" key="cell-1-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-23" key="cell-1-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-24" key="cell-1-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-25" key="cell-1-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 25
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-26" key="cell-1-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 26
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-27">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-27" key="cell-1-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-28" key="cell-1-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-01" key="cell-2-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-02" key="cell-2-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-03" key="cell-2-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-04" key="cell-2-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-05" key="cell-2-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 5
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker No month steppers 1`] = `
+"<pds-date-picker hidemonthstepper="true"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        February 14, 2023
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2023</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+        <span class="pds-c-date-picker__current-month">
+          <!----><!--?--><!----><!---->February<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-5">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-06" key="cell-1-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-07" key="cell-1-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-08" key="cell-1-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-09" key="cell-1-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-10" key="cell-1-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-11" key="cell-1-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 11
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-12">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-12" key="cell-1-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-13" key="cell-1-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--today " data-date="2023-02-14" key="cell-1-14" tabindex="0">
+                        <em aria-hidden="true">14</em><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-15" key="cell-1-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-16" key="cell-1-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-17" key="cell-1-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-18" key="cell-1-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 18
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-19">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-19" key="cell-1-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-20" key="cell-1-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-21" key="cell-1-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-22" key="cell-1-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-23" key="cell-1-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-24" key="cell-1-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-25" key="cell-1-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 25
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-26" key="cell-1-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-27" key="cell-1-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-28" key="cell-1-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-01" key="cell-2-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-02" key="cell-2-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-03" key="cell-2-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-04" key="cell-2-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker No year steppers 1`] = `
+"<pds-date-picker hideyearstepper="true"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        February 14, 2023
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        
+        <span class="pds-c-date-picker__year-display">2023</span>
+        
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!----><!--?--><!----><!---->February<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-5">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-06" key="cell-1-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-07" key="cell-1-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-08" key="cell-1-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 8
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-09" key="cell-1-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-10" key="cell-1-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-11" key="cell-1-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 11
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-12">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-12" key="cell-1-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-13" key="cell-1-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--today " data-date="2023-02-14" key="cell-1-14" tabindex="0">
+                        <em aria-hidden="true">14</em><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-15" key="cell-1-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 15
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-16" key="cell-1-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-17" key="cell-1-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-18" key="cell-1-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 18
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-19">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-19" key="cell-1-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-20" key="cell-1-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-21" key="cell-1-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-22" key="cell-1-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 22
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-23" key="cell-1-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-24" key="cell-1-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-25" key="cell-1-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 25
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-26" key="cell-1-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-27" key="cell-1-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-28" key="cell-1-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-01" key="cell-2-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-02" key="cell-2-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-03" key="cell-2-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-04" key="cell-2-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          March 4
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker Set initial date 1`] = `
+"<pds-date-picker initialdisplayedmonth="2022-01-01" initialdate="2022-01-01"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        January 1, 2022
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2022</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!---->January<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-11-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-26" key="cell-11-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-27" key="cell-11-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-28" key="cell-11-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-29" key="cell-11-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-30" key="cell-11-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-31" key="cell-11-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="true" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--selected " data-date="2022-01-01" key="cell-0-1" tabindex="0">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 1
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-2">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-02" key="cell-0-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-03" key="cell-0-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-04" key="cell-0-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-05" key="cell-0-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-06" key="cell-0-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-07" key="cell-0-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-08" key="cell-0-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 8
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-9">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-09" key="cell-0-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-10" key="cell-0-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-11" key="cell-0-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 11
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-12" key="cell-0-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-13" key="cell-0-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-14" key="cell-0-14" tabindex="-1">
+                        <span aria-hidden="true">14</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-15" key="cell-0-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 15
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-16">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-16" key="cell-0-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-17" key="cell-0-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-18" key="cell-0-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 18
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-19" key="cell-0-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-20" key="cell-0-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-21" key="cell-0-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-22" key="cell-0-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 22
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-23">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-23" key="cell-0-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-24" key="cell-0-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-25" key="cell-0-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 25
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-26" key="cell-0-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-27" key="cell-0-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-28" key="cell-0-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-30">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker Set initial displayed month 1`] = `
+"<pds-date-picker initialdisplayedmonth="2022-01-01"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        January 1, 2022
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2022</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!---->January<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="Sunday" class="pds-c-date-picker__weekday" key="Sun">
+                      <span>S</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Monday" class="pds-c-date-picker__weekday" key="Mon">
+                      <span>M</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Tuesday" class="pds-c-date-picker__weekday" key="Tue">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Wednesday" class="pds-c-date-picker__weekday" key="Wed">
+                      <span>W</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Thursday" class="pds-c-date-picker__weekday" key="Thu">
+                      <span>T</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Friday" class="pds-c-date-picker__weekday" key="Fri">
+                      <span>F</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="Saturday" class="pds-c-date-picker__weekday" key="Sat">
+                      <span>S</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-11-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-26" key="cell-11-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-27" key="cell-11-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-28" key="cell-11-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-29" key="cell-11-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 29
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-30" key="cell-11-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2021-12-31" key="cell-11-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          December 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current " data-date="2022-01-01" key="cell-0-1" tabindex="0">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 1
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-2">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-02" key="cell-0-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-03" key="cell-0-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-04" key="cell-0-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-05" key="cell-0-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 5
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-06" key="cell-0-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 6
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-07" key="cell-0-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 7
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-08" key="cell-0-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 8
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-9">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-09" key="cell-0-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 9
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-10" key="cell-0-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 10
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-11" key="cell-0-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 11
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-12" key="cell-0-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 12
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-13" key="cell-0-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 13
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-14" key="cell-0-14" tabindex="-1">
+                        <span aria-hidden="true">14</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 14
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-15" key="cell-0-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 15
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-16">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-16" key="cell-0-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 16
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-17" key="cell-0-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 17
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-18" key="cell-0-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 18
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-19" key="cell-0-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 19
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-20" key="cell-0-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 20
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-21" key="cell-0-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 21
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-22" key="cell-0-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 22
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-23">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-23" key="cell-0-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 23
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-24" key="cell-0-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 24
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-25" key="cell-0-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 25
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-26" key="cell-0-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 26
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-27" key="cell-0-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 27
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-28" key="cell-0-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 28
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 29
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-30">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 30
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2022-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          January 31
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 1
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 2
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 3
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 4
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2022-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          February 5
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;
+
+exports[`Storyshots Components/Date picker input/Date picker Spanish 1`] = `
+"<pds-date-picker locale="es-US"><!---->
+      <div role="group" aria-disabled="false" aria-label="Choose date" class=" pds-c-date-picker ">
+        <div class="pds-c-date-picker__header">
+      <span aria-atomic="true" aria-live="polite" class="pds-u-sr-only" aria-label="Press escape to exit the calendar.">
+        14 de febrero de 2023
+      </span>
+      <div class="pds-c-date-picker__year-controls">
+        <button type="button" aria-label="Previous year" class="pds-c-date-picker__previous-year-button">
+              <pds-icon-chevrons-left size="default"></pds-icon-chevrons-left>
+            </button> 
+        <span class="pds-c-date-picker__year-display">2023</span>
+         <button type="button" aria-label="Next year" class="pds-c-date-picker__next-year-button">
+                    <pds-icon-chevrons-right size="default">
+                    </pds-icon-chevrons-right></button>
+      </div>
+      <div class="pds-c-date-picker__month-controls">
+        
+              <button type="button" aria-label="Previous month" class="pds-c-date-picker__previous-month-button">
+              <pds-icon-chevron-left size="default">
+              </pds-icon-chevron-left></button>
+            
+        <span class="pds-c-date-picker__current-month">
+          <!----><!--?--><!----><!---->febrero<!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!----><!----><!--?--><!---->
+        </span>
+        
+                  <button type="button" aria-label="Next month" class="pds-c-date-picker__next-month-button">
+                  <pds-icon-chevron-right size="default">
+                  </pds-icon-chevron-right></button>
+                
+      </div>
+    </div>
+        <div class="pds-c-date-picker__body">
+          <table role="grid" class="pds-c-date-picker__calendar">
+            <thead class="pds-c-date-picker__calendar-header">
+              <tr class="pds-c-date-picker__weekday-row">
+                <!---->
+                    <th scope="col" abbr="domingo" class="pds-c-date-picker__weekday" key="dom">
+                      <span>d</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="lunes" class="pds-c-date-picker__weekday" key="lun">
+                      <span>l</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="martes" class="pds-c-date-picker__weekday" key="mar">
+                      <span>m</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="miércoles" class="pds-c-date-picker__weekday" key="mié">
+                      <span>m</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="jueves" class="pds-c-date-picker__weekday" key="jue">
+                      <span>j</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="viernes" class="pds-c-date-picker__weekday" key="vie">
+                      <span>v</span>
+                    </th>
+                  <!----><!---->
+                    <th scope="col" abbr="sábado" class="pds-c-date-picker__weekday" key="sáb">
+                      <span>s</span>
+                    </th>
+                  <!---->
+              </tr>
+            </thead>
+
+            <tbody>
+              <!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-0-29">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-29" key="cell-0-29" tabindex="-1">
+                        <span aria-hidden="true">29</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          29 de enero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-30" key="cell-0-30" tabindex="-1">
+                        <span aria-hidden="true">30</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          30 de enero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-01-31" key="cell-0-31" tabindex="-1">
+                        <span aria-hidden="true">31</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          31 de enero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-01" key="cell-1-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          1 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-02" key="cell-1-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          2 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-03" key="cell-1-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          3 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-04" key="cell-1-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          4 de febrero
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-5">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-05" key="cell-1-5" tabindex="-1">
+                        <span aria-hidden="true">5</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          5 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-06" key="cell-1-6" tabindex="-1">
+                        <span aria-hidden="true">6</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          6 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-07" key="cell-1-7" tabindex="-1">
+                        <span aria-hidden="true">7</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          7 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-08" key="cell-1-8" tabindex="-1">
+                        <span aria-hidden="true">8</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          8 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-09" key="cell-1-9" tabindex="-1">
+                        <span aria-hidden="true">9</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          9 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-10" key="cell-1-10" tabindex="-1">
+                        <span aria-hidden="true">10</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          10 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-11" key="cell-1-11" tabindex="-1">
+                        <span aria-hidden="true">11</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          11 de febrero
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-12">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-12" key="cell-1-12" tabindex="-1">
+                        <span aria-hidden="true">12</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          12 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-13" key="cell-1-13" tabindex="-1">
+                        <span aria-hidden="true">13</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          13 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--current pds-c-date-picker__date--today " data-date="2023-02-14" key="cell-1-14" tabindex="0">
+                        <em aria-hidden="true">14</em><!--?-->
+                        <span class="pds-u-sr-only">
+                          14 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-15" key="cell-1-15" tabindex="-1">
+                        <span aria-hidden="true">15</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          15 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-16" key="cell-1-16" tabindex="-1">
+                        <span aria-hidden="true">16</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          16 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-17" key="cell-1-17" tabindex="-1">
+                        <span aria-hidden="true">17</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          17 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-18" key="cell-1-18" tabindex="-1">
+                        <span aria-hidden="true">18</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          18 de febrero
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-19">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-19" key="cell-1-19" tabindex="-1">
+                        <span aria-hidden="true">19</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          19 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-20" key="cell-1-20" tabindex="-1">
+                        <span aria-hidden="true">20</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          20 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-21" key="cell-1-21" tabindex="-1">
+                        <span aria-hidden="true">21</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          21 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-22" key="cell-1-22" tabindex="-1">
+                        <span aria-hidden="true">22</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          22 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-23" key="cell-1-23" tabindex="-1">
+                        <span aria-hidden="true">23</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          23 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-24" key="cell-1-24" tabindex="-1">
+                        <span aria-hidden="true">24</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          24 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-25" key="cell-1-25" tabindex="-1">
+                        <span aria-hidden="true">25</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          25 de febrero
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!----><!---->
+                  <tr class="pds-c-date-picker__calendar-row" key="row-1-26">
+                    <!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-26" key="cell-1-26" tabindex="-1">
+                        <span aria-hidden="true">26</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          26 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-27" key="cell-1-27" tabindex="-1">
+                        <span aria-hidden="true">27</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          27 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date " data-date="2023-02-28" key="cell-1-28" tabindex="-1">
+                        <span aria-hidden="true">28</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          28 de febrero
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-01" key="cell-2-1" tabindex="-1">
+                        <span aria-hidden="true">1</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          1 de marzo
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-02" key="cell-2-2" tabindex="-1">
+                        <span aria-hidden="true">2</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          2 de marzo
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-03" key="cell-2-3" tabindex="-1">
+                        <span aria-hidden="true">3</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          3 de marzo
+                        </span>
+                      </td><!----><!----> <td role="gridcell" aria-disabled="false" aria-selected="false" class=" pds-c-date-picker__date pds-c-date-picker__date--overflowing " data-date="2023-03-04" key="cell-2-4" tabindex="-1">
+                        <span aria-hidden="true">4</span><!--?-->
+                        <span class="pds-u-sr-only">
+                          4 de marzo
+                        </span>
+                      </td><!---->
+                  </tr>
+                <!---->
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    <style>default</style></pds-date-picker>"
+`;

@@ -1,0 +1,147 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #DATE_PICKER_INPUT
+\*------------------------------------*/
+
+.pds-c-date-picker-input__label {
+  @include pds-semantic-form-label-default;
+
+  display: block;
+  color: var(--pds-semantic-text-default);
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+
+  .pds-c-date-picker-input--hidden-label & {
+    @include pds-util-sr-only;
+  }
+}
+
+.pds-c-date-picker-input__required-indicator {
+  color: var(--pds-semantic-text-error);
+}
+
+.pds-c-date-picker-input__help-text {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-default);
+  line-height: size(2.25);
+  margin-bottom: size(1);
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+}
+
+.pds-c-date-picker-input__input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.pds-c-date-picker-input__button {
+  position: absolute;
+  right: size(2);
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  > pds-icon-calendar {
+    color: var(--pds-semantic-border-interactive-default);
+  }
+
+  &:hover {
+    > pds-icon-calendar {
+      color: var(--pds-semantic-border-interactive-strong);
+    }
+  }
+
+  :active &,
+  :focus & {
+    > pds-icon-calendar {
+      color: var(--pds-semantic-border-interactive-strong);
+    }
+  }
+
+  .pds-is-disabled & {
+    > pds-icon-calendar {
+      cursor: not-allowed;
+      color: var(--pds-semantic-text-disabled);
+    }
+  }
+}
+
+.pds-c-date-picker-input__input {
+  @include pds-semantic-body-default;
+
+  display: flex;
+  width: 100%;
+  height: size(6);
+  padding-left: size(2);
+  padding-right: size(2);
+  border-radius: size(0.5);
+  background-color: var(--pds-semantic-background-default);
+  border: 1px solid var(--pds-semantic-border-strong);
+  box-shadow: none;
+  color: var(--pds-semantic-text-default);
+
+  &::placeholder {
+    // Using placeholder text for this input is an exception. For sighted users, the help text
+    // will be enough to show the crucial date format so the placeholder text is not needed.
+    // For screenreader users, this guarantees that the proper format will be read off when the
+    // input is tabbed to, rather than relying them to navigate to the help text.
+    visibility: hidden;
+    color: transparent;
+  }
+
+  &:hover {
+    background-color: var(--pds-semantic-background-subtle);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    background-color: var(--pds-semantic-background-subtle);
+    border-color: var(--pds-semantic-border-interactive-xstrong);
+    box-shadow: 0 0 size(1) var(--pds-semantic-border-interactive-xstrong);
+  }
+
+  .pds-c-date-picker-input--sm & {
+    height: size(5);
+  }
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    background-color: var(--pds-semantic-background-disabled);
+    border-color: var(--pds-semantic-border-disabled);
+    box-shadow: none;
+  }
+
+  .pds-is-error & {
+    border-color: var(--pds-semantic-border-error);
+
+    &:focus {
+      box-shadow: 0 0 size(0.5) var(--pds-semantic-border-error);
+    }
+  }
+}
+
+.pds-c-date-picker-input__error-message {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-error);
+  display: flex;
+  align-items: center;
+  gap: size(1);
+  margin-top: size(0.25);
+}
+
+::slotted(pds-date-picker) {
+  margin-top: size(1);
+  position: absolute;
+  z-index: 9999;
+}

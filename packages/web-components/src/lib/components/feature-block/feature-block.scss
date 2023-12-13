@@ -1,0 +1,82 @@
+/*------------------------------------*\
+ #FEATURE_BLOCK
+\*------------------------------------*/
+:host {
+  display: block;
+}
+
+.pds-c-feature-block {
+  display: grid;
+  gap: size(4);
+  grid-template-columns: minmax(0, 1fr);
+  min-height: var(--pds-feature-block-min-height);
+
+  @media all and (min-width: $pds-bp-md) {
+    grid-template-columns: var(--pds-feature-block-media-width, minmax(0, 1fr)) var(
+        --pds-feature-block-body-width,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+.pds-c-feature-block--reversed {
+  @media all and (min-width: $pds-bp-md) {
+    grid-template-columns: var(--pds-feature-block-body-width, minmax(0, 1fr)) var(
+        --pds-feature-block-media-width,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+.pds-c-feature-block--full-width {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.pds-c-feature-block__media {
+  .pds-c-feature-block--reversed & {
+    @media all and (min-width: $pds-bp-md) {
+      order: 2;
+    }
+  }
+
+  .pds-c-feature-block--full-width & {
+    @media all and (min-width: $pds-bp-md) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .pds-c-feature-block--reverse-mobile-display & {
+    @media all and (width < $pds-bp-md) {
+      order: 2;
+    }
+  }
+}
+
+.pds-c-feature-block__body {
+  .pds-c-feature-block--reversed & {
+    @media all and (min-width: $pds-bp-md) {
+      order: 1;
+    }
+  }
+
+  .pds-c-feature-block--full-width & {
+    @media all and (min-width: $pds-bp-md) {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .pds-c-feature-block--reverse-mobile-display & {
+    @media all and (width < $pds-bp-md) {
+      order: 1;
+    }
+  }
+}

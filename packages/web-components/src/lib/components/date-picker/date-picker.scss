@@ -1,0 +1,231 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #DATE_PICKER
+\*------------------------------------*/
+
+:host {
+  display: inline-block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box; // Override Box-sizing
+}
+
+.pds-u-sr-only {
+  @include pds-util-sr-only;
+}
+
+.pds-c-date-picker {
+  @include pds-base-type-100-16;
+
+  background-color: var(--pds-semantic-background-default);
+  width: fit-content;
+  border: 1px solid var(--pds-semantic-border-default);
+  border-radius: size(0.5);
+  margin: 0;
+  // TODO: Switch to semantic box shadow token once we have it created
+  box-shadow: 0 0 size(1) 0 var(--pds-base-color-opacity-gray-01-20);
+}
+
+.pds-c-date-picker--disabled * {
+  cursor: not-allowed;
+  color: var(--pds-semantic-text-disabled);
+
+  :hover {
+    cursor: not-allowed;
+  }
+}
+
+.pds-c-date-picker__year-controls {
+  border-bottom: 1px solid var(--pds-semantic-border-default);
+  padding: size(1) size(1) size(1);
+}
+
+.pds-c-date-picker__month-controls {
+  padding: size(1) size(1);
+}
+
+.pds-c-date-picker__year-controls,
+.pds-c-date-picker__month-controls {
+  display: flex;
+}
+
+.pds-c-date-picker__previous-year-button,
+.pds-c-date-picker__previous-month-button {
+  left: size(0.5);
+}
+
+.pds-c-date-picker__next-year-button,
+.pds-c-date-picker__next-month-button {
+  right: size(0.5);
+}
+
+.pds-c-date-picker__previous-year-button,
+.pds-c-date-picker__next-year-button,
+.pds-c-date-picker__previous-month-button,
+.pds-c-date-picker__next-month-button {
+  position: relative;
+  background: none;
+  border: 0;
+  color: var(--pds-semantic-text-interactive-default);
+  cursor: pointer;
+  height: size(4);
+  width: size(4);
+  border-radius: 50%;
+  padding: 0;
+
+  &:hover {
+    background-color: var(--pds-component-button-default-hover-background);
+  }
+}
+
+pds-icon-chevron-left,
+pds-icon-chevron-right,
+pds-icon-chevrons-left,
+pds-icon-chevrons-right {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+}
+
+pds-icon-chevron-left,
+pds-icon-chevrons-left {
+  right: 1px;
+}
+
+pds-icon-chevron-right,
+pds-icon-chevrons-right {
+  left: 1px;
+}
+
+.pds-c-date-picker--disabled .pds-c-date-picker__previous-year-button:hover,
+.pds-c-date-picker--disabled .pds-c-date-picker__next-year-button:hover,
+.pds-c-date-picker--disabled .pds-c-date-picker__previous-month-button:hover,
+.pds-c-date-picker--disabled .pds-c-date-picker__next-month-button:hover {
+  background-color: transparent;
+}
+
+.pds-c-date-picker__current-month {
+  margin: 0 size(2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pds-c-date-picker__month-select {
+  @include pds-semantic-label-default;
+}
+
+.pds-c-date-picker__year-select,
+.pds-c-date-picker__year-display,
+.pds-c-date-picker__current-month {
+  @include pds-semantic-label-default;
+
+  position: relative;
+  top: 3px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: default;
+}
+
+.pds-c-date-picker__body {
+  padding: 0 size(1);
+}
+
+.pds-c-date-picker__calendar {
+  width: 100%;
+  text-align: center;
+}
+
+.pds-c-date-picker__calendar .pds-c-date-picker__weekday {
+  font-weight: normal;
+}
+
+.pds-c-date-picker__weekday-row {
+  @include pds-semantic-label-default;
+}
+
+.pds-c-date-picker__date {
+  @include pds-semantic-data-default;
+
+  cursor: pointer;
+  width: size(4);
+  height: size(4);
+  border-radius: 50%;
+
+  &:hover {
+    background-color: var(--pds-component-button-default-hover-background);
+  }
+}
+
+.pds-c-date-picker--disabled .pds-c-date-picker__date:hover {
+  background-color: transparent;
+}
+
+.pds-c-date-picker__date--disabled {
+  color: var(--pds-semantic-text-disabled);
+
+  &:hover {
+    background-color: transparent;
+    cursor: not-allowed;
+  }
+}
+
+.pds-c-date-picker__date--overflowing {
+  visibility: hidden;
+}
+
+.pds-c-date-picker__date--today {
+  position: relative;
+
+  & em {
+    font-style: normal;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: 4px;
+    width: size(0.5);
+    height: size(0.5);
+    border-radius: 50%;
+    background-color: var(--pds-semantic-background-brand-strong);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.pds-c-date-picker__date--selected {
+  background-color: var(--pds-semantic-background-brand-xstrong);
+  color: var(--pds-semantic-text-inverted-default);
+
+  &::after {
+    background-color: var(--pds-semantic-background-default);
+  }
+
+  &:hover {
+    background-color: var(--pds-semantic-background-brand-xstrong);
+  }
+}
+
+.pds-c-date-picker__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: size(2);
+}
+
+/* stylelint-disable selector-not-notation */
+
+/* Disabling rule due to rules collision between stylelint and vite:css build */
+.pds-c-date-picker__date--in-range:not(.pds-c-date-picker__date--start):not(
+    .pds-c-date-picker__date--end
+  ) {
+  background-color: var(--pds-semantic-background-subtle);
+  border-radius: 0;
+}
+/* stylelint-enable selector-not-notation */

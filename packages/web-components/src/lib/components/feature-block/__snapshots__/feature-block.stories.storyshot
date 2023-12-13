@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Feature block Default 1`] = `
+"<pds-feature-block ?fullwidth="," behavior="," ?reversemobiledisplay=",">
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;" slot="media">Slot for image or video</placeholder-element>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Slot for body content</placeholder-element>
+    </pds-feature-block>"
+`;
+
+exports[`Storyshots Components/Feature block Example usage 1`] = `
+"<pds-feature-block>
+      <div slot="media">
+        <img class="pds-u-responsive-image" alt="placeholder" src=",image_border.svg">
+      </div>
+      <div>
+        <div class="pds-u-typography-meta-sm pds-u-margin-bottom-16">
+          1:00 PM CT | May 18, 2022
+        </div>
+        <pds-heading headingtag="h3" variant="title-default">Title</pds-heading>
+        <pds-text-passage>
+          Turpis congue vitae rutrum habitasse integer nibh faucibus feugiat
+          interdum.</pds-text-passage>
+        <placeholder-element class="pds-u-margin-top-16">Additional slot area</placeholder-element>
+      </div>
+    </pds-feature-block>"
+`;
+
+exports[`Storyshots Components/Feature block Full width 1`] = `
+"<pds-feature-block ?fullwidth=",">
+      <placeholder-element slot="media"><!----><div class=" pds-c-feature-block pds-c-feature-block--default ">
+      <div class="pds-c-feature-block__media">
+        <slot name="media"></slot>
+      </div>
+      <div class="pds-c-feature-block__body">
+        <slot></slot>
+      </div>
+    </div><style>default</style><div style="padding: 2rem 0">
+          Slot for full width image
+        </div></placeholder-element>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Overlay Slot for body content. Width set at recipe
+        level</placeholder-element>
+    </pds-feature-block>"
+`;
+
+exports[`Storyshots Components/Feature block Reversed 1`] = `
+"<pds-feature-block ?fullwidth="," behavior="," ?reversemobiledisplay=",">
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;" slot="media">Slot for image or video</placeholder-element>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Slot for body content</placeholder-element>
+    </pds-feature-block>"
+`;

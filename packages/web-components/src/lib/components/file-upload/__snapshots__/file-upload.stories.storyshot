@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/File upload File size restriction 1`] = `
+"<pds-file-upload name="FileSizeRestriction" helptext="For this PDS example, upload a PDF file that is less than 100 KB." accept=".pdf" size="100" ?multiple="," ?required=","><!----><div class=" pds-c-file-upload ">
+      <p class="pds-c-file-upload__attach-files-label">
+        Attach file
+        
+      </p>
+      <div class="pds-c-file-upload__help-text" id="FileSizeRestriction-help-text">
+          <slot name="help-text">For this PDS example, upload a PDF file that is less than 100 KB.</slot>
+        </div>
+      <div class="pds-c-file-upload__upload-container">
+         <label for="FileSizeRestriction-field" class="pds-c-file-upload__upload-label">
+        <pds-icon-upload size="xxl"></pds-icon-upload>
+        <div class="pds-c-file-upload__label-text-desktop">
+          Drop a file to attach, or
+              <button class="pds-c-file-upload__upload-link">browse.</button>
+        </div>
+        <div class="pds-c-file-upload__label-text-mobile">
+          <span class="pds-c-file-upload__upload-link">Browse files</span>.
+        </div>
+      </label>
+        <input type="file" name="FileSizeRestriction" id="FileSizeRestriction-field" class="pds-c-file-upload__input" aria-describedby="FileSizeRestriction-help-text" accept=".pdf">
+      </div>
+      <div class="pds-c-file-upload__file-section">
+        
+        <span class="pds-c-file-upload__file-text">No files have been attached.</span>
+        
+      </div>
+    </div><style>default</style></pds-file-upload>"
+`;
+
+exports[`Storyshots Components/File upload Multi file upload 1`] = `
+"<pds-file-upload name="MultiFileUpload" helptext="For this PDS example, please upload one or multiple .pdf, .png, or .svg files." accept=".pdf,.png,.svg" ?multiple="," ?required=","><!----><div class=" pds-c-file-upload ">
+      <p class="pds-c-file-upload__attach-files-label">
+        Attach file
+        
+      </p>
+      <div class="pds-c-file-upload__help-text" id="MultiFileUpload-help-text">
+          <slot name="help-text">For this PDS example, please upload one or multiple .pdf, .png, or .svg files.</slot>
+        </div>
+      <div class="pds-c-file-upload__upload-container">
+         <label for="MultiFileUpload-field" class="pds-c-file-upload__upload-label">
+        <pds-icon-upload size="xxl"></pds-icon-upload>
+        <div class="pds-c-file-upload__label-text-desktop">
+          Drop a file to attach, or
+              <button class="pds-c-file-upload__upload-link">browse.</button>
+        </div>
+        <div class="pds-c-file-upload__label-text-mobile">
+          <span class="pds-c-file-upload__upload-link">Browse files</span>.
+        </div>
+      </label>
+        <input type="file" name="MultiFileUpload" id="MultiFileUpload-field" class="pds-c-file-upload__input" aria-describedby="MultiFileUpload-help-text" accept=".pdf,.png,.svg">
+      </div>
+      <div class="pds-c-file-upload__file-section">
+        
+        <span class="pds-c-file-upload__file-text">No files have been attached.</span>
+        
+      </div>
+    </div><style>default</style></pds-file-upload>"
+`;
+
+exports[`Storyshots Components/File upload Single file upload 1`] = `
+"<pds-file-upload name="singleFileUpload" helptext="For this PDS example, please upload one .pdf file." accept=".pdf" ?multiple="," ?required=","><!----><div class=" pds-c-file-upload ">
+      <p class="pds-c-file-upload__attach-files-label">
+        Attach file
+        
+      </p>
+      <div class="pds-c-file-upload__help-text" id="singleFileUpload-help-text">
+          <slot name="help-text">For this PDS example, please upload one .pdf file.</slot>
+        </div>
+      <div class="pds-c-file-upload__upload-container">
+         <label for="singleFileUpload-field" class="pds-c-file-upload__upload-label">
+        <pds-icon-upload size="xxl"></pds-icon-upload>
+        <div class="pds-c-file-upload__label-text-desktop">
+          Drop a file to attach, or
+              <button class="pds-c-file-upload__upload-link">browse.</button>
+        </div>
+        <div class="pds-c-file-upload__label-text-mobile">
+          <span class="pds-c-file-upload__upload-link">Browse files</span>.
+        </div>
+      </label>
+        <input type="file" name="singleFileUpload" id="singleFileUpload-field" class="pds-c-file-upload__input" aria-describedby="singleFileUpload-help-text" accept=".pdf">
+      </div>
+      <div class="pds-c-file-upload__file-section">
+        
+        <span class="pds-c-file-upload__file-text">No files have been attached.</span>
+        
+      </div>
+    </div><style>default</style></pds-file-upload>"
+`;
+
+exports[`Storyshots Components/File upload Spanish 1`] = `
+"<pds-file-upload name="Spanish" helptext="Para este ejemplo de PDS, cargue al menos un archivo .png o .svg." accept=".png,.svg" ?multiple="," ?required=","><!----><div class=" pds-c-file-upload ">
+      <p class="pds-c-file-upload__attach-files-label">
+        Attach file
+        
+      </p>
+      <div class="pds-c-file-upload__help-text" id="Spanish-help-text">
+          <slot name="help-text">Para este ejemplo de PDS, cargue al menos un archivo .png o .svg.</slot>
+        </div>
+      <div class="pds-c-file-upload__upload-container">
+         <label for="Spanish-field" class="pds-c-file-upload__upload-label">
+        <pds-icon-upload size="xxl"></pds-icon-upload>
+        <div class="pds-c-file-upload__label-text-desktop">
+          Drop a file to attach, or
+              <button class="pds-c-file-upload__upload-link">browse.</button>
+        </div>
+        <div class="pds-c-file-upload__label-text-mobile">
+          <span class="pds-c-file-upload__upload-link">Browse files</span>.
+        </div>
+      </label>
+        <input type="file" name="Spanish" id="Spanish-field" class="pds-c-file-upload__input" aria-describedby="Spanish-help-text" accept=".png,.svg">
+      </div>
+      <div class="pds-c-file-upload__file-section">
+        
+        <span class="pds-c-file-upload__file-text">No files have been attached.</span>
+        
+      </div>
+    </div><style>default</style></pds-file-upload>"
+`;

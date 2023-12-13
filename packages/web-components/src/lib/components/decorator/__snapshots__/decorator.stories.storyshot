@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Decorator Default 1`] = `
+"<pds-decorator><!----><div class=" pds-c-decorator pds-c-decorator--undefined "></div>
+      <slot class="pds-c-decorator__undefined-heading"></slot><style>default</style></pds-decorator>"
+`;
+
+exports[`Storyshots Components/Decorator Default with heading 1`] = `
+"<pds-decorator><!----><div class=" pds-c-decorator pds-c-decorator--undefined "></div>
+      <slot class="pds-c-decorator__undefined-heading"></slot><style>default</style><span>Heading</span></pds-decorator>"
+`;
+
+exports[`Storyshots Components/Decorator Inverted 1`] = `
+"<pds-decorator variant="inverted"><!----><div class=" pds-c-decorator pds-c-decorator--inverted pds-c-decorator--undefined "></div>
+      <slot class="pds-c-decorator__inverted-heading"></slot><style>default</style></pds-decorator>"
+`;
+
+exports[`Storyshots Components/Decorator Inverted with heading 1`] = `
+"<pds-decorator variant="inverted"><!----><div class=" pds-c-decorator pds-c-decorator--inverted pds-c-decorator--undefined "></div>
+      <slot class="pds-c-decorator__inverted-heading"></slot><style>default</style><span>Heading</span></pds-decorator>"
+`;
+
+exports[`Storyshots Components/Decorator Small 1`] = `
+"<pds-decorator size="sm"><!----><div class=" pds-c-decorator pds-c-decorator--undefined pds-c-decorator--sm "></div>
+      <slot class="pds-c-decorator__undefined-heading"></slot><style>default</style></pds-decorator>"
+`;

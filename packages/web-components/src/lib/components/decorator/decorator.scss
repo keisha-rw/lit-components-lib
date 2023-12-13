@@ -1,0 +1,50 @@
+/*------------------------------------*\
+ #DECORATOR
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+::slotted(*) {
+  @include pds-semantic-headline-default;
+}
+
+.pds-c-decorator {
+  width: size(6);
+  border-top: size(0.5) solid var(--pds-semantic-border-info);
+  border-radius: size(0.5);
+  margin-bottom: size(4);
+  display: block;
+}
+
+.pds-c-decorator--inverted {
+  border-color: var(--pds-semantic-border-inverted-default);
+}
+
+.pds-c-decorator__inverted-heading {
+  color: var(--pds-semantic-text-inverted-default);
+}
+
+.pds-c-decorator--sm {
+  margin-bottom: size(2);
+}
+
+@media all and (min-width: $pds-bp-md) {
+  .pds-c-decorator {
+    width: size(8);
+  }
+
+  .pds-c-decorator--sm {
+    width: size(6);
+  }
+}
+
+@media all and (min-width: $pds-bp-lg) {
+  .pds-c-decorator--sm {
+    width: size(8);
+  }
+}

@@ -1,0 +1,1122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Data table Default 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Disable all sorting 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Expandable row 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Fixed height and sticky header 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Hide caption 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Hide filter 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Hide pagination 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Hoverable rows 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Input cells 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Load data from object 1`] = `
+"<pds-data-table id="test"><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><pds-heading slot="caption" headingtag="h3" variant="title-default">Example table heading</pds-heading></pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Loading 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Remove border 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Sticky column 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Sticky header 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;
+
+exports[`Storyshots Components/Data table Striped even 1`] = `
+"<pds-data-table striped="," fixedheight="," ?stickycolumn="," ?stickyheader="," ?removeborder="," ?hoverablerows="," paginationvariant="," globalfilter="," ?hidefilter="," ?expandallonload="," columns="," rows="," ?disableallsorting="," ?hidecaption=","><!----><pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 25%;"><table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!----><!----><th class="pds-c-table__th">
+                <pds-skeleton-loader variant="heading" class="pds-c-data-table__heading-loader"></pds-skeleton-loader>
+              </th><!---->
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!----><!----><tr class="pds-c-table__tr">
+              <!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!----><!----><td class="pds-c-table__td">
+                  <pds-skeleton-loader class="pds-c-data-table__body-loader"></pds-skeleton-loader>
+                </td><!---->
+            </tr><!---->
+        </tbody>
+      </table></pds-table><slot hidden="" name="columns"></slot><slot hidden="" name="rows"></slot><style>default</style><div slot="caption">
+        <pds-heading headingtag="h3" variant="title-default">Example table heading</pds-heading>
+      </div>
+      , ,
+    </pds-data-table>"
+`;

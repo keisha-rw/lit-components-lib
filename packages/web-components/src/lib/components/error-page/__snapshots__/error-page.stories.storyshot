@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Error page 403 1`] = `
+"<pds-error-page errorcode="403" linktext="[Insert link here]" linkhref="https://www.google.com">
+    </pds-error-page>"
+`;
+
+exports[`Storyshots Components/Error page 404 1`] = `
+"<pds-error-page errorcode="404" linktext="[Insert link here]" linkhref="https://www.google.com">
+    </pds-error-page>"
+`;
+
+exports[`Storyshots Components/Error page 500 1`] = `
+"<pds-error-page errorcode="500" linktext="[Insert link here]" linkhref="https://www.google.com">
+    </pds-error-page>"
+`;
+
+exports[`Storyshots Components/Error page 503 1`] = `
+"<pds-error-page errorcode="503" linktext="[Insert link here]" linkhref="https://www.google.com">
+    </pds-error-page>"
+`;
