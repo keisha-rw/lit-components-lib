@@ -1,0 +1,23 @@
+/*------------------------------------*\
+ #TAG
+\*------------------------------------*/
+
+.pds-c-tag {
+  @include pds-semantic-meta-sm;
+
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: var(--pds-component-tag-default-background);
+  padding: size(1);
+  text-decoration: none;
+  border-radius: size(0.5);
+  color: var(--pds-component-tag-default-text);
+
+  &:hover {
+    background-color: var(--pds-component-tag-default-hover-background);
+  }
+
+  &:active {
+    background-color: var(--pds-component-tag-default-active-background);
+  }
+}

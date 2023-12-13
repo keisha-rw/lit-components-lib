@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Video player Alt 1`] = `
+"<pds-video-player variant="alt" ?hidevideoduration="true" videotitle="undefined" videodescription="undefined" videourl="https://players.brightcove.net/1162425107001/cbe63a49-d26e-41ed-9e8e-5c1dec8c6b45_default/index.html?videoId=5027867735001" videoplayertexttracks="https://static.3playmedia.com/p/files/5281753/threeplay_transcripts/15765393?format_id=16&amp;project_id=17743&amp;format=txt"><!---->
+      <div class="pds-c-video-player  pds-c-video-player pds-c-video-player--alt " title="undefined" aria-describedby="videoplayerdescription-1"></div>
+      <div class="pds-u-sr-only">
+        Video duration is 2 minutes and
+        3 seconds long.
+      </div>
+      <p aria-hidden="true" class="pds-c-video-player__duration" data-happo-hide="">
+        <span class="pds-c-video-player__icon">
+            <pds-icon-clock size="xs"></pds-icon-clock></span> 2:03
+      </p>
+      <div>
+        <p aria-hidden="true" class="pds-c-video-player-video-title">
+          undefined
+        </p>
+      </div>
+      <div>
+        <pds-text-passage linelength="none" class="pds-c-video-player__description" id="videoplayerdescription-1">undefined</pds-text-passage>
+      </div>
+      <pds-link class="pds-c-video-player__link" target="_blank" href="https://static.3playmedia.com/p/files/5281753/threeplay_transcripts/15765393?format_id=16&amp;project_id=17743&amp;format=txt">
+        View video transcript
+      </pds-link>
+    </pds-video-player>"
+`;
+
+exports[`Storyshots Components/Video player Default 1`] = `
+"<pds-video-player variant="undefined" ?hidevideoduration="undefined" videotitle="This is an optional video title" videodescription="<p>This is an optional <strong>video description</strong>. It should only be added if there is also a video title.</p>" videourl="https://players.brightcove.net/1162425107001/cbe63a49-d26e-41ed-9e8e-5c1dec8c6b45_default/index.html?videoId=5027867735001" videoplayertexttracks="https://static.3playmedia.com/p/files/5281753/threeplay_transcripts/15765393?format_id=16&amp;project_id=17743&amp;format=txt"><!---->
+      <div class="pds-c-video-player  pds-c-video-player pds-c-video-player--undefined " title="This is an optional video title" aria-describedby="videoplayerdescription-1"></div>
+      <div class="pds-u-sr-only">
+        Video duration is 2 minutes and
+        3 seconds long.
+      </div>
+      <p aria-hidden="true" class="pds-c-video-player__duration" data-happo-hide="">
+        <span class="pds-c-video-player__icon">
+            <pds-icon-clock size="xs"></pds-icon-clock></span> 2:03
+      </p>
+      <div>
+        <p aria-hidden="true" class="pds-c-video-player-video-title">
+          This is an optional video title
+        </p>
+      </div>
+      <div>
+        <pds-text-passage linelength="none" class="pds-c-video-player__description" id="videoplayerdescription-1">undefined</pds-text-passage>
+      </div>
+      <pds-link class="pds-c-video-player__link" target="_blank" href="https://static.3playmedia.com/p/files/5281753/threeplay_transcripts/15765393?format_id=16&amp;project_id=17743&amp;format=txt">
+        View video transcript
+      </pds-link>
+    </pds-video-player>"
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tooltip Default 1`] = `"<br>"`;
+
+exports[`Storyshots Components/Tooltip Link 1`] = `
+"<pds-tooltip variant="default" placement="bottom"><!----><div role="tooltip" class=" pds-c-tooltip pds-c-tooltip--default ">
+      <slot name="trigger" class="pds-c-tooltip__trigger"></slot>
+      <div id="tooltip-content" class="pds-c-tooltip__tooltip">
+        <slot></slot>
+        <div class="pds-c-tooltip__arrow pds-c-tooltip__arrow--bottom"></div>
+      </div>
+    </div> <style>default</style><pds-button slot="trigger" link="default" arialabel="This button triggers a tooltip" type="submit" ariadescribedby="tooltip-content">This is a button that looks like a link</pds-button>Tooltip content</pds-tooltip>"
+`;
+
+exports[`Storyshots Components/Tooltip Subtle bottom 1`] = `
+"<pds-tooltip variant="subtle" placement="bottom">
+      <pds-button slot="trigger" variant="icon" size="sm" arialabel="This button triggers a tooltip" type="submit" ariadescribedby="tooltip-content">
+        <pds-icon-help-circle size="default"><!----><div role="tooltip" class=" pds-c-tooltip pds-c-tooltip--subtle ">
+      <slot name="trigger" class="pds-c-tooltip__trigger"></slot>
+      <div id="tooltip-content" class="pds-c-tooltip__tooltip">
+        <slot></slot>
+        <div class="pds-c-tooltip__arrow pds-c-tooltip__arrow--bottom"></div>
+      </div>
+    </div> <style>default</style></pds-icon-help-circle></pds-button>
+      Tooltip content</pds-tooltip>"
+`;
+
+exports[`Storyshots Components/Tooltip Subtle left 1`] = `"<span style="margin-right: 100px;"></span>"`;
+
+exports[`Storyshots Components/Tooltip Subtle right 1`] = `
+"<pds-tooltip variant="subtle" placement="right">
+      <pds-button slot="trigger" variant="icon" size="sm" arialabel="This button triggers a tooltip" type="submit" ariadescribedby="tooltip-content">
+        <pds-icon-help-circle size="default"><!----><div role="tooltip" class=" pds-c-tooltip pds-c-tooltip--subtle ">
+      <slot name="trigger" class="pds-c-tooltip__trigger"></slot>
+      <div id="tooltip-content" class="pds-c-tooltip__tooltip">
+        <slot></slot>
+        <div class="pds-c-tooltip__arrow pds-c-tooltip__arrow--right"></div>
+      </div>
+    </div> <style>default</style></pds-icon-help-circle></pds-button>
+      Tooltip content</pds-tooltip>"
+`;
+
+exports[`Storyshots Components/Tooltip Subtle top 1`] = `"<br>"`;

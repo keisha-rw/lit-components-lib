@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepIndicator unit tests does not populate the step indicator item slot when it is not type of pds-step-indicator-item 1`] = `
+<pds-step-indicator
+  interactive=""
+  variant="horizontal"
+>
+  
+      
+  
+    
+</pds-step-indicator>
+`;

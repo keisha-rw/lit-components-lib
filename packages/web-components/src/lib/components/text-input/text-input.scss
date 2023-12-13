@@ -1,0 +1,92 @@
+@import '../text-input/text-input-mixin';
+
+/*------------------------------------*\
+ #TEXT_INPUT
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-text-input__label {
+  @include pds-text-input-label;
+
+  .pds-c-text-input--hidden-label & {
+    @include pds-util-sr-only;
+  }
+}
+
+.pds-c-text-input__required-indicator {
+  @include pds-text-input-required-indicator;
+}
+
+.pds-c-text-input__help-text {
+  @include pds-text-input-help-text;
+}
+
+.pds-c-text-input__input-wrapper {
+  @include pds-text-input-wrapper;
+}
+
+.pds-c-text-input__symbol-prefix {
+  @include pds-semantic-body-default;
+
+  position: absolute;
+  left: size(2);
+}
+
+.pds-c-text-input__symbol-suffix {
+  @include pds-semantic-body-default;
+
+  position: absolute;
+  right: size(2);
+}
+
+.pds-c-text-input__input {
+  @include pds-semantic-body-default;
+  @include pds-text-input;
+
+  .pds-c-text-input--sm & {
+    height: size(5);
+  }
+
+  .pds-c-text-input--prefixed & {
+    padding-left: size(4);
+  }
+
+  .pds-c-text-input--suffixed & {
+    padding-right: size(4);
+  }
+
+  &[type='number'] {
+    // Remove number spin control
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      appearance: none;
+      margin: 0;
+    }
+  }
+
+  &[type='search'] {
+    &::-ms-clear,
+    &::-ms-reveal {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration {
+      display: none;
+    }
+  }
+}
+
+.pds-c-text-input__error-message {
+  @include pds-text-input-error-message;
+}

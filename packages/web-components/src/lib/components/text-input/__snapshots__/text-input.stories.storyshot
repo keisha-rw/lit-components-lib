@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Text input Basic 1`] = `
+"<pds-text-input name="basicTextInput" label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="basicTextInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="basicTextInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="basicTextInput" id="basicTextInput-field" aria-invalid="true" aria-describedby="basicTextInput-help-text basicTextInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="basicTextInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Default value 1`] = `
+"<pds-text-input name="defaultValueInput" value="input value" label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="defaultValueInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="defaultValueInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="defaultValueInput" id="defaultValueInput-field" aria-invalid="true" aria-describedby="defaultValueInput-help-text defaultValueInput-error-message" value="input value">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="defaultValueInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Disabled 1`] = `
+"<pds-text-input name="disabledInput" ?disabled="true" helptext="This is the help text." label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="disabledInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="disabledInput-help-text">
+          <slot name="help-text">This is the help text.</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="disabledInput" id="disabledInput-field" aria-invalid="true" aria-describedby="disabledInput-help-text disabledInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="disabledInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Error 1`] = `
+"<pds-text-input name="errorInput" label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="errorInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="errorInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="errorInput" id="errorInput-field" aria-invalid="true" aria-describedby="errorInput-help-text errorInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="errorInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          Error message goes here.
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Help text 1`] = `
+"<pds-text-input name="HelpTextInput" helptext="This is the help text." label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="HelpTextInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="HelpTextInput-help-text">
+          <slot name="help-text">This is the help text.</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="HelpTextInput" id="HelpTextInput-field" aria-invalid="true" aria-describedby="HelpTextInput-help-text HelpTextInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="HelpTextInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Hidden label 1`] = `
+"<pds-text-input name="hiddenLabelInput" label="This is the label" ?hidelabel="true" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="hiddenLabelInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="hiddenLabelInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="hiddenLabelInput" id="hiddenLabelInput-field" aria-invalid="true" aria-describedby="hiddenLabelInput-help-text hiddenLabelInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="hiddenLabelInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Number input 1`] = `
+"<pds-text-input name="numberInput" label="This is the label" type="number" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="numberInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="numberInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" type="number" name="numberInput" id="numberInput-field" aria-invalid="true" aria-describedby="numberInput-help-text numberInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="numberInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Prefixed 1`] = `
+"<pds-text-input name="prefixedInput" label="This is the label" type="text" internals-valid="" aria-invalid="false"><!----><div class=" pds-c-text-input pds-c-text-input--prefixed ">
+      <label for="prefixedInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> 
+      <div class="pds-c-text-input__input-wrapper">
+        <span aria-hidden="true" class="pds-c-text-input__symbol-prefix">
+              <slot name="prefix"></slot>
+            </span>
+        <input class="pds-c-text-input__input" type="text" name="prefixedInput" id="prefixedInput-field">
+
+        
+      </div>
+      
+    </div><style>default</style><span slot="prefix">$</span></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Readonly 1`] = `
+"<pds-text-input name="readonlyInput" value="input value" ?readonly="true" label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="readonlyInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="readonlyInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="readonlyInput" id="readonlyInput-field" aria-invalid="true" aria-describedby="readonlyInput-help-text readonlyInput-error-message" value="input value">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="readonlyInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Required 1`] = `
+"<pds-text-input name="requiredInput" ?required="true" label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="requiredInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="requiredInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="requiredInput" id="requiredInput-field" aria-invalid="true" aria-describedby="requiredInput-help-text requiredInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="requiredInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input SSN mask 1`] = `
+"<pds-text-input name="ssnMask" value="123456789" label="Please enter a valid social security number." masktype="ssn" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="ssnMask-field" class="pds-c-text-input__label">
+      <slot name="label">Please enter a valid social security number.</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="ssnMask-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="ssnMask" id="ssnMask-field" aria-invalid="true" aria-describedby="ssnMask-help-text ssnMask-error-message" value="123-45-6789">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="ssnMask-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Small 1`] = `
+"<pds-text-input name="smallInput" size="sm" label="This is the label" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-c-text-input--sm pds-is-error ">
+      <label for="smallInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="smallInput-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="smallInput" id="smallInput-field" aria-invalid="true" aria-describedby="smallInput-help-text smallInput-error-message">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="smallInput-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Suffixed 1`] = `
+"<pds-text-input name="suffixedInput" label="This is the label" type="text" internals-valid="" aria-invalid="false"><!----><div class=" pds-c-text-input pds-c-text-input--suffixed ">
+      <label for="suffixedInput-field" class="pds-c-text-input__label">
+      <slot name="label">This is the label</slot>
+      
+      <slot name="label-after"></slot>
+    </label> 
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" type="text" name="suffixedInput" id="suffixedInput-field">
+
+        <span aria-hidden="true" class="pds-c-text-input__symbol-suffix">
+              <slot name="suffix"></slot>
+            </span>
+      </div>
+      
+    </div><style>default</style><span slot="suffix"><pds-icon-search color=","></pds-icon-search></span></pds-text-input>"
+`;
+
+exports[`Storyshots Components/Text input Tax ID 1`] = `
+"<pds-text-input name="taxId" value="123456789" label="Please enter a valid tax identification number." masktype="tax-id" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-input pds-is-error ">
+      <label for="taxId-field" class="pds-c-text-input__label">
+      <slot name="label">Please enter a valid tax identification number.</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-input__help-text" id="taxId-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-input__input-wrapper">
+        
+        <input class="pds-c-text-input__input" name="taxId" id="taxId-field" aria-invalid="true" aria-describedby="taxId-help-text taxId-error-message" value="12-3456789">
+
+        
+      </div>
+      <div class="pds-c-text-input__error-message" id="taxId-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-input>"
+`;

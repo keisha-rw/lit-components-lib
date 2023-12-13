@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Support heading Default 1`] = `"<pds-support-heading headingvariant="," headingtagname="," ?inverted=",">Title</pds-support-heading>"`;
+
+exports[`Storyshots Components/Support heading Default small 1`] = `"<pds-support-heading headingvariant="," headingtagname="," ?inverted=",">Title</pds-support-heading>"`;
+
+exports[`Storyshots Components/Support heading Inverted 1`] = `"<pds-support-heading headingvariant="," headingtagname="," ?inverted=",">Title</pds-support-heading>"`;
+
+exports[`Storyshots Components/Support heading Inverted small 1`] = `"<pds-support-heading headingvariant="," headingtagname="," ?inverted=",">Title</pds-support-heading>"`;
+
+exports[`Storyshots Components/Support heading Styled 1`] = `"<pds-support-heading headingvariant="," headingtagname="," ?inverted=",">Title</pds-support-heading>"`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Step indicator/Step indicator item Completed, interactive 1`] = `
+"<pds-step-indicator-item status="," href="," interactive="">
+      <span>Step item</span>
+    </pds-step-indicator-item>"
+`;
+
+exports[`Storyshots Components/Step indicator/Step indicator item Completed, not interactive 1`] = `
+"<pds-step-indicator-item status=",">
+      <span>Step item</span>
+    </pds-step-indicator-item>"
+`;
+
+exports[`Storyshots Components/Step indicator/Step indicator item Current, interactive 1`] = `
+"<pds-step-indicator-item status="," active="," href="," interactive="">
+      <span>Step item</span>
+    </pds-step-indicator-item>"
+`;
+
+exports[`Storyshots Components/Step indicator/Step indicator item Current, not interactive 1`] = `
+"<pds-step-indicator-item status=",">
+      <span>Step item</span>
+    </pds-step-indicator-item>"
+`;
+
+exports[`Storyshots Components/Step indicator/Step indicator item Incomplete, interactive 1`] = `
+"<pds-step-indicator-item status="," href="," interactive="">
+      <span>Step item</span>
+    </pds-step-indicator-item>"
+`;
+
+exports[`Storyshots Components/Step indicator/Step indicator item Incomplete, not interactive 1`] = `
+"<pds-step-indicator-item status=",">
+      <span>Step item</span>
+    </pds-step-indicator-item>"
+`;

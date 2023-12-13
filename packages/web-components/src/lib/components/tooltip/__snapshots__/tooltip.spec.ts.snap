@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip unit tests renders expected tooltip when using subtle varaint with placement left 1`] = `
+"<pds-tooltip variant="subtle" placement="left"><pds-button slot="trigger" variant="icon" arialabel="This button opens a tooltip" type="submit" ariadescribedby="tooltip-content">
+      <pds-icon-help-circle size="lg"></pds-icon-help-circle></pds-button>
+      tooltip text</pds-tooltip>"
+`;

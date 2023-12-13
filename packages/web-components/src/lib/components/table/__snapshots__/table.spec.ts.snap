@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table unit tests adds the remove border class when removeBorder is true 1`] = `
+"
+        <div>
+          <span>
+            <table class="pds-c-table">
+              <thead class="pds-c-table__thead">
+                <tr class="pds-c-table__tr">
+                  <th class="pds-c-table__th"><span>row 1 cell 1</span></th>
+                </tr>
+              </thead>
+              <tbody class="pds-c-table__tbody">
+                <tr class="pds-c-table__tr">
+                  <td class="pds-c-table__td"><span>row 2 cell 1</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </span>
+        </div>
+      "
+`;
+
+exports[`Table unit tests re-applies default classes and expandable classes when a change is made 1`] = `
+"
+    <table class="pds-c-table">
+      <thead class="pds-c-table__thead">
+        <tr class="pds-c-table__tr">
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+        </tr>
+      </thead>
+      <tbody class="pds-c-table__tbody">
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td class="pds-c-table__td" colspan="5">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody id="body-with-row-removed" class="pds-c-table__tbody" aria-hidden="false">
+
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                <tr id="remove-me" class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr></tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td class="pds-c-table__td" colspan="5">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot class="pds-c-table__tfoot">
+        <tr class="pds-c-table__tr">
+          <td class="pds-c-table__td"><span>Footer</span></td>
+          <td class="pds-c-table__td"><span>Footer</span></td>
+        </tr>
+      </tfoot>
+    </table>
+  "
+`;
+
+exports[`Table unit tests renders a table with an expandable row when window.crypto is undefined 1`] = `
+"
+    <table class="pds-c-table">
+      <thead class="pds-c-table__thead">
+        <tr class="pds-c-table__tr">
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+        </tr>
+      </thead>
+      <tbody class="pds-c-table__tbody">
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td class="pds-c-table__td" colspan="5">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com">link</a></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com" tabindex="-1">link</a></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td class="pds-c-table__td" colspan="5">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com" tabindex="-1">link</a></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot class="pds-c-table__tfoot">
+        <tr class="pds-c-table__tr">
+          <td class="pds-c-table__td"><span>Footer</span></td>
+          <td class="pds-c-table__td"><span>Footer</span></td>
+        </tr>
+      </tfoot>
+    </table>
+  "
+`;
+
+exports[`Table unit tests renders a table with an expandable row when window.crypto.randomUUID is undefined 1`] = `
+"
+    <table class="pds-c-table">
+      <thead class="pds-c-table__thead">
+        <tr class="pds-c-table__tr">
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+        </tr>
+      </thead>
+      <tbody class="pds-c-table__tbody">
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td class="pds-c-table__td" colspan="5">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com">link</a></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com" tabindex="-1">link</a></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td class="pds-c-table__td" colspan="5">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com" tabindex="-1">link</a></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot class="pds-c-table__tfoot">
+        <tr class="pds-c-table__tr">
+          <td class="pds-c-table__td"><span>Footer</span></td>
+          <td class="pds-c-table__td"><span>Footer</span></td>
+        </tr>
+      </tfoot>
+    </table>
+  "
+`;
+
+exports[`Table unit tests renders table as a direct child 1`] = `
+"<pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 100%;">
+        <table class="pds-c-table">
+          <thead class="pds-c-table__thead">
+            <tr class="pds-c-table__tr">
+              <th class="pds-c-table__th"><span>row 1 cell 1</span></th>
+            </tr>
+          </thead>
+          <tbody class="pds-c-table__tbody">
+            <tr class="pds-c-table__tr">
+              <td class="pds-c-table__td"><span>row 2 cell 1</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </pds-table>"
+`;
+
+exports[`Table unit tests renders table as a nested child 1`] = `
+"<pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 100%;">
+        <div>
+          <span>
+            <table class="pds-c-table">
+              <thead class="pds-c-table__thead">
+                <tr class="pds-c-table__tr">
+                  <th class="pds-c-table__th"><span>row 1 cell 1</span></th>
+                </tr>
+              </thead>
+              <tbody class="pds-c-table__tbody">
+                <tr class="pds-c-table__tr">
+                  <td class="pds-c-table__td"><span>row 2 cell 1</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </span>
+        </div>
+      </pds-table>"
+`;
+
+exports[`Table unit tests renders the with the rows collapsed when expandAllOnLoad is false 1`] = `
+"<pds-table class="pds-c-table--with-border pds-c-table__has-collapsible-rows" style="--pds-table-column-percentage: 20%;">
+      <table class="pds-c-table">
+      <thead class="pds-c-table__thead">
+        <tr class="pds-c-table__tr">
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+        </tr>
+      </thead>
+      <tbody class="pds-c-table__tbody">
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td colspan="5" class="pds-c-table__td">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com">tada</a></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><pds-link href="https://www.google.com">This is a WC</pds-link></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td colspan="5" class="pds-c-table__td">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable pds-c-table__expandable-row--is-collapsed" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="false">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+      </pds-table>"
+`;
+
+exports[`Table unit tests renders the with the rows expanded when expandAllOnLoad is true 1`] = `
+"<pds-table expandallonload="" class="pds-c-table--with-border pds-c-table__has-collapsible-rows" style="--pds-table-column-percentage: 20%;">
+      <table class="pds-c-table">
+      <thead class="pds-c-table__thead">
+        <tr class="pds-c-table__tr">
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+          <th class="pds-c-table__th"><span>Header</span></th>
+        </tr>
+      </thead>
+      <tbody class="pds-c-table__tbody">
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td colspan="5" class="pds-c-table__td">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="true">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><a href="https://www.google.com">tada</a></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><pds-link href="https://www.google.com">This is a WC</pds-link></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr class="pds-c-table__expandable-row pds-c-table__tr" id="pds-table__expandable-row--row">
+          <td colspan="5" class="pds-c-table__td">
+            <div class="pds-c-table__expandable-row-wrapper pds-c-table__expandable-row--is-expandable" style="height: 0px;">
+              <table cellpadding="0" cellspacing="0" class="pds-c-table__expandable-row-table">
+                <tbody class="pds-c-table__tbody" aria-hidden="true">
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><div class="pds-c-table__expandable-row__cell-wrapper"><button aria-expanded="false" aria-controls="pds-table__expandable-row--row" aria-label="Expand/collapse row" class="pds-c-table__toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 15L12 9L6 15" stroke="#0076CF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg></button><span>Cell Body</span></div></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                  <tr class="pds-c-table__tr">
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                    <td class="pds-c-table__td"><span>Cell Body</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+      </pds-table>"
+`;

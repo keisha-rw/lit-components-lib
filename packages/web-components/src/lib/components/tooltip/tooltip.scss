@@ -1,0 +1,68 @@
+/*------------------------------------*\
+ .pds-c-tooltip__tooltip
+\*------------------------------------*/
+
+.pds-c-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.pds-c-tooltip__tooltip {
+  @include pds-semantic-body-default;
+
+  position: absolute;
+  display: none;
+  width: max-content;
+  background: var(--pds-semantic-background-strong);
+  color: var(--pds-semantic-text-inverted-default);
+  padding: size(0.625) size(1.25);
+  border-radius: size(0.5);
+  // switch to box shadow token once those are created
+  box-shadow: 0 0 size(1) 0
+    var(--pds-semantic-background-interactive-inverted-neutral-strong);
+}
+
+.pds-c-tooltip__tooltip[data-show] {
+  display: block;
+  z-index: 1;
+}
+
+.pds-c-tooltip__arrow {
+  position: absolute;
+  width: size(1.25);
+  height: size(1.25);
+  background: inherit;
+  transform: rotate(45deg);
+}
+
+.pds-c-tooltip--subtle {
+  .pds-c-tooltip__tooltip {
+    background: var(--pds-semantic-background-default);
+    color: var(--pds-semantic-text-default);
+    border: size(0.125) solid var(--pds-semantic-border-default);
+  }
+
+  .pds-c-tooltip__arrow {
+    border: size(0.125) solid var(--pds-semantic-border-default);
+
+    &.pds-c-tooltip__arrow--top {
+      border-left: none;
+      border-top: none;
+    }
+
+    &.pds-c-tooltip__arrow--bottom {
+      border-right: none;
+      border-bottom: none;
+    }
+
+    &.pds-c-tooltip__arrow--left {
+      border-left: none;
+      border-bottom: none;
+    }
+
+    &.pds-c-tooltip__arrow--right {
+      border-right: none;
+      border-top: none;
+    }
+  }
+}

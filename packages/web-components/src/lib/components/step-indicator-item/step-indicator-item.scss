@@ -1,0 +1,171 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #STEP_INDICATOR_ITEM
+\*------------------------------------*/
+
+:host {
+  display: block;
+  flex: 1 0 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box; // Override Box-sizing
+}
+
+.pds-c-step-indicator-item__text {
+  @include pds-semantic-body-sm;
+
+  position: relative;
+  display: flex;
+  flex-direction: var(--pds-step-indicator-item-direction);
+  align-items: var(--pds-step-indicator-item-align);
+  margin-bottom: size(2);
+  margin-left: var(--pds-step-indicator-item-step-margin);
+  margin-right: var(--pds-step-indicator-item-step-margin);
+  padding: size(1);
+  max-width: size(40);
+  color: var(--pds-step-indicator-item-text-incomplete);
+
+  .pds-c-step-indicator-item--completed & {
+    color: var(--pds-step-indicator-item-text-completed);
+  }
+
+  .pds-c-step-indicator-item--current & {
+    @include pds-semantic-body-bold-sm;
+
+    color: var(--pds-step-indicator-item-text-current);
+  }
+
+  // stylelint-disable no-descending-specificity
+  // (this needs to be before the next selector so that the hover styles apply)
+  // active link
+  .pds-c-step-indicator-item--active.pds-c-step-indicator-item--interactive & {
+    --pds-step-indicator-item-circle-completed-bg: var(
+      --pds-step-indicator-item-circle-completed-bg-active
+    );
+    --pds-step-indicator-item-circle-current-bg: var(
+      --pds-step-indicator-item-circle-current-bg-active
+    );
+    --pds-step-indicator-item-circle-current-border: var(
+      --pds-step-indicator-item-circle-current-border-active
+    );
+
+    @include pds-semantic-body-bold-sm;
+
+    color: var(--pds-step-indicator-item-text-interactive-active);
+  }
+
+  .pds-c-step-indicator-item--interactive & {
+    @include pds-semantic-body-bold-sm;
+
+    text-decoration: none;
+    color: var(--pds-step-indicator-item-text-interactive);
+
+    &:hover {
+      // controlling it in the variable, rather than a complicated CSS selector
+      --pds-step-indicator-item-circle-completed-bg: var(
+        --pds-step-indicator-item-circle-completed-bg-hover
+      );
+      --pds-step-indicator-item-circle-current-bg: var(
+        --pds-step-indicator-item-circle-current-bg-hover
+      );
+      --pds-step-indicator-item-circle-current-border: var(
+        --pds-step-indicator-item-circle-current-border-hover
+      );
+
+      color: var(--pds-step-indicator-item-text-interactive-hover);
+    }
+
+    &:active {
+      // controlling it in the variable, rather than a complicated CSS selector
+      --pds-step-indicator-item-circle-completed-bg: var(
+        --pds-step-indicator-item-circle-completed-bg-active
+      );
+      --pds-step-indicator-item-circle-current-bg: var(
+        --pds-step-indicator-item-circle-current-bg-active
+      );
+      --pds-step-indicator-item-circle-current-border: var(
+        --pds-step-indicator-item-circle-current-border-active
+      );
+
+      color: var(--pds-step-indicator-item-text-interactive-active);
+    }
+  }
+}
+
+.pds-c-step-indicator-item__circle {
+  position: relative;
+  top: var(--pds-step-indicator-item-circle-top);
+  display: block;
+  flex-shrink: 0;
+  margin-right: size(1);
+  height: size(2.25);
+  width: size(2.25);
+  background-size: cover;
+  z-index: 2;
+}
+
+.pds-c-step-indicator-item__outer-circle {
+  .pds-c-step-indicator-item--completed & {
+    background: var(--pds-step-indicator-item-circle-completed-bg);
+    height: size(2.25);
+    width: size(2.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pds-c-step-indicator-item--current & {
+    border-color: var(--pds-step-indicator-item-circle-current-border);
+    border-style: solid;
+    height: size(2);
+    width: size(2);
+    border-radius: 50%;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pds-c-step-indicator-item--incomplete & {
+    border-color: var(--pds-step-indicator-item-circle-incomplete-border);
+    border-radius: 50%;
+    border-style: solid;
+    height: size(2);
+    width: size(2);
+    border-width: thin;
+  }
+
+  .pds-c-step-indicator-item__inner-circle {
+    fill: none;
+
+    .pds-c-step-indicator-item--current & {
+      background-color: var(--pds-step-indicator-item-circle-current-bg);
+    }
+  }
+
+  .pds-c-step-indicator-item__icon {
+    color: var(--pds-step-indicator-item-circle-completed-check);
+    display: inline-block;
+
+    .pds-c-step-indicator-item--inverted & {
+      color: var(--pds-step-indicator-item-circle-completed-check);
+    }
+  }
+}
+
+.pds-c-step-indicator-item__inner-circle {
+  fill: none;
+
+  .pds-c-step-indicator-item--current & {
+    background: var(--pds-step-indicator-item-circle-current-bg);
+    display: inline-block;
+    height: size(1.5);
+    width: size(1.5);
+    border-radius: 50%;
+  }
+}

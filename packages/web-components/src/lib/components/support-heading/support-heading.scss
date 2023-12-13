@@ -1,0 +1,106 @@
+/*------------------------------------*\
+ #SUPPORT_HEADING
+\*------------------------------------*/
+
+:host {
+  display: block;
+  width: 100%; // Used for within section header otherwise lines won't show up
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box; // Override Box-sizing
+}
+
+/**
+ * Support heading: creates two horizontal lines around text content
+*/
+.pds-c-support-heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  white-space: nowrap;
+
+  /**
+    * Line to the left of the body
+  */
+  &::before {
+    content: '';
+    display: block;
+    border-bottom: 1px solid var(--pds-semantic-border-default);
+    width: 100%;
+  }
+
+  /**
+    * Line to the right of the body
+  */
+  &::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid var(--pds-semantic-border-default);
+    width: 100%;
+  }
+}
+
+.pds-c-support-heading--default {
+  color: var(--pds-semantic-text-default);
+}
+
+/**
+  * Adds a background color and white font for inverted variant
+*/
+.pds-c-support-heading--inverted {
+  background-color: var(--pds-semantic-background-brand-xstrong);
+  color: var(--pds-semantic-text-inverted-default);
+
+  /**
+      * Line to the left of the body
+    */
+  &::before {
+    border-bottom: 1px solid var(--pds-semantic-border-inverted-default);
+  }
+
+  /**
+      * Line to the right of the body
+    */
+  &::after {
+    border-bottom: 1px solid var(--pds-semantic-border-inverted-default);
+  }
+}
+
+.pds-c-support-heading__body {
+  padding: 0 size(2);
+
+  /**
+      * If parent element class is headline-default or headline-sm, add an offset light blue background
+      *
+    */
+  .pds-c-support-heading--headline-default &,
+  .pds-c-support-heading--headline-sm & {
+    position: relative;
+    z-index: 2;
+    padding: size(1) size(2) size(2);
+    margin-left: size(3);
+    margin-right: size(2);
+    background: var(--pds-semantic-background-brand-default);
+    // Exception to token rule: background token on border property, making background larger using borders to maintain proper offset
+    border-bottom: 2px solid var(--pds-semantic-background-brand-default);
+    border-right: 2px solid var(--pds-semantic-background-brand-default);
+
+    /**
+      * Adds a border with an offset that wraps the text
+    */
+    &::before {
+      content: '';
+      border: 2px solid var(--pds-semantic-border-info);
+      position: absolute;
+      top: size(-1);
+      left: size(-1);
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Table Default 1`] = `
+"<pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Expandable row 1`] = `
+"<pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Fixed height 1`] = `
+"<pds-table fixedheight="300px" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Fixed height and sticky header 1`] = `
+"<pds-table fixedheight="300px" ?stickyheader="true" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Fixed height and sticky header and sticky column 1`] = `
+"<pds-table fixedheight="300px" ?stickyheader="true" ?stickycolumn="true" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Hoverable rows 1`] = `
+"<pds-table ?hoverablerows="true" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Sticky column 1`] = `
+"<pds-table ?stickycolumn="true" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Sticky header 1`] = `
+"<pds-table ?stickyheader="true" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Striped even 1`] = `
+"<pds-table striped="even" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Striped odd 1`] = `
+"<pds-table striped="odd" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;
+
+exports[`Storyshots Components/Table Without border 1`] = `
+"<pds-table ?removeborder="true" class="pds-c-table--with-border" style="--pds-table-column-percentage: Infinity%;">
+      ,
+    </pds-table>"
+`;

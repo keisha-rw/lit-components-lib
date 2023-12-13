@@ -1,0 +1,96 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #TEXT_INPUT_MIXIN
+\*------------------------------------*/
+
+@mixin pds-text-input-label {
+  @include pds-semantic-form-label-default;
+
+  display: block;
+  color: var(--pds-semantic-text-default);
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+}
+
+@mixin pds-text-input-required-indicator {
+  color: var(--pds-semantic-text-error);
+}
+
+@mixin pds-text-input-help-text {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-default);
+  line-height: size(2.25);
+  margin-bottom: size(1);
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+}
+
+@mixin pds-text-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+@mixin pds-text-input {
+  @include pds-semantic-body-default;
+
+  display: flex;
+  width: 100%;
+  height: size(6);
+  padding-left: size(2);
+  padding-right: size(2);
+  border-radius: size(0.5);
+  background-color: var(--pds-semantic-background-default);
+  border: 1px solid var(--pds-semantic-border-strong);
+  box-shadow: none;
+  color: var(--pds-semantic-text-default);
+  // need to check if these are still needed
+  // appearance: none;
+  // -moz-appearance: textfield;
+
+  &:hover {
+    background-color: var(--pds-semantic-background-subtle);
+    border-color: var(--pds-semantic-border-interactive-strong);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    background-color: var(--pds-semantic-background-subtle);
+    border-color: var(--pds-semantic-border-interactive-xstrong);
+    box-shadow: 0 0 size(1) var(--pds-semantic-border-interactive-xstrong);
+  }
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    background-color: var(--pds-semantic-background-disabled);
+    border-color: var(--pds-semantic-border-disabled);
+    box-shadow: none;
+  }
+
+  .pds-is-error & {
+    border-color: var(--pds-semantic-border-error);
+
+    &:focus {
+      box-shadow: 0 0 size(0.5) var(--pds-semantic-border-error);
+    }
+  }
+}
+
+@mixin pds-text-input-error-message {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-error);
+  display: flex;
+  align-items: center;
+  gap: size(1);
+  margin-top: size(0.25);
+}

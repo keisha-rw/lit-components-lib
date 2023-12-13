@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Text area Basic 1`] = `
+"<pds-text-area name="basicTextArea" label="A sample basic PDS text area" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="basicTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample basic PDS text area</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="basicTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="basicTextArea" id="basicTextArea-field" aria-invalid="true" aria-describedby="basicTextArea-help-text basicTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="basicTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Disabled 1`] = `
+"<pds-text-area name="disabledTextArea" ?disabled="true" label="A sample disabled PDS text area" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="disabledTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample disabled PDS text area</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="disabledTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="disabledTextArea" id="disabledTextArea-field" aria-invalid="true" aria-describedby="disabledTextArea-help-text disabledTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="disabledTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Error 1`] = `
+"<pds-text-area name="errorTextArea" label="A sample basic PDS text area with error message" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="errorTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample basic PDS text area with error message</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="errorTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="errorTextArea" id="errorTextArea-field" aria-invalid="true" aria-describedby="errorTextArea-help-text errorTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="errorTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          Error message goes here.
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Help text 1`] = `
+"<pds-text-area name="helpTextArea" helptext="This is the help text." label="A sample basic PDS text area with help text" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="helpTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample basic PDS text area with help text</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="helpTextArea-help-text">
+          <slot name="help-text">This is the help text.</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="helpTextArea" id="helpTextArea-field" aria-invalid="true" aria-describedby="helpTextArea-help-text helpTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="helpTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Hidden label 1`] = `
+"<pds-text-area name="hiddenLabelTextArea" label="A sample hidden label PDS text area" ?hidelabel="true" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="hiddenLabelTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample hidden label PDS text area</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="hiddenLabelTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="hiddenLabelTextArea" id="hiddenLabelTextArea-field" aria-invalid="true" aria-describedby="hiddenLabelTextArea-help-text hiddenLabelTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="hiddenLabelTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Readonly 1`] = `
+"<pds-text-area name="readonlyTextArea" ?readonly="true" value="Set the value attribute on PDS text area to render default text. The default text is fully editable, unless you set the " readonly"="" or="" "disabled"="" attributes="" to="" true."="" label="A sample readonly PDS text area with default text set via " value"="" attribute"="" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="readonlyTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample readonly PDS text area with default text set via </slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="readonlyTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="readonlyTextArea" id="readonlyTextArea-field" aria-invalid="true" aria-describedby="readonlyTextArea-help-text readonlyTextArea-error-message"><!---->Set the value attribute on PDS text area to render default text. The default text is fully editable, unless you set the <!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="readonlyTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Required 1`] = `
+"<pds-text-area name="requiredTextArea" ?required="true" label="A sample required PDS text area" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="requiredTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample required PDS text area</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="requiredTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="requiredTextArea" id="requiredTextArea-field" aria-invalid="true" aria-describedby="requiredTextArea-help-text requiredTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="requiredTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Resize manual 1`] = `
+"<pds-text-area name="resizeManual" resize="manual" label="A sample PDS text area with resize of " manual""="" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="resizeManual-field" class="pds-c-text-area__label">
+      <slot name="label">A sample PDS text area with resize of </slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="resizeManual-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="resizeManual" id="resizeManual-field" resize="manual" aria-invalid="true" aria-describedby="resizeManual-help-text resizeManual-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="resizeManual-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Resize none 1`] = `
+"<pds-text-area name="resizeNone" resize="none" label="A sample PDS text area with resize of " none""="" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="resizeNone-field" class="pds-c-text-area__label">
+      <slot name="label">A sample PDS text area with resize of </slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="resizeNone-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="resizeNone" id="resizeNone-field" resize="none" aria-invalid="true" aria-describedby="resizeNone-help-text resizeNone-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="resizeNone-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Resize smart 1`] = `
+"<pds-text-area name="resizeSmart" resize="smart" label="A sample PDS text area with resize of " smart""="" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="resizeSmart-field" class="pds-c-text-area__label">
+      <slot name="label">A sample PDS text area with resize of </slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="resizeSmart-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="resizeSmart" id="resizeSmart-field" resize="smart" aria-invalid="true" aria-describedby="resizeSmart-help-text resizeSmart-error-message" style="height: 2px;"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="resizeSmart-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Resize vertical 1`] = `
+"<pds-text-area name="resizeVertical" resize="vertical" label="A sample PDS text area with resize of " vertical""="" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-is-error ">
+      <label for="resizeVertical-field" class="pds-c-text-area__label">
+      <slot name="label">A sample PDS text area with resize of </slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="resizeVertical-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="resizeVertical" id="resizeVertical-field" resize="vertical" aria-invalid="true" aria-describedby="resizeVertical-help-text resizeVertical-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="resizeVertical-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;
+
+exports[`Storyshots Components/Text area Small 1`] = `
+"<pds-text-area name="smallTextArea" size="sm" label="A sample small PDS text area" aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-text-area pds-c-text-area--sm pds-is-error ">
+      <label for="smallTextArea-field" class="pds-c-text-area__label">
+      <slot name="label">A sample small PDS text area</slot>
+      
+      <slot name="label-after"></slot>
+    </label> <div class="pds-c-text-area__help-text" id="smallTextArea-help-text">
+          <slot name="help-text">undefined</slot>
+        </div>
+      <div class="pds-c-text-area__textarea-wrapper">
+        <textarea class="pds-c-text-area__textarea" name="smallTextArea" id="smallTextArea-field" aria-invalid="true" aria-describedby="smallTextArea-help-text smallTextArea-error-message"><!---->undefined<!----></textarea>
+      </div>
+      <div class="pds-c-text-area__error-message" id="smallTextArea-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          undefined
+        </div>
+    </div><style>default</style></pds-text-area>"
+`;

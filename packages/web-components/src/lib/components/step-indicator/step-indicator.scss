@@ -1,0 +1,244 @@
+/* stylelint-disable string-no-newline */
+@import '../../../style-utils/svg';
+
+/*------------------------------------*\
+ #STEP_INDICATOR
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-step-indicator {
+  // setting local css variables for this component so we can control
+  // the step indicator items based on props on this parent component
+
+  /** Text colors */
+  --pds-step-indicator-item-text-completed: var(--pds-semantic-text-subtle);
+  --pds-step-indicator-item-text-current: var(--pds-semantic-text-default);
+  --pds-step-indicator-item-text-incomplete: var(--pds-semantic-text-subtle);
+  --pds-step-indicator-item-text-interactive: var(
+    --pds-semantic-text-interactive-default
+  );
+  --pds-step-indicator-item-text-interactive-hover: var(
+    --pds-semantic-text-interactive-strong
+  );
+  --pds-step-indicator-item-text-interactive-active: var(
+    --pds-semantic-text-interactive-xstrong
+  );
+
+  /** Line colors */
+  --pds-step-indicator-item-after-completed-border: var(
+    --pds-semantic-border-interactive-default
+  );
+  --pds-step-indicator-item-after-incomplete-border: var(
+    --pds-semantic-border-default
+  );
+
+  /** Circle icons */
+
+  // completed
+  --pds-step-indicator-item-circle-completed-bg: var(
+    --pds-semantic-background-interactive-default
+  );
+  --pds-step-indicator-item-circle-completed-bg-hover: var(
+    --pds-semantic-background-interactive-strong
+  );
+  --pds-step-indicator-item-circle-completed-bg-active: var(
+    --pds-semantic-background-interactive-xstrong
+  );
+  --pds-step-indicator-item-circle-completed-check: var(
+    --pds-semantic-border-inverted-default
+  );
+
+  // current
+  --pds-step-indicator-item-circle-current-border: var(
+    --pds-semantic-border-interactive-default
+  );
+  --pds-step-indicator-item-circle-current-bg: var(
+    --pds-semantic-background-interactive-default
+  );
+  --pds-step-indicator-item-circle-current-border-hover: var(
+    --pds-semantic-border-interactive-strong
+  );
+  --pds-step-indicator-item-circle-current-bg-hover: var(
+    --pds-semantic-background-interactive-strong
+  );
+  --pds-step-indicator-item-circle-current-border-active: var(
+    --pds-semantic-border-interactive-xstrong
+  );
+  --pds-step-indicator-item-circle-current-bg-active: var(
+    --pds-semantic-background-interactive-xstrong
+  );
+
+  // incomplete
+  --pds-step-indicator-item-circle-incomplete-border: var(
+    --pds-semantic-border-default
+  );
+
+  /** Layout */
+  --pds-step-indicator-item-direction: row;
+  --pds-step-indicator-item-align: top;
+  --pds-step-indicator-item-step-margin: 0;
+  --pds-step-indicator-item-circle-top: 2px; // magic number to align circle with text
+}
+
+.pds-c-step-indicator--inverted {
+  /** Text colors */
+  --pds-step-indicator-item-text-completed: var(
+    --pds-semantic-text-inverted-default
+  );
+  --pds-step-indicator-item-text-current: var(
+    --pds-semantic-text-inverted-default
+  );
+  --pds-step-indicator-item-text-incomplete: var(
+    --pds-semantic-text-inverted-default
+  );
+  --pds-step-indicator-item-text-interactive: var(
+    --pds-semantic-text-inverted-default
+  );
+  --pds-step-indicator-item-text-interactive-hover: var(
+    --pds-semantic-text-interactive-inverted-strong
+  );
+  --pds-step-indicator-item-text-interactive-active: var(
+    --pds-semantic-text-interactive-inverted-xstrong
+  );
+
+  /** Line colors */
+  --pds-step-indicator-item-after-completed-border: var(
+    --pds-semantic-border-inverted-default
+  );
+  --pds-step-indicator-item-after-incomplete-border: var(
+    --pds-semantic-border-inverted-default
+  );
+
+  /** Circle icons */
+
+  // completed
+  --pds-step-indicator-item-circle-completed-bg: var(
+    --pds-semantic-background-default
+  );
+  --pds-step-indicator-item-circle-completed-bg-hover: var(
+    --pds-semantic-background-interactive-inverted-strong
+  );
+  --pds-step-indicator-item-circle-completed-bg-active: var(
+    --pds-semantic-background-interactive-inverted-xstrong
+  );
+  --pds-step-indicator-item-circle-completed-check: var(
+    --pds-semantic-border-interactive-default
+  );
+
+  // current
+  --pds-step-indicator-item-circle-current-border: var(
+    --pds-semantic-border-inverted-default
+  );
+  --pds-step-indicator-item-circle-current-bg: var(
+    --pds-semantic-background-default
+  );
+  --pds-step-indicator-item-circle-current-border-hover: var(
+    --pds-semantic-border-interactive-inverted-strong
+  );
+  --pds-step-indicator-item-circle-current-bg-hover: var(
+    --pds-semantic-background-interactive-inverted-strong
+  );
+  --pds-step-indicator-item-circle-current-border-active: var(
+    --pds-semantic-border-interactive-inverted-xstrong
+  );
+  --pds-step-indicator-item-circle-current-bg-active: var(
+    --pds-semantic-background-interactive-inverted-xstrong
+  );
+
+  // incomplete
+  --pds-step-indicator-item-circle-incomplete-border: var(
+    --pds-semantic-border-inverted-default
+  );
+}
+
+.pds-c-step-indicator__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .pds-c-step-indicator--horizontal & {
+    @media all and (min-width: $pds-bp-lg) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+// apply the connector line to all the items, expect the last
+::slotted(pds-step-indicator-item:not(:last-child)) {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    // magic numbers to dotted align the line correctly
+    top: 27px;
+    left: 15.5px;
+    // 100% minus the size of the circle with 1px overlap
+    height: calc(100% - 16px);
+    width: 3px;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-image: todatauri(
+      '<svg viewBox="0 0 20 20" height="8" width="8"> \
+        <circle r="3" cx="10" cy="10" fill="#c5c6c5" /> \
+      </svg>'
+    );
+
+    .pds-c-step-indicator--inverted & {
+      background-image: todatauri(
+        '<svg viewBox="0 0 20 20" height="8" width="8"> \
+          <circle r="3" cx="10" cy="10" fill="#ffffff" /> \
+        </svg>'
+      );
+    }
+  }
+}
+
+::slotted(pds-step-indicator-item[status='completed']) {
+  &::after {
+    // magic number to align the line correctly
+    left: 16px;
+    width: 0;
+    border-color: var(--pds-step-indicator-item-after-completed-border);
+    border-style: solid;
+    border-width: 0 0 0 2px;
+  }
+}
+
+.pds-c-step-indicator--horizontal {
+  @media all and (min-width: $pds-bp-lg) {
+    /** Layout */
+    --pds-step-indicator-item-direction: column;
+    --pds-step-indicator-item-align: center;
+    --pds-step-indicator-item-step-margin: auto;
+    --pds-step-indicator-item-circle-top: 0;
+
+    ::slotted(pds-step-indicator-item) {
+      // horizontal line
+      &::after {
+        // magic number to align the dotted line correctly
+        top: 16px;
+        // half way plus a litle more for the circle
+        left: calc(50% + 4px);
+        height: 3px;
+        // 100% minus the size of the circle with 1px overlap
+        width: calc(100% - 16px);
+      }
+    }
+
+    ::slotted(pds-step-indicator-item[status='completed']) {
+      &::after {
+        // magic numbers to align the solid line correctly
+        top: 16.5px;
+        height: 0;
+        border-width: 2px 0 0;
+      }
+    }
+  }
+}

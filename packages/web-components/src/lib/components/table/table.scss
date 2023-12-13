@@ -1,0 +1,341 @@
+/*------------------------------------*\
+ #TABLE
+\*------------------------------------*/
+
+pds-table {
+  position: relative;
+  display: block;
+}
+
+.pds-c-table__td,
+.pds-c-table__th {
+  vertical-align: middle;
+  height: size(3.5);
+  text-align: left;
+  padding: size(2);
+}
+
+.pds-c-table__th {
+  @include pds-semantic-label-default;
+
+  border-bottom: 1px solid var(--pds-semantic-border-subtle);
+}
+
+.pds-c-table__td {
+  @include pds-semantic-body-default;
+
+  border-bottom: 1px solid var(--pds-semantic-border-subtle);
+
+  .pds-c-table__expandable-row > & {
+    padding: 0;
+    width: auto;
+    border: none;
+  }
+
+  &:first-child {
+    .pds-c-table__expandable-row-wrapper
+      > .pds-c-table__expandable-row-table
+      > .pds-c-table__tr:not(:first-child)
+      & {
+      padding-left: size(7);
+    }
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .pds-c-table__tr:not(.pds-c-table__expandable-row, :last-child) & {
+    border-bottom: 1px solid var(--pds-semantic-border-subtle);
+  }
+}
+
+.pds-c-table__th:first-child {
+  .pds-c-table__expandable-row & {
+    padding-left: size(2);
+  }
+}
+
+.pds-c-table__tr {
+  width: 100%;
+
+  .pds-c-table__expandable-row--is-expandable &:not(:first-child) {
+    background: var(--pds-semantic-background-subtle);
+  }
+}
+
+.pds-c-table__thead {
+  @include pds-semantic-label-default;
+
+  > .pds-c-table__tr > .pds-c-table__th {
+    border-bottom: 1px solid var(--pds-semantic-border-subtle);
+
+    &:first-child {
+      .pds-c-table__expandable-row & {
+        padding-left: size(2);
+      }
+    }
+  }
+
+  &:not(.pds-c-table--is-pinned) > .pds-c-table__tr {
+    /* stylelint-disable-next-line no-descending-specificity */
+    > .pds-c-table__th {
+      &:first-child {
+        border-top-left-radius: size(1);
+      }
+
+      &:last-child {
+        border-top-right-radius: size(1);
+      }
+    }
+  }
+
+  .pds-c-table--sticky-header .pds-c-table & {
+    position: sticky;
+    // this has to be set for sticky positioning to work
+    top: -0.1px;
+    background-color: var(--pds-semantic-background-default);
+    z-index: 1;
+  }
+}
+
+.pds-c-table {
+  color: var(--pds-semantic-text-default);
+  border-spacing: 0;
+  table-layout: fixed;
+  min-width: 100%;
+
+  // this is a complicated-looking selector, but it serves to make sure that these styles only get applied to the intended table elements, and not user-slotted interior table
+  // elements (such as a table within an expandable row)
+  .pds-c-table__has-collapsible-rows > & {
+    /* stylelint-disable-next-line no-descending-specificity */
+    > .pds-c-table__tbody > .pds-c-table__tr > .pds-c-table__td,
+    .pds-c-table__expandable-row-table
+      > .pds-c-table__tbody
+      > .pds-c-table__tr
+      > .pds-c-table__td,
+    > .pds-c-table__thead > .pds-c-table__tr > .pds-c-table__th {
+      width: var(--pds-table-column-percentage);
+      min-width: size(25);
+    }
+  }
+
+  .pds-c-table--with-border & {
+    border: 1px solid var(--pds-semantic-border-subtle);
+    border-radius: size(1);
+  }
+
+  .pds-c-table__wrapper:not(.pds-c-table--with-border) & {
+    .pds-c-table__tr:last-child .pds-c-table__td {
+      border-bottom: 1px solid var(--pds-semantic-border-subtle);
+    }
+  }
+
+  .pds-c-table--sticky-header .pds-c-table--with-border & {
+    border-top: 1px solid var(--pds-semantic-border-subtle);
+    border-right: 1px solid var(--pds-semantic-border-subtle);
+    border-radius: size(1);
+  }
+
+  .pds-c-table--with-border.pds-c-table--fixed-height & {
+    border-top: 0;
+  }
+}
+
+.pds-c-table--can-be-scrolled-left:not([stickycolumn]) .pds-c-table::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: var(--pds-table-vertical-scroller-offset, 0);
+  width: size(1);
+  /* stylelint-disable-next-line prettier/prettier */
+  height: calc(
+    var(--pds-table-fixed-height, 100%) - var(
+        --pds-table-vertical-scroller-offset,
+        0
+      )
+  );
+  border-top-left-radius: size(1);
+  border-bottom-left-radius: size(1);
+  background-image: var(--pds-component-table-shadow-scroll-left);
+  z-index: 2;
+}
+
+.pds-c-table--can-be-scrolled-up:not(.pds-c-table--sticky-header)
+  .pds-c-table::after {
+  content: '';
+  position: absolute;
+  bottom: calc(var(--pds-table-fixed-height, 0) - size(0.5));
+  width: calc(100% - var(--pds-table-horizontal-scroller-offset, 0));
+  height: size(1);
+  border-top-right-radius: size(1);
+  border-top-left-radius: size(1);
+  background-image: var(--pds-component-table-shadow-scroll-up);
+}
+
+.pds-c-table--is-pinned tr::after {
+  content: '';
+  position: absolute;
+  top: var(--pds-table-pinned-offset, 0);
+  left: 0;
+  width: 100%;
+  height: size(1);
+  background-image: var(--pds-component-table-shadow-scroll-up);
+  z-index: 2;
+}
+
+.pds-c-table__expandable-row-table {
+  border-spacing: 0;
+  table-layout: fixed;
+  min-width: 100%;
+}
+
+.pds-c-table__toggle {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.25s ease-in;
+  margin-right: size(2);
+
+  .pds-c-table__expandable-row--is-collapsed & {
+    transform: rotate(180deg);
+  }
+}
+
+.pds-c-table--sticky-header
+  > .pds-c-table
+  > .pds-c-table__thead
+  > .pds-c-table__tr
+  > .pds-c-table__th:first-child {
+  border-top-left-radius: size(0.75);
+}
+
+.pds-c-table--sticky-header
+  > .pds-c-table
+  > .pds-c-table__thead
+  > .pds-c-table__tr
+  > .pds-c-table__th:last-child {
+  border-top-right-radius: size(0.75);
+}
+
+.pds-c-table--with-border {
+  .pds-c-table--sticky-header & {
+    border-bottom: 1px solid var(--pds-semantic-border-subtle);
+    border-radius: size(1);
+  }
+}
+
+// omit tables with expandable rows, as these cannot be supported due to structure
+[stickycolumn]:not(.pds-c-table__has-expandable-rows) {
+  .pds-c-table--with-border {
+    border-top-left-radius: size(1);
+    border-bottom-left-radius: size(1);
+    border-left: 1px solid var(--pds-semantic-border-subtle);
+
+    .pds-c-table {
+      border-left: 0;
+    }
+  }
+
+  // these are complicated-looking selectors, but it serves to make sure that these styles only get applied to the intended table elements, and not user-slotted interior table elements (such as a table within an expandable row)
+  > .pds-c-table > .pds-c-table__thead > .pds-c-table__tr > .pds-c-table__th {
+    z-index: 1;
+  }
+
+  > .pds-c-table
+    > .pds-c-table__thead
+    > .pds-c-table__tr
+    > .pds-c-table__th:first-child {
+    z-index: 2;
+  }
+
+  > .pds-c-table
+    > .pds-c-table__thead
+    > .pds-c-table__tr
+    > .pds-c-table__th:first-child,
+  > .pds-c-table
+    > .pds-c-table__tbody
+    > .pds-c-table__tr
+    > .pds-c-table__td:first-child {
+    background-color: var(--pds-semantic-background-default);
+    left: 0;
+    position: sticky;
+    z-index: 1;
+  }
+
+  &.pds-c-table--can-be-scrolled-left
+    > .pds-c-table
+    > .pds-c-table__thead
+    > .pds-c-table__tr
+    > .pds-c-table__th:first-child,
+  &.pds-c-table--can-be-scrolled-left
+    > .pds-c-table
+    > .pds-c-table__tbody
+    > .pds-c-table__tr
+    > .pds-c-table__td:first-child {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: size(-1);
+      bottom: 0;
+      width: size(1);
+      background-image: var(--pds-component-table-shadow-scroll-left);
+    }
+  }
+
+  > .pds-c-table
+    > .pds-c-table__thead
+    > .pds-c-table__tr:first-child
+    > .pds-c-table__th:first-child {
+    border-top-left-radius: size(1);
+  }
+}
+
+.pds-c-table__toggle-column {
+  width: size(3);
+  white-space: nowrap;
+}
+
+.pds-c-table__tbody > .pds-c-table__tr:hover {
+  .pds-c-table--hoverable-rows & {
+    background: var(--pds-semantic-background-interactive-neutral-xstrong);
+  }
+}
+
+.pds-c-table--striped-odd > {
+  .pds-c-table__tbody > {
+    .pds-c-table__tr:nth-child(odd) {
+      background-color: var(--pds-semantic-background-subtle);
+    }
+  }
+}
+
+.pds-c-table--striped-even > {
+  .pds-c-table__tbody > {
+    .pds-c-table__tr:nth-child(even) {
+      background-color: var(--pds-semantic-background-subtle);
+    }
+  }
+}
+
+.pds-c-table__expandable-row-wrapper {
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+
+  overflow: hidden;
+  transition: height 0.4s ease-out;
+  height: var(--pds-table-tbody-height, auto);
+  will-change: height;
+}
+
+.pds-c-table__expandable-row__cell-wrapper {
+  display: flex;
+}
+
+// This is used to override the default min-width of the table column.
+// It has to be important to make the override work.
+.pds-c-table__column--fixed-width {
+  width: auto;
+  min-width: var(--pds-table-column-fixed-width, auto) !important;
+}

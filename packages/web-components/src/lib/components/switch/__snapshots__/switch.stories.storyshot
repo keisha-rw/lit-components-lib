@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Switch Activated 1`] = `
+"<pds-switch name="activeSwitch" label="This is a active switch" ?disabled="," ?checked="," ?labelright="true"><!----><div class=" pds-c-switch ">
+      <input type="checkbox" role="switch" class="pds-c-switch__input" name="activeSwitch" id="activeSwitch-field" value="">
+       <label for="activeSwitch-field" class="pds-c-switch__label"><span class="pds-c-switch__label-text">
+              <slot name="label">This is a active switch</slot>
+            </span>
+            <span class="pds-c-switch__slider"></span>
+      <slot name="label-after"></slot>
+    </label>
+    </div><style>default</style></pds-switch>"
+`;
+
+exports[`Storyshots Components/Switch Active disabled 1`] = `
+"<pds-switch name="DisabledActiveSwitch" label="This is a disabled active switch" ?disabled="," ?checked="," ?hidelabel="true" ?labelright="true"><!----><div class=" pds-c-switch ">
+      <input type="checkbox" role="switch" class="pds-c-switch__input" name="DisabledActiveSwitch" id="DisabledActiveSwitch-field" value="">
+       <label for="DisabledActiveSwitch-field" class="pds-c-switch__label"><span class="pds-c-switch__label-text">
+              <slot name="label">This is a disabled active switch</slot>
+            </span>
+            <span class="pds-c-switch__slider"></span>
+      <slot name="label-after"></slot>
+    </label>
+    </div><style>default</style></pds-switch>"
+`;
+
+exports[`Storyshots Components/Switch Default 1`] = `
+"<pds-switch label="This is a switch" ?disabled="," ?checked=","><!----><div class=" pds-c-switch ">
+      <input type="checkbox" role="switch" class="pds-c-switch__input" id="undefined-field" value="">
+       <label for="undefined-field" class="pds-c-switch__label"><span class="pds-c-switch__label-text">
+              <slot name="label">This is a switch</slot>
+            </span>
+            <span class="pds-c-switch__slider"></span>
+      <slot name="label-after"></slot>
+    </label>
+    </div><style>default</style></pds-switch>"
+`;
+
+exports[`Storyshots Components/Switch Disabled 1`] = `
+"<pds-switch name="disabledSwitch" label="This is a disabled switch" ?disabled="," ?checked="," ?hidelabel="true"><!----><div class=" pds-c-switch ">
+      <input type="checkbox" role="switch" class="pds-c-switch__input" name="disabledSwitch" id="disabledSwitch-field" value="">
+       <label for="disabledSwitch-field" class="pds-c-switch__label"><span class="pds-c-switch__label-text">
+              <slot name="label">This is a disabled switch</slot>
+            </span>
+            <span class="pds-c-switch__slider"></span>
+      <slot name="label-after"></slot>
+    </label>
+    </div><style>default</style></pds-switch>"
+`;
+
+exports[`Storyshots Components/Switch Label 1`] = `
+"<pds-switch label="Switch label" ?disabled="," ?checked=","><!----><div class=" pds-c-switch ">
+      <input type="checkbox" role="switch" class="pds-c-switch__input" id="undefined-field" value="">
+       <label for="undefined-field" class="pds-c-switch__label"><span class="pds-c-switch__label-text">
+              <slot name="label">Switch label</slot>
+            </span>
+            <span class="pds-c-switch__slider"></span>
+      <slot name="label-after"></slot>
+    </label>
+    </div><style>default</style></pds-switch>"
+`;
+
+exports[`Storyshots Components/Switch Label right 1`] = `
+"<pds-switch label="Switch label" ?disabled="," ?checked=","><!----><div class=" pds-c-switch ">
+      <input type="checkbox" role="switch" class="pds-c-switch__input" id="undefined-field" value="">
+       <label for="undefined-field" class="pds-c-switch__label"><span class="pds-c-switch__label-text">
+              <slot name="label">Switch label</slot>
+            </span>
+            <span class="pds-c-switch__slider"></span>
+      <slot name="label-after"></slot>
+    </label>
+    </div><style>default</style></pds-switch>"
+`;

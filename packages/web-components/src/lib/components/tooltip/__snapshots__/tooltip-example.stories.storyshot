@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/TooltipExample Default 1`] = `
+"<tooltip-example>
+    <pds-tooltip variant=\\"default\\"><!----><div class=\\"c-tooltip-example\\">
+      <slot></slot>
+    </div><style>default</style><pds-button variant=\\"default\\" slot=\\"button\\" type=\\"submit\\"><span>label</span></pds-button>,</pds-tooltip></tooltip-example>"
+`;
+
+exports[`Storyshots Recipes/TooltipExample Inverted 1`] = `
+"<tooltip-example>
+    <pds-tooltip variant=\\"inverted\\"><!----><div class=\\"c-tooltip-example\\">
+      <slot></slot>
+    </div><style>default</style><pds-button variant=\\"default-inverted\\" slot=\\"button\\" type=\\"submit\\"><span>label</span></pds-button>,</pds-tooltip></tooltip-example>"
+`;
+
+exports[`Storyshots Recipes/TooltipExample Inverted Subtle 1`] = `
+"<tooltip-example>
+    <pds-tooltip variant=\\"subtle\\"><!----><div class=\\"c-tooltip-example\\">
+      <slot></slot>
+    </div><style>default</style><pds-button variant=\\"default-inverted\\" slot=\\"button\\" type=\\"submit\\"><span>label</span></pds-button>,</pds-tooltip></tooltip-example>"
+`;
+
+exports[`Storyshots Recipes/TooltipExample Subtle 1`] = `
+"<tooltip-example>
+    <pds-tooltip variant=\\"subtle\\"><!----><div class=\\"c-tooltip-example\\">
+      <slot></slot>
+    </div><style>default</style><pds-button variant=\\"default\\" slot=\\"button\\" type=\\"submit\\"><span>label</span></pds-button>,</pds-tooltip></tooltip-example>"
+`;

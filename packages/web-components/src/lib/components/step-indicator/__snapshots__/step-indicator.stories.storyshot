@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Step indicator Horizontal 1`] = `
+"<pds-step-indicator>
+      <pds-step-indicator-item status="completed" inverted="">
+        <span>Step one</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="current" active="" inverted="">
+        <span>Step two is longer and wraps to the second line</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step three</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step four</span>
+      </pds-step-indicator-item>
+    </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Horizontal interactive 1`] = `
+"<pds-step-indicator ?interactive="true">
+        <pds-step-indicator-item status="completed" href="#" inverted="">
+          Step one
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="current" href="#" active="" inverted="">
+          Step two is longer and wraps to the second line
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="incomplete" inverted="">
+          <span>Step three</span>
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="incomplete" inverted="">
+          <span>Step four</span>
+        </pds-step-indicator-item>
+      </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Horizontal interactive inverted 1`] = `
+"<pds-step-indicator ?interactive="true" ?inverted="true">
+        <pds-step-indicator-item status="completed" href="#" inverted="">
+          Step one
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="current" href="#" active="" inverted="">
+          Step two is longer and wraps to the second line
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="incomplete" inverted="">
+          <span>Step three</span>
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="incomplete" inverted="">
+          <span>Step four</span>
+        </pds-step-indicator-item>
+      </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Horizontal inverted 1`] = `
+"<pds-step-indicator ?inverted="true">
+      <pds-step-indicator-item status="completed" inverted="">
+        <span>Step one</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="current" active="" inverted="">
+        <span>Step two is longer and wraps to the second line</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step three</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step four</span>
+      </pds-step-indicator-item>
+    </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Previous step active 1`] = `
+"<pds-step-indicator variant="horizontal" interactive="">
+      <pds-step-indicator-item status="completed" href="#" active="" inverted="">
+        Step one
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="current" href="#" inverted="">
+        Step two is longer and wraps to the second line
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step three</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step four</span>
+      </pds-step-indicator-item>
+    </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Previous step active inverted 1`] = `
+"<pds-step-indicator variant="horizontal" interactive="" inverted="">
+      <pds-step-indicator-item status="completed" href="#" active="" inverted="">
+        Step one
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="current" href="#" inverted="">
+        Step two is longer and wraps to the second line
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step three</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step four</span>
+      </pds-step-indicator-item>
+    </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Vertical 1`] = `
+"<pds-step-indicator variant="vertical">
+      <pds-step-indicator-item status="completed" inverted="">
+        <span>Step one</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="current" active="" inverted="">
+        <span>Step two is longer and wraps to the second line</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step three</span>
+      </pds-step-indicator-item>
+      <pds-step-indicator-item status="incomplete" inverted="">
+        <span>Step four</span>
+      </pds-step-indicator-item>
+    </pds-step-indicator>"
+`;
+
+exports[`Storyshots Components/Step indicator Vertical interactive 1`] = `
+"<pds-step-indicator variant="vertical" ?interactive="true">
+        <pds-step-indicator-item status="completed" href="#" inverted="">
+          Step one
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="current" href="#" active="" inverted="">
+          Step two is longer and wraps to the second line
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="incomplete" inverted="">
+          <span>Step three</span>
+        </pds-step-indicator-item>
+        <pds-step-indicator-item status="incomplete" inverted="">
+          <span>Step four</span>
+        </pds-step-indicator-item>
+      </pds-step-indicator>"
+`;

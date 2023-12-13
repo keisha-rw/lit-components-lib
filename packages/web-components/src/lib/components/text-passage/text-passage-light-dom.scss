@@ -1,0 +1,104 @@
+@import '../link/link-mixin';
+@import '../heading/heading-mixin';
+@import '../list/list-mixin';
+
+/*------------------------------------*\
+ #TEXT_PASSAGE
+\*------------------------------------*/
+
+$margin-block-end-standard: calc(1em * 1.5);
+
+pds-text-passage {
+  display: block;
+
+  @include pds-semantic-body-default;
+
+  /**
+  * Bold text
+  */
+  strong {
+    @include pds-semantic-body-bold-default;
+  }
+
+  /**
+  * Link within text passage
+  */
+  a {
+    @include link;
+    @include link-emphasis;
+  }
+
+  /**
+  * Paragraph within text passage
+  */
+  p {
+    margin-block: 0 $margin-block-end-standard;
+  }
+
+  /**
+  * Headings within text passage
+  */
+  @include heading;
+
+  /**
+  * Unordered and ordered lists within text passage
+  */
+  ol,
+  ul {
+    @include list;
+
+    margin-block-end: $margin-block-end-standard;
+
+    a {
+      @include link;
+    }
+
+    p a {
+      @include link;
+      @include link-emphasis;
+    }
+  }
+
+  ol {
+    list-style: decimal;
+    padding-inline-start: size(2);
+  }
+
+  ol ol,
+  ul ul {
+    padding-inline-start: size(2);
+    margin-block-start: $margin-block-end-standard;
+  }
+
+  /**
+  * Blockquote within text passage
+  */
+  blockquote {
+    font-style: italic;
+    border-inline-start: 1px solid var(--pds-semantic-border-default);
+    color: var(--pds-semantic-text-default);
+    padding-inline-start: size(2);
+    margin-inline-start: 0;
+    margin-block-end: $margin-block-end-standard;
+  }
+
+  :last-child {
+    margin-block-end: 0;
+  }
+}
+
+pds-text-passage[size='sm'] {
+  @include pds-semantic-body-sm;
+
+  a {
+    @include pds-semantic-label-sm;
+  }
+}
+
+pds-text-passage[size='lg'] {
+  @include pds-semantic-body-lg;
+
+  a {
+    @include pds-semantic-label-lg;
+  }
+}
