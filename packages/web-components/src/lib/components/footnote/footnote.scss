@@ -1,0 +1,13 @@
+/*------------------------------------*\
+ #FOOTNOTE
+\*------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pds-c-footnote {
+  list-style: none;
+  counter-reset: item;
+  padding-left: size(2);
+}

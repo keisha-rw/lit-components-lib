@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Footer/Footer contact link Custom email inverted 1`] = `"<pds-footer-contact-link variant="inverted" arialabel="Send us a message" linkcategory="email" href="#">Get in touch</pds-footer-contact-link>"`;
+
+exports[`Storyshots Components/Footer/Footer contact link Custom fax 1`] = `"<pds-footer-contact-link linkcategory="fax" arialabel="Send us a fax" href="123-456-7890">123-456-7890</pds-footer-contact-link>"`;
+
+exports[`Storyshots Components/Footer/Footer contact link Custom help 1`] = `"<pds-footer-contact-link linkcategory="help" arialabel="Get some help" href="www.google.com">Additional information</pds-footer-contact-link>"`;
+
+exports[`Storyshots Components/Footer/Footer contact link Custom phone 1`] = `"<pds-footer-contact-link linkcategory="phone" arialabel="Call us toll free" href="tel:123-456-7890">tol:123-456-7890</pds-footer-contact-link>"`;
+
+exports[`Storyshots Components/Footer/Footer contact link Default email 1`] = `"<pds-footer-contact-link linkcategory="," variant="," arialabel="," href="email"><!----><pds-link class=" pds-c-footer-contact-link pds-c-footer-contact-link--, " variant="," href="email" arialabel=","><slot></slot></pds-link><style>default</style></pds-footer-contact-link>"`;
+
+exports[`Storyshots Components/Footer/Footer contact link Default help 1`] = `"<pds-footer-contact-link linkcategory="," variant="," arialabel="," href="help"><!----><pds-link class=" pds-c-footer-contact-link pds-c-footer-contact-link--, " variant="," href="help" arialabel=","><slot></slot></pds-link><style>default</style></pds-footer-contact-link>"`;
+
+exports[`Storyshots Components/Footer/Footer contact link Default phone inverted 1`] = `"<pds-footer-contact-link linkcategory="," variant="," arialabel="," href="phone"><!----><pds-link class=" pds-c-footer-contact-link pds-c-footer-contact-link--, " variant="," href="phone" arialabel=","><slot></slot></pds-link><style>default</style></pds-footer-contact-link>"`;

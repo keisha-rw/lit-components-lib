@@ -1,0 +1,69 @@
+/*------------------------------------*\
+ #HEADING_MIXIN
+\*------------------------------------*/
+
+@mixin heading {
+  .pds-c-heading {
+    margin: 0;
+  }
+
+  .pds-c-heading--display-default {
+    @include pds-semantic-display-default;
+  }
+
+  .pds-c-heading--display-sm {
+    @include pds-semantic-display-sm;
+  }
+
+  .pds-c-heading--headline-lg {
+    @include pds-semantic-headline-lg;
+  }
+
+  .pds-c-heading--headline-default {
+    @include pds-semantic-headline-default;
+  }
+
+  .pds-c-heading--headline-sm {
+    @include pds-semantic-headline-sm;
+  }
+
+  .pds-c-heading--title-lg {
+    @include pds-semantic-title-lg;
+  }
+
+  .pds-c-heading--title-default {
+    @include pds-semantic-title-default;
+  }
+
+  .pds-c-heading--title-sm {
+    @include pds-semantic-title-sm;
+  }
+
+  .pds-c-heading--title-xs {
+    @include pds-semantic-title-xs;
+  }
+
+  .pds-c-heading--label-lg {
+    @include pds-semantic-label-lg;
+  }
+
+  .pds-c-heading--label-default {
+    @include pds-semantic-label-default;
+  }
+
+  .pds-c-heading--label-sm {
+    @include pds-semantic-label-sm;
+  }
+
+  .pds-c-heading--meta-default {
+    @include pds-semantic-meta-default;
+  }
+
+  .pds-c-heading--meta-sm {
+    @include pds-semantic-meta-sm;
+  }
+
+  .pds-c-heading--inverted {
+    color: var(--pds-semantic-text-inverted-default);
+  }
+}

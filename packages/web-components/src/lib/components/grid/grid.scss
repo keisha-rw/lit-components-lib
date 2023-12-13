@@ -1,0 +1,314 @@
+/*------------------------------------*\
+ #GRID
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+/**
+ * 1) Grid layout for items like cards, etc.
+ */
+.pds-l-grid {
+  --gap-size: calc(var(--pds-base-unit) * 3);
+
+  display: flex;
+  flex-flow: column;
+  gap: var(--gap-size);
+}
+
+.pds-l-grid--gap-none {
+  --gap-size: 0;
+
+  gap: var(--gap-size);
+}
+
+.pds-l-grid--gap-sm {
+  --gap-size: var(--pds-base-unit);
+
+  gap: var(--gap-size);
+}
+
+.pds-l-grid--gap-lg {
+  --gap-size: calc(var(--pds-base-unit) * 4);
+
+  gap: var(--gap-size);
+}
+
+/**
+ * 2up grid
+ * 1) Stacked items on small screens to 2 items per row on medium/large screens
+ */
+.pds-l-grid--2up {
+  @media all and (min-width: $pds-bp-lg) {
+    flex-flow: row wrap;
+  }
+}
+
+/**
+ * 2up grid break faster
+ * Break 1 breakpoint smaller than default
+ */
+.pds-l-grid--2up.pds-l-grid--break-faster {
+  @media all and (min-width: $pds-bp-md) {
+    flex-flow: row wrap;
+  }
+}
+
+/**
+ * 1-3up grid
+ * 1) Stacked items on small screens to 3up items per row on medium/large screens
+ */
+.pds-l-grid--1-3up {
+  @media all and (min-width: $pds-bp-md) {
+    flex-flow: row wrap;
+  }
+}
+
+/**
+ * 1-3up grid break faster
+ * Break 1 breakpoint smaller than default
+ */
+.pds-l-grid--1-3up.pds-l-grid--break-faster {
+  @media all and (min-width: $pds-bp-sm) {
+    flex-flow: row wrap;
+  }
+}
+
+/**
+ * 1-2-4up grid
+ * 1) Stacked items on small screens to 2 items per row on medium/large screens
+ */
+.pds-l-grid--1-2-4up {
+  @media all and (min-width: $pds-bp-md) {
+    flex-flow: row wrap;
+  }
+}
+
+/**
+ * 1-2-4up grid break faster
+ * Break 1 breakpoint smaller than default
+ */
+.pds-l-grid--1-2-4up.pds-l-grid--break-faster {
+  @media all and (min-width: $pds-bp-sm) {
+    flex-flow: row wrap;
+  }
+}
+
+/**
+ * side-by-side grid
+ */
+.pds-l-grid--side-by-side {
+  flex-flow: row wrap;
+}
+
+/**
+ * 3up grid
+ * 1) Stacked items on small screens to 2/3up items per row on medium/large screens
+ */
+.pds-l-grid--3up {
+  @media all and (min-width: $pds-bp-md) {
+    flex-flow: row wrap;
+  }
+}
+
+.pds-l-grid--3up.pds-l-grid--break-faster {
+  @media all and (min-width: $pds-bp-sm) {
+    flex-flow: row wrap;
+  }
+}
+
+::slotted(pds-grid-item) {
+  display: block;
+  width: 100%;
+
+  /**
+  * Slotted grid item within 2up Grid
+  */
+  .pds-l-grid--2up > & {
+    @media all and (min-width: $pds-bp-lg) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+  }
+
+  /**
+  * Slotted grid item within 1-3up Grid
+  */
+  .pds-l-grid--1-3up > & {
+    @media all and (min-width: $pds-bp-md) {
+      --gap-total: calc(var(--gap-size) * 2);
+
+      width: calc((100% - var(--gap-total)) / 3);
+    }
+  }
+
+  /**
+  * Slotted grid item within 1-2-4up Grid
+  */
+  .pds-l-grid--1-2-4up > & {
+    @media all and (min-width: $pds-bp-md) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+
+    @media all and (min-width: $pds-bp-lg) {
+      --gap-total: calc(var(--gap-size) * 3);
+
+      width: calc((100% - var(--gap-total)) / 4);
+    }
+  }
+
+  /**
+  * Slotted grid item within side-by-side Grid
+  */
+  .pds-l-grid--side-by-side > & {
+    width: calc((100% - var(--gap-size)) / 2);
+  }
+
+  /**
+  * Slotted grid item within 3up Grid
+  */
+  .pds-l-grid--3up > & {
+    @media all and (min-width: $pds-bp-md) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+
+    @media all and (min-width: $pds-bp-lg) {
+      --gap-total: calc(var(--gap-size) * 2);
+
+      width: calc((100% - var(--gap-total)) / 3);
+    }
+  }
+
+  /**
+  * Slotted grid item within grid with no gaps in between
+  */
+  .pds-l-grid--gap-none > & {
+    --gap-size: 0px;
+  }
+
+  /**
+  * Slotted grid item within grid with small gap between items than default
+  */
+  .pds-l-grid--gap-sm > & {
+    --gap-size: var(--pds-base-unit);
+  }
+
+  /**
+  * Slotted grid item within grid with large gap between items than default
+  */
+  .pds-l-grid--gap-lg > & {
+    --gap-size: calc(var(--pds-base-unit) * 4);
+  }
+
+  /**
+  * Slotted grid item within 2up Grid that breaks faster than default
+  */
+  .pds-l-grid--2up.pds-l-grid--break-faster > & {
+    @media all and (min-width: $pds-bp-md) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+  }
+
+  /**
+  * Slotted grid item within 2up Grid that breaks slower than default
+  */
+  .pds-l-grid--2up.pds-l-grid--break-slower > & {
+    @media all and (min-width: $pds-bp-lg) {
+      width: 100%;
+    }
+
+    @media all and (min-width: $pds-bp-xl) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+  }
+
+  /**
+  * Slotted grid item within 1-2-4up Grid that breaks faster than default
+  */
+  .pds-l-grid--1-2-4up.pds-l-grid--break-faster > & {
+    @media all and (min-width: $pds-bp-sm) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+
+    @media all and (min-width: $pds-bp-md) {
+      --gap-total: calc(var(--gap-size) * 3);
+
+      width: calc((100% - var(--gap-total)) / 4);
+    }
+  }
+
+  /**
+  * Slotted grid item within 1-2-4up Grid that breaks faster than default
+  */
+  .pds-l-grid--1-2-4up.pds-l-grid--break-slower > & {
+    @media all and (min-width: $pds-bp-md) {
+      width: 100%;
+    }
+
+    @media all and (min-width: $pds-bp-lg) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+
+    @media all and (min-width: $pds-bp-xl) {
+      --gap-total: calc(var(--gap-size) * 3);
+
+      width: calc((100% - var(--gap-total)) / 4);
+    }
+  }
+
+  /**
+  * Slotted grid item within 3up Grid that breaks faster than default
+  */
+  .pds-l-grid--1-3up.pds-l-grid--break-faster > & {
+    @media all and (min-width: $pds-bp-sm) {
+      --gap-total: calc(var(--gap-size) * 2);
+
+      width: calc((100% - var(--gap-total)) / 3);
+    }
+  }
+
+  /**
+  * Slotted grid item within 3up Grid that breaks faster than default
+  */
+  .pds-l-grid--1-3up.pds-l-grid--break-slower > & {
+    @media all and (min-width: $pds-bp-md) {
+      width: 100%;
+    }
+
+    @media all and (min-width: $pds-bp-lg) {
+      --gap-total: calc(var(--gap-size) * 2);
+
+      width: calc((100% - var(--gap-total)) / 3);
+    }
+  }
+
+  /**
+  * Slotted grid item within 3up Grid that breaks faster than default
+  */
+  .pds-l-grid--3up.pds-l-grid--break-faster > & {
+    @media all and (min-width: $pds-bp-sm) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+
+    @media all and (min-width: $pds-bp-md) {
+      --gap-total: calc(var(--gap-size) * 2);
+
+      width: calc((100% - var(--gap-total)) / 3);
+    }
+  }
+
+  /**
+  * Slotted grid item within 3up Grid that breaks slower than default
+  */
+  .pds-l-grid--3up.pds-l-grid--break-slower > & {
+    @media all and (min-width: $pds-bp-lg) {
+      width: calc((100% - var(--gap-size)) / 2);
+    }
+
+    @media all and (min-width: $pds-bp-xl) {
+      --gap-total: calc(var(--gap-size) * 2);
+
+      width: calc((100% - var(--gap-total)) / 3);
+    }
+  }
+}

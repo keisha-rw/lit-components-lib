@@ -1,0 +1,43 @@
+/*------------------------------------*\
+ #FOOTNOTE_ITEM
+\*------------------------------------*/
+
+.pds-c-footnote-item {
+  @include pds-semantic-body-default;
+
+  margin: size(5) 0;
+  padding: 0 size(1);
+
+  & > .pds-c-footnote-item--highlight-container {
+    background-color: transparent;
+    padding: 0 size(1);
+  }
+
+  .pds-c-footnote-item--backlink {
+    @include pds-semantic-body-bold-default;
+  }
+}
+
+:host {
+  @include pds-semantic-body-default;
+
+  display: block;
+  position: relative;
+  counter-increment: item;
+
+  &::before {
+    @include pds-semantic-body-bold-default;
+
+    content: counter(item) '.';
+    position: absolute;
+    top: 0;
+    left: -16px;
+    display: inline-block;
+  }
+}
+
+:host(:target) {
+  div {
+    background: var(--pds-semantic-background-highlight);
+  }
+}

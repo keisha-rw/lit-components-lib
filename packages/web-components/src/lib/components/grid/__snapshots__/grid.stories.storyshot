@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/Grid 1-2-4up 1`] = `
+"<pds-grid variant="1-2-4up">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 1-2-4up break faster 1`] = `
+"<pds-grid variant="1-2-4up" break="faster">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 1-2-4up break slower 1`] = `
+"<pds-grid variant="1-2-4up" break="slower">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 1-3up 1`] = `
+"<pds-grid variant="1-3up">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 5</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 6</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 1-3up break faster 1`] = `
+"<pds-grid variant="1-3up" break="faster">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 5</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 6</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 1-3up break slower 1`] = `
+"<pds-grid variant="1-3up" break="slower">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 5</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 6</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 2up 1`] = `
+"<pds-grid variant="2up">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 3up 1`] = `
+"<pds-grid variant="3up">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 5</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 6</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 3up break faster 1`] = `
+"<pds-grid variant="3up" break="faster">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 5</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 6</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid 3up break slower 1`] = `
+"<pds-grid variant="3up" break="slower">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 4</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 5</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 6</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid Default 1`] = `
+"<pds-grid><!----><div class=" pds-l-grid pds-l-grid--undefined pds-l-grid--gap-default pds-l-grid--break-undefined ">
+      <slot allowed-elements="pds-grid-item"></slot>
+    </div><style>default</style><pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 3</placeholder-element>
+      </pds-grid-item></pds-grid>"
+`;
+
+exports[`Storyshots Layout/Grid Side by side 1`] = `
+"<pds-grid variant="side-by-side">
+      <pds-grid-item>
+        <placeholder-element>Item 1</placeholder-element>
+      </pds-grid-item>
+      <pds-grid-item>
+        <placeholder-element>Item 2</placeholder-element>
+      </pds-grid-item>
+    </pds-grid>"
+`;

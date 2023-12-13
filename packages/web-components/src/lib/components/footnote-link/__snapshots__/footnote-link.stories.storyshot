@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Footnote/Footnote link Default 1`] = `"<pds-footnote-link variant="default" href="#id2" id="link2" footnoteid="id2" aria-describedby="id2" footnotenumber="1"><!----><sup><a class=" pds-c-footnote-link pds-c-footnote-link--default " href="#id2">1</a></sup><style>default</style></pds-footnote-link>"`;
+
+exports[`Storyshots Components/Footnote/Footnote link Inverted 1`] = `"<pds-footnote-link variant="inverted" href="#id2" id="link2" footnoteid="id2" aria-describedby="id2" footnotenumber="1"><!----><sup><a class=" pds-c-footnote-link pds-c-footnote-link--inverted pds-c-footnote-link--default " href="#id2">1</a></sup><style>default</style></pds-footnote-link>"`;

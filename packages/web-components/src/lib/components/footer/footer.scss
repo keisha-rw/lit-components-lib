@@ -1,0 +1,194 @@
+@import '../footer-contact-link/footer-contact-link-mixin';
+
+/*------------------------------------*\
+ #FOOTER
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-footer {
+  // overrides the hover value set for the .pds-c-link--inverted class
+  --pds-semantic-text-interactive-inverted-xstrong: var(
+    --pds-semantic-text-inverted-default
+  );
+  // overrides .pds-c-link--inverted color if it is redefined in another theme - NOTE: this approach is only temporary until we implement component level tokens for footer.
+  --pds-semantic-text-interactive-inverted-default: var(
+    --pds-semantic-text-inverted-default
+  );
+  --pds-collapsible-border-icon-hover: var(
+    --pds-semantic-border-inverted-default
+  );
+  --pds-link-text-alt: var(--pds-semantic-text-inverted-default);
+  --pds-link-text-alt-hover: var(--pds-semantic-text-inverted-default);
+
+  color: var(--pds-semantic-text-inverted-default);
+}
+
+.pds-c-footer--subtle {
+  --pds-link-text-alt: var(--pds-semantic-text-default);
+  --pds-link-text-alt-hover: var(--pds-semantic-text-default);
+  --pds-collapsible-border-icon-hover: var(--pds-semantic-border-icon-default);
+  --pds-collapsible-link-text: var(--pds-link-text-alt);
+  --pds-collapsible-link-text-hover: var(--pds-link-text-alt-hover);
+
+  color: var(--pds-semantic-text-default);
+}
+
+/**
+ * Styles the fallback content for the slot
+ */
+slot[name='logo'] {
+  * {
+    margin-bottom: size(5);
+    max-height: size(7.25);
+  }
+}
+
+.pds-c-footer__logo-link {
+  display: block;
+  max-width: size(18);
+
+  svg {
+    display: block;
+    width: 100%;
+  }
+}
+
+.pds-c-footer--super .pds-c-footer__navigation-area {
+  @media only screen and (min-width: $pds-bp-md) {
+    margin-top: size(8);
+  }
+}
+
+.pds-c-footer__extra-links::part(list) {
+  white-space: nowrap;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media only screen and (min-width: $pds-bp-md) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.pds-c-footer__login-support {
+  padding-bottom: size(3);
+
+  @include pds-semantic-body-default;
+}
+
+::slotted([slot='additional-info']) {
+  @include pds-semantic-body-default-compact;
+
+  border-top: size(0.125) solid var(--pds-semantic-border-inverted-default);
+  padding-top: size(3);
+  margin-top: size(6);
+
+  .pds-c-footer--subtle & {
+    border-top: size(0.125) solid var(--pds-semantic-border-default);
+  }
+}
+
+.pds-c-footer__contact-row {
+  pds-link::part(link) {
+    @include pds-semantic-body-default-compact;
+  }
+}
+
+slot[name='custom-contact'] {
+  .pds-c-footer__contact-row {
+    @include footer-contact-link;
+
+    border-bottom: 1px solid var(--pds-semantic-border-inverted-default);
+
+    .pds-c-footer--subtle & {
+      border-bottom: 1px solid var(--pds-semantic-border-default);
+    }
+  }
+}
+
+::slotted(pds-list[slot='custom-contact']) {
+  @include footer-contact-link;
+
+  border-bottom: 1px solid var(--pds-semantic-border-inverted-default);
+
+  .pds-c-footer--subtle & {
+    border-bottom: 1px solid var(--pds-semantic-border-default);
+  }
+}
+
+.pds-c-footer__copyright-and-social {
+  @media only screen and (min-width: $pds-bp-md) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pds-c-footer__legal {
+  @include pds-semantic-body-sm;
+
+  padding-top: size(3);
+}
+
+.pds-c-footer__legal-text-container,
+.pds-c-footer__legal-text-container::slotted([slot='legal-text']) {
+  display: grid;
+  gap: size(1);
+}
+
+.pds-c-footer__legal-text {
+  margin: 0;
+}
+
+.pds-c-footer__legal-nav {
+  padding-top: size(3);
+  border-bottom: 1px solid var(--pds-semantic-border-inverted-default);
+  padding-bottom: size(3);
+
+  pds-link::part(link) {
+    @include pds-semantic-body-default-compact;
+  }
+
+  .pds-c-footer--subtle & {
+    border-bottom: 1px solid var(--pds-semantic-border-default);
+  }
+}
+
+.pds-c-footer__social-icons,
+::slotted(.pds-c-footer__social-icons) {
+  place-self: center end;
+  padding-right: size(5);
+  margin-top: size(4);
+
+  &::part(list) {
+    gap: size(3);
+    align-items: center;
+  }
+
+  // since social icons are now slotted, styling by ::part doesn't work
+  --pds-semantic-text-interactive-inverted-xstrong: var(
+    --pds-semantic-border-strong
+  );
+  --pds-link-text-alt-hover: var(--pds-semantic-border-strong);
+
+  @media only screen and (min-width: $pds-bp-md) {
+    margin-top: size(3);
+    float: right;
+  }
+}
+
+.pds-c-footer__logo {
+  margin-bottom: size(5);
+
+  ::slotted(img),
+  ::slotted(svg) {
+    max-height: size(7.25);
+  }
+}

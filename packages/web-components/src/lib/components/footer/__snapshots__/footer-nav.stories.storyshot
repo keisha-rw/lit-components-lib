@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Footer/Footer nav Default 1`] = `
+"<pds-footer-nav behavior="3col">
+      <pds-footer-nav-item label="Our company" variant="default">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><!----><div part="footer-nav" class=" pds-c-footer-nav pds-c-footer-nav--default pds-c-footer-nav--3col ">
+      <slot></slot>
+    </div><style>default</style><pds-link variant="default" href="#">About us</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Investor relations</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">News room</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Sustainability</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Insights</pds-link></pds-list-item>
+        </pds-list></pds-footer-nav-item>
+      <pds-footer-nav-item label="We're hiring" variant="default"><pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link variant="default" href="#">Careers</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Global jobs</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Financial professional opportunities</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Internships</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Recent graduates</pds-link></pds-list-item>
+        </pds-list></pds-footer-nav-item>
+      <pds-footer-nav-item label="Other sites" variant="default"><pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link variant="default" href="#">For dental providers</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">For financial professionals</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Company Co Asset Management</pds-link></pds-list-item>
+        </pds-list></pds-footer-nav-item>
+    </pds-footer-nav>"
+`;
+
+exports[`Storyshots Components/Footer/Footer nav Four columns 1`] = `
+"<pds-footer-nav behavior="4col">
+      <pds-footer-nav-item label="Our company" variant="default">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><!----><div part="footer-nav" class=" pds-c-footer-nav pds-c-footer-nav--default pds-c-footer-nav--4col ">
+      <slot></slot>
+    </div><style>default</style><pds-link variant="default" href="#">About us</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Investor relations</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">News room</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Sustainability</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Insights</pds-link></pds-list-item>
+        </pds-list></pds-footer-nav-item>
+      <pds-footer-nav-item label="We're hiring" variant="default"><pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link variant="default" href="#">Careers</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Global jobs</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Financial professional opportunities</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Internships</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Recent graduates</pds-link></pds-list-item>
+        </pds-list></pds-footer-nav-item>
+      <pds-footer-nav-item label="Other sites" variant="default"><pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link variant="default" href="#">For dental providers</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">For financial professionals</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Company Co Asset Management</pds-link></pds-list-item>
+        </pds-list></pds-footer-nav-item>
+      <pds-footer-nav-item label="Fourth column" variant="default">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link variant="default" href="#">About us again</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Still investor relations</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">News room two</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">Sustainable sustainability</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link variant="default" href="#">More insights</pds-link></pds-list-item>
+        </pds-list>
+      </pds-footer-nav-item>
+    </pds-footer-nav>"
+`;

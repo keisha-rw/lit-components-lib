@@ -1,0 +1,13 @@
+@import '../link/link-mixin';
+
+/*------------------------------------*\
+ #FOOTNOTE_LINK
+\*------------------------------------*/
+
+.pds-c-footnote-link {
+  @include link;
+}
+
+.pds-c-footnote-link--inverted {
+  @include link-inverted;
+}

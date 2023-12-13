@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer unit tests adds aria-label attributes to social icons 1`] = `
+<pds-footer
+  variant="default"
+/>
+`;
+
+exports[`Footer unit tests applies subtle markup when variant is subtle 1`] = `
+<pds-footer
+  variant="subtle"
+/>
+`;
+
+exports[`Footer unit tests does not generate login support when behavior is not set to login 1`] = `
+<pds-footer
+  behavior="notlogin"
+/>
+`;
+
+exports[`Footer unit tests generates login support when behavior is set to login 1`] = `
+<pds-footer
+  behavior="login"
+/>
+`;
+
+exports[`Footer unit tests generates spanish support when lang is switched to es 1`] = `
+<pds-footer
+  lang="es"
+/>
+`;
+
+exports[`Footer unit tests generates the default Company Co logo when behavior is set to super 1`] = `
+<pds-footer
+  behavior="super"
+  variant="default"
+>
+  <pds-footer-nav
+    behavior="3col"
+    variant="inverted"
+  >
+    <pds-footer-nav-item
+      label="Our company"
+      variant="inverted"
+    >
+
+
+      <pds-list
+        spacing="sm"
+      >
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            About us
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Investor relations
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            News room
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Sustainability
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Insights
+          </pds-link>
+        </pds-list-item>
+
+
+      </pds-list>
+
+
+    </pds-footer-nav-item>
+
+
+    <pds-footer-nav-item
+      label="We're hiring"
+      variant="inverted"
+    >
+
+
+      <pds-list
+        spacing="sm"
+      >
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Careers
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Global jobs
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Financial professional opportunities
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Internships
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Recent graduates
+          </pds-link>
+        </pds-list-item>
+
+
+      </pds-list>
+
+
+    </pds-footer-nav-item>
+
+
+    <pds-footer-nav-item
+      label="Other sites"
+      variant="inverted"
+    >
+
+
+      <pds-list
+        spacing="sm"
+      >
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            For dental providers
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            For financial professionals
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Company Co Asset Management
+          </pds-link>
+        </pds-list-item>
+
+
+      </pds-list>
+
+
+    </pds-footer-nav-item>
+  </pds-footer-nav>
+</pds-footer>
+`;
+
+exports[`Footer unit tests shows the contact phone, help link and the contact link when at least one has a value 1`] = `
+<pds-footer
+  behavior="super"
+  hidecontactlink="true"
+  hidecontactphone="true"
+  variant="subtle"
+>
+  <pds-footer-nav
+    behavior="3col"
+    variant="strong"
+  >
+    <pds-footer-nav-item
+      label="Our company"
+      variant="strong"
+    >
+
+
+      <pds-list
+        spacing="sm"
+      >
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            About us
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Investor relations
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            News room
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Sustainability
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Insights
+          </pds-link>
+        </pds-list-item>
+
+
+      </pds-list>
+
+
+    </pds-footer-nav-item>
+
+
+    <pds-footer-nav-item
+      label="We're hiring"
+      variant="strong"
+    >
+
+
+      <pds-list
+        spacing="sm"
+      >
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Careers
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Global jobs
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Financial professional opportunities
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Internships
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Recent graduates
+          </pds-link>
+        </pds-list-item>
+
+
+      </pds-list>
+
+
+    </pds-footer-nav-item>
+
+
+    <pds-footer-nav-item
+      label="Other sites"
+      variant="strong"
+    >
+
+
+      <pds-list
+        spacing="sm"
+      >
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            For dental providers
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            For financial professionals
+          </pds-link>
+        </pds-list-item>
+
+
+        <pds-list-item
+          size="md"
+        >
+          <pds-link
+            href="#"
+            variant="inverted"
+          >
+            Company Co Asset Management
+          </pds-link>
+        </pds-list-item>
+
+
+      </pds-list>
+
+
+    </pds-footer-nav-item>
+  </pds-footer-nav>
+</pds-footer>
+`;

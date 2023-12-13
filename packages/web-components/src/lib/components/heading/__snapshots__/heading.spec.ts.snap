@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading unit tests renders a h1 element when the headingTag = h1 1`] = `
+<pds-heading
+  headingtag="h1"
+  variant="display-default"
+>
+  Heading 1, display-default variant
+</pds-heading>
+`;
+
+exports[`Heading unit tests renders a h2 element when the headingTag = h2 1`] = `
+<pds-heading
+  headingtag="h2"
+  variant="display-default"
+>
+  Heading 2, display-default variant
+</pds-heading>
+`;
+
+exports[`Heading unit tests renders a h3 element when the headingTag = h3 1`] = `
+<pds-heading
+  headingtag="h3"
+  variant="display-default"
+>
+  Heading 3, display-default variant
+</pds-heading>
+`;
+
+exports[`Heading unit tests renders a h4 element when the headingTag = h4 1`] = `
+<pds-heading
+  headingtag="h4"
+  variant="display-default"
+>
+  Heading 4, display-default variant
+</pds-heading>
+`;
+
+exports[`Heading unit tests renders a h5 element when the headingTag = h5 1`] = `
+<pds-heading
+  headingtag="h5"
+  variant="display-default"
+>
+  Heading 5, display-default variant
+</pds-heading>
+`;
+
+exports[`Heading unit tests renders a h6 element when the headingTag = h6 1`] = `
+<pds-heading
+  headingtag="h6"
+  variant="display-default"
+>
+  Heading 6, display-default variant
+</pds-heading>
+`;

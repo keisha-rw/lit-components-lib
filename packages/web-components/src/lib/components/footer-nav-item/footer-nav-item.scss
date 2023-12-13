@@ -1,0 +1,25 @@
+/*------------------------------------*\
+ #FOOTER_NAV_ITEM
+\*------------------------------------*/
+
+:host {
+  display: block;
+
+  --pds-collapsible-border-bottom: none;
+  --pds-collapsible-content-border-bottom: none;
+  --pds-link-text-alt-hover: --pds-semantic-text-inverted-default;
+}
+
+::slotted(pds-list) {
+  // Since ::part styling only works for non-slotted elements, slotted links default to bold without this reassignment
+  --pds-base-type-font-family-100-bold: var(--pds-base-type-font-family-100);
+  --pds-semantic-text-interactive-inverted-strong: var(
+    --pds-link-text-alt-hover
+  );
+}
+
+.pds-c-footer-nav-item--desktop {
+  ::part(heading) {
+    margin-bottom: size(1);
+  }
+}

@@ -1,0 +1,11 @@
+@mixin footer-contact-link {
+  white-space: nowrap;
+
+  @media only screen and (min-width: $pds-bp-md) {
+    padding-bottom: size(3);
+  }
+
+  @media only screen and (max-width: $pds-bp-sm) {
+    border-bottom: none;
+  }
+}

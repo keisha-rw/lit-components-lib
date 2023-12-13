@@ -1,0 +1,10 @@
+/*------------------------------------*\
+ #HR_MIXIN
+\*------------------------------------*/
+@mixin hr {
+  margin: 0;
+  border: none;
+  background-color: var(--pds-semantic-border-default);
+  color: var(--pds-semantic-border-default);
+  height: 1px;
+}

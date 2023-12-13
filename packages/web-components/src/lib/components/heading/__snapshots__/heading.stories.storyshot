@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Heading H1 variant, display default 1`] = `"<pds-heading headingtag="h1" variant="display-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, display default 1`] = `"<pds-heading headingtag="h2" variant="display-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, display small 1`] = `"<pds-heading headingtag="h2" variant="display-sm">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, headline default 1`] = `"<pds-heading headingtag="h2" variant="headline-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, headline large 1`] = `"<pds-heading headingtag="h2" variant="headline-lg">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, headline small 1`] = `"<pds-heading headingtag="h2" variant="headline-sm">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, label default 1`] = `"<pds-heading headingtag="h2" variant="label-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, label large 1`] = `"<pds-heading headingtag="h2" variant="label-lg">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, label small 1`] = `"<pds-heading headingtag="h2" variant="label-sm">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, meta default 1`] = `"<pds-heading headingtag="h2" variant="meta-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, meta small 1`] = `"<pds-heading headingtag="h2" variant="meta-sm">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, title default 1`] = `"<pds-heading headingtag="h2" variant="title-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, title large 1`] = `"<pds-heading headingtag="h2" variant="title-lg">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, title small 1`] = `"<pds-heading headingtag="h2" variant="title-sm">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H2 variant, title xsmall 1`] = `"<pds-heading headingtag="h2" variant="title-xs">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H3 variant, display default 1`] = `"<pds-heading headingtag="h3" variant="display-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H4 variant, display default 1`] = `"<pds-heading headingtag="h4" variant="display-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H4 variant, display small 1`] = `"<pds-heading headingtag="h4" variant="display-sm">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H5 variant, display default 1`] = `"<pds-heading headingtag="h5" variant="display-default">Some heading text goes here</pds-heading>"`;
+
+exports[`Storyshots Components/Heading H6 variant, display default 1`] = `"<pds-heading headingtag="h6" variant="display-default">Some heading text goes here</pds-heading>"`;

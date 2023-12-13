@@ -1,0 +1,11 @@
+@import './heading-mixin';
+
+/*------------------------------------*\
+ #HEADING
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+@include heading;

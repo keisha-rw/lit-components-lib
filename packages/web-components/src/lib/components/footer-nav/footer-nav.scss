@@ -1,0 +1,24 @@
+/*------------------------------------*\
+ #FOOTER_NAV
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-footer-nav--3col {
+  @media only screen and (min-width: $pds-bp-md) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pds-c-footer-nav--4col {
+  @media only screen and (min-width: $pds-bp-md) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

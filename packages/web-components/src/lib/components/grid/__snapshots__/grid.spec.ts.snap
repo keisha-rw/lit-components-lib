@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid unit tests does not populate the default slot correctly when the provided element is not a pds-grid-item 1`] = `<pds-grid />`;

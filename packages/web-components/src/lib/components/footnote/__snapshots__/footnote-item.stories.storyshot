@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Footnote/Footnote item Default 1`] = `
+"<pds-footnote-item arialabel="back to content" id="id3" href="#link3" footnoteid="link3">
+      Sed malesuada magna nec dolor tempor, eu euismod ipsum sagittis. Duis leo
+      nibh, interdum pellentesque venenatis molestie, elementum a augue. In
+      vitae sagittis urna. Fusce ac ligula ac diam sagittis sollicitudin.
+      Aliquam quis ex eros. Praesent sodales risus id placerat ullamcorper.
+      Donec vehicula rutrum lacus, sed laoreet ligula tempor
+      vel.</pds-footnote-item>"
+`;

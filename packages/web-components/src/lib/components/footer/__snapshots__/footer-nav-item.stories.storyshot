@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Footer/Footer nav/Footer nav item Default 1`] = `
+"<pds-footer-nav-item label="Our company"><!----><div class=" pds-c-footer-nav-item pds-c-footer-nav-item--default ">
+      <div class="pds-c-footer-nav-item--desktop">
+         
+      <pds-heading variant="label-default" id="our-company-desktop" headingtag="h3">Our company</pds-heading>
+     
+      <nav aria-labelledby="our-company-desktop">
+        <slot allowed-elements="pds-list"></slot>
+      </nav>
+     
+      </div>
+    </div><style>default</style><pds-list spacing="sm"><pds-list-item size="md"><pds-link variant="default" href="#">About us</pds-link></pds-list-item>
+        <pds-list-item size="md"><pds-link variant="default" href="#">Investor relations</pds-link></pds-list-item>
+        <pds-list-item size="md"><pds-link variant="default" href="#">News room</pds-link></pds-list-item>
+        <pds-list-item size="md"><pds-link variant="default" href="#">Sustainability</pds-link></pds-list-item>
+        <pds-list-item size="md"><pds-link variant="default" href="#">Insights</pds-link></pds-list-item>
+      </pds-list></pds-footer-nav-item>"
+`;
