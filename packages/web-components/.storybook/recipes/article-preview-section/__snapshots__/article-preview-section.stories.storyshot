@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Article preview section Default 1`] = `
+"<pds-band class="c-article-preview-section__band" spacing="none" variant="brand-gradient-strong">
+        <div class="c-article-preview-section__band-inner pds-u-padding-vertical-32">
+          <pds-layout-container>
+            <pds-heading class="c-article-preview-section__page-title" headingtag="h1" variant="display-default" inverted="">
+              This is a headline.
+            </pds-heading>
+            <div class="c-article-preview-section__description">
+              <pds-text-passage slot="description">This is supporting body copy.</pds-text-passage>
+            </div>
+          </pds-layout-container>
+        </div>
+      </pds-band>"
+`;

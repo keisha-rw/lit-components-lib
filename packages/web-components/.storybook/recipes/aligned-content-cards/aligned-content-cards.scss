@@ -1,0 +1,10 @@
+/*------------------------------------*\
+ #ALIGNED_CONTENT_CARDS
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}

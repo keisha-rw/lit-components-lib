@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Article intro Default 1`] = `
+"<pds-heading class="c-article-intro__title" headingtag="h1" variant="display-default">
+        3 reasons to start investing young
+      </pds-heading>"
+`;

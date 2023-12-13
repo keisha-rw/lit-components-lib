@@ -1,0 +1,10 @@
+/*------------------------------------*\
+ #CARD_CUSTOM_PADDING
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}

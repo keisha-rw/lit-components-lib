@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Skeleton loader table Default 1`] = `
+"<skeleton-loader-table>
+    <pds-table class="pds-c-table--with-border" style="--pds-table-column-percentage: 33.333333333333336%;">
+      <table class="pds-c-table">
+        <thead class="pds-c-table__thead">
+          <tr class="pds-c-table__tr">
+            <th class="pds-c-table__th">Heading</th>
+            <th class="pds-c-table__th">Heading</th>
+            <th class="pds-c-table__th">Heading</th>
+          </tr>
+        </thead>
+        <tbody class="pds-c-table__tbody">
+          <tr class="pds-c-table__tr">
+            <td class="pds-c-table__td"><!----><slot></slot><style>default</style><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+          </tr>
+          <tr class="pds-c-table__tr">
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+          </tr>
+          <tr class="pds-c-table__tr">
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+          </tr>
+          <tr class="pds-c-table__tr">
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+            <td class="pds-c-table__td"><pds-skeleton-loader></pds-skeleton-loader></td>
+          </tr>
+        </tbody>
+      </table> </pds-table></skeleton-loader-table>"
+`;

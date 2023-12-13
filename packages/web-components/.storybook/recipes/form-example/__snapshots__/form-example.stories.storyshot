@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Form example Sample 1`] = `
+"<form-example>
+      <form internals-valid="">
+        <pds-text-input name="name" label="Enter your name" value="Harry Potter" class="pds-u-padding-bottom-12" type="text" internals-valid="" aria-invalid="false"><!----><slot></slot><style>default</style></pds-text-input><input type="hidden" name="name" value="Harry Potter">
+        <pds-date-picker-input class="pds-u-padding-vertical-12" name="start date" dateformat="MM/DD/YYYY" helptext="Please follow the MM/DD/YYYY format." label="Select a start date" internals-valid="" aria-invalid="false"><pds-date-picker slot="datepicker"></pds-date-picker></pds-date-picker-input>
+        <pds-select name="house" label="Select a house" class="pds-u-padding-vertical-12" internals-valid="" aria-invalid="false">
+          <option value="Slytherin">Slytherin</option>
+          <option value="Hufflepuff">Hufflepuff</option>
+          <option value="Ravenclaw">Ravenclaw</option>
+          <option value="Gryffindor">Gryffindor</option>
+        </pds-select><input type="hidden" name="house" value="Hufflepuff">
+        <pds-radio-group class="pds-u-padding-vertical-12" name="pet" label="Select your pet" internals-valid="" aria-invalid="false">
+          <pds-radio value="Cat" label="Cat"></pds-radio>
+          <pds-radio value="Frog" label="Frog"></pds-radio>
+          <pds-radio value="Owl" label="Owl"></pds-radio>
+        </pds-radio-group><input type="hidden" name="pet" value="Frog">
+        <pds-text-area class="pds-u-padding-vertical-12" name="ingredients" label="List the ingredients for Polyjuice potion" value="Lacewing flies, etc..." internals-valid="" aria-invalid="false"></pds-text-area><input type="hidden" name="ingredients" value="Lacewing flies, etc...">
+        <pds-checkbox class="pds-u-padding-top-12 pds-u-padding-bottom-48" name="oath" label="I solemnly swear I'm up to no good." checked="" aria-checked="true" internals-valid="" aria-invalid="false"></pds-checkbox><input type="hidden" name="oath" value="on">
+        <pds-button type="submit" variant="primary">Submit</pds-button>
+      </form>
+    </form-example>"
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Article feature block Default 1`] = `
+"<pds-feature-block>
+      <span slot="media">
+        <img class="c-article-feature-block__image pds-u-block" src=",image_border.svg" alt="placeholder">
+      </span>
+      <div class="c-article-feature-block__body pds-u-position-relative">
+        <pds-layout-container>
+          <div class="c-article-feature-block__body-inner">
+            <span class="c-article-feature-block__eyebrow pds-u-typography-meta-sm pds-u-margin-bottom-16">
+              1:00 PM CT | May 18, 2022
+            </span>
+            <pds-heading slot="heading" headingtag="h3" variant="title-default">
+              A beginner's guide to investing
+            </pds-heading>
+            <div class="c-article-feature-block__description pds-u-margin-top-24">
+              <pds-text-passage>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Lorem ipsum dolor amet, consectetur adipiscing
+                elit.</pds-text-passage>
+            </div>
+            <div class="c-article-feature-block__cta pds-u-block pds-u-margin-top-40">
+              <pds-button type="submit">Register for the upcoming webinar</pds-button>
+            </div>
+          </div>
+        </pds-layout-container>
+      </div>
+    </pds-feature-block>"
+`;
+
+exports[`Storyshots Recipes/Article feature block Full width default 1`] = `
+"<pds-feature-block fullwidth="">
+      <span slot="media">
+        <img class="c-article-feature-block__image pds-u-block" src=",image_border.svg" alt="placeholder">
+      </span>
+      <div class="c-article-feature-block__body pds-u-position-relative">
+        <pds-layout-container>
+          <div class="c-article-feature-block__body-inner">
+            <span class="c-article-feature-block__eyebrow pds-u-typography-meta-sm pds-u-margin-bottom-16">
+              1:00 PM CT | May 18, 2022
+            </span>
+            <pds-heading slot="heading" headingtag="h3" variant="title-default">
+              A beginner's guide to investing
+            </pds-heading>
+            <div class="c-article-feature-block__description pds-u-margin-top-24">
+              <pds-text-passage>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Lorem ipsum dolor amet, consectetur adipiscing
+                elit.</pds-text-passage>
+            </div>
+            <div class="c-article-feature-block__cta pds-u-block pds-u-margin-top-40">
+              <pds-button type="submit">Register for the upcoming webinar</pds-button>
+            </div>
+          </div>
+        </pds-layout-container>
+      </div>
+    </pds-feature-block>"
+`;
+
+exports[`Storyshots Recipes/Article feature block Subtle 1`] = `
+"<pds-band variant="subtle"><!----><div class=" pds-c-band pds-c-band--subtle pds-c-band--spacing-default ">
+      <slot></slot>
+    </div><style>default</style><pds-feature-block>
+      <span slot="media">
+        <img class="c-article-feature-block__image pds-u-block" src=",image_border.svg" alt="placeholder">
+      </span>
+      <div class="c-article-feature-block__body pds-u-position-relative">
+        <pds-layout-container>
+          <div class="c-article-feature-block__body-inner">
+            <span class="c-article-feature-block__eyebrow pds-u-typography-meta-sm pds-u-margin-bottom-16">
+              1:00 PM CT | May 18, 2022
+            </span>
+            <pds-heading slot="heading" headingtag="h3" variant="title-default">
+              A beginner's guide to investing
+            </pds-heading>
+            <div class="c-article-feature-block__description pds-u-margin-top-24">
+              <pds-text-passage>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Lorem ipsum dolor amet, consectetur adipiscing
+                elit.</pds-text-passage>
+            </div>
+            <div class="c-article-feature-block__cta pds-u-block pds-u-margin-top-40">
+              <pds-button type="submit">Register for the upcoming webinar</pds-button>
+            </div>
+          </div>
+        </pds-layout-container>
+      </div>
+    </pds-feature-block></pds-band>"
+`;

@@ -1,0 +1,45 @@
+/*------------------------------------*\
+ #HERO_SECTION
+\*------------------------------------*/
+
+.c-hero-section__band {
+  width: 100%;
+
+  @media all and (min-width: $pds-bp-md) {
+    width: 50%;
+  }
+}
+
+.c-hero-audience__band {
+  width: 100%;
+  opacity: 0.9;
+
+  @media all and (min-width: $pds-bp-md) {
+    width: 50%;
+  }
+
+  @media all and (width < $pds-bp-md) {
+    opacity: 100%;
+  }
+}
+
+.pds-card-quickLinks {
+  position: absolute;
+  border-radius: size(1);
+  width: 25%;
+  height: auto;
+  top: size(5);
+  padding: size(2.5) size(3) size(2.5) size(3);
+  right: size(3);
+  opacity: 0.9;
+  z-index: 1;
+
+  @media all and (max-width: $pds-bp-md) {
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: size(3);
+    width: 70%;
+    opacity: 100%;
+  }
+}

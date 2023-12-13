@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Article series card Bare 1`] = `
+"<pds-card variant=",">
+      <img class="pds-u-responsive-image" slot="header" src=",image_border.svg" alt="placeholder">
+      <div class="pds-u-typography-display-default">1</div>
+      <div class="pds-u-typography-meta-sm pds-util-margin-vertical-8">
+        Eyebrow
+      </div>
+      <pds-heading headingtag="h3" variant="title-xs">
+        Article series card title
+      </pds-heading>
+    </pds-card>"
+`;
+
+exports[`Storyshots Recipes/Article series card Default 1`] = `
+"<pds-card variant=",">
+      <img class="pds-u-responsive-image" slot="header" src=",image_border.svg" alt="placeholder">
+      <div class="pds-u-typography-display-default">1</div>
+      <div class="pds-u-typography-meta-sm pds-util-margin-vertical-8">
+        Eyebrow
+      </div>
+      <pds-heading headingtag="h3" variant="title-xs">
+        Article series card title
+      </pds-heading>
+    </pds-card>"
+`;

@@ -1,0 +1,47 @@
+@import '../../../src/lib/components/text-passage/text-passage-light-dom';
+
+/*------------------------------------*\
+ #ARTICLE_PREVIEW_SECTION
+\*------------------------------------*/
+
+.c-article-preview-section__band-inner {
+  padding-top: size(8);
+  padding-bottom: size(8);
+
+  @media all and (min-width: $pds-bp-lg) {
+    padding-bottom: size(16);
+  }
+}
+
+.c-article-preview-section__page-title {
+  text-align: center;
+}
+
+.c-article-preview-section__title {
+  display: block;
+  margin-bottom: size(4);
+  text-align: center;
+
+  @media all and (min-width: $pds-bp-lg) {
+    margin-bottom: size(8);
+  }
+}
+
+.c-article-preview-section__panel {
+  display: block;
+
+  @media all and (min-width: $pds-bp-lg) {
+    margin-top: size(-8);
+  }
+}
+
+.c-article-preview-section__description {
+  display: block;
+
+  @include pds-semantic-body-lg;
+
+  color: var(--pds-semantic-text-inverted-default);
+  text-align: center;
+  margin-top: size(3);
+}
+

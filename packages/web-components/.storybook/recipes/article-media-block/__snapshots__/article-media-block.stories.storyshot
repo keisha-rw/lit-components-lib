@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Article media block Bare 1`] = `
+"<pds-card variant="," direction="horizontal">
+      <div slot="header">
+        <img class="pds-u-block" src=",image_40x100.svg" alt="placeholder">
+      </div>
+      <div>
+        <div class="pds-u-typography-meta-sm">Eyebrow</div>
+        <pds-heading headingtag="h3" variant="label-default" slot="title">
+          Article media block title
+        </pds-heading>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Recipes/Article media block Default 1`] = `
+"<pds-card variant="," direction="horizontal">
+      <div slot="header">
+        <img class="pds-u-block" src=",image_40x100.svg" alt="placeholder">
+      </div>
+      <div>
+        <div class="pds-u-typography-meta-sm">Eyebrow</div>
+        <pds-heading headingtag="h3" variant="label-default" slot="title">
+          Article media block title
+        </pds-heading>
+      </div>
+    </pds-card>"
+`;

@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+form-example {
+  @media only screen and (min-width: $pds-bp-md) {
+    width: 40vw;
+  }
+}
