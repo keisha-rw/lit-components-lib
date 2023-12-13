@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Segmented control/Segmented control item Default 1`] = `"<pds-segmented-control-item ?disabled=",">Option 1</pds-segmented-control-item>"`;
+
+exports[`Storyshots Components/Segmented control/Segmented control item Disabled 1`] = `"<pds-segmented-control-item ?disabled=",">Option 1</pds-segmented-control-item>"`;

@@ -1,0 +1,27 @@
+/*------------------------------------*\
+ #SECONDARY_NAVIGATION_LINK
+\*------------------------------------*/
+
+.pds-c-secondary-navigation-link {
+  @include pds-semantic-body-default;
+
+  text-decoration: none;
+  color: var(--pds-semantic-text-default);
+
+  &:hover,
+  &:active {
+    color: var(--pds-semantic-text-interactive-default);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: size(0.75);
+  }
+
+  @media only screen and (min-width: $pds-bp-lg) {
+    padding-bottom: 0;
+  }
+}
+
+.pds-c-secondary-navigation-link--active-page {
+  border-bottom: solid size(0.25) transparent;
+  box-shadow: 0 3px 0 0 var(--pds-semantic-border-interactive-default);
+}

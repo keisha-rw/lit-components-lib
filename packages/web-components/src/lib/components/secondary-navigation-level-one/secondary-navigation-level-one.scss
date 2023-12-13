@@ -1,0 +1,220 @@
+/*------------------------------------*\
+ #SECONDARY_NAVIGATION_LEVEL_ONE
+\*------------------------------------*/
+
+:host {
+  display: block;
+
+  --pds-collapsible-border-bottom: none;
+  --pds-collapsible-content-border-bottom: none;
+  --pds-collapsible-border-top: none;
+  --pds-link-text-alt-hover: var(--pds-semantic-text-default);
+  --pds-link-text-alt: var(--pds-semantic-text-default);
+  --pds-collapsible-border-icon-hover: var(--pds-semantic-border-icon-default);
+}
+
+.pds-c-secondary-navigation-level-one {
+  --pds-secondary-navigation-panel-min-width: calc(var(--pds-base-unit) * 12);
+
+  ::part(collapsible-content) {
+    padding: 0 0 0 size(2);
+  }
+
+  pds-collapsible::part(collapsible-summary) {
+    @include pds-semantic-body-bold-default;
+
+    padding: size(0.75) size(2);
+  }
+
+  pds-collapsible::part(collapsible-content) {
+    padding-left: size(4);
+  }
+}
+
+.pds-c-secondary-navigation-level-one--mobile {
+  display: block;
+
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: none;
+  }
+
+  pds-link.pds-c-secondary-navigation-level-one__menu-item-section::part(link) {
+    color: var(--pds-semantic-text-default);
+    padding: size(0.75) 0 size(0.75) size(2);
+
+    &:hover {
+      color: var(--pds-semantic-text-interactive-default);
+    }
+  }
+}
+
+.pds-c-secondary-navigation-level-one--desktop {
+  display: none;
+
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: block;
+  }
+}
+
+.pds-c-secondary-navigation-level-one--1col,
+.pds-c-secondary-navigation-level-one--2col,
+.pds-c-secondary-navigation-level-one--3col,
+.pds-c-secondary-navigation-level-one--4col {
+  @media only screen and (min-width: $pds-bp-lg) {
+    display: grid;
+    gap: size(4);
+  }
+}
+
+.pds-c-secondary-navigation-level-one--1col {
+  @media only screen and (min-width: $pds-bp-lg) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: size(0);
+  }
+}
+
+.pds-c-secondary-navigation-level-one--2col {
+  @media only screen and (min-width: $pds-bp-lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pds-c-secondary-navigation-level-one--3col {
+  @media only screen and (min-width: $pds-bp-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pds-c-secondary-navigation-level-one--4col {
+  @media only screen and (min-width: $pds-bp-lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*------------------------------------*\
+ These styles control the secondary nav dropdown menu styling at desktop.
+\*------------------------------------*/
+
+.pds-c-secondary-navigation-level-one__dropdown-item {
+  position: relative;
+}
+
+.pds-c-secondary-navigation-level-one__icon {
+  margin-left: auto;
+  transition: transform 0.25s ease-in 0s;
+  color: var(--pds-semantic-border-icon-default);
+  align-self: center;
+
+  .pds-c-secondary-navigation-level-one.pds-is-open & {
+    transform: rotate(180deg);
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    margin-left: size(0.5);
+  }
+}
+
+.pds-c-secondary-navigation-level-one__link {
+  @include pds-semantic-body-bold-sm;
+
+  appearance: none;
+  border: none;
+  background: var(--pds-semantic-background-default);
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  text-underline-offset: size(0.75);
+  padding: size(1.5);
+  cursor: pointer;
+  border-radius: size(0.5) size(0.5) 0 0;
+  padding-bottom: size(0.45);
+
+  &:hover,
+  &:focus {
+    background-color: var(--pds-semantic-background-subtle);
+  }
+
+  // Adds the blue border on the active dropdown element
+  .pds-c-secondary-navigation-level-one--active-section & {
+    @media all and (min-width: $pds-bp-lg) {
+      background-image: linear-gradient(
+        to right,
+        var(--pds-semantic-border-interactive-default),
+        var(--pds-semantic-border-interactive-default)
+      );
+      background-position: bottom;
+      background-repeat: repeat-x;
+      background-size: 100% 4px;
+      position: relative;
+    }
+  }
+
+  .pds-c-secondary-navigation-level-one--dropdown-menu-item & {
+    position: relative;
+    list-style: none;
+  }
+
+  // large screen and up
+  @media all and (min-width: $pds-bp-lg) {
+    width: auto;
+    background: --pds-semantic-background-default;
+    padding: size(0.5) size(1);
+    color: var(--pds-semantic-text-default);
+  }
+}
+
+.pds-c-secondary-navigation-level-one__arrow {
+  margin-left: calc(var(--pds-base-unit) * 0.5);
+}
+
+.pds-c-secondary-navigation-level-one__panel {
+  display: none;
+  padding: size(3);
+  z-index: 2;
+  max-width: none;
+  min-width: var(--pds-secondary-navigation-panel-min-width);
+
+  @media all and (min-width: $pds-bp-lg) {
+    padding: 0;
+  }
+
+  .pds-c-secondary-navigation-level-one.pds-is-open & {
+    display: block;
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    max-width: size(50);
+    width: max-content;
+    border-radius: size(2);
+    background: var(--pds-semantic-background-default);
+    // Shadow tokens are currently in development stage. In the meantime, design has given us the OK to hardcode these values.
+    box-shadow: 0 0 size(1) var(--pds-base-color-opacity-gray-01-20);
+  }
+}
+
+.pds-c-secondary-navigation-level-one__panel-content {
+  margin: size(2);
+}
+
+[data-popper-arrow] {
+  @media all and (min-width: $pds-bp-lg) {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: size(-2);
+      left: size(-2);
+      width: 0;
+      height: 0;
+      border-left: size(2) solid transparent;
+      border-right: size(2) solid transparent;
+      border-bottom: size(2) solid var(--pds-semantic-background-default);
+      z-index: 3;
+      pointer-events: none;
+      filter: drop-shadow(
+        0 size(-0.2) size(0.2) #3333331a
+      ); // TODO: Change ^ base token to drop shadow token when they are created. This is gray 1 10%.
+    }
+  }
+}

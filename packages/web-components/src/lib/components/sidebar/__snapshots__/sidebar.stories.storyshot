@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/Sidebar Default 1`] = `
+"<pds-sidebar><!----><div class=" pds-l-sidebar pds-l-sidebar--break-default pds-l-sidebar--gap-default pds-l-sidebar--right-sidebar ">
+      
+      <slot></slot>
+       <slot name="right-sidebar"></slot> 
+    </div><style>default</style><placeholder-element style="--placeholder-element-margin-bottom: 0;">Main content</placeholder-element><placeholder-element style="--placeholder-element-margin-bottom: 0;" slot="right-sidebar">Right sidebar</placeholder-element></pds-sidebar>"
+`;
+
+exports[`Storyshots Layout/Sidebar Left 1`] = `
+"<pds-sidebar style="--pds-sidebar-left-width: 380px;"><!----><div class=" pds-l-sidebar pds-l-sidebar--break-default pds-l-sidebar--gap-default pds-l-sidebar--left-sidebar ">
+       <slot name="left-sidebar"></slot> 
+      <slot></slot>
+      
+    </div><style>default</style><placeholder-element style="--placeholder-element-margin-bottom: 0;" slot="left-sidebar">Left sidebar</placeholder-element><placeholder-element style="--placeholder-element-margin-bottom: 0;">Main content</placeholder-element></pds-sidebar>"
+`;
+
+exports[`Storyshots Layout/Sidebar Left and right 1`] = `
+"<pds-sidebar><!----><div class=" pds-l-sidebar pds-l-sidebar--break-default pds-l-sidebar--gap-default pds-l-sidebar--leftandright-sidebars ">
+       <slot name="left-sidebar"></slot> 
+      <slot></slot>
+       <slot name="right-sidebar"></slot> 
+    </div><style>default</style><placeholder-element style="--placeholder-element-margin-bottom: 0;" slot="left-sidebar">Left sidebar</placeholder-element><placeholder-element style="--placeholder-element-margin-bottom: 0;">Main content</placeholder-element><placeholder-element style="--placeholder-element-margin-bottom: 0;" slot="right-sidebar">Right sidebar</placeholder-element></pds-sidebar>"
+`;

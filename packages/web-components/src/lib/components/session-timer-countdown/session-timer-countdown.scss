@@ -1,0 +1,9 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #SESSION_TIMER_COUNTDOWN
+\*------------------------------------*/
+
+.pds-c-session-timer-countdown__sr-only {
+  @include pds-util-sr-only;
+}

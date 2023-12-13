@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Segmented control 4 segments 1`] = `
+"<pds-segmented-control style="--pds-segments-width: 0px;"><!----><section role="region" class=" pds-c-segmented-control pds-c-segmented-control--default " aria-label="segmented control">
+      <slot allowed-elements="pds-segmented-control-item" class="pds-c-segmented-control__segments"></slot>
+    </section><style>default</style><pds-segmented-control-item size="default">Option 1</pds-segmented-control-item>
+      <pds-segmented-control-item issegmentactive="" size="default">Option 2</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 3</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 4</pds-segmented-control-item>
+    </pds-segmented-control>"
+`;
+
+exports[`Storyshots Components/Segmented control 5 segments 1`] = `
+"<pds-segmented-control style="--pds-segments-width: 0px;"><!----><section role="region" class=" pds-c-segmented-control pds-c-segmented-control--default " aria-label="segmented control">
+      <slot allowed-elements="pds-segmented-control-item" class="pds-c-segmented-control__segments"></slot>
+    </section><style>default</style><pds-segmented-control-item size="default">Option 1</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 2</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 3</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 4</pds-segmented-control-item>
+      <pds-segmented-control-item issegmentactive="" size="default">Option 5</pds-segmented-control-item>
+    </pds-segmented-control>"
+`;
+
+exports[`Storyshots Components/Segmented control Default 1`] = `
+"<pds-segmented-control ?disabled="," style="--pds-segments-width: 0px;"><!----><section role="region" class=" pds-c-segmented-control pds-c-segmented-control--undefined " aria-label="segmented control">
+      <slot allowed-elements="pds-segmented-control-item" class="pds-c-segmented-control__segments"></slot>
+    </section><style>default</style><pds-segmented-control-item>Option 1</pds-segmented-control-item>
+      <pds-segmented-control-item>Option 2</pds-segmented-control-item>
+      <pds-segmented-control-item>Option 3</pds-segmented-control-item>
+    </pds-segmented-control>"
+`;
+
+exports[`Storyshots Components/Segmented control Disabled 1`] = `
+"<pds-segmented-control ?disabled="," size="true" style="--pds-segments-width: 0px;"><!----><section role="region" class=" pds-c-segmented-control pds-c-segmented-control--true " aria-label="segmented control">
+      <slot allowed-elements="pds-segmented-control-item" class="pds-c-segmented-control__segments"></slot>
+    </section><style>default</style><pds-segmented-control-item size="true">Option 1</pds-segmented-control-item>
+      <pds-segmented-control-item size="true">Option 2</pds-segmented-control-item>
+      <pds-segmented-control-item size="true">Option 3</pds-segmented-control-item>
+    </pds-segmented-control>"
+`;
+
+exports[`Storyshots Components/Segmented control Long label 1`] = `
+"<pds-segmented-control style="--pds-segments-width: 0px;"><!----><section role="region" class=" pds-c-segmented-control pds-c-segmented-control--default " aria-label="segmented control">
+      <slot allowed-elements="pds-segmented-control-item" class="pds-c-segmented-control__segments"></slot>
+    </section><style>default</style><pds-segmented-control-item issegmentactive="" size="default">Option 1</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 2 large</pds-segmented-control-item>
+      <pds-segmented-control-item size="default">Option 3</pds-segmented-control-item>
+    </pds-segmented-control>"
+`;
+
+exports[`Storyshots Components/Segmented control Small 1`] = `
+"<pds-segmented-control ?disabled="," style="--pds-segments-width: 0px;"><!----><section role="region" class=" pds-c-segmented-control pds-c-segmented-control--undefined " aria-label="segmented control">
+      <slot allowed-elements="pds-segmented-control-item" class="pds-c-segmented-control__segments"></slot>
+    </section><style>default</style><pds-segmented-control-item>Option 1</pds-segmented-control-item>
+      <pds-segmented-control-item>Option 2</pds-segmented-control-item>
+      <pds-segmented-control-item>Option 3</pds-segmented-control-item>
+    </pds-segmented-control>"
+`;

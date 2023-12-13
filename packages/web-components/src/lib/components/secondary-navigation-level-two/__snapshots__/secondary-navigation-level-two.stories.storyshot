@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation level two Default 1`] = `
+"<pds-secondary-navigation-level-two title="Category one">
+      <pds-list spacing="sm">
+        <pds-list-item size="md"><!----><div class=" pds-c-secondary-navigation-level-two ">
+        <div class="pds-c-secondary-navigation-level-two--desktop">
+          <pds-secondary-navigation-link class="pds-c-secondary-navigation-level-two__menu-item pds-c-secondary-navigation-level-two--menu-item-link">Category one</pds-secondary-navigation-link>
+        </div>
+      </div><style>default</style><pds-secondary-navigation-link href="#">Link one</pds-secondary-navigation-link></pds-list-item>
+        <pds-list-item size="md"><pds-secondary-navigation-link href="#">Link two</pds-secondary-navigation-link></pds-list-item>
+      </pds-list>
+    </pds-secondary-navigation-level-two>"
+`;
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation level two Link 1`] = `
+"<pds-secondary-navigation-level-two title="Link" href="http://localhost:4200">
+      <pds-list spacing="sm">
+        <pds-list-item size="md"><!----><div class=" pds-c-secondary-navigation-level-two ">
+        <div class="pds-c-secondary-navigation-level-two--desktop">
+          <pds-secondary-navigation-link class="pds-c-secondary-navigation-level-two__menu-item pds-c-secondary-navigation-level-two--menu-item-link" href="http://localhost:4200" activepage="true" ariacurrent="page">Link</pds-secondary-navigation-link>
+        </div>
+      </div><style>default</style><pds-secondary-navigation-link href="#">Link one</pds-secondary-navigation-link></pds-list-item>
+        <pds-list-item size="md"><pds-secondary-navigation-link href="#">Link two</pds-secondary-navigation-link></pds-list-item>
+      </pds-list>
+    </pds-secondary-navigation-level-two>"
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Show more Default 1`] = `
+"<pds-show-more>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Pretium aenean
+        pharetra magna ac. Convallis a cras semper auctor neque vitae tempus
+        quam pellentesque. Elit ut aliquam purus sit amet luctus venenatis
+        lectus magna. Donec adipiscing tristique risus nec feugiat in fermentum
+        posuere urna. Tristique sollicitudin nibh sit amet commodo. Pellentesque
+        sit amet porttitor eget dolor morbi non arcu risus. Id porta nibh
+        venenatis cras sed felis eget. Fermentum iaculis eu non diam phasellus
+        vestibulum. <pds-link href="#">link</pds-link> Hac habitasse platea
+        dictumst pellentesque elit. Integer vitae justo eget magna fermentum
+        iaculis eu non. Est ante in nibh mauris cursus mattis. Nunc lobortis
+        mattis aliquam faucibus purus in massa tempor. Sed blandit libero
+        volutpat sed cras ornare arcu. Ut placerat orci nulla pellentesque.
+        Tempus imperdiet nulla malesuada pellentesque elit eget. Euismod lacinia
+        at quis risus sed vulputate. Lectus quam id leo in vitae. Id porta nibh
+        venenatis cras sed felis. Risus pretium quam vulputate dignissim
+        suspendisse in est. Tellus in metus vulputate eu. Quam id leo in vitae
+        turpis massa sed. Pharetra convallis posuere morbi leo urna molestie at
+        elementum eu. Sit amet nisl purus in mollis nunc. Sed velit dignissim
+        sodales ut eu sem integer.
+      </p><!----><div class=" pds-c-show-more pds-c-show-more--undefined ">
+      <div id="content" class="pds-c-show-more__content" aria-hidden="true" style="overflow: hidden; transition: height 0.3s ease; height: 0px;">
+        <slot></slot>
+      </div>
+      <pds-button link="icon-right" class="pds-c-show-more__button" ariaexpanded="false" type="submit">
+        <span>undefined</span>
+        <pds-icon-chevron-down class="pds-c-show-more__icon" size="default"></pds-icon-chevron-down>
+      </pds-button>
+    </div><style>default</style></pds-show-more>"
+`;
+
+exports[`Storyshots Components/Show more Inverted 1`] = `
+"<pds-show-more variant="inverted">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Pretium aenean
+        pharetra magna ac. Convallis a cras semper auctor neque vitae tempus
+        quam pellentesque. Elit ut aliquam purus sit amet luctus venenatis
+        lectus magna. Donec adipiscing tristique risus nec feugiat in fermentum
+        posuere urna. Tristique sollicitudin nibh sit amet commodo. Pellentesque
+        sit amet porttitor eget dolor morbi non arcu risus. Id porta nibh
+        venenatis cras sed felis eget. Fermentum iaculis eu non diam phasellus
+        vestibulum. <pds-link href="#">link</pds-link> Hac habitasse platea
+        dictumst pellentesque elit. Integer vitae justo eget magna fermentum
+        iaculis eu non. Est ante in nibh mauris cursus mattis. Nunc lobortis
+        mattis aliquam faucibus purus in massa tempor. Sed blandit libero
+        volutpat sed cras ornare arcu. Ut placerat orci nulla pellentesque.
+        Tempus imperdiet nulla malesuada pellentesque elit eget. Euismod lacinia
+        at quis risus sed vulputate. Lectus quam id leo in vitae. Id porta nibh
+        venenatis cras sed felis. Risus pretium quam vulputate dignissim
+        suspendisse in est. Tellus in metus vulputate eu. Quam id leo in vitae
+        turpis massa sed. Pharetra convallis posuere morbi leo urna molestie at
+        elementum eu. Sit amet nisl purus in mollis nunc. Sed velit dignissim
+        sodales ut eu sem integer.
+      </p><!----><div class=" pds-c-show-more pds-c-show-more--inverted ">
+      <div id="content" class="pds-c-show-more__content" aria-hidden="true" style="overflow: hidden; transition: height 0.3s ease; height: 0px;">
+        <slot></slot>
+      </div>
+      <pds-button link="icon-right" class="pds-c-show-more__button" variant="inverted" ariaexpanded="false" type="submit">
+        <span>undefined</span>
+        <pds-icon-chevron-down class="pds-c-show-more__icon" size="default"></pds-icon-chevron-down>
+      </pds-button>
+    </div><style>default</style></pds-show-more>"
+`;

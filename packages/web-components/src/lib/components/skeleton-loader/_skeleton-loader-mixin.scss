@@ -1,0 +1,21 @@
+/*------------------------------------*\
+ #SKELETON_LOADER_MIXIN
+\*------------------------------------*/
+
+@mixin variant-with-svg($background, $inverted-background) {
+  aspect-ratio: 1;
+  width: size(18.75);
+  background-color: transparent;
+
+  svg {
+    width: size(18.75);
+    height: size(18.75);
+    fill: $background;
+    color: $background;
+  }
+
+  &.pds-c-skeleton-loader--inverted svg {
+    fill: $inverted-background;
+    color: $inverted-background;
+  }
+}

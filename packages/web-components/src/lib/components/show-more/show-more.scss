@@ -1,0 +1,42 @@
+/*------------------------------------*\
+ #SHOW_MORE
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-show-more__button::part(button) {
+  padding: 0;
+
+  .pds-c-show-more--inverted & {
+    color: var(--pds-semantic-text-inverted-default);
+
+    &:hover {
+      color: var(--pds-semantic-text-interactive-inverted-xstrong);
+    }
+  }
+}
+
+.pds-c-show-more__content {
+  @include pds-semantic-body-default;
+
+  display: none;
+
+  .pds-c-show-more--inverted & {
+    color: var(--pds-semantic-text-inverted-default);
+  }
+}
+
+.pds-c-show-more__icon {
+  transition: transform 0.25s ease-in;
+}
+
+.pds-is-active {
+  .pds-c-show-more__icon {
+    transform: rotate(180deg);
+  }
+}

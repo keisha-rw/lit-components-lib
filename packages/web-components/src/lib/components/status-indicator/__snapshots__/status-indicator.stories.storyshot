@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Status indicator Default 1`] = `
+"<pds-status-indicator variant="default"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--default ">
+      <div class="pds-c-status-indicator__wrapper"></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Default with border 1`] = `
+"<pds-status-indicator variant="default" border="true"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--default ">
+      <div class="pds-c-status-indicator__wrapper"></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Default with check icon 1`] = `
+"<pds-status-indicator variant="default" icon="check"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--default ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__check">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8536 2.91103C11.0488 3.1063 11.0488 3.42288 10.8536 3.61814L5.35355 9.11814C5.15829 9.3134 4.84171 9.3134 4.64645 9.11814L2.14645 6.61814C1.95118 6.42288 1.95118 6.1063 2.14645 5.91103C2.34171 5.71577 2.65829 5.71577 2.85355 5.91103L5 8.05748L10.1464 2.91103C10.3417 2.71577 10.6583 2.71577 10.8536 2.91103Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Negative 1`] = `
+"<pds-status-indicator variant="negative"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--negative ">
+      <div class="pds-c-status-indicator__wrapper"></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Negative with alert icon 1`] = `
+"<pds-status-indicator variant="negative" icon="alert"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--negative ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__alert">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M7 3.33594C7 3.0598 6.77614 2.83594 6.5 2.83594C6.22386 2.83594 6 3.0598 6 3.33594V6.33594C6 6.61208 6.22386 6.83594 6.5 6.83594C6.77614 6.83594 7 6.61208 7 6.33594L7 3.33594ZM6.49721 8.16846C6.22261 8.16846 6 8.39107 6 8.66567C6 8.94027 6.22261 9.16287 6.49721 9.16287H6.50218C6.77678 9.16287 6.99939 8.94027 6.99939 8.66567C6.99939 8.39107 6.77678 8.16846 6.50218 8.16846H6.49721Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Negative with minus icon 1`] = `
+"<pds-status-indicator variant="negative" icon="minus"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--negative ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__minus">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 6.26459C2.5 5.98845 2.72386 5.76459 3 5.76459H10C10.2761 5.76459 10.5 5.98845 10.5 6.26459C10.5 6.54073 10.2761 6.76459 10 6.76459H3C2.72386 6.76459 2.5 6.54073 2.5 6.26459Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Negative with x icon 1`] = `
+"<pds-status-indicator variant="negative" icon="x"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--negative ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__x">
+      <path d="M9.85355 3.61814C10.0488 3.42288 10.0488 3.1063 9.85355 2.91103C9.65829 2.71577 9.34171 2.71577 9.14645 2.91103L6.5 5.55748L3.85355 2.91103C3.65829 2.71577 3.34171 2.71577 3.14645 2.91103C2.95118 3.1063 2.95118 3.42288 3.14645 3.61814L5.79289 6.26459L3.14645 8.91103C2.95118 9.1063 2.95118 9.42288 3.14645 9.61814C3.34171 9.8134 3.65829 9.8134 3.85355 9.61814L6.5 6.97169L9.14645 9.61814C9.34171 9.8134 9.65829 9.8134 9.85355 9.61814C10.0488 9.42288 10.0488 9.1063 9.85355 8.91103L7.20711 6.26459L9.85355 3.61814Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Neutral 1`] = `
+"<pds-status-indicator variant="neutral"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--neutral ">
+      <div class="pds-c-status-indicator__wrapper"></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Neutral with clock icon 1`] = `
+"<pds-status-indicator variant="neutral" icon="clock"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--neutral ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__clock">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.01373 3.00781C7.01373 2.73167 6.78988 2.50781 6.51373 2.50781C6.23759 2.50781 6.01373 2.73167 6.01373 3.00781V5.64179C6.01373 5.10385 6.01373 6.58919 6.01373 6.79649C6.19733 6.89859 6.68951 7.17593 7.01373 7.37384L8.52297 8.23986C8.76212 8.37793 9.06791 8.296 9.20599 8.05685C9.34406 7.8177 9.26212 7.51191 9.02297 7.37384L7.01373 6.21914V3.00781Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Neutral with minus icon 1`] = `
+"<pds-status-indicator variant="neutral" icon="minus"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--neutral ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__minus">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 6.26459C2.5 5.98845 2.72386 5.76459 3 5.76459H10C10.2761 5.76459 10.5 5.98845 10.5 6.26459C10.5 6.54073 10.2761 6.76459 10 6.76459H3C2.72386 6.76459 2.5 6.54073 2.5 6.26459Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Neutral with more horizontal icon 1`] = `
+"<pds-status-indicator variant="neutral" icon="moreHorizontal"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--neutral ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__more-horizontal">
+      <path d="M3 5.26459C2.44772 5.26459 2 5.7123 2 6.26459C2 6.81687 2.44772 7.26459 3 7.26459C3.55228 7.26459 4 6.81687 4 6.26459C4 5.7123 3.55228 5.26459 3 5.26459Z" fill="#FFFFFF"></path>
+      <path d="M5.50001 6.26459C5.50001 5.7123 5.94772 5.26459 6.50001 5.26459C7.05229 5.26459 7.50001 5.7123 7.50001 6.26459C7.50001 6.81687 7.05229 7.26459 6.50001 7.26459C5.94772 7.26459 5.50001 6.81687 5.50001 6.26459Z" fill="#FFFFFF"></path>
+      <path d="M8.99999 6.26459C8.99999 5.7123 9.44771 5.26459 9.99999 5.26459C10.5523 5.26459 11 5.7123 11 6.26459C11 6.81687 10.5523 7.26459 9.99999 7.26459C9.44771 7.26459 8.99999 6.81687 8.99999 6.26459Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Warning 1`] = `
+"<pds-status-indicator variant="warning"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--warning ">
+      <div class="pds-c-status-indicator__wrapper"></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;
+
+exports[`Storyshots Components/Status indicator Warning with alert icon 1`] = `
+"<pds-status-indicator variant="warning" icon="alert"><!----><div class=" pds-c-status-indicator pds-c-status-indicator--border pds-c-status-indicator--warning ">
+      <div class="pds-c-status-indicator__wrapper"><svg width="16" height="16" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="pds-c-status-indicator__alert">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M7 3.33594C7 3.0598 6.77614 2.83594 6.5 2.83594C6.22386 2.83594 6 3.0598 6 3.33594V6.33594C6 6.61208 6.22386 6.83594 6.5 6.83594C6.77614 6.83594 7 6.61208 7 6.33594L7 3.33594ZM6.49721 8.16846C6.22261 8.16846 6 8.39107 6 8.66567C6 8.94027 6.22261 9.16287 6.49721 9.16287H6.50218C6.77678 9.16287 6.99939 8.94027 6.99939 8.66567C6.99939 8.39107 6.77678 8.16846 6.50218 8.16846H6.49721Z" fill="#FFFFFF"></path>
+    </svg></div>
+      <slot></slot>
+    </div><style>default</style><span>Status</span></pds-status-indicator>"
+`;

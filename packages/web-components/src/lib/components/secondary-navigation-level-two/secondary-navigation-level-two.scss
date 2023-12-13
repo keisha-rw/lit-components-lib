@@ -1,0 +1,92 @@
+/*------------------------------------*\
+ #SECONDARY_NAVIGATION_LEVEL_TWO
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+
+  --pds-collapsible-border-bottom: none;
+  --pds-collapsible-content-border-bottom: none;
+  --pds-collapsible-border-top: none;
+  --pds-link-text-alt-hover: var(--pds-semantic-text-default);
+  --pds-link-text-alt: var(--pds-semantic-text-default);
+  --pds-collapsible-border-icon-hover: var(--pds-semantic-border-icon-default);
+}
+
+.pds-c-secondary-navigation-level-two {
+  .pds-c-secondary-navigation-level-two__menu-item {
+    @include pds-semantic-body-sm;
+
+    white-space: nowrap;
+  }
+
+  pds-collapsible::part(collapsible-summary) {
+    padding: size(0.75) size(2);
+    padding-left: 0;
+
+    @include pds-semantic-body-default;
+
+    &:hover {
+      background: var(--pds-semantic-background-opacity-none);
+    }
+  }
+
+  pds-collapsible[open]::part(collapsible-summary) {
+    background: var(--pds-semantic-background-opacity-none);
+  }
+
+  pds-collapsible::part(collapsible-content) {
+    padding-bottom: size(0.75);
+    padding-top: 0;
+    padding-left: size(2);
+  }
+
+  .pds-c-secondary-navigation-level-two--menu-item-link {
+    margin-bottom: size(1);
+    display: inline-block;
+  }
+
+  .pds-c-secondary-navigation-level-two--mobile {
+    display: block;
+
+    pds-list::part(list) {
+      gap: 1.25;
+    }
+
+    .pds-c-secondary-navigation-level-two--menu-item-link {
+      padding-top: size(0.75);
+    }
+
+    @media only screen and (min-width: $pds-bp-lg) {
+      display: none;
+    }
+  }
+
+  .pds-c-secondary-navigation-level-two--desktop {
+    display: none;
+
+    @media only screen and (min-width: $pds-bp-lg) {
+      display: block;
+
+      .pds-c-secondary-navigation-level-two--active-page {
+        border-bottom: solid size(0.25) transparent;
+        box-shadow: 0 3px 0 0 var(--pds-semantic-border-interactive-default);
+      }
+
+      pds-heading {
+        padding-bottom: size(1);
+      }
+
+      .pds-c-secondary-navigation-level-two__category-title {
+        @include pds-semantic-label-default;
+
+        + .pds-c-secondary-navigation-level-two__slot::slotted(pds-list) {
+          padding-top: size(2);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+/*------------------------------------*\
+ #STATUS_INDICATOR
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-status-indicator {
+  display: flex;
+  align-items: center;
+  height: size(4);
+  width: fit-content;
+
+  ::slotted(*:first-child) {
+    @include pds-semantic-meta-sm;
+
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: var(--pds-semantic-text-default);
+    display: flex;
+    width: fit-content;
+    margin-right: size(0.75);
+  }
+}
+
+.pds-c-status-indicator__wrapper {
+  background-color: var(--pds-semantic-border-success);
+  width: size(2.25);
+  height: size(2.25);
+  margin: size(1) size(1) size(1) size(0.75);
+  border-radius: size(2.5);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  .pds-c-status-indicator--negative & {
+    background-color: var(--pds-semantic-border-error);
+  }
+
+  .pds-c-status-indicator--neutral & {
+    background-color: var(--pds-semantic-border-strong);
+  }
+
+  .pds-c-status-indicator--warning & {
+    background-color: var(--pds-semantic-border-warning);
+  }
+}
+
+.pds-c-status-indicator--default {
+  &.pds-c-status-indicator--border {
+    border: size(0.125) solid var(--pds-semantic-border-success);
+    border-radius: size(0.5);
+  }
+}
+
+.pds-c-status-indicator--negative {
+  &.pds-c-status-indicator--border {
+    border: size(0.125) solid var(--pds-semantic-border-error);
+    border-radius: size(0.5);
+  }
+}
+
+.pds-c-status-indicator--neutral {
+  &.pds-c-status-indicator--border {
+    border: size(0.125) solid var(--pds-semantic-border-strong);
+    border-radius: size(0.5);
+  }
+}
+
+.pds-c-status-indicator--warning {
+  &.pds-c-status-indicator--border {
+    border: size(0.125) solid var(--pds-semantic-border-warning);
+    border-radius: size(0.5);
+  }
+}

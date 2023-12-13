@@ -1,0 +1,167 @@
+/*------------------------------------*\
+ #SIDEBAR
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-l-sidebar {
+  display: grid;
+  gap: size(3);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.pds-l-sidebar--right-sidebar {
+  @media all and (max-width: ($pds-bp-lg - 1)) {
+    ::slotted([slot='right-sidebar']) {
+      grid-row: var(--pds-sidebar-right-stacked-position, 2);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    grid-template-columns: minmax(0, 1fr) var(--pds-sidebar-right-width, 40%);
+  }
+}
+
+.pds-l-sidebar--left-sidebar {
+  @media all and (max-width: ($pds-bp-lg - 1)) {
+    ::slotted([slot='left-sidebar']) {
+      grid-row: var(--pds-sidebar-left-stacked-position, 2);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    grid-template-columns: var(--pds-sidebar-left-width, 40%) minmax(0, 1fr);
+  }
+}
+
+.pds-l-sidebar--leftandright-sidebars {
+  @media all and (max-width: ($pds-bp-lg - 1)) {
+    ::slotted([slot='left-sidebar']) {
+      grid-row: var(--pds-sidebar-left-stacked-position, 2);
+    }
+
+    ::slotted([slot='right-sidebar']) {
+      grid-row: var(--pds-sidebar-right-stacked-position, 3);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    grid-template-columns: var(--pds-sidebar-left-width, 20%) minmax(0, 1fr) var(
+        --pds-sidebar-right-width,
+        20%
+      );
+  }
+}
+
+.pds-l-sidebar--break-faster.pds-l-sidebar--right-sidebar {
+  @media all and (max-width: ($pds-bp-md - 1)) {
+    ::slotted([slot='right-sidebar']) {
+      grid-row: var(--pds-sidebar-right-stacked-position, 2);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) var(--pds-sidebar-right-width, 40%);
+  }
+}
+
+.pds-l-sidebar--break-slower.pds-l-sidebar--right-sidebar {
+  @media all and (max-width: ($pds-bp-xl - 1)) {
+    ::slotted([slot='right-sidebar']) {
+      grid-row: var(--pds-sidebar-right-stacked-position, 2);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media all and (min-width: $pds-bp-xl) {
+    grid-template-columns: minmax(0, 1fr) var(--pds-sidebar-right-width, 40%);
+  }
+}
+
+.pds-l-sidebar--break-faster.pds-l-sidebar--left-sidebar {
+  @media all and (max-width: ($pds-bp-md - 1)) {
+    ::slotted([slot='left-sidebar']) {
+      grid-row: var(--pds-sidebar-left-stacked-position, 2);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    width: 100%;
+    grid-template-columns: var(--pds-sidebar-left-width, 40%) minmax(0, 1fr);
+  }
+}
+
+.pds-l-sidebar--break-slower.pds-l-sidebar--left-sidebar {
+  @media all and (max-width: ($pds-bp-xl - 1)) {
+    ::slotted([slot='left-sidebar']) {
+      grid-row: var(--pds-sidebar-left-stacked-position, 2);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media all and (min-width: $pds-bp-xl) {
+    grid-template-columns: var(--pds-sidebar-left-width, 40%) minmax(0, 1fr);
+  }
+}
+
+.pds-l-sidebar--break-faster.pds-l-sidebar--leftandright-sidebars {
+  @media all and (max-width: ($pds-bp-md - 1)) {
+    ::slotted([slot='left-sidebar']) {
+      grid-row: var(--pds-sidebar-left-stacked-position, 2);
+    }
+
+    ::slotted([slot='right-sidebar']) {
+      grid-row: var(--pds-sidebar-right-stacked-position, 3);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    grid-template-columns:
+      var(--pds-sidebar-left-width, 20%)
+      minmax(0, 1fr) var(--pds-sidebar-right-width, 20%);
+  }
+}
+
+.pds-l-sidebar--break-slower.pds-l-sidebar--leftandright-sidebar {
+  @media all and (max-width: ($pds-bp-xl - 1)) {
+    ::slotted([slot='left-sidebar']) {
+      grid-row: var(--pds-sidebar-left-stacked-position, 2);
+    }
+
+    ::slotted([slot='right-sidebar']) {
+      grid-row: var(--pds-sidebar-right-stacked-position, 3);
+    }
+  }
+
+  @media all and (min-width: $pds-bp-md) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media all and (min-width: $pds-bp-xl) {
+    grid-template-columns: var(--pds-sidebar-left-width, 20%) minmax(0, 1fr) var(
+        --pds-sidebar-right-width,
+        20%
+      );
+  }
+}
+
+.pds-l-sidebar--gap-none {
+  gap: size(0);
+}
+
+.pds-l-sidebar--gap-sm {
+  gap: size(1);
+}
+
+.pds-l-sidebar--gap-lg {
+  gap: size(4);
+}

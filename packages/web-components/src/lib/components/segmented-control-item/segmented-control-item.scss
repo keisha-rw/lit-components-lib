@@ -1,0 +1,73 @@
+/*------------------------------------*\
+ #SEGMENTED_CONTROL_ITEM
+\*------------------------------------*/
+
+.pds-c-segmented-control-item {
+  @include pds-semantic-label-default;
+
+  padding: size(0.5) size(1.5);
+  cursor: pointer;
+  color: var(--pds-semantic-text-interactive-default);
+  background: var(--pds-semantic-background-opacity-none);
+  z-index: 1;
+  width: 100%;
+  transition: color 0.5s ease;
+  border: none;
+  margin: 0;
+}
+
+.pds-c-segmented-control-item--sm {
+  padding: 0 size(1.5);
+
+  &.pds-c-segmented-control-item {
+    @include pds-semantic-label-sm;
+  }
+}
+
+.pds-c-segmented-control-item--narrow-container {
+  @include pds-semantic-body-sm;
+
+  text-align: left;
+  color: var(--pds-semantic-text-default);
+  padding: size(0.5);
+
+  &.pds-c-segmented-control-item:not(.pds-is-disabled) {
+    &:hover {
+      background: var(--pds-semantic-background-subtle);
+      color: var(--pds-semantic-text-default);
+      border-radius: size(0.5);
+    }
+  }
+}
+
+.pds-c-segmented-control-item:not(
+    .pds-is-disabled,
+    .pds-c-segmented-control-item--narrow-container
+  ) {
+  &:hover {
+    background: var(--pds-semantic-background-default);
+    color: var(--pds-semantic-text-interactive-strong);
+    border-radius: 100px;
+  }
+
+  &.pds-is-active {
+    background: var(--pds-semantic-background-default);
+    color: var(--pds-semantic-text-interactive-xstrong);
+    border-radius: 100px;
+    box-shadow: 0 0 size(1) 0 var(--pds-base-color-opacity-black-20);
+  }
+}
+
+.pds-is-disabled {
+  color: var(--pds-semantic-text-disabled);
+
+  &.pds-c-segmented-control-item {
+    cursor: not-allowed;
+  }
+
+  &.pds-is-active {
+    background: var(--pds-semantic-background-disabled);
+    border-radius: 100px;
+    box-shadow: 0 0 size(1) 0 var(--pds-base-color-opacity-black-20);
+  }
+}

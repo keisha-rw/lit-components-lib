@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Select Default 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Default small 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Disabled 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Disabled with help text 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Error 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Help text 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Hidden label 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Placeholder 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;
+
+exports[`Storyshots Components/Select Pre-selected option 1`] = `
+"<pds-select label="," size="," name="select-field" ?disabled="," ?required="," ?hidelabel="," helptext="," placeholder="," aria-invalid="true" internals-invalid="">
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </pds-select>"
+`;

@@ -1,0 +1,77 @@
+/*------------------------------------*\
+ #SEGMENTED_CONTROL
+\*------------------------------------*/
+
+.pds-c-segmented-control {
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  background-color: var(--pds-semantic-background-subtle);
+  border-radius: size(12.5);
+  border: none;
+  padding: size(0.5);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 size(1) 0 var(--pds-base-color-opacity-black-20) inset;
+}
+
+.pds-c-segmented-control--default {
+  @include pds-semantic-label-default;
+
+  height: size(5.5);
+}
+
+.pds-c-segmented-control--sm {
+  @include pds-semantic-label-sm;
+
+  height: size(4);
+}
+
+.pds-c-segmented-control__segments {
+  display: flex;
+  align-items: center;
+  gap: size(0.5);
+  flex-shrink: 0;
+
+  &::slotted(pds-segmented-control-item) {
+    min-width: var(--pds-segments-width);
+  }
+}
+
+.pds-is-disabled {
+  cursor: not-allowed;
+  background: var(--pds-semantic-background-disabled);
+}
+
+.pds-c-segmented-control__icon {
+  margin-left: size(1);
+}
+
+pds-button[isActive='true'] .pds-c-segmented-control__icon {
+  transform: rotate(180deg);
+}
+
+.pds-c-segmented-control__segments-panel {
+  display: none;
+  z-index: 2;
+  background: var(--pds-semantic-background-default);
+  width: size(25);
+  box-shadow: 0 0 size(1) var(--pds-base-color-opacity-black-20);
+  border-radius: size(0.5);
+  padding: size(1.5) size(2);
+}
+
+.pds-is-active .pds-c-segmented-control__segments-panel {
+  display: block;
+  position: absolute;
+}
+
+.pds-c-segmented-control__arrow {
+  position: absolute;
+  width: size(2.5);
+  height: size(2.5);
+  transform: rotate(45deg);
+  background: var(--pds-semantic-background-default);
+  box-shadow: size(-0.625) size(-0.5) size(1.5) size(-0.5)
+    var(--pds-base-color-opacity-black-20);
+}

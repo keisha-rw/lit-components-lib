@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select unit tests sets selected on the correct option when defaultValue is set 1`] = `
+<option
+  value="option2"
+>
+  Option 2
+</option>
+`;

@@ -1,0 +1,132 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #SELECT_MENU
+\*------------------------------------*/
+
+.pds-c-select__select {
+  @include pds-semantic-body-default;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding: size(0.75) size(6.5) size(0.75) size(2);
+  gap: size(2);
+  isolation: isolate;
+  box-shadow: none;
+  width: 100%;
+  height: size(6);
+  appearance: none;
+  border-radius: size(0.5);
+  color: var(--pds-semantic-text-default);
+  background-color: var(--pds-semantic-background-default);
+  border: size(0.125) solid var(--pds-semantic-border-strong);
+
+  &:hover {
+    background-color: var(--pds-semantic-background-subtle);
+    border: size(0.125) solid var(--pds-semantic-border-interactive-strong);
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:focus {
+    background-color: var(--pds-semantic-background-subtle);
+    border: size(0.125) solid var(--pds-semantic-border-interactive-xstrong);
+    box-shadow: size(0) size(0) size(1)
+      var(--pds-semantic-border-interactive-xstrong);
+  }
+
+  .pds-c-select--sm & {
+    height: size(5);
+  }
+
+  .pds-is-error & {
+    border-color: var(--pds-semantic-border-error);
+
+    &:focus {
+      box-shadow: 0 0 size(0.5) var(--pds-semantic-border-error);
+    }
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    background: var(--pds-semantic-background-disabled);
+    border: size(0.125) solid var(--pds-semantic-border-disabled);
+
+    &:hover {
+      border: size(0.125) solid var(--pds-semantic-border-disabled);
+    }
+  }
+}
+
+.pds-c-select__label {
+  @include pds-semantic-form-label-default;
+  // Inside auto layout
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  .pds-is-disabled & {
+    color: var(--pds-semantic-text-disabled);
+    cursor: not-allowed;
+  }
+
+  .pds-c-select--hidden-label & {
+    @include pds-util-sr-only;
+  }
+}
+
+.pds-c-select__help-text {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-default);
+  line-height: size(2.25);
+  margin-bottom: size(1);
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    color: var(--pds-semantic-text-disabled);
+  }
+}
+
+.pds-c-select__required-indicator {
+  color: var(--pds-semantic-text-error);
+}
+
+.pds-c-select__error-message {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-error);
+  display: flex;
+  align-items: center;
+  gap: size(1);
+  margin-top: size(0.25);
+}
+
+.pds-c-select__down {
+  position: absolute;
+  right: size(1.5);
+  pointer-events: none;
+  color: var(--pds-semantic-border-icon-default);
+
+  .pds-is-disabled & {
+    color: var(--pds-semantic-border-disabled);
+  }
+}
+
+.pds-c-select__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+// options are originally slotted, but then copied inside the component
+// so using a element selector is necessary here
+option:checked {
+  @include pds-semantic-body-bold-default;
+}

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation level one Contains only links 1`] = `
+"<pds-secondary-navigation-level-one title="Menu item one">
+      <pds-secondary-navigation-level-two title="Link one" href="#"><!----><div class="pds-c-secondary-navigation-level-one pds-c-secondary-navigation-level-one--active-section">
+      <div class="pds-c-secondary-navigation-level-one--desktop">
+        <li role="listitem" class="pds-c-secondary-navigation-level-one--dropdown-menu-item">
+          <button aria-label="dropdown link" aria-expanded="false" class="pds-c-secondary-navigation-level-one__link" aria-current="true">
+            <span class="pds-c-secondary-navigation-level-one__text">Menu item one</span>
+            <span class="pds-c-secondary-navigation-level-one__icon"><pds-icon-chevron-down size="sm"></pds-icon-chevron-down></span>
+          </button>
+          <div class="pds-c-secondary-navigation-level-one__panel">
+            <div data-popper-arrow=""></div>
+            <div class="pds-c-secondary-navigation-level-one__panel-content">
+              <span class="pds-c-secondary-navigation-level-one--1col">
+                <slot class="pds-c-secondary-navigation-level-one__slot"></slot></span>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div><style>default</style></pds-secondary-navigation-level-two>
+      <pds-secondary-navigation-level-two title="Link two" href="#">
+      </pds-secondary-navigation-level-two><pds-secondary-navigation-level-two title="Link three" href="http://localhost:4200"></pds-secondary-navigation-level-two></pds-secondary-navigation-level-one>"
+`;
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation level one Default 1`] = `
+"<pds-secondary-navigation-level-one title="Menu item one" columns="2col">
+      <pds-secondary-navigation-level-two title="Category one">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><!----><div class=" pds-c-secondary-navigation-level-one ">
+        <div class="pds-c-secondary-navigation-level-one--desktop">
+          <li role="listitem" class="pds-c-secondary-navigation-level-one__dropdown-item">
+            <a part="link" class="pds-c-secondary-navigation-level-one__link pds-c-secondary-navigation-level-one__menu-item">
+              <span class="pds-c-secondary-navigation-level-one__text">Menu item one</span>
+            </a>
+          </li>
+        </div>
+      </div><style>default</style><pds-link href="#">Link one</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link two</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link three</pds-link></pds-list-item>
+        </pds-list>
+      </pds-secondary-navigation-level-two>
+      <pds-secondary-navigation-level-two title="Category two">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link href="#">Link one</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link two</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link three</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link four</pds-link></pds-list-item>
+        </pds-list>
+      </pds-secondary-navigation-level-two></pds-secondary-navigation-level-one>"
+`;
+
+exports[`Storyshots Components/Secondary navigation/Secondary navigation level one Link 1`] = `
+"<pds-secondary-navigation-level-one title="Account" href="#">
+      <pds-secondary-navigation-level-two title="Category one">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><!----><div class=" pds-c-secondary-navigation-level-one ">
+        <div class="pds-c-secondary-navigation-level-one--desktop">
+          <li role="listitem" class="pds-c-secondary-navigation-level-one__dropdown-item">
+            <a part="link" class="pds-c-secondary-navigation-level-one__link pds-c-secondary-navigation-level-one__menu-item" href="#">
+              <span class="pds-c-secondary-navigation-level-one__text">Account</span>
+            </a>
+          </li>
+        </div>
+      </div><style>default</style><pds-link href="#">Link one</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link two</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link three</pds-link></pds-list-item>
+        </pds-list>
+      </pds-secondary-navigation-level-two>
+      <pds-secondary-navigation-level-two title="Category two">
+        <pds-list spacing="sm">
+          <pds-list-item size="md"><pds-link href="#">Link one</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link two</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link three</pds-link></pds-list-item>
+          <pds-list-item size="md"><pds-link href="#">Link four</pds-link></pds-list-item>
+        </pds-list>
+      </pds-secondary-navigation-level-two></pds-secondary-navigation-level-one>"
+`;

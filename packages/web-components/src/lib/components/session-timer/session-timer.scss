@@ -1,0 +1,252 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #SESSION_TIMER
+\*------------------------------------*/
+
+.pds-c-session-timer__footer {
+  margin-top: size(5);
+
+  @media all and (width < $pds-bp-lg) {
+    margin-top: auto;
+  }
+
+  .pds-c-session-timer__modal & {
+    text-align: center;
+  }
+}
+
+.pds-c-session-timer__icon {
+  display: inline-block;
+  position: relative;
+  top: size(0.75);
+  margin-right: size(1.5);
+
+  .pds-c-session-timer__max-timer & {
+    top: size(1.5);
+  }
+
+  @media all and (width < $pds-bp-lg) {
+    display: none;
+  }
+}
+
+.pds-c-session-timer__modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  inset-inline: 0;
+  height: fit-content;
+  background-color: transparent;
+  margin: none;
+  border: none;
+  border-radius: size(0.5);
+  padding: 0;
+  max-width: 90%;
+  width: size(113);
+
+  @media all and (width < $pds-bp-lg) {
+    height: 100%;
+  }
+
+  &:focus {
+    // Removing the focus ring here since the element is not interactive, but focus is needed for the modal's focus-trap
+    outline: none;
+  }
+}
+
+@keyframes backdrop-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes backdrop-disappear {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes timer-slide-in {
+  from {
+    top: 120vh;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes timer-slide-out {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+
+  to {
+    top: 120vh;
+    opacity: 0;
+  }
+}
+
+@keyframes max-timer-slide-in {
+  from {
+    bottom: -150px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes max-timer-slide-out {
+  from {
+    bottom: 0;
+    opacity: 1;
+  }
+
+  to {
+    bottom: -150px;
+    opacity: 0;
+  }
+}
+
+.pds-c-session-timer__heading {
+  color: var(--pds-semantic-text-interactive-inverted-default);
+  margin-bottom: size(3);
+
+  .pds-c-session-timer__modal & {
+    text-align: center;
+  }
+}
+
+.pds-c-session-timer__text {
+  @include pds-semantic-body-xl;
+
+  color: var(--pds-semantic-text-interactive-inverted-default);
+
+  .pds-c-session-timer__modal & {
+    text-align: center;
+  }
+
+  .pds-c-session-timer__max-timer & {
+    margin-left: size(7);
+
+    @media all and (width < $pds-bp-lg) {
+      margin-left: 0;
+    }
+  }
+}
+
+.pds-c-session-timer__text-passage {
+  .pds-c-session-timer__modal & {
+    @media all and (width < $pds-bp-lg) {
+      margin-top: size(17);
+    }
+  }
+
+  .pds-c-session-timer__max-timer & {
+    @media all and (width < $pds-bp-lg) {
+      margin-top: size(10);
+    }
+  }
+}
+
+.pds-c-session-timer__time-remaining {
+  @include pds-semantic-body-bold-xl;
+
+  background-color: var(--pds-semantic-background-highlight);
+  border-radius: size(0.5);
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  user-select: none;
+}
+
+.pds-c-session-timer__modal[open] {
+  animation: timer-slide-in ease-in-out 625ms 1 both;
+
+  &.pds-c-session-timer--is-minimized {
+    animation: timer-slide-out ease-in-out 625ms 1 both;
+  }
+
+  &::backdrop {
+    // Need to add a fallback color here to help with support of CSS variables in the dialog::backdrop pseudo-element
+    // See https://fullscreen.spec.whatwg.org/#::backdrop-pseudo-element, it doesn't inherit from :root
+    // If/when this gets support, it will prefer the token.
+    background-color: var(--pds-semantic-background-opacity-dim, #333333e6);
+    backdrop-filter: blur(2px);
+    animation: backdrop-appear ease-in-out 625ms 1 both;
+  }
+
+  &.pds-c-session-timer--is-minimized::backdrop {
+    animation: backdrop-disappear ease-in-out 625ms 1 both;
+  }
+}
+
+.pds-c-session-timer__max-timer {
+  display: none;
+  background-color: var(--pds-semantic-background-opacity-dim);
+  animation: max-timer-slide-out linear 500ms 1 both;
+
+  &.pds-c-session-timer--is-visible {
+    animation: max-timer-slide-in linear 500ms 1 both;
+    display: block;
+    position: fixed;
+    backdrop-filter: blur(2px);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  &.pds-c-session-timer--is-minimized {
+    animation: max-timer-slide-out linear 500ms 1 both;
+    bottom: 200px;
+  }
+}
+
+.pds-c-session-timer__layout-container {
+  display: block;
+  margin: size(4) 0;
+
+  @media all and (width < $pds-bp-lg) {
+    margin: size(2);
+  }
+
+  .pds-c-session-timer__max-timer & {
+    @media all and (width < $pds-bp-lg) {
+      margin: size(1) size(2) size(3);
+    }
+  }
+}
+
+.pds-c-session-timer__dismiss-button {
+  position: absolute;
+  top: size(3);
+  right: size(1);
+}
+
+.pds-c-session-timer__dismiss-x {
+  margin-left: size(1);
+}
+
+.pds-c-session-timer__sr-only {
+  @include pds-util-sr-only;
+}
+
+.pds-c-session-timer__alert {
+  margin-bottom: size(2);
+}
