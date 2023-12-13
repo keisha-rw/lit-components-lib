@@ -1,0 +1,34 @@
+/* ------------------------------------ *\
+    #PLACEHOLDER_ELEMENT
+\* ------------------------------------ */
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+/**
+ * For placeholder element block
+ */
+.placeholder-element {
+  @include pds-semantic-label-default;
+
+  background: lighten(#ffc82e, 30%);
+  border: 1px dashed #ffc82e;
+  border-radius: size(0.5);
+  padding: 1rem;
+  text-align: center;
+  color: darken(#ffc82e, 35%);
+  margin-bottom: var(--placeholder-element-margin-bottom, 2rem);
+
+  :host(:last-of-type) & {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * Tight placeholder block
+ */
+.placeholder-element--tight {
+  padding: 0.25rem;
+}
