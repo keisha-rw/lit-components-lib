@@ -1,0 +1,99 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "plugins": ["jest"],
+  "ignorePatterns": ["!**/*", "*.d.ts"],
+  "overrides": [
+    {
+      "files": ["*.ts", ".storybook/**/*.ts"],
+      "parserOptions": {
+        "project": ["packages/icons-react/tsconfig.lib.json"]
+      },
+      "extends": [
+        "plugin:lit/recommended"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off",
+        "import/prefer-default-export": "off",
+        "import/extensions": ["error", "never", { "js": "ignorePackages" }],
+        "class-methods-use-this": "off",
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["vite.config.ts"],
+      "parserOptions": {
+        "project": ["packages/icons-react/tsconfig.lib.json"]
+      },
+      "extends": [],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off",
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["*.spec.ts", "test/**/*.ts"],
+      "parserOptions": {
+        "project": ["packages/icons-react/tsconfig.spec.json"]
+      },
+      "extends": [],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off",
+        "curly": ["error", "all"]
+      }
+    },
+    {
+      "files": ["jest.config.ts"],
+      "parserOptions": {
+        "project": ["packages/icons-react/tsconfig.spec.json"]
+      },
+      "extends": [],
+      "rules": {}
+    },
+    {
+      "files": ["*.stories.ts"],
+      "parserOptions": {
+        "project": ["packages/icons-react/tsconfig.stories.json"]
+      },
+      "extends": [],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/export": "off"
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {},
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    },
+    {
+      "files": [".storybook/*.js", "__mocks__/*.js"],
+      "rules": {
+        "curly": ["error", "all"]
+      },
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015,
+        "project": ["packages/icons-react/.storybook/tsconfig.json"]
+      }
+    },
+    {
+      "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
+      "parserOptions": {
+        "project": ["packages/icons-react/tsconfig.*?.json"]
+      },
+      "rules": {
+        "jest/consistent-test-it": "error",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+      }
+    }
+  ]
+}
