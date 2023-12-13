@@ -1,0 +1,165 @@
+@use '../02-semantic/type-semantic.scss';
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+//
+// Body text
+//
+
+.pds-u-typography-body-sm {
+  @include pds-semantic-body-sm;
+}
+
+.pds-u-typography-body-default-compact {
+  @include pds-semantic-body-default-compact;
+}
+
+.pds-u-typography-body-default {
+  @include pds-semantic-body-default;
+}
+
+.pds-u-typography-body-lg {
+  @include pds-semantic-body-lg;
+}
+
+.pds-u-typography-body-xl {
+  @include pds-semantic-body-xl;
+}
+
+//
+// Bold body text
+//
+
+.pds-u-typography-body-bold-sm {
+  @include pds-semantic-body-bold-sm;
+}
+
+.pds-u-typography-body-bold-default {
+  @include pds-semantic-body-bold-default;
+}
+
+.pds-u-typography-body-bold-lg {
+  @include pds-semantic-body-bold-lg;
+}
+
+.pds-u-typography-body-bold-xl {
+  @include pds-semantic-body-bold-xl;
+}
+
+//
+// Label text
+//
+
+.pds-u-typography-label-sm {
+  @include pds-semantic-label-sm;
+}
+
+.pds-u-typography-label-default {
+  @include pds-semantic-label-default;
+}
+
+.pds-u-typography-label-lg {
+  @include pds-semantic-label-lg;
+}
+
+.pds-u-typography-label-xl {
+  @include pds-semantic-label-xl;
+}
+
+//
+// Title text
+//
+
+.pds-u-typography-title-xs {
+  @include pds-semantic-title-xs;
+}
+
+.pds-u-typography-title-sm {
+  @include pds-semantic-title-sm;
+}
+
+.pds-u-typography-title-default {
+  @include pds-semantic-title-default;
+}
+
+.pds-u-typography-title-lg {
+  @include pds-semantic-title-lg;
+}
+
+//
+// Headline text
+//
+
+.pds-u-typography-headline-sm {
+  @include pds-semantic-headline-sm;
+}
+
+.pds-u-typography-headline-default {
+  @include pds-semantic-headline-default;
+}
+
+.pds-u-typography-headline-lg {
+  @include pds-semantic-headline-lg;
+}
+
+//
+// Display text
+//
+
+.pds-u-typography-display-sm {
+  @include pds-semantic-display-sm;
+}
+
+.pds-u-typography-display-default {
+  @include pds-semantic-display-default;
+}
+
+//
+// Meta text
+//
+
+.pds-u-typography-meta-sm {
+  @include pds-semantic-meta-sm;
+}
+
+.pds-u-typography-meta-default {
+  @include pds-semantic-meta-default;
+}
+
+//
+// Testimonial text
+//
+
+.pds-u-typography-testimonial-sm {
+  @include pds-semantic-testimonial-sm;
+}
+
+.pds-u-typography-testimonial-default {
+  @include pds-semantic-testimonial-default;
+}
+
+.pds-u-typography-testimonial-lg {
+  @include pds-semantic-testimonial-lg;
+}
+
+//
+// Data text
+//
+
+.pds-u-typography-data-sm {
+  @include pds-semantic-data-sm;
+}
+
+.pds-u-typography-data-default {
+  @include pds-semantic-data-default;
+}
+
+.pds-u-typography-data-lg {
+  @include pds-semantic-data-lg;
+}
+
+.pds-u-typography-data-xl {
+  @include pds-semantic-data-xl;
+}

@@ -1,0 +1,12 @@
+{
+  "component/layout-container": {
+    "max-width": {
+      "default": {
+        "value": "85.375rem"
+      },
+      "narrow": {
+        "value": "64rem"
+      }
+    }
+  }
+}

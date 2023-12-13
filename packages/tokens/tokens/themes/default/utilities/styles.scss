@@ -1,0 +1,18 @@
+// This file is used to generate pds-styles.min.css
+
+// scss variables
+@import '../../../01-base/global-utils/breakpoints';
+@import '../../../01-base/global-utils/functions';
+@import '../../../01-base/global-utils/reset';
+@import '../../../01-base/global-utils/layout';
+@import '../../../01-base/global-utils/a11y';
+@import '../../../01-base/global-utils/image';
+@import '../../../01-base/global-utils/responsive';
+
+// default theme definitions - color (includes base) & typography
+@import '../../../../dist/css/default/tokens';
+@import '../02-semantic/type-semantic';
+
+// themed utilities
+@import './typography';
+@import './colors';

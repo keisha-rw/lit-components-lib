@@ -1,0 +1,88 @@
+{
+  "semantic/border": {
+    "subtle": {
+      "value": "{base/color.neutral.gray.05.value}",
+      "type": "color",
+      "description": "Gray 5"
+    },
+    "default": {
+      "value": "{base/color.neutral.gray.04.value}",
+      "type": "color",
+      "description": "Gray 4"
+    },
+    "strong": {
+      "value": "{base/color.neutral.gray.02.value}",
+      "type": "color",
+      "description": "Gray 2"
+    },
+    "inverted": {
+      "default": {
+        "value": "{base/color.neutral.white.value}",
+        "type": "color",
+        "description": "White"
+      }
+    },
+    "disabled": {
+      "value": "{base/color.neutral.gray.04.value}",
+      "type": "color",
+      "description": "Gray 4"
+    },
+    "info": {
+      "value": "{base/color.blue.principal.value}",
+      "type": "color",
+      "description": "Company Co blue"
+    },
+    "success": {
+      "value": "{base/color.green.value}",
+      "type": "color",
+      "description": "Success"
+    },
+    "warning": {
+      "value": "{base/color.orange.value}",
+      "type": "color",
+      "description": "Warning"
+    },
+    "error": {
+      "value": "{base/color.red.value}",
+      "type": "color",
+      "description": "Error"
+    },
+    "interactive": {
+      "default": {
+        "value": "{base/color.blue.admiral.value}",
+        "type": "color",
+        "description": "Admiral blue"
+      },
+      "strong": {
+        "value": "{base/color.blue.admiral-110.value}",
+        "type": "color",
+        "description": "Admiral blue 110"
+      },
+      "xstrong": {
+        "value": "{base/color.blue.admiral-120.value}",
+        "type": "color",
+        "description": "Admiral blue 120"
+      },
+      "inverted": {
+        "strong": {
+          "value": "{base/color.blue.sky.03.value}"
+        },
+        "xstrong": {
+          "value": "{base/color.blue.sky.04.value}"
+        }
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{base/color.neutral.gray.01.value}",
+        "type": "color",
+        "description": "Gray 1"
+      }
+    },
+    "opacity": {
+      "none": {
+        "value": "{base/color.opacity.gray.01.00.value}"
+      }
+    }
+  }
+}

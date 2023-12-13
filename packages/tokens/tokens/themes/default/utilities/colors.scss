@@ -1,0 +1,90 @@
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+
+/**
+ * Generates solid background color utilities for the light DOM
+ *
+ * Class name = .pds-u-background-COLOR, where
+ *  COLOR @see dist/css/default/tokens.css - --pds-semantic-background-*
+ */
+@each $colorCustomProperty
+  in (
+    default,
+    subtle,
+    strong,
+    disabled,
+    highlight,
+    brand-default,
+    brand-strong,
+    brand-xstrong,
+    opacity-none,
+    opacity-dim,
+    opacity-brand,
+    interactive-default,
+    interactive-strong,
+    interactive-xstrong,
+    interactive-neutral-strong,
+    interactive-neutral-xstrong,
+    interactive-inverted-strong,
+    interactive-inverted-xstrong,
+    interactive-inverted-neutral-strong,
+    interactive-inverted-neutral-xstrong
+  )
+{
+  .pds-u-background-#{$colorCustomProperty} {
+    background-color: var(
+      --pds-semantic-background-#{$colorCustomProperty}
+    ) !important;
+  }
+}
+
+/**
+ * Generates gradient background color utilities for the light DOM
+ *
+ * Class name = .pds-u-background-COLOR, where
+ *  COLOR @see dist/css/default/tokens.css - --pds-semantic-background-*
+ */
+@each $colorCustomProperty 
+in (
+  brand-gradient-strong, 
+  brand-gradient-xstrong, 
+  brand-gradient-subtle, 
+  opacity-brand-gradient-strong) 
+  {
+  .pds-u-background-#{$colorCustomProperty} {
+    background: var(
+      --pds-semantic-background-#{$colorCustomProperty}
+    ) !important;
+  }
+}
+
+/**
+ * Generates font color utilities for the light DOM
+ *
+ * Class name = .pds-u-typography-color-COLOR, where
+ *  COLOR @see dist/css/default/tokens.css - --pds-semantic-text-*
+ *  except link tokens
+ */
+@each $colorCustomProperty
+  in (
+    default,
+    disabled,
+    subtle,
+    strong,
+    error,
+    inverted-default,
+    inverted-subtle,
+    inverted-strong,
+    interactive-default,
+    interactive-strong,
+    interactive-xstrong,
+    interactive-inverted-default,
+    interactive-inverted-strong,
+    interactive-inverted-xstrong,
+  )
+{
+  .pds-u-typography-color-#{$colorCustomProperty} {
+    color: var(--pds-semantic-text-#{$colorCustomProperty}) !important;
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "semantic/text": {
+    "default": {
+      "value": "{base/color.neutral.gray.01.value}",
+      "type": "color",
+      "description": "Gray 1"
+    },
+    "subtle": {
+      "value": "{base/color.neutral.gray.02.value}",
+      "type": "color",
+      "description": "Gray 2"
+    },
+    "strong": {
+      "value": "{base/color.neutral.gray.01.value}",
+      "type": "color",
+      "description": "Gray 1 - prefer to use default in this theme"
+    },
+    "disabled": {
+      "value": "{base/color.neutral.gray.03.value}",
+      "type": "color",
+      "description": "Gray 3"
+    },
+    "error": {
+      "value": "{base/color.red.value}",
+      "type": "color",
+      "description": "Error"
+    },
+    "interactive": {
+      "default": {
+        "value": "{base/color.blue.admiral.value}",
+        "type": "color",
+        "description": "Admiral blue"
+      },
+      "strong": {
+        "value": "{base/color.blue.admiral-110.value}",
+        "type": "color",
+        "description": "Admiral blue 110"
+      },
+      "xstrong": {
+        "value": "{base/color.blue.admiral-120.value}",
+        "type": "color",
+        "description": "Admiral blue 120"
+      },
+      "inverted": {
+        "default": {
+          "value": "{base/color.neutral.white.value}",
+          "type": "color",
+          "description": "White"
+        },
+        "strong": {
+          "value": "{base/color.blue.sky.03.value}",
+          "type": "color",
+          "description": "Sky blue 3"
+        },
+        "xstrong": {
+          "value": "{base/color.blue.sky.04.value}",
+          "type": "color",
+          "description": "Sky blue 4"
+        }
+      }
+    },
+    "inverted": {
+      "default": {
+        "value": "{base/color.neutral.white.value}",
+        "type": "color",
+        "description": "White"
+      },
+      "subtle": {
+        "value": "{base/color.blue.maya.dark.value}",
+        "type": "color",
+        "description": "Dark maya blue"
+      },
+      "strong": {
+        "value": "{base/color.cyan.bright.value}",
+        "type": "color",
+        "description": "Bright cyan"
+      }
+    }
+  }
+}

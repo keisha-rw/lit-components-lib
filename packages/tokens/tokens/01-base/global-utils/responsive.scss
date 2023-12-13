@@ -1,0 +1,31 @@
+@use './breakpoints';
+
+/**
+ * UTIL CLASSES TO ASSIST WITH RESPONSIVE DESIGN
+ * Generates when to hide a component based on breakpoint and larger screens
+ * Otherwise, this utility inherits the element it is being applied to
+ * below the breakpoint.
+ *
+ * @example .pds-u-hide-sm means, "Hide this element on small and larger breakpoints,
+ * but inherit the display property as usual on the xs breakpoint."
+ *
+*/
+@each $breakpointName, $breakpointPx in $spacing-breakpoints {
+  @media all and (min-width: #{$breakpointPx}) {
+    .pds-u-hide-#{$breakpointName} {
+      display: none !important;
+    }
+  }
+}
+
+/**
+   * Generates when to show a component based on breakpoint and higher
+   * Otherwise, this utility does not display below the breakpoint.
+  */
+@each $breakpointName, $breakpointPx in $spacing-breakpoints {
+  @media all and (max-width: #{$breakpointPx}) {
+    .pds-u-show-#{$breakpointName} {
+      display: none !important;
+    }
+  }
+}

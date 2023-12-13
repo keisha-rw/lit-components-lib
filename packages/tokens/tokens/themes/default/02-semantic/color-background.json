@@ -1,0 +1,126 @@
+{
+  "semantic/background": {
+    "default": {
+      "value": "{base/color.neutral.white.value}",
+      "type": "color",
+      "description": "White"
+    },
+    "subtle": {
+      "value": "{base/color.neutral.gray.06.value}",
+      "type": "color",
+      "description": "Gray 6"
+    },
+    "strong": {
+      "value": "{base/color.neutral.gray.01.value}",
+      "type": "color",
+      "description": "Gray 1"
+    },
+    "disabled": {
+      "value": "{base/color.neutral.gray.06.value}",
+      "type": "color",
+      "description": "Gray 6"
+    },
+    "highlight": {
+      "value": "{base/color.yellow.chartreuse.value}",
+      "type": "color",
+      "description": "Chartreuse"
+    },
+    "brand": {
+      "default": {
+        "value": "{base/color.blue.sky.02.value}",
+        "type": "color",
+        "description": "Sky blue 2"
+      },
+      "strong": {
+        "value": "{base/color.blue.principal.value}",
+        "type": "color",
+        "description": "Company Co blue"
+      },
+      "xstrong": {
+        "value": "{base/color.blue.prussian.dark.value}",
+        "type": "color",
+        "description": "Dark prussian blue"
+      },
+      "gradient": {
+        "subtle": {
+          "value": "{base/color.gradient.blue.sky-03-sky-01.value}",
+          "type": "color",
+          "description": "Company Co blue gradient"
+        },
+        "strong": {
+          "value": "{base/color.gradient.blue.navy-principal.value}",
+          "type": "color",
+          "description": "Company Co blue gradient"
+        },
+        "xstrong": {
+          "value": "{base/color.gradient.blue.dark-prussian-navy.value}",
+          "type": "color",
+          "description": "Dark blue gradient"
+        }
+      }
+    },
+    "opacity": {
+      "none": {
+        "value": "{base/color.opacity.gray.01.00.value}",
+        "type": "color",
+        "description": "Gray 1, 0%"
+      },
+      "dim": {
+        "value": "{base/color.opacity.gray.01.90.value}",
+        "type": "color",
+        "description": "Gray 1, 90%"
+      },
+      "brand": {
+        "value": "{base/color.opacity.prussian.dark.90.value}",
+        "type": "color",
+        "description": "Dark prussian, 90%"
+      },
+      "brand-gradient": {
+          "strong": {
+            "value" :"{base/color.opacity.gradient.blue.principal.90.value}",
+            "type": "color",
+            "description": "Company Co Blue gradient, 90%"
+          }
+        }
+      },
+    "interactive": {
+      "default": {
+        "value": "{base/color.blue.admiral}"
+      },
+      "strong": {
+        "value": "{base/color.blue.admiral-110.value}",
+        "type": "color",
+        "description": "Admiral blue 110"
+      },
+      "xstrong": {
+        "value": "{base/color.blue.admiral-120.value}",
+        "type": "color",
+        "description": "Admiral blue 120"
+      },
+      "neutral": {
+        "strong": {
+          "value": "{base/color.neutral.gray.06.value}"
+        },
+        "xstrong": {
+          "value": "{base/color.neutral.gray.05.value}"
+        }
+      },
+      "inverted": {
+        "strong": {
+          "value": "{base/color.blue.sky.03.value}"
+        },
+        "xstrong": {
+          "value": "{base/color.blue.sky.04.value}"
+        },
+        "neutral": {
+          "strong": {
+            "value": "{base/color.opacity.black.20.value}"
+          },
+          "xstrong": {
+            "value": "{base/color.opacity.black.30.value}"
+          }
+        }
+      }
+    }
+  }
+}

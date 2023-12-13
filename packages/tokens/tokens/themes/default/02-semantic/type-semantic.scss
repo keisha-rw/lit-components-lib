@@ -1,0 +1,160 @@
+@import '../../../01-base/type-100.scss';
+@import '../../../01-base/type-200.scss';
+@import '../../../01-base/type-300.scss';
+
+/*------------------------------------*\
+    #TYPOGRAPHY APPLICATIONS
+\*------------------------------------*/
+
+//
+// Body text
+//
+@mixin pds-semantic-body-sm($important: null) {
+  @include pds-base-type-100-14($important);
+}
+
+@mixin pds-semantic-body-default-compact($important: null) {
+  @include pds-base-type-100-16-compact($important);
+}
+
+@mixin pds-semantic-body-default($important: null) {
+  @include pds-base-type-100-16($important);
+}
+
+@mixin pds-semantic-body-lg($important: null) {
+  @include pds-base-type-100-18($important);
+}
+
+@mixin pds-semantic-body-xl($important: null) {
+  @include pds-base-type-100-20($important);
+}
+
+//
+// Bold body text
+//
+@mixin pds-semantic-body-bold-sm($important: null) {
+  @include pds-base-type-100-bold-14($important);
+}
+@mixin pds-semantic-body-bold-default($important: null) {
+  @include pds-base-type-100-bold-16($important);
+}
+@mixin pds-semantic-body-bold-lg($important: null) {
+  @include pds-base-type-100-bold-18($important);
+}
+@mixin pds-semantic-body-bold-xl($important: null) {
+  @include pds-base-type-100-bold-20($important);
+}
+
+//
+// Label text
+//
+@mixin pds-semantic-label-sm($important: null) {
+  @include pds-base-type-100-bold-14($important);
+}
+@mixin pds-semantic-label-default($important: null) {
+  @include pds-base-type-100-bold-16($important);
+}
+@mixin pds-semantic-label-lg($important: null) {
+  @include pds-base-type-100-bold-18($important);
+}
+@mixin pds-semantic-label-xl($important: null) {
+  @include pds-base-type-100-bold-20($important);
+}
+
+//
+// Title text
+//
+@mixin pds-semantic-title-xs($important: null) {
+  @include pds-base-type-100-bold-18($important);
+}
+@mixin pds-semantic-title-sm($important: null) {
+  @include pds-base-type-100-bold-20($important);
+}
+@mixin pds-semantic-title-default($important: null) {
+  @include pds-base-type-100-bold-24($important);
+}
+@mixin pds-semantic-title-lg($important: null) {
+  @include pds-base-type-100-bold-32($important);
+}
+
+//
+// Headline text
+//
+@mixin pds-semantic-headline-sm($important: null) {
+  @include pds-base-type-100-bold-32($important);
+}
+@mixin pds-semantic-headline-default($important: null) {
+  @include pds-base-type-100-bold-40($important);
+}
+@mixin pds-semantic-headline-lg($important: null) {
+  @include pds-base-type-100-bold-48($important);
+}
+
+//
+// Display text
+//
+@mixin pds-semantic-display-sm($important: null) {
+  @include pds-base-type-100-light-40($important);
+}
+@mixin pds-semantic-display-default($important: null) {
+  @include pds-base-type-100-light-48($important);
+}
+@mixin pds-semantic-display-lg($important: null) {
+  @include pds-base-type-100-light-64($important);
+}
+
+//
+// Meta text
+//
+@mixin pds-semantic-meta-sm($important: null) {
+  @include pds-base-type-100-14-uppercase($important);
+}
+@mixin pds-semantic-meta-default($important: null) {
+  @include pds-base-type-100-16-uppercase($important);
+}
+
+//
+// Testimonial text
+//
+@mixin pds-semantic-testimonial-xs($important: null) {
+  @include pds-base-type-200-24($important);
+}
+@mixin pds-semantic-testimonial-sm($important: null) {
+  @include pds-base-type-200-32($important);
+}
+@mixin pds-semantic-testimonial-default($important: null) {
+  @include pds-base-type-200-40($important);
+}
+@mixin pds-semantic-testimonial-lg($important: null) {
+  @include pds-base-type-200-48($important);
+}
+@mixin pds-semantic-testimonial-xl($important: null) {
+  @include pds-base-type-200-74($important);
+}
+@mixin pds-semantic-testimonial-xl-compact($important: null) {
+  @include pds-base-type-200-74-compact($important);
+}
+
+//
+// Data text
+//
+@mixin pds-semantic-data-sm($important: null) {
+  @include pds-base-type-300-14($important);
+}
+@mixin pds-semantic-data-default($important: null) {
+  @include pds-base-type-300-16($important);
+}
+@mixin pds-semantic-data-lg($important: null) {
+  @include pds-base-type-300-24($important);
+}
+@mixin pds-semantic-data-xl($important: null) {
+  @include pds-base-type-300-40($important);
+}
+
+//
+// Form text
+//
+
+@mixin pds-semantic-form-label-default($important: null) {
+  @include pds-base-type-100-16($important);
+}

@@ -1,0 +1,18 @@
+{
+  "component/table": {
+    "shadow": {
+      "scroll-left": {
+        "value": "linear-gradient(to left, {base/color.opacity.gray.04.00.value} 0%, {base/color.opacity.gray.04.100.value} 100%)"
+      },
+      "scroll-right": {
+        "value": "linear-gradient(to right, {base/color.opacity.gray.04.00.value} 0%, {base/color.opacity.gray.04.100.value} 100%)"
+      },
+      "scroll-down": {
+        "value": "linear-gradient(to bottom, {base/color.opacity.gray.04.00.value} 0%, {base/color.opacity.gray.04.100.value} 100%)"
+      },
+      "scroll-up": {
+        "value": "linear-gradient(to top, {base/color.opacity.gray.04.00.value} 0%, {base/color.opacity.gray.04.100.value} 100%)"
+      }
+    }
+  }
+}

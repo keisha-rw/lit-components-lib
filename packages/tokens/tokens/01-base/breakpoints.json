@@ -1,0 +1,21 @@
+{
+  "breakpoints": {
+    "pixel": {
+      "xs": {
+        "value": 320
+      },
+      "sm": {
+        "value": 540
+      },
+      "md": {
+        "value": 768
+      },
+      "lg": {
+        "value": 1024
+      },
+      "xl": {
+        "value": 1366
+      }
+    }
+  }
+}

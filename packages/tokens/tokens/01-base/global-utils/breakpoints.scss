@@ -1,0 +1,22 @@
+//------------------------------------//
+//   #BREAKPOINTS
+//------------------------------------//
+
+// 1) Breakpoints need to be defined as SCSS
+//    variables since presently CSS custom
+//    properties can't be used within media
+//    query declarations
+
+$pds-bp-xs: 20rem; // 320px
+$pds-bp-sm: 33.75rem; // 540px
+$pds-bp-md: 48rem; // 768px
+$pds-bp-lg: 64rem; // 1024px
+$pds-bp-xl: 85.375rem; // 1366px
+
+$spacing-breakpoints: (
+  'xs': $pds-bp-xs,
+  'sm': $pds-bp-sm,
+  'md': $pds-bp-md,
+  'lg': $pds-bp-lg,
+  'xl': $pds-bp-xl,
+);

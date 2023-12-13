@@ -1,0 +1,343 @@
+@use './global-utils/breakpoints.scss';
+
+/*------------------------------------*\
+    Work Sans fonts
+\*------------------------------------*/
+@font-face {
+  font-family: 'Work Sans Regular';
+  src: url('https://www.googlecdn.com/css/principal-design-system/pds/latest/fonts/worksans/WorkSans-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Work Sans Bold';
+  src: url('https://www.googlecdn.com/css/principal-design-system/pds/latest/fonts/worksans/WorkSans-Bold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Work Sans SemiBold';
+  src: url('https://www.googlecdn.com/css/principal-design-system/pds/latest/fonts/worksans/WorkSans-SemiBold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/*------------------------------------*\
+    DEFAULT
+\*------------------------------------*/
+@mixin pds-base-type-300-12($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-12) $important;
+  line-height: var(--pds-base-type-line-height-14) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-14($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-14) $important;
+  line-height: var(--pds-base-type-line-height-16) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-16($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-16) $important;
+  line-height: var(--pds-base-type-line-height-18) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-18($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-18) $important;
+  line-height: var(--pds-base-type-line-height-20) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-20($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-20) $important;
+  line-height: var(--pds-base-type-line-height-22) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-24($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-20) $important;
+  line-height: var(--pds-base-type-line-height-22) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-24) $important;
+    line-height: var(--pds-base-type-line-height-26) $important;
+  }
+}
+
+@mixin pds-base-type-300-32($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-24) $important;
+  line-height: var(--pds-base-type-line-height-26) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-32) $important;
+    line-height: var(--pds-base-type-line-height-34) $important;
+  }
+}
+
+@mixin pds-base-type-300-40($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-32) $important;
+  line-height: var(--pds-base-type-line-height-34) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-40) $important;
+    line-height: var(--pds-base-type-line-height-42) $important;
+  }
+}
+
+@mixin pds-base-type-300-48($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-40) $important;
+  line-height: var(--pds-base-type-line-height-42) $important;
+  font-family: var(--pds-base-type-font-family-300) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-48) $important;
+    line-height: var(--pds-base-type-line-height-50) $important;
+  }
+}
+
+/*------------------------------------*\
+   SEMIBOLD
+\*------------------------------------*/
+@mixin pds-base-type-300-semibold-12($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-12) $important;
+  line-height: var(--pds-base-type-line-height-14) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-semibold-14($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-14) $important;
+  line-height: var(--pds-base-type-line-height-16) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-semibold-16($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-16) $important;
+  line-height: var(--pds-base-type-line-height-18) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-semibold-18($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-18) $important;
+  line-height: var(--pds-base-type-line-height-20) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-semibold-20($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-20) $important;
+  line-height: var(--pds-base-type-line-height-22) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-semibold-24($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-20) $important;
+  line-height: var(--pds-base-type-line-height-22) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-24) $important;
+    line-height: var(--pds-base-type-line-height-26) $important;
+  }
+}
+
+@mixin pds-base-type-300-semibold-32($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-24) $important;
+  line-height: var(--pds-base-type-line-height-26) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-32) $important;
+    line-height: var(--pds-base-type-line-height-34) $important;
+  }
+}
+
+@mixin pds-base-type-300-semibold-40($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-32) $important;
+  line-height: var(--pds-base-type-line-height-34) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-40) $important;
+    line-height: var(--pds-base-type-line-height-42) $important;
+  }
+}
+
+@mixin pds-base-type-300-semibold-48($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-40) $important;
+  line-height: var(--pds-base-type-line-height-42) $important;
+  font-family: var(--pds-base-type-font-family-300-semibold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-48) $important;
+    line-height: var(--pds-base-type-line-height-50) $important;
+  }
+}
+
+/*------------------------------------*\
+    BOLD
+\*------------------------------------*/
+@mixin pds-base-type-300-bold-12($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-12) $important;
+  line-height: var(--pds-base-type-line-height-14) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-bold-14($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-14) $important;
+  line-height: var(--pds-base-type-line-height-16) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-bold-16($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-16) $important;
+  line-height: var(--pds-base-type-line-height-18) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-bold-18($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-18) $important;
+  line-height: var(--pds-base-type-line-height-20) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-bold-20($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-20) $important;
+  line-height: var(--pds-base-type-line-height-22) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-300-bold-24($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-20) $important;
+  line-height: var(--pds-base-type-line-height-22) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-24) $important;
+    line-height: var(--pds-base-type-line-height-26) $important;
+  }
+}
+
+@mixin pds-base-type-300-bold-32($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-24) $important;
+  line-height: var(--pds-base-type-line-height-26) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-32) $important;
+    line-height: var(--pds-base-type-line-height-34) $important;
+  }
+}
+
+@mixin pds-base-type-300-bold-40($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-32) $important;
+  line-height: var(--pds-base-type-line-height-34) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-40) $important;
+    line-height: var(--pds-base-type-line-height-42) $important;
+  }
+}
+
+@mixin pds-base-type-300-bold-48($important: null) {
+  font-weight: normal;
+  font-size: var(--pds-base-type-font-size-40) $important;
+  line-height: var(--pds-base-type-line-height-42) $important;
+  font-family: var(--pds-base-type-font-family-300-bold) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-48) $important;
+    line-height: var(--pds-base-type-line-height-50) $important;
+  }
+}

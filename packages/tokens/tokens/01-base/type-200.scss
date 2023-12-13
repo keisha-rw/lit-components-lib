@@ -1,0 +1,132 @@
+@use './global-utils/breakpoints.scss';
+
+/*------------------------------------*\
+    Cormorant Infant fonts
+\*------------------------------------*/
+@font-face {
+  font-family: 'Cormorant Infant Italic';
+  src: url('https://www.googlecdn.com/css/principal-design-system/pds/latest/fonts/cormorant-infant/CormorantInfant-Italic.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+
+/*------------------------------------*\
+    ITALIC
+\*------------------------------------*/
+@mixin pds-base-type-200-18($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-18) $important;
+  line-height: var(--pds-base-type-line-height-28) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-half) $important;
+  text-transform: none $important;
+}
+
+@mixin pds-base-type-200-24($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-18) $important;
+  line-height: var(--pds-base-type-line-height-28) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-half) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-24) $important;
+    line-height: var(--pds-base-type-line-height-36) $important;
+  }
+}
+
+@mixin pds-base-type-200-32($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-24) $important;
+  line-height: var(--pds-base-type-line-height-36) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-half) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-32) $important;
+    line-height: var(--pds-base-type-line-height-40) $important;
+    letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  }
+}
+
+@mixin pds-base-type-200-40($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-32) $important;
+  line-height: var(--pds-base-type-line-height-40) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-40) $important;
+    line-height: var(--pds-base-type-line-height-48) $important;
+  }
+}
+
+@mixin pds-base-type-200-48($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-40) $important;
+  line-height: var(--pds-base-type-line-height-48) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-48) $important;
+    line-height: var(--pds-base-type-line-height-54) $important;
+  }
+}
+
+@mixin pds-base-type-200-64($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-56) $important;
+  line-height: var(--pds-base-type-line-height-64) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-64) $important;
+    line-height: var(--pds-base-type-line-height-72) $important;
+  }
+}
+
+@mixin pds-base-type-200-74($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-66) $important;
+  line-height: var(--pds-base-type-line-height-74) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-74) $important;
+    line-height: var(--pds-base-type-line-height-82) $important;
+  }
+}
+
+@mixin pds-base-type-200-74-compact($important: null) {
+  font-weight: normal;
+  font-style: italic;
+  font-size: var(--pds-base-type-font-size-66) $important;
+  line-height: var(--pds-base-type-line-height-68) $important;
+  font-family: var(--pds-base-type-font-family-200) $important;
+  letter-spacing: var(--pds-base-type-letter-spacing-default) $important;
+  text-transform: none $important;
+
+  @media only screen and (min-width: breakpoints.$pds-bp-md) {
+    font-size: var(--pds-base-type-font-size-74) $important;
+    line-height: var(--pds-base-type-line-height-76) $important;
+  }
+}

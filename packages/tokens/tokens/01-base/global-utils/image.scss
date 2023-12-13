@@ -1,0 +1,20 @@
+// Image utilities
+.pds-u-responsive-image {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .pds-u-responsive-image-raster {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .pds-u-image-circle {
+    border-radius: 50% !important;
+  }
+  
+  .pds-u-image-rounded {
+    border-radius: size(0.5);
+  }
+  

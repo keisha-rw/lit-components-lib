@@ -1,0 +1,192 @@
+/*------------------------------------*\
+    $UTILITY SIZES
+\*------------------------------------*/
+$spacing-properties: (
+  0: margin,
+  1: padding,
+);
+$spacing-util-sizes: (
+  0: 0,
+  1: 2,
+  2: 4,
+  3: 6,
+  4: 8,
+  5: 12,
+  6: 16,
+  7: 20,
+  8: 24,
+  9: 32,
+  10: 40,
+  11: 48,
+  12: 56,
+  13: 64,
+  14: 72,
+  15: 80,
+  16: 88,
+  17: 96,
+  18: 104,
+  19: 112,
+  20: 120,
+  21: 128,
+);
+
+/*------------------------------------*\
+    #UTILITY
+\*------------------------------------*/
+
+/**
+ * Generates breakpoint agnostic spacing utilities for the light DOM
+ *
+ * Class name = .pds-u-PROPERTY-SIZE, where
+ *  PROPERTY $spacing-properties
+ *  SIZE @see $spacing-util-sizes
+ */
+@each $key, $propName in $spacing-properties {
+  @each $key, $size in $spacing-util-sizes {
+    .pds-u-#{$propName}-#{$size} {
+      #{$propName}: #{$size}px !important;
+    }
+
+    .pds-u-#{$propName}-left-#{$size} {
+      #{$propName}-left: #{$size}px !important;
+    }
+
+    .pds-u-#{$propName}-right-#{$size} {
+      #{$propName}-right: #{$size}px !important;
+    }
+
+    .pds-u-#{$propName}-top-#{$size} {
+      #{$propName}-top: #{$size}px !important;
+    }
+
+    .pds-u-#{$propName}-bottom-#{$size} {
+      #{$propName}-bottom: #{$size}px !important;
+    }
+
+    .pds-u-#{$propName}-horizontal-#{$size} {
+      #{$propName}-left: #{$size}px !important;
+      #{$propName}-right: #{$size}px !important;
+    }
+
+    .pds-u-#{$propName}-vertical-#{$size} {
+      #{$propName}-top: #{$size}px !important;
+      #{$propName}-bottom: #{$size}px !important;
+    }
+  }
+}
+
+@each $breakpointName, $breakpointPx in $spacing-breakpoints {
+  @media only screen and (min-width: #{$breakpointPx}) {
+    @each $key, $propName in $spacing-properties {
+      @each $key, $size in $spacing-util-sizes {
+        .pds-u-#{$propName}-#{$breakpointName}-#{$size} {
+          #{$propName}: #{$size}px !important;
+        }
+
+        .pds-u-#{$propName}-left-#{$breakpointName}-#{$size} {
+          #{$propName}-left: #{$size}px !important;
+        }
+
+        .pds-u-#{$propName}-right-#{$breakpointName}-#{$size} {
+          #{$propName}-right: #{$size}px !important;
+        }
+
+        .pds-u-#{$propName}-top-#{$breakpointName}-#{$size} {
+          #{$propName}-top: #{$size}px !important;
+        }
+
+        .pds-u-#{$propName}-bottom-#{$breakpointName}-#{$size} {
+          #{$propName}-bottom: #{$size}px !important;
+        }
+
+        .pds-u-#{$propName}-horizontal-#{$breakpointName}-#{$size} {
+          #{$propName}-left: #{$size}px !important;
+          #{$propName}-right: #{$size}px !important;
+        }
+
+        .pds-u-#{$propName}-vertical-#{$breakpointName}-#{$size} {
+          #{$propName}-top: #{$size}px !important;
+          #{$propName}-bottom: #{$size}px !important;
+        }
+      }
+    }
+  }
+}
+
+// Display utils
+@each $propName
+  in (
+    block,
+    flex,
+    inline,
+    inline-block,
+    inline-flex,
+    table,
+    table-cell,
+    table-row,
+    none
+  )
+{
+  .pds-u-#{$propName} {
+    display: $propName !important;
+  }
+}
+
+// Position utils
+.pds-u-position-absolute {
+  position: absolute !important;
+}
+
+.pds-u-position-relative {
+  position: relative !important;
+}
+
+// Alignment utilities
+.pds-u-center-block {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Flexbox alignment utils
+.pds-u-flex-align-start {
+  display: flex !important;
+  align-items: flex-start !important;
+  height: 100% !important;
+}
+
+.pds-u-flex-align-center {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.pds-u-flex-align-end {
+  display: flex !important;
+  align-items: flex-end !important;
+  height: 100% !important;
+}
+
+.pds-u-flex-align-stretch {
+  display: flex !important;
+  align-items: stretch !important;
+  height: 100% !important;
+}
+
+.pds-u-flex-none {
+  flex: none !important;
+}
+
+// Float utils
+.pds-u-float-right {
+  float: right !important;
+}
+
+.pds-u-float-left {
+  float: left !important;
+}
+
+// text alignment utilities
+.pds-u-text-align-center {
+  text-align: center !important;
+}

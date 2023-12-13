@@ -1,0 +1,20 @@
+// sr-only - magic numbers are necessary here to have it read with a screen reader but stay small enough to not make a visual impact
+@mixin pds-util-sr-only($important: null) {
+  position: absolute $important;
+  width: 1px $important;
+  height: 1px $important;
+  padding: 0 $important;
+  margin: -1px $important;
+  overflow: hidden $important;
+  clip: rect(0, 0, 0, 0) $important;
+  border: 0 $important;
+}
+
+.pds-u-sr-only {
+  @include pds-util-sr-only;
+}
+
+// Hide focus style when :focus-visible is supported
+.pds-u-focus-visible-only:focus:not(:focus-visible) {
+  outline: none !important;
+}

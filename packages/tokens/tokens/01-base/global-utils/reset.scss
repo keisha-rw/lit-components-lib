@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+
+/**
+ * Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--pds-base-type-root);
+  color: var(--pds-semantic-text-default);
+  margin: 0;
+}

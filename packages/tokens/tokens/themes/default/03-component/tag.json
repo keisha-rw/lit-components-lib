@@ -1,0 +1,22 @@
+{
+    "component/tag": {
+      "default": {
+        "background": {
+          "value": "{base/color.blue.sky.02.value}"
+        },
+        "text": {
+          "value": "{semantic/text.default}"
+        },
+        "hover": {
+          "background": {
+              "value": "{base/color.blue.sky.02-110.value}"
+          }
+        },
+        "active": {
+          "background": {
+              "value": "{base/color.blue.sky.02-120.value}"
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "component/skeleton-loader": {
+    "default": {
+      "overlay": {
+        "value": "{base/color.opacity.gradient.white.value}"
+      },
+      "background": {
+        "value": "{base/color.neutral.gray.05.value}"
+      }
+    },
+    "inverted": {
+      "background": {
+        "value": "{base/color.opacity.sky.02.15.value}"
+      }
+    }
+  }
+}

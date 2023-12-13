@@ -1,0 +1,9 @@
+{
+  "component/radio": {
+    "disabled": {
+      "foreground": {
+        "value": "{base/color.neutral.gray.03.value}"
+      }
+    }
+  }
+}
