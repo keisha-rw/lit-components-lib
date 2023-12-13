@@ -1,0 +1,104 @@
+/*------------------------------------*\
+ #ACTION_MENU
+\*------------------------------------*/
+
+:host {
+  display: inline-block;
+}
+
+.pds-c-action-menu__section {
+  width: 100%;
+}
+
+.pds-c-action-menu__button {
+  display: block;
+  width: fit-content;
+}
+
+.pds-c-action-menu__icon {
+  margin-left: size(1);
+}
+
+pds-button[isActive='true'] .pds-c-action-menu__icon {
+  transform: rotate(180deg);
+}
+
+.pds-c-action-menu__list {
+  position: absolute;
+  display: none;
+  padding: size(1.5) size(2);
+  isolation: isolate;
+  width: size(25);
+  height: fit-content;
+  background: var(--pds-semantic-background-default);
+  border: size(0.125) solid var(--pds-semantic-border-default);
+
+  // TODO: Replace with a semantic token once it's created
+  box-shadow: size(0) size(0) size(1) size(0)
+    var(--pds-base-color-opacity-gray-01-20);
+  border-radius: size(0.5);
+  z-index: 1;
+}
+
+.pds-c-action-menu__list ul {
+  list-style: none;
+  padding-left: size(0);
+  margin-top: size(0);
+  margin-bottom: size(0);
+}
+
+.pds-actionMenu-header {
+  @include pds-semantic-label-default;
+
+  width: 100%;
+  padding-bottom: size(0.5);
+}
+
+.pds-c-action-menu__list ul li button {
+  @include pds-semantic-body-sm;
+
+  flex-direction: column;
+  border: none;
+  background-color: var(--pds-semantic-background-default);
+  width: 100%;
+  padding: size(1);
+}
+
+.pds-c-action-menu__list ul li button:hover {
+  background: var(--pds-semantic-background-subtle);
+}
+
+.pds-c-action-menu__list[show-menu] {
+  display: block;
+}
+
+.pds-c-action-menu__arrow {
+  position: absolute;
+  width: size(2.5);
+  height: size(2.5);
+  transform: rotate(45deg);
+  background: var(--pds-semantic-background-default);
+  border-top: size(0.125) solid var(--pds-semantic-border-default);
+  border-left: size(0.125) solid var(--pds-semantic-border-default);
+
+  // TODO: Replace with a semantic token once it's created
+  box-shadow: size(-0.625) size(-0.5) size(1.5) size(-0.5)
+    var(--pds-base-color-opacity-gray-01-20);
+}
+
+.pds-c-action-menu--flip .pds-c-action-menu__arrow {
+  border-bottom: size(0.125) solid var(--pds-semantic-border-default);
+  border-right: size(0.125) solid var(--pds-semantic-border-default);
+  border-top: none;
+  border-left: none;
+
+  // TODO: Replace with a semantic token once it's created
+  box-shadow: size(0.37) size(0.3) size(0.5)
+    var(--pds-base-color-opacity-gray-01-20);
+}
+
+.pds-c-action-menu__separator {
+  border-top: size(0.125) solid var(--pds-semantic-border-default);
+  margin-bottom: size(0.5);
+  display: flex;
+}

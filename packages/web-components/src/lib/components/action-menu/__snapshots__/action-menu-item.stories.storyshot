@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Action menu/Action menu item Button 1`] = `"<pds-action-menu-item arialabel="Action 1">Action 1</pds-action-menu-item>"`;
+
+exports[`Storyshots Components/Action menu/Action menu item Link 1`] = `"<pds-action-menu-item arialabel="Action 1" linkhref="https://www.google.com" target="_blank">Action 4</pds-action-menu-item>"`;

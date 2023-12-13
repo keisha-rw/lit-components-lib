@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Action menu Default 1`] = `"<div style="height: 300px">,</div>"`;
+
+exports[`Storyshots Components/Action menu Hide Seperator 1`] = `"<div style="height: 300px">,</div>"`;
+
+exports[`Storyshots Components/Action menu Inverted 1`] = `"<div style="height: 300px">,</div>"`;
+
+exports[`Storyshots Components/Action menu Text button default 1`] = `"<div style="height: 300px">,</div>"`;
+
+exports[`Storyshots Components/Action menu Text button inverted 1`] = `"<div style="height: 300px">,</div>"`;
