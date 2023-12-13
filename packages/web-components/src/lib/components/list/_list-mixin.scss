@@ -1,0 +1,12 @@
+/*------------------------------------*\
+ #LIST_MIXIN
+\*------------------------------------*/
+
+@mixin list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  gap: size(3);
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Linelength container Default 1`] = `
+"<pds-linelength-container><!----><div class=" pds-l-linelength-container ">
+      <slot></slot>
+    </div><style>default</style><pds-text-passage>
+        For the default container, it will wrap to the next line after about 80
+        characters.</pds-text-passage></pds-linelength-container>"
+`;
+
+exports[`Storyshots Components/Linelength container Small 1`] = `
+"<pds-linelength-container size="sm"><!----><div class=" pds-l-linelength-container pds-l-linelength-container--sm ">
+      <slot></slot>
+    </div><style>default</style><pds-text-passage>The small container prop should wrap at about 60
+        characters.</pds-text-passage></pds-linelength-container>"
+`;

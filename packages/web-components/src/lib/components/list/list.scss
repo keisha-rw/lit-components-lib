@@ -1,0 +1,47 @@
+@import './list-mixin';
+
+/*------------------------------------*\
+ #LIST
+\*------------------------------------*/
+
+.pds-c-list {
+  @include pds-semantic-body-lg;
+  @include list;
+}
+
+::slotted(pds-list-item) {
+  // Removes stretch from list items within to use their natural width
+  flex: 0;
+}
+
+.pds-c-list--sm {
+  @include pds-semantic-body-default-compact;
+}
+
+:host {
+  display: block;
+}
+
+.pds-c-list--horizontal {
+  flex-flow: row wrap;
+}
+
+.pds-c-list--align-center {
+  align-items: center;
+}
+
+.pds-c-list--horizontal.pds-c-list--align-center {
+  justify-content: center;
+}
+
+.pds-c-list--spacing-sm {
+  gap: size(1);
+}
+
+.pds-c-list--spacing-none {
+  gap: 0;
+}
+
+.pds-c-list--spacing-lg {
+  gap: size(5);
+}

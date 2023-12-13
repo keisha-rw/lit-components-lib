@@ -1,0 +1,32 @@
+/*------------------------------------*\
+ #LIST_ITEM
+\*------------------------------------*/
+
+.pds-c-list-item {
+  display: flex;
+}
+
+.pds-c-list-item__icon-wrapper {
+  margin-right: size(1);
+  margin-top: size(0.75);
+}
+
+.pds-c-list-item__term {
+  @include pds-semantic-label-lg;
+}
+
+.pds-c-list-item__details {
+  @include pds-semantic-body-default-compact;
+
+  margin: 0;
+}
+
+.pds-c-list-item__term-reverse {
+  @include pds-semantic-body-default-compact;
+}
+
+.pds-c-list-item__details-reverse {
+  @include pds-semantic-label-lg;
+
+  margin: 0;
+}

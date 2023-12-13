@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Pagination Anchors 1`] = `
+"<pds-pagination arialabel="," stepforwardhref="," backwarddisabled="," flylasthref=",">
+      <pds-pagination-item href="http://www.google.com" pagenumber="1" active=""><!----><nav class=" pds-c-pagination pds-c-pagination--default " aria-label=",">
+      <div role="list" class="pds-c-pagination__list">
+
+        <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-first" aria-label="go to first page" disabled="">
+              <pds-icon-chevrons-left></pds-icon-chevrons-left>
+            </button>
+          </div>
+      <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-backward" aria-label="go to previous page" disabled="">
+          <pds-icon-chevron-left></pds-icon-chevron-left>
+        </button>
+      </div>
+        <slot></slot>
+        <div role="listitem" class="pds-c-pagination__li">
+        <a class="pds-c-pagination__button pds-c-pagination--step-forward" aria-label="go to next page" href=",">
+          <pds-icon-chevron-right></pds-icon-chevron-right>
+        </a>
+      </div>
+      <div role="listitem" class="pds-c-pagination__li">
+            <a class="pds-c-pagination__button pds-c-pagination--fly-last" aria-label="go to last page" href=",">
+              <pds-icon-chevrons-right></pds-icon-chevrons-right>
+            </a>
+          </div><!--?-->
+
+      </div>
+    </nav><style>default</style></pds-pagination-item>
+      <pds-pagination-item href="http://www.google.com" pagenumber="2"></pds-pagination-item>
+      <pds-pagination-item href="http://www.google.com" pagenumber="3"></pds-pagination-item>
+    </pds-pagination>"
+`;
+
+exports[`Storyshots Components/Pagination Arrows only 1`] = `
+"<pds-pagination variant=","><!----><nav class=" pds-c-pagination pds-c-pagination--, " aria-label="pagination">
+      <div role="list" class="pds-c-pagination__list">
+
+        <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-first" aria-label="go to first page">
+              <pds-icon-chevrons-left></pds-icon-chevrons-left>
+            </button>
+          </div>
+      <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-backward" aria-label="go to previous page">
+          <pds-icon-chevron-left></pds-icon-chevron-left>
+        </button>
+      </div>
+        <slot></slot>
+
+        <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-forward" aria-label="go to next page">
+          <pds-icon-chevron-right></pds-icon-chevron-right>
+        </button>
+      </div>
+      <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-last" aria-label="go to last page">
+              <pds-icon-chevrons-right></pds-icon-chevrons-right>
+            </button>
+          </div><!--?-->
+      </div>
+    </nav><style>default</style></pds-pagination>"
+`;
+
+exports[`Storyshots Components/Pagination Default 1`] = `
+"<pds-pagination variant="," lang="," backwarddisabled=",">
+      <pds-pagination-item pagenumber="1"><!----><nav class=" pds-c-pagination pds-c-pagination--, " aria-label="pagination">
+      <div role="list" class="pds-c-pagination__list">
+
+        <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-first" aria-label="go to first page" disabled="">
+              <pds-icon-chevrons-left></pds-icon-chevrons-left>
+            </button>
+          </div>
+      <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-backward" aria-label="go to previous page" disabled="">
+          <pds-icon-chevron-left></pds-icon-chevron-left>
+        </button>
+      </div>
+        <slot></slot>
+
+        <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-forward" aria-label="go to next page">
+          <pds-icon-chevron-right></pds-icon-chevron-right>
+        </button>
+      </div>
+      <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-last" aria-label="go to last page">
+              <pds-icon-chevrons-right></pds-icon-chevrons-right>
+            </button>
+          </div><!--?-->
+      </div>
+    </nav><style>default</style></pds-pagination-item>
+      <pds-pagination-item pagenumber="2" active=""></pds-pagination-item>
+      <pds-pagination-item pagenumber="3"></pds-pagination-item>
+    </pds-pagination>"
+`;
+
+exports[`Storyshots Components/Pagination Hide flyers 1`] = `
+"<pds-pagination stepforwardhref="," backwarddisabled="," hideflyers=",">
+      <pds-pagination-item href="http://www.google.com" pagenumber="1" active="" hideflyers=""><!----><nav class=" pds-c-pagination pds-c-pagination--default pds-c-pagination--hideFlyers " aria-label="pagination">
+      <div role="list" class="pds-c-pagination__list">
+
+
+      <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-backward" aria-label="go to previous page" disabled="">
+          <pds-icon-chevron-left></pds-icon-chevron-left>
+        </button>
+      </div>
+        <slot></slot>
+        <div role="listitem" class="pds-c-pagination__li">
+        <a class="pds-c-pagination__button pds-c-pagination--step-forward" aria-label="go to next page" href=",">
+          <pds-icon-chevron-right></pds-icon-chevron-right>
+        </a>
+      </div>
+      <!--?-->
+
+      </div>
+    </nav><style>default</style></pds-pagination-item>
+      <pds-pagination-item href="http://www.google.com" pagenumber="2" hideflyers=""></pds-pagination-item>
+      <pds-pagination-item href="http://www.google.com" pagenumber="3" hideflyers=""></pds-pagination-item>
+    </pds-pagination>"
+`;
+
+exports[`Storyshots Components/Pagination No arrows 1`] = `
+"<pds-pagination variant="," lang="," backwarddisabled=",">
+      <pds-pagination-item pagenumber="1"><!----><nav class=" pds-c-pagination pds-c-pagination--, " aria-label="pagination">
+      <div role="list" class="pds-c-pagination__list">
+
+        <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-first" aria-label="go to first page" disabled="">
+              <pds-icon-chevrons-left></pds-icon-chevrons-left>
+            </button>
+          </div>
+      <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-backward" aria-label="go to previous page" disabled="">
+          <pds-icon-chevron-left></pds-icon-chevron-left>
+        </button>
+      </div>
+        <slot></slot>
+
+        <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-forward" aria-label="go to next page">
+          <pds-icon-chevron-right></pds-icon-chevron-right>
+        </button>
+      </div>
+      <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-last" aria-label="go to last page">
+              <pds-icon-chevrons-right></pds-icon-chevrons-right>
+            </button>
+          </div><!--?-->
+      </div>
+    </nav><style>default</style></pds-pagination-item>
+      <pds-pagination-item pagenumber="2" active=""></pds-pagination-item>
+      <pds-pagination-item pagenumber="3"></pds-pagination-item>
+    </pds-pagination>"
+`;
+
+exports[`Storyshots Components/Pagination No arrows one item 1`] = `
+"<pds-pagination variant=",">
+      <pds-pagination-item pagenumber="1" active=""><!----><nav class=" pds-c-pagination pds-c-pagination--, " aria-label="pagination">
+      <div role="list" class="pds-c-pagination__list">
+
+        <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-first" aria-label="go to first page">
+              <pds-icon-chevrons-left></pds-icon-chevrons-left>
+            </button>
+          </div>
+      <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-backward" aria-label="go to previous page">
+          <pds-icon-chevron-left></pds-icon-chevron-left>
+        </button>
+      </div>
+        <slot></slot>
+
+        <div role="listitem" class="pds-c-pagination__li">
+        <button class="pds-c-pagination__button pds-c-pagination--step-forward" aria-label="go to next page">
+          <pds-icon-chevron-right></pds-icon-chevron-right>
+        </button>
+      </div>
+      <div role="listitem" class="pds-c-pagination__li">
+            <button class="pds-c-pagination__button pds-c-pagination--fly-last" aria-label="go to last page">
+              <pds-icon-chevrons-right></pds-icon-chevrons-right>
+            </button>
+          </div><!--?-->
+      </div>
+    </nav><style>default</style></pds-pagination-item>
+    </pds-pagination>"
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/List/List item Default 1`] = `"<pds-list-item size="md">This is a list item.</pds-list-item>"`;
+
+exports[`Storyshots Components/List/List item Description Default 1`] = `
+"<pds-list-item variant="description" size="md"><!----><dt class="pds-c-list-item__term">
+          <slot name="description-term"></slot>
+        </dt>
+        <dd class="pds-c-list-item__details">
+          <slot name="description"></slot>
+        </dd><style>default</style><span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>"
+`;
+
+exports[`Storyshots Components/List/List item Description Reverse 1`] = `
+"<pds-list-item variant="description-reverse" size="md"><!----><dt class="pds-c-list-item__term-reverse">
+          <slot name="description-term"></slot>
+        </dt>
+        <dd class="pds-c-list-item__details-reverse">
+          <slot name="description"></slot>
+        </dd><style>default</style><span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>"
+`;
+
+exports[`Storyshots Components/List/List item Icon 1`] = `
+"<pds-list-item size="md">
+      <pds-icon-check slot="icon" size="md"><!----><li role="listitem" class=" pds-c-list-item ">
+      <span class="pds-c-list-item__icon-wrapper"><slot name="icon"></slot></span>
+      <slot></slot>
+    </li><style>default</style></pds-icon-check>
+      <slot>This is a list item.</slot>
+    </pds-list-item>"
+`;

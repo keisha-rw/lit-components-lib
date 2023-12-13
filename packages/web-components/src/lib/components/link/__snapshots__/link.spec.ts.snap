@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link unit tests does not populate an icon slot if the element is neither a PDS icon nor a span 1`] = `<pds-link />`;
+
+exports[`Link unit tests populates the icon-left slot in link button when provided 1`] = `
+<pds-link
+  button=""
+>
+  <span
+    size="default"
+    slot="icon-left"
+  >
+     An icon would go here
+  </span>
+</pds-link>
+`;
+
+exports[`Link unit tests populates the icon-right slot in link button when provided 1`] = `
+<pds-link
+  button=""
+>
+  <span
+    size="default"
+    slot="icon-right"
+  >
+     An icon would go here
+  </span>
+</pds-link>
+`;
+
+exports[`Link unit tests populates the icon-right slot when provided with a span element 1`] = `
+<pds-link>
+  <span
+    size="default"
+    slot="icon-right"
+  />
+</pds-link>
+`;

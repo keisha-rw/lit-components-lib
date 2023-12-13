@@ -1,0 +1,88 @@
+/*------------------------------------*\
+ #LOADING_PAGE
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-loading-page {
+  width: 100%;
+  min-height: size(65.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: size(1);
+  padding-left: size(1);
+
+  @media all and (min-width: $pds-bp-md) {
+    min-height: size(79);
+    padding-right: size(2);
+    padding-left: size(2);
+  }
+
+  @media all and (min-width: $pds-bp-lg) {
+    min-height: size(81);
+    padding-right: size(3);
+    padding-left: size(3);
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pds-c-loading-page__icon {
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+
+  animation: rotating 2s infinite linear;
+}
+
+.pds-c-loading-page__heading {
+  @include pds-semantic-display-lg;
+
+  margin: size(3) 0;
+
+  @media all and (min-width: $pds-bp-lg) {
+    margin: size(4) 0;
+  }
+}
+
+.pds-c-loading-page__content {
+  @include pds-semantic-body-lg;
+
+  visibility: hidden;
+
+  @media all and (min-width: $pds-bp-md) {
+    @include pds-semantic-body-xl;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.pds-c-loading-page__content[data-show] {
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+
+  visibility: visible;
+  animation: 1s fade-in ease-in;
+}

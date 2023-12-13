@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/Layout container Default 1`] = `"<pds-layout-container><!----><div class=" pds-l-layout-container pds-l-layout-container--undefined pds-l-layout-container--remove-padding-undefined "><slot></slot></div><style>default</style><placeholder-element>Layout container</placeholder-element></pds-layout-container>"`;
+
+exports[`Storyshots Layout/Layout container Narrow 1`] = `"<pds-layout-container variant="narrow"><!----><div class=" pds-l-layout-container pds-l-layout-container--narrow pds-l-layout-container--remove-padding-undefined "><slot></slot></div><style>default</style><placeholder-element>Layout container</placeholder-element></pds-layout-container>"`;
+
+exports[`Storyshots Layout/Layout container Remove padding all 1`] = `"<pds-layout-container removepadding="all"><!----><div class=" pds-l-layout-container pds-l-layout-container--undefined pds-l-layout-container--remove-padding-all "><slot></slot></div><style>default</style><placeholder-element>Layout container</placeholder-element></pds-layout-container>"`;
+
+exports[`Storyshots Layout/Layout container Remove padding medium 1`] = `"<pds-layout-container removepadding="md"><!----><div class=" pds-l-layout-container pds-l-layout-container--undefined pds-l-layout-container--remove-padding-md "><slot></slot></div><style>default</style><placeholder-element>Layout container</placeholder-element></pds-layout-container>"`;

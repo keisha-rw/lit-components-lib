@@ -1,0 +1,96 @@
+@import './link-mixin';
+@import '../button/button-mixin';
+
+/*------------------------------------*\
+ #LINK
+\*------------------------------------*/
+
+.pds-c-link {
+  @include link;
+}
+
+.pds-c-link--inverted {
+  @include link-inverted;
+}
+
+.pds-c-link--emphasis {
+  @include link-emphasis;
+}
+
+.pds-c-link--emphasis-inverted {
+  @include link-emphasis-inverted;
+}
+
+.pds-c-link--hover {
+  .pds-c-link--emphasis-inverted & {
+    @include link-hover-inverted;
+  }
+}
+
+.pds-c-link__icon-right-wrapper {
+  margin-left: size(1);
+
+  .pds-c-link--button & {
+    margin-left: 0;
+  }
+}
+
+.pds-c-link__icon-left-wrapper {
+  margin-right: size(1);
+
+  .pds-c-link--button & {
+    margin-right: 0;
+  }
+}
+
+.pds-c-link--sm {
+  @include pds-semantic-label-sm;
+}
+
+.pds-c-link--lg {
+  @include pds-semantic-label-lg;
+}
+
+.pds-c-link--xl {
+  @include pds-semantic-label-xl;
+}
+
+.pds-c-link--button {
+  @include button;
+}
+
+.pds-c-link--button.pds-c-link--sm {
+  @include button-sm;
+}
+
+.pds-c-link--button-primary {
+  @include button-primary;
+}
+
+.pds-c-link--button-primary-inverted {
+  @include button-primary-inverted;
+}
+
+.pds-c-link--button-default {
+  @include button-default;
+}
+
+.pds-c-link--button-default-inverted {
+  @include button-default-inverted;
+}
+
+.pds-c-link--button-icon {
+  @include button-icon;
+
+  &.pds-c-link--sm {
+    padding: size(0.75);
+  }
+}
+
+.pds-c-link--button-icon-inverted {
+  @include button-icon-inverted;
+
+  &.pds-c-link--sm {
+    padding: size(0.75);
+  }
+}

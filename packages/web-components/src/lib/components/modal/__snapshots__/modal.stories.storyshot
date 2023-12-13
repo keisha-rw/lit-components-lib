@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Modal Closed by default 1`] = `"<pds-button @click="," type="submit">Open modal</pds-button>"`;
+
+exports[`Storyshots Components/Modal Default 1`] = `
+"<pds-modal size="," ?hideclosebutton="," modaltitle="This is a heading" openonload="">
+      <pds-text-passage linelength="none">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </pds-text-passage>
+      <pds-button variant="primary" slot="footer" type="submit">Button</pds-button>
+    </pds-modal>"
+`;
+
+exports[`Storyshots Components/Modal Large 1`] = `
+"<pds-modal size="," ?hideclosebutton="," modaltitle="This is a heading" openonload="">
+      <pds-text-passage linelength="none">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </pds-text-passage>
+      <pds-button variant="primary" slot="footer" type="submit">Button</pds-button>
+    </pds-modal>"
+`;
+
+exports[`Storyshots Components/Modal Large w/ no close button 1`] = `
+"<pds-modal size="," ?hideclosebutton="," modaltitle="This is a heading" openonload="">
+      <pds-text-passage linelength="none">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </pds-text-passage>
+      <pds-button variant="primary" slot="footer" type="submit">Button</pds-button>
+    </pds-modal>"
+`;
+
+exports[`Storyshots Components/Modal No close button 1`] = `
+"<pds-modal size="," ?hideclosebutton="," modaltitle="This is a heading" openonload="">
+      <pds-text-passage linelength="none">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </pds-text-passage>
+      <pds-button variant="primary" slot="footer" type="submit">Button</pds-button>
+    </pds-modal>"
+`;

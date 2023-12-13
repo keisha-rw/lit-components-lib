@@ -1,0 +1,56 @@
+/*------------------------------------*\
+ #LAYOUT_CONTAINER
+\*------------------------------------*/
+
+/**
+ * Layout container web component wrapper
+ */
+:host {
+  display: block;
+
+  --pds-layout-container-max-width: var(
+    --pds-component-layout-container-max-width-default
+  );
+  --pds-layout-container-max-width-narrow: var(
+    --pds-component-layout-container-max-width-narrow
+  );
+}
+
+/**
+ * Layout Container
+ * 1) Caps the width of the content to the maximum width
+ *    and centers the container
+ */
+.pds-l-layout-container {
+  width: 100%;
+  max-width: var(--pds-layout-container-max-width);
+  padding-right: size(3);
+  padding-left: size(3);
+  margin: 0 auto;
+
+  @media all and (max-width: $pds-bp-lg) {
+    padding-right: size(2);
+    padding-left: size(2);
+  }
+
+  @media all and (max-width: $pds-bp-md) {
+    padding-right: size(1);
+    padding-left: size(1);
+  }
+}
+
+.pds-l-layout-container--narrow {
+  max-width: var(--pds-layout-container-max-width-narrow);
+}
+
+.pds-l-layout-container--remove-padding-md {
+  @media all and (max-width: $pds-bp-md) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.pds-l-layout-container--remove-padding-all {
+  padding-left: 0;
+  padding-right: 0;
+}

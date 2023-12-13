@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/List Align center 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Align center horizontal 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Default 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+        <pds-list-item size="md"><!----><ul part="list" role="list" class=" pds-c-list pds-c-list--, pds-c-list--align-, pds-c-list--spacing-, ">
+      <slot allowed-elements="pds-list-item"></slot>
+    </ul><style>default</style><span>List item label</span></pds-list-item>
+        <pds-list-item size="md"><span>List item label</span></pds-list-item>
+        <pds-list-item size="md"><span>List item label</span></pds-list-item>
+      </pds-list>"
+`;
+
+exports[`Storyshots Components/List Default small 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Default small spacing 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Default with icons 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Description default 1`] = `
+"<pds-list variant=",">
+        <pds-list-item size="md"><!----><ul part="list" role="list" class=" pds-c-list pds-c-list--default pds-c-list--align-default pds-c-list--md pds-c-list--spacing-md pds-c-list--, ">
+      <slot allowed-elements="pds-list-item"></slot>
+    </ul><style>default</style><span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+      </pds-list>"
+`;
+
+exports[`Storyshots Components/List Description reverse 1`] = `
+"<pds-list variant=",">
+        <pds-list-item size="md"><!----><ul part="list" role="list" class=" pds-c-list pds-c-list--default pds-c-list--align-default pds-c-list--md pds-c-list--spacing-md pds-c-list--, ">
+      <slot allowed-elements="pds-list-item"></slot>
+    </ul><style>default</style><span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+        <pds-list-item size="md">
+          <span slot="description">List item description</span><span slot="description-term">List item label</span></pds-list-item>
+      </pds-list>"
+`;
+
+exports[`Storyshots Components/List Horizontal 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Horizontal large spacing 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Horizontal small 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Horizontal small spacing 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;
+
+exports[`Storyshots Components/List Link list 1`] = `
+"<pds-list size="," align="," orientation="," spacing="," variant=",">
+      ,
+    </pds-list>"
+`;

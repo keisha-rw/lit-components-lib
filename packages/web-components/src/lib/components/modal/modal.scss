@@ -1,0 +1,99 @@
+/*------------------------------------*\
+ #MODAL
+\*------------------------------------*/
+
+.pds-c-modal {
+  border: none;
+  border-radius: size(0.5);
+  background: var(--pds-semantic-background-default);
+  color: var(--pds-semantic-text-default);
+  padding: size(1.5);
+  padding: 0;
+  max-width: 90%;
+  width: size(59);
+
+  &.pds-c-modal--lg {
+    width: size(113);
+  }
+
+  > div.pds-c-modal__wrapper {
+    padding: size(1.5);
+    justify-content: center;
+    top: 0;
+    left: 0;
+    max-height: 90vh;
+    overflow: auto;
+  }
+
+  &:focus {
+    // Removing the focus ring here since the element is not interactive, but focus is needed for the modal's focus-trap
+    outline: none;
+  }
+}
+
+@keyframes backdrop-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes backdrop-disappear {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.pds-c-modal[open]::backdrop {
+  // Need to add a fallback color here to help with support of CSS variables in the dialog::backdrop pseudo-element
+  // See https://fullscreen.spec.whatwg.org/#::backdrop-pseudo-element, it doesn't inherit from :root
+  // If/when this gets support, it will prefer the token.
+  background-color: var(--pds-semantic-background-opacity-dim, #333333e6);
+  animation: backdrop-appear linear 200ms 1 both;
+  backdrop-filter: blur(2px);
+}
+
+.pds-c-modal.close {
+  animation: backdrop-disappear linear 200ms 1 both;
+}
+
+.pds-c-modal__content {
+  display: block;
+  padding: size(6.5);
+}
+
+.pds-c-modal__close-button {
+  display: block;
+  float: right;
+  height: size(5.5);
+  width: size(5.5);
+
+  pds-icon-x {
+    color: var(--pds-semantic-border-icon-default);
+  }
+}
+
+.pds-c-modal__header {
+  margin-bottom: size(2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // Removing the focus ring here since the element is not interactive, but focus is needed for the modal's focus-trap
+  > .pds-c-modal__heading:focus {
+    outline: none;
+  }
+}
+
+.pds-c-modal__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: size(3);
+}

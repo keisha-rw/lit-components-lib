@@ -1,0 +1,54 @@
+@import '../pagination/pagination-mixin';
+
+/*------------------------------------*\
+ #PAGINATION_ITEM
+\*------------------------------------*/
+
+.pds-c-pagination-item--list-item {
+  position: relative;
+  left: -1px;
+
+  &.pds-c-pagination-item--hideFlyers {
+    left: 0;
+  }
+}
+
+.pds-c-pagination-item__button {
+  @include pagination-button;
+
+  border-left: none;
+
+  .pds-c-pagination-item--no-arrows-first & {
+    border-top-left-radius: size(0.5);
+    border-bottom-left-radius: size(0.5);
+    border: 1px solid var(--pds-semantic-border-default);
+  }
+
+  .pds-c-pagination-item--no-arrows-last & {
+    border-top-right-radius: size(0.5);
+    border-bottom-right-radius: size(0.5);
+  }
+
+  .pds-c-pagination-item--no-arrows-one-item & {
+    border-radius: size(0.5);
+  }
+}
+
+.pds-c-pagination-item--active {
+  background-color: var(--pds-semantic-background-interactive-xstrong);
+  border: 1px solid var(--pds-semantic-border-interactive-xstrong);
+  color: var(--pds-semantic-text-interactive-inverted-default);
+
+  &:hover {
+    background-color: var(--pds-semantic-background-interactive-xstrong);
+    color: var(--pds-semantic-text-interactive-inverted-xstrong);
+  }
+
+  &:active {
+    color: var(--pds-semantic-text-interactive-inverted-xstrong);
+  }
+
+  &:active[disabled] {
+    border: 1px solid var(--pds-semantic-border-interactive-xstrong);
+  }
+}

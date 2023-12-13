@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List unit tests does not populate the default slot with an element other than pds-list-item 1`] = `
+<pds-list
+  size="sm"
+/>
+`;

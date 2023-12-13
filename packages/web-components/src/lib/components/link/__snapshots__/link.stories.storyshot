@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Link Button link default 1`] = `
+"<pds-link href="https://www.google.com" button="default"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--button-default pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Button link default inverted 1`] = `
+"<pds-link href="https://www.google.com" button="default-inverted"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--button-default-inverted pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Button link default small 1`] = `
+"<pds-link size="sm" href="https://www.google.com" button="default"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--sm pds-c-link--button-default pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Button link icon 1`] = `
+"<pds-link href="https://www.google.com" button="icon" role="link" arialabel="More actions">
+      <pds-icon-more-horizontal slot="icon-left" size="default"><!----><a part="link" class=" pds-c-link pds-c-link--default pds-c-link--icon-left pds-c-link--button-icon pds-c-link--button " href="https://www.google.com" aria-label="More actions" role="link"><span class="pds-c-link__icon-left-wrapper">
+            <slot allowed-elements="pds-icon, span" name="icon-left"></slot>
+          </span>
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style></pds-icon-more-horizontal>
+    </pds-link>"
+`;
+
+exports[`Storyshots Components/Link Button link icon inverted 1`] = `
+"<pds-link href="https://www.google.com" button="icon-inverted" role="link" arialabel="More actions">
+      <pds-icon-more-horizontal slot="icon-right" size="default"><!----><a part="link" class=" pds-c-link pds-c-link--default pds-c-link--icon-right pds-c-link--button-icon-inverted pds-c-link--button " href="https://www.google.com" aria-label="More actions" role="link">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span><span class="pds-c-link__icon-right-wrapper">
+            <slot allowed-elements="pds-icon, span" name="icon-right"></slot>
+          </span></a><style>default</style></pds-icon-more-horizontal>
+    </pds-link>"
+`;
+
+exports[`Storyshots Components/Link Button link primary 1`] = `
+"<pds-link href="https://www.google.com" button="primary"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--button-primary pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Button link primary inverted 1`] = `
+"<pds-link href="https://www.google.com" button="primary-inverted"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--button-primary-inverted pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Default 1`] = `
+"<pds-link variant="default" size="default" href="https://www.google.com"><!----><a part="link" class=" pds-c-link pds-c-link--default pds-c-link--button-undefined pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Default inverted 1`] = `
+"<pds-link variant="inverted" size="default" href="https://www.google.com"><!----><a part="link" class=" pds-c-link pds-c-link--inverted pds-c-link--default pds-c-link--button-undefined pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Download 1`] = `
+"<pds-link href="https://www.google.com" download="true"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--button-undefined pds-c-link--button " href="https://www.google.com" download="true">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Emphasis 1`] = `
+"<pds-link variant="emphasis" size="default" href="https://www.google.com"><!----><a part="link" class=" pds-c-link pds-c-link--emphasis pds-c-link--default pds-c-link--button-undefined pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Emphasis inverted 1`] = `
+"<pds-link variant="emphasis-inverted" size="default" href="https://www.google.com"><!----><a part="link" class=" pds-c-link pds-c-link--emphasis-inverted pds-c-link--default pds-c-link--button-undefined pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Hover triggered 1`] = `
+"<pds-link href="https://www.google.com" ?hover="true"><!----><a part="link" class=" pds-c-link pds-c-link--undefined pds-c-link--button-undefined pds-c-link--button " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style><span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Icon left 1`] = `
+"<pds-link href="https://www.google.com">
+      <pds-icon-check slot="icon-left" size="default"><!----><a part="link" class=" pds-c-link pds-c-link--default pds-c-link--icon-left " href="https://www.google.com"><span class="pds-c-link__icon-left-wrapper">
+            <slot allowed-elements="pds-icon, span" name="icon-left"></slot>
+          </span>
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span></a><style>default</style></pds-icon-check>
+      <span>Link text</span></pds-link>"
+`;
+
+exports[`Storyshots Components/Link Icon right 1`] = `
+"<pds-link href="https://www.google.com">
+      <span>Link text</span><!----><a part="link" class=" pds-c-link pds-c-link--default pds-c-link--icon-right " href="https://www.google.com">
+      <span class="pds-c-link__text" part="link-text"><slot></slot></span><span class="pds-c-link__icon-right-wrapper">
+            <slot allowed-elements="pds-icon, span" name="icon-right"></slot>
+          </span></a><style>default</style><pds-icon-check slot="icon-right" size="default"></pds-icon-check></pds-link>"
+`;

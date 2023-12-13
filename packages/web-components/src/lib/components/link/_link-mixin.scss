@@ -1,0 +1,126 @@
+/*------------------------------------*\
+ #LINK_MIXIN
+\*------------------------------------*/
+
+@mixin link {
+  @include pds-semantic-label-default;
+
+  color: var(--pds-link-text-alt, var(--pds-semantic-text-interactive-default));
+  text-decoration: none;
+  border-bottom: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &.pds-c-link--hover,
+  &:active {
+    text-decoration: underline;
+    text-underline-offset: size(0.75);
+    color: var(
+      --pds-link-text-alt-hover,
+      var(--pds-semantic-text-interactive-xstrong)
+    );
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+  }
+
+  &:focus-visible:not(:disabled) {
+    @include link-focused;
+  }
+}
+
+@mixin link-focused {
+  outline: none;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: size(-0.25);
+    border: size(0.25) solid var(--pds-component-button-default-border);
+  }
+}
+
+@mixin link-inverted {
+  color: var(--pds-semantic-text-interactive-inverted-default);
+
+  &:hover,
+  &.pds-c-link--hover,
+  &:active {
+    color: var(--pds-semantic-text-interactive-inverted-xstrong);
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+  }
+
+  &:focus-visible:not(:disabled) {
+    @include link-inverted-focused;
+  }
+}
+
+@mixin link-inverted-focused {
+  outline: none;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: size(-0.25);
+    border: size(0.25) solid
+      var(--pds-component-button-default-inverted-active-border);
+  }
+}
+
+@mixin link-emphasis {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: size(0.75);
+
+  &:hover,
+  &.pds-c-link--hover,
+  &:active {
+    .pds-c-link__text {
+      text-decoration: underline;
+      text-underline-offset: size(0.75);
+    }
+  }
+}
+
+@mixin link-emphasis-inverted {
+  color: var(--pds-semantic-text-interactive-inverted-default);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: size(0.75);
+
+  &:hover,
+  &:active {
+    @include link-hover-inverted;
+  }
+
+  &:hover,
+  &.pds-c-link--hover,
+  &:active {
+    color: var(--pds-semantic-text-interactive-inverted-xstrong);
+
+    .pds-c-link__text {
+      text-decoration: underline;
+      text-underline-offset: size(0.75);
+    }
+  }
+
+  &:focus:not(:disabled) {
+    outline: none;
+  }
+
+  &:focus-visible:not(:disabled) {
+    @include link-inverted-focused;
+  }
+}
+
+@mixin link-hover-inverted {
+  color: var(--pds-semantic-text-inverted-xstrong);
+}

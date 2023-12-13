@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Pagination/Pagination item Active 1`] = `
+"<pds-pagination-item pagenumber="," active="," variant="," href="," hideflyers=","><!----> <div role="listitem" class=" pds-c-pagination-item pds-c-pagination-item--, pds-c-pagination-item--hideFlyers pds-c-pagination-item--list-item ">
+      
+      <a class="pds-c-pagination-item__button pds-c-pagination-item--active" aria-label="go to page NaN" aria-current="true" href=",">
+        NaN
+      </a>
+    
+    </div><style>default</style></pds-pagination-item>"
+`;
+
+exports[`Storyshots Components/Pagination/Pagination item Default 1`] = `
+"<pds-pagination-item pagenumber="," active="," variant="," href="," hideflyers=","><!----> <div role="listitem" class=" pds-c-pagination-item pds-c-pagination-item--, pds-c-pagination-item--hideFlyers pds-c-pagination-item--list-item ">
+      
+      <a class="pds-c-pagination-item__button pds-c-pagination-item--active" aria-label="go to page NaN" aria-current="true" href=",">
+        NaN
+      </a>
+    
+    </div><style>default</style></pds-pagination-item>"
+`;
+
+exports[`Storyshots Components/Pagination/Pagination item Hide flyers 1`] = `
+"<pds-pagination-item pagenumber="," active="," variant="," href="," hideflyers=","><!----> <div role="listitem" class=" pds-c-pagination-item pds-c-pagination-item--, pds-c-pagination-item--hideFlyers pds-c-pagination-item--list-item ">
+      
+      <a class="pds-c-pagination-item__button pds-c-pagination-item--active" aria-label="go to page NaN" aria-current="true" href=",">
+        NaN
+      </a>
+    
+    </div><style>default</style></pds-pagination-item>"
+`;
+
+exports[`Storyshots Components/Pagination/Pagination item No arrows last 1`] = `
+"<pds-pagination-item pagenumber="," active="," variant="," href="," hideflyers=","><!----> <div role="listitem" class=" pds-c-pagination-item pds-c-pagination-item--, pds-c-pagination-item--hideFlyers pds-c-pagination-item--list-item ">
+      
+      <a class="pds-c-pagination-item__button pds-c-pagination-item--active" aria-label="go to page NaN" aria-current="true" href=",">
+        NaN
+      </a>
+    
+    </div><style>default</style></pds-pagination-item>"
+`;
+
+exports[`Storyshots Components/Pagination/Pagination item No arrows one item 1`] = `
+"<pds-pagination-item pagenumber="," active="," variant="," href="," hideflyers=","><!----> <div role="listitem" class=" pds-c-pagination-item pds-c-pagination-item--, pds-c-pagination-item--hideFlyers pds-c-pagination-item--list-item ">
+      
+      <a class="pds-c-pagination-item__button pds-c-pagination-item--active" aria-label="go to page NaN" aria-current="true" href=",">
+        NaN
+      </a>
+    
+    </div><style>default</style></pds-pagination-item>"
+`;
+
+exports[`Storyshots Components/Pagination/Pagination item With href 1`] = `
+"<pds-pagination-item pagenumber="," active="," variant="," href="," hideflyers=","><!----> <div role="listitem" class=" pds-c-pagination-item pds-c-pagination-item--, pds-c-pagination-item--hideFlyers pds-c-pagination-item--list-item ">
+      
+      <a class="pds-c-pagination-item__button pds-c-pagination-item--active" aria-label="go to page NaN" aria-current="true" href=",">
+        NaN
+      </a>
+    
+    </div><style>default</style></pds-pagination-item>"
+`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/FootnoteLink Default 1`] = `"<pds-footnote-link><!----><style>default</style></pds-footnote-link>"`;

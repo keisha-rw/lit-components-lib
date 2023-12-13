@@ -1,0 +1,36 @@
+@import '../link/link-mixin';
+
+/*------------------------------------*\
+ #PAGINATION_MIXIN
+\*------------------------------------*/
+@mixin pagination-button {
+  @include link;
+
+  display: flex;
+  background-color: var(--pds-semantic-background-default);
+  border: 1px solid var(--pds-semantic-border-default);
+  height: size(6);
+  width: size(6);
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--pds-semantic-background-subtle);
+    color: var(--pds-semantic-text-interactive-strong);
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: var(--pds-semantic-background-subtle);
+    color: var(--pds-semantic-text-interactive-xstrong);
+  }
+
+  &:focus,
+  &:focus-visible {
+    z-index: 1;
+    position: relative;
+  }
+}
