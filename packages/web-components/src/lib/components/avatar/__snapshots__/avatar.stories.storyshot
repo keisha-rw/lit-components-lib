@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Avatar Centered 1`] = `
+"<pds-avatar align="center" ?inverted=",">
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <span>FirstName LastName</span>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar Color bar 1`] = `
+"<pds-avatar ?inverted=",">
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <span>FirstName LastName</span>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar Default 1`] = `
+"<pds-avatar ?inverted=",">
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <span>FirstName LastName</span>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar H3 heading 1`] = `
+"<pds-avatar>
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <pds-heading headingtag="h3" variant="label-default">FirstName LastName</pds-heading>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar Icon 1`] = `
+"<pds-avatar>
+      <div slot="media">
+        <pds-icon-user size="default"><!----> 
+      <div class=" pds-c-avatar pds-c-avatar--default ">
+        <div class="pds-c-avatar__media">
+          <slot name="media"></slot>
+        </div>
+        <div class="pds-c-avatar__info">
+          <div class="pds-c-avatar__name">
+            <slot name="heading"></slot>
+          </div>
+          <div class="pds-c-avatar__details">
+            <slot name="details"></slot>
+          </div>
+        </div>
+      </div><style>default</style></pds-icon-user>
+      </div>
+      <div slot="heading">
+        <span>FirstName LastName</span>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar Inverted 1`] = `
+"<pds-avatar ?inverted="," variant="true">
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <span>FirstName LastName</span>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar Inverted with link 1`] = `
+"<pds-avatar .inverted="true">
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <pds-link href="">FirstName LastName</pds-link>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;
+
+exports[`Storyshots Components/Avatar Link 1`] = `
+"<pds-avatar>
+      <div slot="media">
+        <img src=",image_small_40x40.svg" alt="lorem ipsum">
+      </div>
+      <div slot="heading">
+        <pds-link href="">FirstName LastName</pds-link>
+      </div>
+      <div slot="details">Lorem ipsum dolor</div>
+    </pds-avatar>"
+`;

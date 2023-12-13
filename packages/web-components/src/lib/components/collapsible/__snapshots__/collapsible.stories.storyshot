@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Collapsible Default 1`] = `
+"<pds-collapsible><!----><details part="collapsible" class=" pds-c-collapsible pds-c-collapsible--undefined ">
+      <summary class="pds-c-collapsible__summary" part="collapsible-summary">
+        <slot name="summary-title" part="summary-title"></slot>
+        <span>
+          <slot name="summary-description" part="summary-description"></slot>
+        </span>
+        <span class="pds-c-collapsible__icon">
+          <pds-icon-chevron-down size="default"> </pds-icon-chevron-down>
+        </span>
+      </summary>
+      <div class="pds-c-collapsible__content" part="collapsible-content">
+        <slot name="collapsible-content"></slot>
+      </div>
+    </details><style>default</style><span slot="summary-title">What is a 1099 tax form?</span><span slot="collapsible-content">Form 1099 is a
+      series of forms described by the Internal Revenue Service (IRS) as
+      “information returns”, used to report income other than a regular salary.
+    </span></pds-collapsible>"
+`;
+
+exports[`Storyshots Components/Collapsible Description 1`] = `
+"<pds-collapsible><!----><details part="collapsible" class=" pds-c-collapsible pds-c-collapsible--default ">
+      <summary class="pds-c-collapsible__summary" part="collapsible-summary">
+        <slot name="summary-title" part="summary-title"></slot>
+        <span class="pds-c-collapsible__description-present">
+          <slot name="summary-description" part="summary-description"></slot>
+        </span>
+        <span class="pds-c-collapsible__icon">
+          <pds-icon-chevron-down size="default"> </pds-icon-chevron-down>
+        </span>
+      </summary>
+      <div class="pds-c-collapsible__content" part="collapsible-content">
+        <slot name="collapsible-content"></slot>
+      </div>
+    </details><style>default</style><span slot="summary-title">What is a 1099 tax form?</span>
+      <span slot="summary-description">This is an optional description</span><span slot="collapsible-content">Form 1099 is a series of forms described by the Internal Revenue
+        Service (IRS) as “information returns”, used to report income other than
+        a regular salary.</span>
+    </pds-collapsible>"
+`;
+
+exports[`Storyshots Components/Collapsible Inverted 1`] = `
+"<pds-collapsible variant="inverted"><!----><details part="collapsible" class=" pds-c-collapsible pds-c-collapsible--inverted ">
+      <summary class="pds-c-collapsible__summary" part="collapsible-summary">
+        <slot name="summary-title" part="summary-title"></slot>
+        <span>
+          <slot name="summary-description" part="summary-description"></slot>
+        </span>
+        <span class="pds-c-collapsible__icon">
+          <pds-icon-chevron-down size="default"> </pds-icon-chevron-down>
+        </span>
+      </summary>
+      <div class="pds-c-collapsible__content" part="collapsible-content">
+        <slot name="collapsible-content"></slot>
+      </div>
+    </details><style>default</style><span slot="summary-title">What is a 1099 tax form?</span><span slot="collapsible-content">Form 1099 is a
+      series of forms described by the Internal Revenue Service (IRS) as
+      “information returns”, used to report income other than a regular salary.
+    </span></pds-collapsible>"
+`;
+
+exports[`Storyshots Components/Collapsible Multiple items 1`] = `
+"<pds-collapsible variant="default"><!----><details part="collapsible" class=" pds-c-collapsible pds-c-collapsible--default ">
+      <summary class="pds-c-collapsible__summary" part="collapsible-summary">
+        <slot name="summary-title" part="summary-title"></slot>
+        <span>
+          <slot name="summary-description" part="summary-description"></slot>
+        </span>
+        <span class="pds-c-collapsible__icon">
+          <pds-icon-chevron-down size="default"> </pds-icon-chevron-down>
+        </span>
+      </summary>
+      <div class="pds-c-collapsible__content" part="collapsible-content">
+        <slot name="collapsible-content"></slot>
+      </div>
+    </details><style>default</style><span slot="summary-title">What is a 1099 tax form?</span><span slot="collapsible-content">Form 1099 is a series of forms described by the Internal Revenue
+          Service (IRS) as “information returns”, used to report income other
+          than a regular salary.</span>
+      </pds-collapsible>"
+`;
+
+exports[`Storyshots Components/Collapsible Strong 1`] = `
+"<pds-collapsible variant="strong"><!----><details part="collapsible" class=" pds-c-collapsible pds-c-collapsible--strong ">
+      <summary class="pds-c-collapsible__summary" part="collapsible-summary">
+        <slot name="summary-title" part="summary-title"></slot>
+        <span>
+          <slot name="summary-description" part="summary-description"></slot>
+        </span>
+        <span class="pds-c-collapsible__icon">
+          <pds-icon-chevron-down size="default"> </pds-icon-chevron-down>
+        </span>
+      </summary>
+      <div class="pds-c-collapsible__content" part="collapsible-content">
+        <slot name="collapsible-content"></slot>
+      </div>
+    </details><style>default</style><span slot="summary-title">What is a 1099 tax form?</span><span slot="collapsible-content">Form 1099 is a
+      series of forms described by the Internal Revenue Service (IRS) as
+      “information returns”, used to report income other than a regular salary.
+    </span></pds-collapsible>"
+`;

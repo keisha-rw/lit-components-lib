@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Button Default 1`] = `
+"<pds-button><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--link pds-c-button--link-undefined pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Default inverted 1`] = `
+"<pds-button variant="default-inverted"><!----><button part="button" class=" pds-c-button pds-c-button--default-inverted pds-c-button--link pds-c-button--link-undefined pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Default small 1`] = `
+"<pds-button size="sm"><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--sm pds-c-button--link pds-c-button--link-undefined pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Disabled 1`] = `
+"<pds-button disabled="true" internals-disabled="" aria-disabled="true" type="submit"><!----><button part="button" class=" pds-c-button pds-c-button--default " disabled="" type="submit">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Full width 1`] = `
+"<pds-button fullwidth="true" type="submit"><!----><button part="button" class=" pds-c-button pds-c-button--default pds-c-button--fullWidth " type="submit">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Icon 1`] = `
+"<pds-button variant="icon" arialabel="icon" type="submit"><!----><button part="button" class=" pds-c-button pds-c-button--icon " aria-label="icon" type="submit">
+      
+      <slot></slot>
+      
+    </button><style>default</style><pds-icon-more-horizontal size="lg"></pds-icon-more-horizontal></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Icon inverted 1`] = `
+"<pds-button variant="icon-inverted" arialabel="icon inverted" type="submit"><!----><button part="button" class=" pds-c-button pds-c-button--icon-inverted " aria-label="icon inverted" type="submit">
+      
+      <slot></slot>
+      
+    </button><style>default</style><pds-icon-more-horizontal size="lg"></pds-icon-more-horizontal></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button 1`] = `
+"<pds-button link="default"><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--link pds-c-button--link-default pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button emphasis 1`] = `
+"<pds-button link="emphasis"><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--link pds-c-button--link-emphasis pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button emphasis inverted 1`] = `
+"<pds-button link="emphasis-inverted"><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--link pds-c-button--link-emphasis-inverted pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button icon left 1`] = `
+"<pds-button link="icon-left" type="submit"><!----><button part="button" class=" pds-c-button pds-c-button--default pds-c-button--link pds-c-button--link-icon-left " type="submit">
+      <slot allowed-elements="pds-icon" name="icon-left"></slot>
+      <slot></slot>
+      
+    </button><style>default</style><pds-icon-x slot="icon-left" size="default"></pds-icon-x><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button icon right 1`] = `
+"<pds-button link="icon-right" type="submit"><!----><button part="button" class=" pds-c-button pds-c-button--default pds-c-button--link pds-c-button--link-icon-right " type="submit">
+      
+      <slot></slot>
+      <slot allowed-elements="pds-icon" name="icon-right"></slot>
+    </button><style>default</style><span>Label</span><pds-icon-x slot="icon-right" size="default"></pds-icon-x></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button inverted 1`] = `
+"<pds-button link="inverted"><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--link pds-c-button--link-inverted pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Link button small 1`] = `
+"<pds-button size="sm" link="default"><!----><button part="button" class=" pds-c-button pds-c-button--undefined pds-c-button--sm pds-c-button--link pds-c-button--link-default pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Primary 1`] = `
+"<pds-button variant="primary"><!----><button part="button" class=" pds-c-button pds-c-button--primary pds-c-button--link pds-c-button--link-undefined pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;
+
+exports[`Storyshots Components/Button Primary inverted 1`] = `
+"<pds-button variant="primary-inverted"><!----><button part="button" class=" pds-c-button pds-c-button--primary-inverted pds-c-button--link pds-c-button--link-undefined pds-c-button--fullWidth ">
+      
+      <slot></slot>
+      
+    </button><style>default</style><span>Label</span></pds-button>"
+`;

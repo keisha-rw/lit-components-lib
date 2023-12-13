@@ -1,0 +1,80 @@
+/*------------------------------------*\
+ #BAND
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-band {
+  padding-top: size(4);
+  padding-bottom: size(4);
+  background-color: var(--pds-semantic-background-default);
+
+  @media all and (min-width: $pds-bp-md) {
+    padding-top: size(8);
+    padding-bottom: size(8);
+  }
+}
+
+.pds-c-band--spacing-none {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @media all and (min-width: $pds-bp-md) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.pds-c-band--spacing-sm {
+  padding-top: size(2);
+  padding-bottom: size(2);
+
+  @media all and (min-width: $pds-bp-md) {
+    padding-top: size(4);
+    padding-bottom: size(4);
+  }
+}
+
+.pds-c-band--spacing-lg {
+  padding-top: size(8);
+  padding-bottom: size(8);
+
+  @media all and (min-width: $pds-bp-md) {
+    padding-top: size(16);
+    padding-bottom: size(16);
+  }
+}
+
+.pds-c-band--rounded {
+  border-radius: size(0.5);
+}
+
+.pds-c-band--subtle {
+  background-color: var(--pds-semantic-background-subtle);
+}
+
+.pds-c-band--strong {
+  background-color: var(--pds-semantic-background-strong);
+}
+
+.pds-c-band--brand-default {
+  background-color: var(--pds-semantic-background-brand-default);
+}
+
+.pds-c-band--brand-strong {
+  background-color: var(--pds-semantic-background-brand-strong);
+}
+
+.pds-c-band--brand-xstrong {
+  background-color: var(--pds-semantic-background-brand-xstrong);
+}
+
+.pds-c-band--brand-gradient-strong {
+  background-image: var(--pds-semantic-background-brand-gradient-strong);
+}
+
+.pds-c-band--brand-gradient-xstrong {
+  background-image: var(--pds-semantic-background-brand-gradient-xstrong);
+}

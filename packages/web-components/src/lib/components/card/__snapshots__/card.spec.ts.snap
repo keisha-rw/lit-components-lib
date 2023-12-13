@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card unit tests populates the footer slot when provided 1`] = `
+<pds-card>
+  <div
+    slot="footer"
+  >
+    Footer text and stuff
+  </div>
+</pds-card>
+`;
+
+exports[`Card unit tests populates the header slot when provided 1`] = `
+<pds-card>
+  <div
+    slot="header"
+  >
+    header text and stuff
+  </div>
+</pds-card>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Band Brand default 1`] = `
+"<pds-band variant="brand-default"><!----><div class=" pds-c-band pds-c-band--brand-default pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Brand gradient strong 1`] = `
+"<pds-band variant="brand-gradient-strong"><!----><div class=" pds-c-band pds-c-band--brand-gradient-strong pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Brand gradient xstrong 1`] = `
+"<pds-band variant="brand-gradient-xstrong"><!----><div class=" pds-c-band pds-c-band--brand-gradient-xstrong pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Brand strong 1`] = `
+"<pds-band variant="brand-strong"><!----><div class=" pds-c-band pds-c-band--brand-strong pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Brand xstrong 1`] = `
+"<pds-band variant="brand-xstrong"><!----><div class=" pds-c-band pds-c-band--brand-xstrong pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Default 1`] = `
+"<pds-band><!----><div class=" pds-c-band pds-c-band--default pds-c-band--spacing-default ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Spacing large 1`] = `
+"<pds-band variant="brand-default" spacing="lg"><!----><div class=" pds-c-band pds-c-band--brand-default pds-c-band--spacing-lg ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Spacing none 1`] = `
+"<pds-band variant="brand-default" spacing="none"><!----><div class=" pds-c-band pds-c-band--brand-default pds-c-band--spacing-none ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element inlinestyle="background: none" tight="true">for placeholder only (transparent)</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Spacing small 1`] = `
+"<pds-band variant="brand-default" spacing="sm"><!----><div class=" pds-c-band pds-c-band--brand-default pds-c-band--spacing-sm ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Strong 1`] = `
+"<pds-band variant="strong"><!----><div class=" pds-c-band pds-c-band--strong pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;
+
+exports[`Storyshots Components/Band Subtle 1`] = `
+"<pds-band variant="subtle"><!----><div class=" pds-c-band pds-c-band--subtle pds-c-band--spacing-undefined ">
+      <slot></slot>
+    </div><style>default</style><placeholder-element tight="true">for placeholder only</placeholder-element></pds-band>"
+`;

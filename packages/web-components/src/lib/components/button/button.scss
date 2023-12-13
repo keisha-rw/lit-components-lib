@@ -1,0 +1,119 @@
+@import './button-mixin';
+@import '../link/link-mixin';
+
+/*------------------------------------*\
+ #BUTTON
+\*------------------------------------*/
+
+.pds-c-button:not(.pds-c-button--link) {
+  @include button;
+}
+
+.pds-c-button--sm:not(.pds-c-button--link) {
+  @include button-sm;
+}
+
+.pds-c-button--primary:not(.pds-c-button--link) {
+  @include button-primary;
+}
+
+.pds-c-button--primary-inverted:not(.pds-c-button--link) {
+  @include button-primary-inverted;
+}
+
+.pds-c-button--default:not(.pds-c-button--link) {
+  @include button-default;
+}
+
+.pds-c-button--default-inverted:not(.pds-c-button--link) {
+  @include button-default-inverted;
+}
+
+.pds-c-button--icon:not(.pds-c-button--link) {
+  @include button-icon;
+}
+
+.pds-c-button--icon-inverted:not(.pds-c-button--link) {
+  @include button-icon-inverted;
+}
+
+.pds-c-button--link-default {
+  @include link;
+  @include button-reset;
+  @include button-padding;
+}
+
+.pds-c-button--link.pds-c-button--sm {
+  @include pds-semantic-label-sm;
+  @include button-padding-sm;
+}
+
+.pds-c-button--link-inverted {
+  @include link;
+  @include button-reset;
+  @include link-inverted;
+  @include button-padding;
+}
+
+.pds-c-button--link-emphasis {
+  @include link;
+  @include button-reset;
+  @include link-emphasis;
+  @include button-padding;
+}
+
+.pds-c-button--link-emphasis-inverted {
+  @include link;
+  @include button-reset;
+  @include link-emphasis-inverted;
+  @include button-padding;
+}
+
+.pds-c-button--link-icon-left {
+  @include link;
+  @include button-reset;
+  @include button-padding;
+}
+
+.pds-c-button--link-icon-right {
+  @include link;
+  @include button-reset;
+  @include button-padding;
+}
+
+.pds-c-button--link.pds-c-button--remove-link-padding {
+  padding: 0;
+}
+
+.pds-c-button--fullWidth {
+  width: 100%;
+  justify-content: center;
+}
+
+.pds-c-button--default:not(.pds-c-button--link).pds-is-active {
+  @include button-default-active;
+}
+
+.pds-c-button--default-inverted:not(.pds-c-button--link).pds-is-active {
+  @include button-default-inverted-active;
+}
+
+.pds-c-button--icon:not(.pds-c-button--link).pds-is-active {
+  @include button-icon-active;
+}
+
+.pds-c-button--icon-inverted:not(.pds-c-button--link).pds-is-active {
+  @include button-icon-inverted-active;
+}
+
+::slotted(*:first-child) {
+  .pds-c-button--link-icon-left & {
+    margin-right: size(1);
+  }
+}
+
+::slotted(*:last-child) {
+  .pds-c-button--link-icon-right & {
+    margin-left: size(1);
+  }
+}

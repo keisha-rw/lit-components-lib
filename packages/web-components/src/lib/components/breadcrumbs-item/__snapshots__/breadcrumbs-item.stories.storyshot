@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Breadcrumbs/Breadcrumbs item Active 1`] = `
+"<pds-breadcrumbs>
+      <pds-breadcrumbs-item active="">Breadcrumb 1</pds-breadcrumbs-item>
+    </pds-breadcrumbs>"
+`;
+
+exports[`Storyshots Components/Breadcrumbs/Breadcrumbs item Default 1`] = `
+"<pds-breadcrumbs>
+      <pds-breadcrumbs-item href="https://google.com">Breadcrumb 1</pds-breadcrumbs-item>
+    </pds-breadcrumbs>"
+`;

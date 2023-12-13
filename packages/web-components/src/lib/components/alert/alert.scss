@@ -1,0 +1,94 @@
+@import '../card/card-mixin';
+
+/*------------------------------------*\
+ #ALERT
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-alert__alert-body {
+  display: flex;
+  padding: 0;
+}
+
+.pds-c-alert__close-button-wrapper {
+  position: relative;
+  margin-left: auto;
+}
+
+.pds-c-alert__icon {
+  color: var(--pds-semantic-border-icon-default);
+
+  .pds-c-alert--banner & {
+    color: var(--pds-semantic-border-inverted-default);
+  }
+}
+
+.pds-c-alert__alert-content {
+  @include pds-semantic-body-default;
+
+  display: block;
+  margin-left: size(4);
+  margin-right: size(6);
+
+  .pds-c-alert--banner & {
+    color: var(--pds-semantic-text-inverted-default);
+  }
+}
+
+.pds-c-alert__card {
+  @include pds-c-card;
+
+  background-color: var(--pds-semantic-background-default);
+  padding: size(3) size(2) size(3) size(3);
+
+  .pds-c-alert--information & {
+    border-left: size(1) solid var(--pds-semantic-border-info);
+    border-color: var(--pds-semantic-border-info);
+  }
+
+  .pds-c-alert--success & {
+    border-left: size(1) solid var(--pds-semantic-border-success);
+    border-color: var(--pds-semantic-border-success);
+  }
+
+  .pds-c-alert--error & {
+    border-left: size(1) solid var(--pds-semantic-border-error);
+    border-color: var(--pds-semantic-border-error);
+  }
+
+  .pds-c-alert--warning & {
+    border-left: size(1) solid var(--pds-semantic-border-warning);
+    border-color: var(--pds-semantic-border-warning);
+  }
+
+  .pds-c-alert--banner & {
+    border-radius: 0;
+    border: none;
+    padding: size(3);
+    background-color: transparent;
+  }
+}
+
+.pds-c-alert--banner {
+  background-color: var(--pds-semantic-background-brand-xstrong);
+}
+
+.pds-c-alert__close-button {
+  position: absolute;
+  right: 0;
+  top: -3px;
+
+  &[variant='icon'] .pds-c-alert__close-button-x-icon {
+    color: var(--pds-semantic-border-icon-default);
+  }
+}
+
+.pds-is-hidden {
+  display: none;
+}

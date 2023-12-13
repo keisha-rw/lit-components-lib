@@ -1,0 +1,213 @@
+/*------------------------------------*\
+ #COLLAPSIBLE
+\*------------------------------------*/
+
+:host {
+  display: block;
+
+  --pds-collapsible-link-text: var(--pds-link-text-alt);
+  --pds-collapsible-link-text-hover: var(--pds-link-text-alt-hover);
+}
+
+.pds-c-collapsible {
+  border-top: var(
+    --pds-collapsible-border-top,
+    1px solid var(--pds-semantic-border-default)
+  );
+  border-bottom: var(
+    --pds-collapsible-border-bottom,
+    1px solid var(--pds-semantic-border-default)
+  );
+  background: var(--pds-semantic-background-opacity-none);
+}
+
+.pds-c-collapsible__content {
+  @include pds-semantic-body-default;
+
+  padding: size(3) var(--pds-collapsible-content-right-padding, size(6.5))
+    size(3) size(2);
+}
+
+.pds-c-collapsible__summary {
+  @include pds-semantic-label-default;
+
+  list-style: none;
+  cursor: pointer;
+  color: var(
+    --pds-collapsible-link-text,
+    var(--pds-semantic-text-interactive-default)
+  );
+  padding: size(3) size(2);
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+
+  slot[name='summary-title'] {
+    grid-row-start: 1;
+  }
+
+  .pds-c-collapsible__description-present {
+    @include pds-semantic-body-sm;
+
+    color: var(--pds-semantic-text-default);
+    grid-row-start: 2;
+    padding-top: size(2);
+  }
+
+  .pds-c-collapsible--inverted & {
+    background: inherit;
+    color: var(
+      --pds-collapsible-link-text,
+      var(--pds-semantic-text-interactive-inverted-default)
+    );
+
+    .pds-c-collapsible__description-present {
+      color: var(--pds-semantic-text-interactive-inverted-default);
+    }
+  }
+
+  & .pds-c-collapsible__icon {
+    grid-column-start: 2;
+    grid-row: 1;
+    margin-left: auto;
+    transition: transform 0.25s ease-in;
+
+    @media (prefers-reduced-motion: reduce) {
+      transform: none;
+      transition: none;
+    }
+  }
+
+  &:hover {
+    color: var(
+      --pds-collapsible-link-text-hover,
+      var(--pds-semantic-text-interactive-strong)
+    );
+    background: var(--pds-semantic-background-interactive-neutral-strong);
+
+    .pds-c-collapsible__icon {
+      color: var(
+        --pds-collapsible-border-icon-hover,
+        var(--pds-semantic-border-interactive-strong)
+      );
+    }
+  }
+
+  .pds-c-collapsible--inverted &:hover {
+    color: var(
+      --pds-collapsible-link-text-hover,
+      var(--pds-semantic-text-interactive-inverted-strong)
+    );
+    background: var(
+      --pds-semantic-background-interactive-inverted-neutral-strong
+    );
+
+    .pds-c-collapsible__icon {
+      color: var(
+        --pds-collapsible-border-icon-hover,
+        var(--pds-semantic-border-interactive-inverted-strong)
+      );
+    }
+  }
+
+  .pds-c-collapsible--strong &:hover {
+    color: var(
+      --pds-collapsible-link-text-hover,
+      var(--pds-semantic-text-interactive-strong)
+    );
+    background: var(--pds-semantic-background-interactive-neutral-xstrong);
+  }
+
+  .pds-c-collapsible[open] & {
+    .pds-c-collapsible__icon {
+      transform: rotate(180deg);
+    }
+  }
+
+  .pds-c-collapsible--default[open] & {
+    color: var(
+      --pds-collapsible-link-text-hover,
+      var(--pds-semantic-text-interactive-xstrong)
+    );
+    background: var(--pds-semantic-background-interactive-neutral-strong);
+
+    .pds-c-collapsible__icon {
+      color: var(
+        --pds-collapsible-border-icon-hover,
+        var(--pds-semantic-border-interactive-xstrong)
+      );
+    }
+  }
+
+  .pds-c-collapsible--inverted[open] & {
+    color: var(
+      --pds-collapsible-link-text-hover,
+      var(--pds-semantic-text-interactive-inverted-xstrong)
+    );
+    background: var(
+      --pds-semantic-background-interactive-inverted-neutral-strong
+    );
+
+    .pds-c-collapsible__icon {
+      color: var(
+        --pds-collapsible-border-icon-hover,
+        var(--pds-semantic-border-interactive-inverted-xstrong)
+      );
+    }
+  }
+
+  .pds-c-collapsible--strong[open] & {
+    color: var(
+      --pds-collapsible-link-text-hover,
+      var(--pds-semantic-text-interactive-xstrong)
+    );
+    background: var(--pds-semantic-background-interactive-neutral-xstrong);
+
+    .pds-c-collapsible__icon {
+      color: var(
+        --pds-collapsible-border-icon-hover,
+        var(--pds-semantic-border-interactive-xstrong)
+      );
+    }
+  }
+
+  &::marker,
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  & > * {
+    display: inline;
+  }
+}
+
+.pds-c-collapsible--inverted {
+  background: inherit;
+  color: var(--pds-semantic-text-inverted-default);
+  border-top: var(
+    --pds-collapsible-border-top,
+    1px solid var(--pds-semantic-border-inverted-default)
+  );
+  border-bottom: var(
+    --pds-collapsible-border-bottom,
+    1px solid var(--pds-semantic-border-inverted-default)
+  );
+}
+
+.pds-c-collapsible--strong {
+  border-top: var(
+    --pds-collapsible-border-top,
+    1px solid var(--pds-semantic-border-strong)
+  );
+  border-bottom: var(
+    --pds-collapsible-border-bottom,
+    1px solid var(--pds-semantic-border-strong)
+  );
+}
+
+/* stylelint-disable selector-not-notation */
+:host(:not(:only-child):not(:last-of-type)) {
+  .pds-c-collapsible {
+    border-bottom: 0;
+  }
+}

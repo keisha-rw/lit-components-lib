@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Alert Banner 1`] = `
+"<pds-alert variant=","><!----><div class=" pds-c-alert pds-c-alert--, " role="status">
+      <div class="pds-c-alert__card">
+        <div class="pds-c-alert__alert-body">
+          <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+          <div class="pds-c-alert__alert-content">
+            <slot></slot>
+          </div>
+          
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+        </div>
+      </div>
+    </div><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Banner with layout-container 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Error 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Hidden on load 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Information 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Information not dismissable 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Informational with layout-container 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Success 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;
+
+exports[`Storyshots Components/Alert Warning 1`] = `
+"<pds-alert variant="," layoutcontainervariant="," layoutcontainerremovepadding="," ?hidedismissbutton="," hiddenonpageload=","><!----><pds-layout-container variant="," removepadding=","><div class="pds-c-alert pds-c-alert--, pds-is-hidden" role="status">
+          <div class="pds-c-alert__card">
+            <div class="pds-c-alert__alert-body">
+              <div class="pds-c-alert__icon"><pds-icon-alert-circle size="lg"></pds-icon-alert-circle></div>
+              <div class="pds-c-alert__alert-content">
+                <slot></slot>
+              </div>
+              
+      <div class="pds-c-alert__close-button-wrapper">
+        <pds-button size="sm" class="pds-c-alert__close-button" variant="icon" arialabel="close" type="submit"><pds-icon-x class="pds-c-alert__close-button-x-icon" size="default"></pds-icon-x></pds-button>
+      </div>
+    
+            </div>
+          </div>
+        </div></pds-layout-container><style>default</style><span>This is an alert message.
+        <pds-link variant="emphasis" href="#">This is a link.</pds-link></span></pds-alert>"
+`;

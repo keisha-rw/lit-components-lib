@@ -1,0 +1,10 @@
+/*------------------------------------*\
+ #CARD_MIXIN
+\*------------------------------------*/
+
+@mixin pds-c-card {
+  border: 1px solid var(--pds-semantic-border-default);
+  border-radius: size(1);
+  height: 100%;
+  overflow: hidden;
+}

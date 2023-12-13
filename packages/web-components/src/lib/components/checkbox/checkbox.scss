@@ -1,0 +1,103 @@
+@import '../../../../../tokens/tokens/01-base/global-utils/a11y';
+
+/*------------------------------------*\
+ #CHECKBOX
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-checkbox {
+  position: relative;
+}
+
+// Hide the browser's default checkbox
+// Cannot be done with display: none; to maintain a11y
+.pds-c-checkbox__input {
+  @include pds-util-sr-only;
+}
+
+.pds-c-checkbox__box {
+  height: size(2.25);
+  width: size(2.25);
+  border: size(0.125) solid var(--pds-semantic-border-strong);
+  border-radius: size(0.25);
+  float: left;
+  margin-right: size(1);
+  margin-top: size(0.5);
+  margin-bottom: size(0.5);
+
+  .pds-is-error & {
+    border-color: var(--pds-semantic-border-error);
+  }
+
+  &:hover {
+    border-color: var(--pds-semantic-border-interactive-strong);
+    background-color: var(--pds-semantic-background-subtle);
+  }
+
+  .pds-is-focused & {
+    background-color: var(--pds-semantic-background-subtle);
+    border-color: var(--pds-semantic-border-interactive-xstrong);
+    box-shadow: 0 0 size(1) var(--pds-semantic-border-interactive-xstrong);
+  }
+
+  .pds-is-checked & {
+    background-color: var(--pds-semantic-background-interactive-xstrong);
+    border-color: var(--pds-semantic-border-interactive-xstrong);
+  }
+
+  .pds-is-disabled & {
+    cursor: not-allowed;
+    border: size(0.125) solid var(--pds-semantic-border-disabled);
+    background-color: var(--pds-semantic-background-disabled);
+    border-radius: size(0.25);
+  }
+}
+
+.pds-c-checkbox__checkmark {
+  /* When checkbox is not checked, do not display check icon */
+  display: none;
+  height: size(2.25);
+
+  .pds-is-checked & {
+    display: block;
+    color: var(--pds-semantic-border-inverted-default);
+  }
+
+  .pds-is-disabled & {
+    color: var(--pds-semantic-border-disabled);
+  }
+}
+
+.pds-c-checkbox__label {
+  @include pds-semantic-form-label-default;
+
+  cursor: pointer;
+
+  .pds-is-disabled & {
+    color: var(--pds-semantic-text-disabled);
+    cursor: not-allowed;
+  }
+}
+
+.pds-c-checkbox__label-text {
+  .pds-c-checkbox--hidden-label & {
+    @include pds-util-sr-only;
+  }
+}
+
+.pds-c-checkbox__required-indicator {
+  color: var(--pds-semantic-text-error);
+}
+
+.pds-c-checkbox__error-message {
+  @include pds-semantic-body-sm;
+
+  color: var(--pds-semantic-text-error);
+  display: flex;
+  align-items: center;
+  gap: size(1);
+  margin-top: size(0.25);
+}

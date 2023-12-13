@@ -1,0 +1,83 @@
+/*------------------------------------*\
+ #AVATAR
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-avatar {
+  display: flex;
+  align-items: center;
+
+  @include pds-semantic-body-default-compact;
+}
+
+.pds-c-avatar__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  width: size(5.5);
+  min-width: size(5.5);
+  min-height: size(5.5);
+  background-color: var(--pds-semantic-background-brand-default);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: size(0.5);
+  margin-right: size(1);
+  aspect-ratio: 1;
+
+  .pds-c-avatar--align-center & {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto size(1) auto;
+  }
+
+  ::slotted(div) {
+    max-width: 44px;
+    max-height: 44px;
+    color: var(--pds-semantic-border-interactive-xstrong);
+  }
+
+  ::slotted(pds-icon-user) {
+    color: var(--pds-semantic-border-interactive-xstrong);
+  }
+}
+
+.pds-c-avatar__info {
+  @include pds-semantic-body-sm;
+}
+
+.pds-c-avatar--align-center {
+  flex-direction: column;
+}
+
+.pds-c-avatar__name {
+  @include pds-semantic-label-default;
+
+  text-align: left;
+  color: var(--pds-semantic-text-default);
+
+  .pds-c-avatar--inverted & {
+    color: var(--pds-semantic-text-inverted-default);
+  }
+
+  ::slotted(pds-link[variant='emphasis']) {
+    margin-bottom: size(0.5);
+  }
+}
+
+.pds-c-avatar__details {
+  color: var(--pds-semantic-text-subtle);
+  text-align: left;
+
+  .pds-c-avatar--inverted & {
+    color: var(--pds-semantic-text-inverted-default);
+  }
+}
+
+.pds-c-avatar--align-center .pds-c-avatar__name,
+.pds-c-avatar--align-center .pds-c-avatar__details {
+  text-align: center;
+}

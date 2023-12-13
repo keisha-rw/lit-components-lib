@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Recipes/Card with custom padding Default 1`] = `
+"<pds-card removepadding=""><!----><article class=" pds-c-card pds-c-card--default pds-c-card--border-radius-default pds-c-card--remove-padding ">
+      
+        <header class="pds-c-card__header">
+          <slot name="header"></slot>
+        </header>
+      
+      <div class="pds-c-card__body">
+        <slot></slot>
+      </div>
+      
+        <footer class="pds-c-card__footer">
+          <slot name="footer"></slot>
+        </footer>
+      
+    </article><style>default</style><div slot="header" class="pds-u-padding-12">
+        <pds-heading headingtag="h2" variant="headline-sm">Card title</pds-heading>
+      </div>
+      <p class="pds-u-padding-12 pds-u-typography-body-default">
+        This card has a custom padding of 12px instead of the default. The 12px
+        is applied on the slotted card content.
+      </p>
+      <div slot="footer" class="pds-u-padding-12 pds-u-typography-body-default">
+        Lorem ipsum footer
+      </div></pds-card>"
+`;

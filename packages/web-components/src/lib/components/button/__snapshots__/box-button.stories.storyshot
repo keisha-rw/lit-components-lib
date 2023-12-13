@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Box Button Center content vertically 1`] = `
+"<pds-grid variant="2up"><!----><div class=" pds-l-grid pds-l-grid--2up pds-l-grid--gap-default pds-l-grid--break-default ">
+      <slot allowed-elements="pds-grid-item"></slot>
+    </div><style>default</style><pds-grid-item><pds-box-button variant="default" centercontentvertically="true" label="Some default content goes here" labelvariant="xl"><pds-text-passage slot="description"><p>This description adds additional context</p></pds-text-passage></pds-box-button></pds-grid-item><pds-grid-item><pds-box-button variant="default" centercontentvertically="true" label="Some default content goes here" labelvariant="xl"><pds-text-passage slot="description"><p>This description adds additional context</p>
+            <p>This description adds additional context</p></pds-text-passage></pds-box-button></pds-grid-item></pds-grid>"
+`;
+
+exports[`Storyshots Components/Box Button Default 1`] = `
+"<pds-box-button variant="default" label="Some default content goes here" labelvariant="xl"><!----><a class=" pds-c-box-button pds-c-box-button--default ">
+      <div class="pds-c-box-button__body">
+        <div class="pds-c-box-button__content">
+          <div class="pds-c-box-button__label--xl">
+            Some default content goes here
+          </div>
+          <slot name="description"></slot>
+        </div>
+        <div class="pds-c-box-button__actions">
+          <span class="pds-c-box-button__icon">
+            <pds-icon-arrow-right size="lg"></pds-icon-arrow-right>
+          </span>
+        </div>
+      </div>
+    </a><style>default</style><pds-text-passage slot="description">This description adds additional context</pds-text-passage></pds-box-button>"
+`;
+
+exports[`Storyshots Components/Box Button Strong 1`] = `
+"<pds-box-button variant="strong" label="Some default content goes here" labelvariant="xl"><!----><a class=" pds-c-box-button pds-c-box-button--strong ">
+      <div class="pds-c-box-button__body">
+        <div class="pds-c-box-button__content">
+          <div class="pds-c-box-button__label--xl">
+            Some default content goes here
+          </div>
+          <slot name="description"></slot>
+        </div>
+        <div class="pds-c-box-button__actions">
+          <span class="pds-c-box-button__icon">
+            <pds-icon-arrow-right size="lg"></pds-icon-arrow-right>
+          </span>
+        </div>
+      </div>
+    </a><style>default</style><pds-text-passage slot="description">This description adds additional context</pds-text-passage></pds-box-button>"
+`;

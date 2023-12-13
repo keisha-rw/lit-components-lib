@@ -1,0 +1,81 @@
+/*------------------------------------*\
+ #BOX_BUTTON
+\*------------------------------------*/
+
+.pds-c-box-button {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: var(--pds-semantic-text-inverted-default);
+  background-image: var(--pds-semantic-background-brand-gradient-strong);
+  border-radius: size(1);
+
+  // TODO: Replace with a semantic token once it's created
+  box-shadow: 0 size(0.5) size(0.5) 0 #00000040;
+
+  &:active,
+  &:focus {
+    outline: none;
+    // This component is referencing a base token for its focus indicator for visibility purposes, which is an exception from our standard conventions
+    box-shadow: 0 0 0 size(0.5) var(--pds-base-color-cyan-principal);
+  }
+}
+
+.pds-c-box-button--strong {
+  background-image: var(--pds-semantic-background-brand-gradient-xstrong);
+}
+
+.pds-c-box-button__icon {
+  display: flex;
+  margin-top: auto;
+  color: var(--pds-semantic-border-inverted-default);
+
+  .pds-c-box-button:hover & {
+    transform: translateX(4px);
+    transition: 500ms;
+  }
+
+  .pds-c-box-button:not(:hover) & {
+    transition: 500ms;
+  }
+}
+
+.pds-c-box-button__body {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: size(4) size(3.5) size(4) size(4);
+}
+
+.pds-c-box-button__content {
+  @include pds-semantic-body-default;
+
+  display: flex;
+  flex-direction: column;
+
+  .pds-c-box-button--center-vertically & {
+    justify-content: center;
+  }
+}
+
+.pds-c-box-button__label--sm {
+  @include pds-semantic-label-sm;
+}
+
+.pds-c-box-button__label--default {
+  @include pds-semantic-label-default;
+}
+
+.pds-c-box-button__label--lg {
+  @include pds-semantic-label-lg;
+}
+
+.pds-c-box-button__label--xl {
+  @include pds-semantic-label-xl;
+}
+
+.pds-c-box-button__actions {
+  display: flex;
+  margin-left: auto;
+}

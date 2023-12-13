@@ -1,0 +1,37 @@
+/*------------------------------------*\
+ #BREADCRUMBS
+\*------------------------------------*/
+
+:host {
+  display: block;
+}
+
+.pds-c-breadcrumbs__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+}
+
+::slotted(pds-breadcrumbs-item) {
+  display: none;
+
+  @media only screen and (min-width: $pds-bp-sm) {
+    display: flex;
+  }
+}
+
+/**
+* This is used to show only the second to last breadcrumb item on mobile
+*/
+::slotted(pds-breadcrumbs-item:nth-last-child(2)) {
+  display: flex;
+}
+
+/**
+* When there is only one breadcrumb item, show it on mobile
+*/
+::slotted(pds-breadcrumbs-item:only-child) {
+  display: flex;
+}

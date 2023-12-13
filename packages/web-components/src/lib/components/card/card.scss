@@ -1,0 +1,136 @@
+@import './card-mixin';
+@import '../link/link-mixin';
+
+/*------------------------------------*\
+ #CARD
+\*------------------------------------*/
+
+:host {
+  background-color: var(--pds-semantic-background-default);
+  border-radius: size(1);
+  display: block;
+  height: 100%;
+}
+
+:host([variant='bare']) {
+  background-color: transparent;
+}
+
+.pds-c-card {
+  @include pds-c-card;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.pds-c-card--border-radius-sm {
+  border-radius: size(0.5);
+}
+
+.pds-c-card--bare {
+  border: none;
+}
+
+.pds-c-card--clickable {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 0 size(1.5) var(--pds-semantic-border-default); // TODO: Change to shadow token
+  cursor: pointer;
+}
+
+.pds-c-card--center-vertically.pds-c-card--clickable {
+  article {
+    @include pds-c-card;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.pds-c-card.pds-c-card--horizontal {
+  flex-direction: unset;
+}
+
+.pds-c-card__header {
+  padding: 0;
+
+  ::slotted(div) {
+    overflow: hidden;
+  }
+
+  .pds-c-card--horizontal & {
+    flex: 0;
+  }
+
+  .pds-c-card--bare & {
+    ::slotted(div) {
+      border-radius: size(1);
+    }
+  }
+}
+
+.pds-c-card__body {
+  flex: 1; // Stretches the body for vertical cards in grids or content in horizontal cards
+  padding: size(3);
+
+  .pds-c-card--remove-padding & {
+    padding: 0;
+  }
+
+  .pds-c-card--center-vertically & {
+    display: grid;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .pds-c-card--bare & {
+    padding: size(3) 0;
+  }
+
+  .pds-c-card--bare.pds-c-card--remove-padding & {
+    padding: 0;
+  }
+
+  .pds-c-card--bare.pds-c-card--horizontal & {
+    padding: 0 size(3);
+  }
+
+  .pds-c-card--bare.pds-c-card--horizontal.pds-c-card--remove-padding & {
+    padding: 0;
+  }
+}
+
+.pds-c-card__footer {
+  padding: 0 size(3) size(3);
+
+  .pds-c-card--remove-padding & {
+    padding: 0;
+  }
+
+  .pds-c-card--bare & {
+    padding: 0;
+  }
+
+  .pds-c-card--horizontal & {
+    padding: size(3);
+    margin-left: auto;
+  }
+
+  .pds-c-card--horizontal.pds-c-card--remove-padding & {
+    padding: 0;
+  }
+
+  .pds-c-card--bare.pds-c-card--horizontal & {
+    padding: size(3) 0;
+  }
+
+  .pds-c-card--bare.pds-c-card--horizontal.pds-c-card--remove-padding & {
+    padding: 0;
+  }
+}
+
+.pds-c-card--horizontal {
+  display: flex;
+}

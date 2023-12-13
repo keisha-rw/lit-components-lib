@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Card Bare 1`] = `
+"<pds-card variant="bare">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card body slot</placeholder-element>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Clickable 1`] = `
+"<pds-card href="https://www.google.com" target="_blank" arialabel="This is an aria label">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <div>
+        <pds-link href="https://www.google.com" target="_blank" class="pds-c-card__element-with-hover-state">Example link</pds-link>
+      </div>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Clickable no internal link 1`] = `
+"<pds-card href="https://www.google.com/individuals/invest-retire/individual-retirement-account?alert('xss')" target="_blank" arialabel="This is an aria label">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card body slot</placeholder-element>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Default 1`] = `
+"<pds-card>
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card body slot</placeholder-element>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Horizontal 1`] = `
+"<pds-card direction="horizontal">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card body slot</placeholder-element>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Horizontal with util class 1`] = `
+"<pds-card direction="horizontal" class="pds-u-background-subtle">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element inlinestyle="height: 118px; display: flex; align-items: center; justify-content: center;"><!----><article class=" pds-c-card pds-c-card--default pds-c-card--horizontal pds-c-card--border-radius-default ">
+
+        <header class="pds-c-card__header">
+          <slot name="header"></slot>
+        </header>
+
+      <div class="pds-c-card__body">
+        <slot></slot>
+      </div>
+
+        <footer class="pds-c-card__footer">
+          <slot name="footer"></slot>
+        </footer>
+
+    </article><style>default</style><p>Card body slot</p></placeholder-element>
+      <div slot="footer">
+        <placeholder-element inlinestyle="height: 118px; display: flex; align-items: center; justify-content: center;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Horizontal without padding 1`] = `
+"<pds-card removepadding="true" direction="horizontal">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element inlinestyle="height: 118px; display: flex; align-items: center; justify-content: center;"><!----><article class=" pds-c-card pds-c-card--undefined pds-c-card--horizontal pds-c-card--border-radius-undefined pds-c-card--clickable pds-c-card--remove-padding " tabindex="0">
+
+        <header class="pds-c-card__header">
+          <slot name="header"></slot>
+        </header>
+
+      <div class="pds-c-card__body">
+        <slot></slot>
+      </div>
+
+        <footer class="pds-c-card__footer">
+          <slot name="footer"></slot>
+        </footer>
+
+    </article><style>default</style><p>Card body slot</p></placeholder-element>
+      <div slot="footer">
+        <placeholder-element inlinestyle="height: 118px; display: flex; align-items: center; justify-content: center;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Remove default padding 1`] = `
+"<pds-card removepadding="true">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card body slot</placeholder-element>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;
+
+exports[`Storyshots Components/Card Small border radius 1`] = `
+"<pds-card borderradiussize="sm">
+      <div slot="header">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card header slot</placeholder-element>
+      </div>
+      <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card body slot</placeholder-element>
+      <div slot="footer">
+        <placeholder-element style="--placeholder-element-margin-bottom: 0;">Card footer slot</placeholder-element>
+      </div>
+    </pds-card>"
+`;

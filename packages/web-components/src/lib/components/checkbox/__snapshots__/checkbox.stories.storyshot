@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Checkbox Checked 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;
+
+exports[`Storyshots Components/Checkbox Default 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;
+
+exports[`Storyshots Components/Checkbox Disabled 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;
+
+exports[`Storyshots Components/Checkbox Disabled checked 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;
+
+exports[`Storyshots Components/Checkbox Error 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;
+
+exports[`Storyshots Components/Checkbox Hidden label 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;
+
+exports[`Storyshots Components/Checkbox Required 1`] = `
+"<pds-checkbox value="," ?required="," ?hidelabel="," ?disabled="," ?checked="," label="," name="," aria-invalid="true" internals-invalid=""><!----><div class=" pds-c-checkbox pds-is-error ">
+      <input type="checkbox" class="pds-c-checkbox__input" name="," id=",-field" aria-describedby=",-error-message" aria-invalid="true" value=",">
+       <label for=",-field" class="pds-c-checkbox__label">
+      <span class="pds-c-checkbox__box">
+        <pds-icon-check size="sm" class="pds-c-checkbox__checkmark"></pds-icon-check>
+      </span>
+      <span class="pds-c-checkbox__label-text">
+        <slot name="label">,</slot>
+        
+      </span>
+      <slot name="label-after"></slot>
+    </label>
+      <div><div class="pds-c-checkbox__error-message" id=",-error-message">
+          <pds-icon-alert-circle></pds-icon-alert-circle>
+          ,
+        </div></div>
+    </div><style>default</style></pds-checkbox>"
+`;

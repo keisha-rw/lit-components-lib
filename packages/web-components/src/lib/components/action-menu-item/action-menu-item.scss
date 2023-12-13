@@ -1,0 +1,50 @@
+/*------------------------------------*\
+ #ACTION_MENU_ITEM
+\*------------------------------------*/
+
+/**
+ * Remove this selector if this component is **not** a block level component
+ */
+:host {
+  display: block;
+}
+
+.pds-c-action-menu-item {
+  @include pds-semantic-body-sm;
+
+  flex-direction: column;
+  border: none;
+  background-color: var(--pds-semantic-background-default);
+  color: var(--pds-semantic-text-default);
+  width: 100%;
+  text-align: start;
+  padding: size(0.5);
+  cursor: pointer;
+  margin-bottom: size(0.5);
+}
+
+.pds-c-action-menu-item:hover {
+  background: var(--pds-semantic-background-subtle);
+  border-radius: size(0.5);
+}
+
+.pds-c-action-menu-item__link {
+  @include pds-semantic-body-bold-sm;
+
+  color: var(--pds-semantic-text-interactive-default);
+  width: 100%;
+  padding: size(0.5);
+  cursor: pointer;
+  border-bottom: none;
+  margin-bottom: size(0.5);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+
+  &:hover,
+  &:active {
+    color: var(--pds-semantic-text-interactive-xstrong);
+    background: var(--pds-semantic-background-subtle);
+    border-radius: size(0.5);
+  }
+}
