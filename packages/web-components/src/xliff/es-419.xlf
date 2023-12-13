@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="es-419" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s4e6293bf5d5c04fd">
+  <source>Trouble logging in?</source>
+  <target>¿Tienes problemas para iniciar sesión?</target>
+</trans-unit>
+<trans-unit id="s9fda4232f5e1876a">
+  <source>Get help</source>
+  <target>Consigue ayuda</target>
+</trans-unit>
+<trans-unit id="sd8882d92b73b5557">
+  <source>Securities offered through Company Co Securities, Inc.,</source>
+  <target>Los valores son ofrecidos a través de Company Co Securities, Inc.,</target>
+</trans-unit>
+<trans-unit id="s460a58afa227b074">
+  <source>member SIPC</source>
+  <target>miembro de la SIPC</target>
+</trans-unit>
+<trans-unit id="s34ec1161f45ac246">
+  <source>Select an option for more information about Company Co</source>
+  <target>Selecciona una opción para leer más información sobre Company Co</target>
+</trans-unit>
+<trans-unit id="scae799b026a32126">
+  <source>Terms of use</source>
+  <target>Términos de uso</target>
+</trans-unit>
+<trans-unit id="s81965c16f691deb1">
+  <source>Disclosures</source>
+  <target>Declaraciones</target>
+</trans-unit>
+<trans-unit id="se78c02e9a98a0f47">
+  <source>Privacy</source>
+  <target>Privacidad</target>
+</trans-unit>
+<trans-unit id="s01a8d45397ec133b">
+  <source>Security</source>
+  <target>Seguridad</target>
+</trans-unit>
+<trans-unit id="s170f1dc21c7705ad">
+  <source>Report fraud</source>
+  <target>Reporte de fraudes</target>
+</trans-unit>
+<trans-unit id="sfdde30c24ce38292">
+  <source>completed</source>
+  <target>paso completo</target>
+</trans-unit>
+<trans-unit id="sf0c61fdd440af065">
+  <source>incomplete</source>
+  <target>paso incompleto</target>
+</trans-unit>
+<trans-unit id="sf9909144862249c6">
+  <source>progress</source>
+  <target>progreso</target>
+</trans-unit>
+<trans-unit id="s1d40c59f4111762c">
+  <source>Video duration is</source>
+  <target>La duración del vídeo es de</target>
+</trans-unit>
+<trans-unit id="s4c29ea0854bcc82b">
+  <source>minutes and</source>
+  <target>minutos y</target>
+</trans-unit>
+<trans-unit id="s4027426ef595a958">
+  <source>seconds long</source>
+  <target>segundos</target>
+</trans-unit>
+<trans-unit id="s75a252fd7ccac64d">
+  <source>breadcrumbs</source>
+  <target>ayuda a la navegación</target>
+</trans-unit>
+<trans-unit id="sd0391adbe9b8bcd5">
+  <source>Expand/collapse row</source>
+  <target>Expandir/contraer fila</target>
+</trans-unit>
+<trans-unit id="s2678515c81468bbb">
+  <source>go to page</source>
+  <target>ir a la página</target>
+</trans-unit>
+<trans-unit id="s0ca8392b4d4c1ea1">
+  <source>go to first page</source>
+  <target>ir a la primera página</target>
+</trans-unit>
+<trans-unit id="s7aa778532a3880d4">
+  <source>go to previous page</source>
+  <target>ir a la página anterior</target>
+</trans-unit>
+<trans-unit id="sc9f03bb3bdb38ca8">
+  <source>go to next page</source>
+  <target>ir a la página siguiente</target>
+</trans-unit>
+<trans-unit id="sc159fdc23eef5f4b">
+  <source>go to last page</source>
+  <target>ir a la última página</target>
+</trans-unit>
+<trans-unit id="sc001d42d272cbfa9">
+  <source>pagination</source>
+  <target>paginación</target>
+</trans-unit>
+<trans-unit id="scb04435672ac5410">
+  <source>Log in</source>
+  <target>Ingresar</target>
+</trans-unit>
+<trans-unit id="sce84128cb653e907">
+  <source>Clear value</source>
+  <target>Borrar la fecha</target>
+</trans-unit>
+<trans-unit id="s46d6587089bd0356">
+  <source>Next month</source>
+  <target>Mes siguiente</target>
+</trans-unit>
+<trans-unit id="sda6fb6b9cc156f91">
+  <source>Next year</source>
+  <target>Año siguiente</target>
+</trans-unit>
+<trans-unit id="sd9511662b0322934">
+  <source>Choose date</source>
+  <target>Elegir fecha</target>
+</trans-unit>
+<trans-unit id="s62931b2a50168976">
+  <source>Previous month</source>
+  <target>Mes anterior</target>
+</trans-unit>
+<trans-unit id="se1a9c804f6e98131">
+  <source>Previous year</source>
+  <target>Año anterior</target>
+</trans-unit>
+<trans-unit id="s8d655da5d255db75">
+  <source>Show today</source>
+  <target>Mostrar la fecha de hoy</target>
+</trans-unit>
+<trans-unit id="sd5e9b70ffb7a8b46">
+  <source>Skip to content</source>
+  <target>Saltar al contenido</target>
+</trans-unit>
+<trans-unit id="s220bcce27242e1e9">
+  <source>search</source>
+  <target>buscar</target>
+</trans-unit>
+<trans-unit id="s3862381e95ec3dcf">
+  <source>notifications</source>
+  <target>notificaciones</target>
+</trans-unit>
+<trans-unit id="sbdeedc1c60306b35">
+  <source>Messages</source>
+  <target>Mensajes</target>
+</trans-unit>
+<trans-unit id="s556674267c78a2b0">
+  <source>Other alerts</source>
+  <target>Otras alertas</target>
+</trans-unit>
+<trans-unit id="s6d8c02aee480af7a">
+  <source>Menu</source>
+  <target>Menú</target>
+</trans-unit>
+<trans-unit id="s9ec2699513c0f9c3">
+  <source>close</source>
+  <target>cerrar</target>
+</trans-unit>
+<trans-unit id="sc7b57ae8242f1f9c">
+  <source>Footer navigation</source>
+  <target/>
+</trans-unit>
+<trans-unit id="s8ea5606fef985591">
+  <source>Contact us navigation</source>
+  <target/>
+</trans-unit>
+<trans-unit id="sdeb4c0d9370330f8">
+  <source>Social media navigation</source>
+  <target/>
+</trans-unit>
+<trans-unit id="sb64127e4e4f0b575">
+  <source>Log out</source>
+  <target>Cerrar sesión</target>
+</trans-unit>
+<trans-unit id="s5f3492238424e15f">
+  <source>No files have been attached.</source>
+  <target>No se adjuntó ningún archivo.</target>
+</trans-unit>
+<trans-unit id="s516dcfaf1837bf92">
+  <source>Please make sure your files are in one of the following formats</source>
+  <target>Por favor, asegúrate de que tus archivos estén en alguno de los siguientes formatos</target>
+</trans-unit>
+<trans-unit id="s1e17434ecde6a9db">
+  <source>Please make sure your files are below</source>
+  <target>Asegúrese de que sus archivos estén debajo</target>
+</trans-unit>
+<trans-unit id="sda4a7d2f59b3b7ac">
+  <source>The following file could not be uploaded</source>
+  <target>El siguiente archivo no se pudo cargar</target>
+</trans-unit>
+<trans-unit id="s6eedf55b0382aa4b">
+  <source>Attach files</source>
+  <target>Adjuntar archivos</target>
+</trans-unit>
+<trans-unit id="s0621fbc662f668f2">
+  <source>Remove attachment</source>
+  <target/>
+</trans-unit>
+<trans-unit id="sf18fdd3ba5f7797a">
+  <source>Attach file</source>
+  <target>Adjuntar archivo</target>
+</trans-unit>
+<trans-unit id="s8dd8ab8530f97ed3">
+  <source>loading...</source>
+  <target>cargando...</target>
+</trans-unit>
+<trans-unit id="scd1dd6ff53d0d01a">
+  <source>Try again</source>
+  <target>Intenta de nuevo</target>
+</trans-unit>
+<trans-unit id="s87bae2710b2492c3">
+  <source>Contact</source>
+  <target>Comunícate con nosotros</target>
+</trans-unit>
+<trans-unit id="sc13f2ceb81ef8470">
+  <source>Browse files</source>
+  <target>Búsqueda de archivos</target>
+</trans-unit>
+<trans-unit id="s5d00def765b8c365">
+  <source>secondary navigation</source>
+  <target>secundario navigation</target>
+</trans-unit>
+<trans-unit id="sc9e9ebafed664a0f">
+  <source>Filter table</source>
+  <target>Filtrar tabla</target>
+</trans-unit>
+<trans-unit id="s6ec3d6f83daed1de">
+  <source>No entries</source>
+  <target>No hay registros</target>
+</trans-unit>
+<trans-unit id="s716a6024e3fe999c">
+  <source>Show</source>
+  <target>Mostrar</target>
+</trans-unit>
+<trans-unit id="s414306632ef2de18">
+  <source>Number of rows to display in table</source>
+  <target>Número de filas que aparecerán en la tabla</target>
+</trans-unit>
+<trans-unit id="s08b06007b5567108">
+  <source>of</source>
+  <target>de</target>
+</trans-unit>
+<trans-unit id="sc5b2a72c0845a253">
+  <source>entries</source>
+  <target>registros</target>
+</trans-unit>
+<trans-unit id="sbe2a85bf4c0ca913">
+  <source>entry</source>
+  <target>registro</target>
+</trans-unit>
+<trans-unit id="sbdb6152ba8d8a6ec">
+  <source>column headers with buttons are sortable</source>
+  <target>los encabezados de columna con botones se pueden ordenar</target>
+</trans-unit>
+<trans-unit id="h0c89f217ff73b190">
+  <source>Drop a file to attach, or
+              <x id="0" equiv-text="&lt;button class=&quot;${this.classEl('upload-link')}&quot;&gt;"/>browse.<x id="1" equiv-text="&lt;/button&gt;"/></source>
+<target>Arrastra un archivo para adjuntarlo o
+    <x id="0" equiv-text="&lt;button class=&quot;${this.classEl('upload-link')}&quot;&gt;"/>búscalo en tu equipo<x id="1" equiv-text="&lt;/button&gt;"/>.</target>
+</trans-unit>
+<trans-unit id="h078085b55eac0a98">
+  <source>Drop files to attach, or
+              <x id="0" equiv-text="&lt;button class=&quot;${this.classEl('upload-link')}&quot;&gt;"/>browse.<x id="1" equiv-text="&lt;/button&gt;"/></source>
+<target>Arrastra el archivo para adjuntarlos o
+    <x id="0" equiv-text="&lt;button class=&quot;${this.classEl('upload-link')}&quot;&gt;"/>búscalo en tus archivos<x id="1" equiv-text="&lt;/button&gt;"/>.</target>
+</trans-unit>
+<trans-unit id="s7aac67bf21086fe0">
+  <source>Link to Company Co homepage</source>
+  <target>Bienvenida a la página company coo</target>
+</trans-unit>
+<trans-unit id="s842eb23ed6cdea46">
+  <source>Back to content</source>
+  <target>Volver al contenido</target>
+</trans-unit>
+<trans-unit id="sb2c57b2d347203dd">
+  <source>Show more</source>
+  <target>Mostrar más</target>
+</trans-unit>
+<trans-unit id="sa50a6326530d8a0d">
+  <source>Show less</source>
+  <target>Ver menos</target>
+</trans-unit>
+<trans-unit id="scbeff7c3e03228ae">
+  <source>minutes</source>
+  <target>minutos</target>
+</trans-unit>
+<trans-unit id="s5bb2f9bdf2fad1e9">
+  <source>minute</source>
+  <target>minuto</target>
+</trans-unit>
+<trans-unit id="s9eff639fb8a1be0a">
+  <source>seconds</source>
+  <target>segundos</target>
+</trans-unit>
+<trans-unit id="s12d6dde9b30c3093">
+  <source>Dismiss</source>
+  <target>Ignorar</target>
+</trans-unit>
+<trans-unit id="sd91d956e640eadbc">
+  <source>Logout alert!</source>
+  <target>¡Aviso de cierre de sesión!</target>
+</trans-unit>
+<trans-unit id="sef9601c134cf40fc">
+  <source>Still there? You're about to be logged out</source>
+  <target>¿Aún estás aquí? Pronto se te cerrará la sesión</target>
+</trans-unit>
+<trans-unit id="s8bdd36ef97a4ab1c">
+  <source>To keep your account secure, we'll automatically log you out in </source>
+  <target>Por la seguridad de tu cuenta, cerraremos tu sesión en </target>
+</trans-unit>
+<trans-unit id="sc3e914eef0e05ac5">
+  <source>Stay logged in</source>
+  <target>Mantener la sesión</target>
+</trans-unit>
+<trans-unit id="seab3a86e6fc43090">
+  <source>Sorry! Something went wrong on our end when trying to extend your session. Give it another try, or </source>
+  <target>¡Disculpa! Algo salió mal al tratar de alargar tu sesión. Antes de que se te cierre la sesión, inténtalo nuevamente o </target>
+</trans-unit>
+<trans-unit id="seee4c6b80952a1b9">
+  <source>dismiss the timer</source>
+  <target>ignora el temporizador</target>
+</trans-unit>
+<trans-unit id="sb106a7182c8de38b">
+  <source>to save your work before you get logged out.</source>
+  <target> y guarda tu trabajo.</target>
+</trans-unit>
+<trans-unit id="seb25cd4cbc2b24d6">
+  <source>Still there? You're about to be logged out.</source>
+  <target>¿Aún estás aquí? Pronto se te cerrará la sesión.</target>
+</trans-unit>
+<trans-unit id="s30e0850dcd380915">
+  <source>One moment</source>
+  <target>Un momento</target>
+</trans-unit>
+<trans-unit id="sc5768af1625be977">
+  <source>Your session has expired.</source>
+  <target>Tu sesión venció.</target>
+</trans-unit>
+<trans-unit id="sd4722a9fad81ff4d">
+  <source><x id="0" equiv-text="${returnStr.trim()}"/> remaining</source>
+  <target>El tiempo que te queda es <x id="0" equiv-text="${returnStr.trim()}"/></target>
+</trans-unit>
+<trans-unit id="s9c2eec6a6a4aed0e">
+  <source>Please follow the <x id="0" equiv-text="${this.dateFormat}"/> format.</source>
+  <target>Utiliza el formato <x id="0" equiv-text="${this.dateFormat}"/>, por favor.</target>
+</trans-unit>
+<trans-unit id="se4d68e4f91dcf9fa">
+  <source>Please enter a valid date.</source>
+  <target>Por favor, ingresa una fecha válida.</target>
+</trans-unit>
+<trans-unit id="se8cdd80c0688ca71">
+  <source>Press the down arrow key to access the calendar.</source>
+  <target>Para acceder al calendario pulsa la flecha hacia abajo.</target>
+</trans-unit>
+<trans-unit id="s6e990cc48033a87b">
+  <source>Press escape to exit the calendar.</source>
+  <target>Para salir del calendario pulsa la tecla escape.</target>
+</trans-unit>
+<trans-unit id="h5675e6e0b36d6c5e">
+  <source><x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>Well, shoot.<x id="1" equiv-text="&lt;/span&gt;"/>
+          Our system doesn’t recognize you.</source>
+  <target><x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>Bueno, dispara.<x id="1" equiv-text="&lt;/span&gt;"/>
+          Nuestro sistema no te reconoce.</target>
+</trans-unit>
+<trans-unit id="s2ee6997b3d0d2ef9">
+  <source>Sorry! It looks like you don’t have permission to access this page.</source>
+  <target>¡Arrepentido! Parece que no tienes permiso para acceder a esta página.</target>
+</trans-unit>
+<trans-unit id="s54f9a0d7cc70fd66">
+  <source>Please refresh your browser or try again in a few minutes.</source>
+  <target>Actualice su navegador o inténtelo de nuevo en unos minutos.</target>
+</trans-unit>
+<trans-unit id="h91a85050bc03067b">
+  <source>Looks like there’s a
+          <x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>bump<x id="1" equiv-text="&lt;/span&gt;"/> in the road.</source>
+  <target>Parece que hay un
+          <x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>chichón<x id="1" equiv-text="&lt;/span&gt;"/> en la carretera.</target>
+</trans-unit>
+<trans-unit id="s918fcb4567138d8c">
+  <source>Sorry! This part of our site is currently unavailable, we’re working on resolving the issue as quickly as possible.</source>
+  <target>Arrepentido! Esta parte de nuestro sitio no está disponible actualmente, estamos trabajando para resolver el problema lo más rápido posible.</target>
+</trans-unit>
+<trans-unit id="h7f34894d53963d95">
+  <source>Well, that’s
+          <x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>puzzling.<x id="1" equiv-text="&lt;/span&gt;"/></source>
+  <target>Bueno, eso es
+          <x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>desconcertante.<x id="1" equiv-text="&lt;/span&gt;"/></target>
+</trans-unit>
+<trans-unit id="sa8561a353768287e">
+  <source>We’re sorry. It looks like the link you followed may be broken or the page may have been moved. </source>
+  <target>Lo sentimos. Parece que el enlace que siguió puede estar roto o la página puede haber sido movida.</target>
+</trans-unit>
+<trans-unit id="s9cd17b50848c4c11">
+  <source>ERROR</source>
+  <target>ERROR</target>
+</trans-unit>
+<trans-unit id="sa35f2abda56d613b">
+  <source><x id="0" equiv-text="${this.getCaptionSlotText()}"/> table, column <x id="1" equiv-text="${headerName}"/> is now sorted by <x id="2" equiv-text="${this.sortDirection}"/> values</source>
+  <target><x id="0" equiv-text="${this.getCaptionSlotText()}"/> tabla, la columna <x id="1" equiv-text="${headerName}"/> está ordenada por valores <x id="2" equiv-text="${this.sortDirection}"/></target>
+</trans-unit>
+<trans-unit id="sff0a3db63ffa1b16">
+  <source>Company Co on Facebook</source>
+  <target>Company Co en Facebook</target>
+</trans-unit>
+<trans-unit id="s21b6ff9e327ea7d5">
+  <source>Company Co on Twitter</source>
+  <target>Company Co en Facebook</target>
+</trans-unit>
+<trans-unit id="seb345de3cf758cf7">
+  <source>Company Co on YouTube</source>
+  <target>Company Co en Facebook</target>
+</trans-unit>
+<trans-unit id="s2482d376ea5b0108">
+  <source>Company Co on LinkedIn</source>
+  <target>Company Co en Facebook</target>
+</trans-unit>
+<trans-unit id="s84d3dbcd121dd01b">
+  <source>descending</source>
+  <target>descendentes</target>
+</trans-unit>
+<trans-unit id="s8e68b824b99140a1">
+  <source>ascending</source>
+  <target>ascendentes</target>
+</trans-unit>
+<trans-unit id="se146cd96a9e8d8d0">
+  <source>You've logged out.</source>
+  <target>Cerraste sesión.</target>
+</trans-unit>
+<trans-unit id="se12eb014b2fb29c1">
+  <source>To keep your account secure, we've logged you out.</source>
+  <target>Para mantener tu cuenta segura, hemos cerrado tu sesión.</target>
+</trans-unit>
+<trans-unit id="se3eff583aa25e9b1">
+  <source>Not what you wanted to do?</source>
+  <target>¿No era lo que querías hacer?</target>
+</trans-unit>
+<trans-unit id="s16ce239d6472323b">
+  <source>Log back in</source>
+  <target>Iniciar sesión de nuevo</target>
+</trans-unit>
+<trans-unit id="ha8bf63ea9bbf4eb4">
+  <source><x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>Uh-oh.<x id="1" equiv-text="&lt;/span&gt;"/> We’re
+          experiencing a small glitch.</source>
+          <target><x id="0" equiv-text="&lt;span class=&quot;${this.classEl('styled-text')}&quot;&gt;"/>Uh-oh.<x id="1" equiv-text="&lt;/span&gt;"/> Estamos
+          experimentando una pequeña falla.</target>
+</trans-unit>
+<trans-unit id="s2ceb11be2290bb1b">
+  <source>Cancel</source>
+  <target>Cancelar</target>
+</trans-unit>
+<trans-unit id="s2a8434b16dc214a3">
+  <source>Replace</source>
+  <target>Reemplazar</target>
+</trans-unit>
+<trans-unit id="s282f82886d463e5d">
+  <source>Are you sure you want to replace this file:</source>
+  <target>¿Está seguro de que desea reemplazar el siguiente archivo?</target>
+</trans-unit>
+<trans-unit id="scd920802542c5ac9">
+  <source>With</source>
+  <target>Con</target>
+</trans-unit>
+<trans-unit id="s752c71c317843847">
+  <source>Hang on a moment...</source>
+  <target>Espera un momento...</target>
+</trans-unit>
+<trans-unit id="s51c230b3dc998e31">
+  <source>Just a few more seconds!</source>
+  <target>¡Solo unos segundos más!</target>
+</trans-unit>
+<trans-unit id="s2f856979708748ac">
+  <source>Call us at</source>
+</trans-unit>
+<trans-unit id="sd15de0dcd2378a55">
+  <source>Contact us</source>
+  <target>Comunícate con nosotros</target>
+</trans-unit>
+<trans-unit id="sc7810ea6aec7390e">
+  <source>Help topics</source>
+  <target>Temas de ayuda</target>
+</trans-unit>
+<trans-unit id="s16071483b66b96af">
+  <source>View video transcript</source>
+  <target>Ver la transcripción del video</target>
+</trans-unit>
+</body>
+</file>
+</xliff>
