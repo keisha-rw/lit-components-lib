@@ -1,0 +1,18 @@
+{
+  "name": "@keisha/design-system-react",
+  "version": "0.0.0",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "require": "./cjs/index.js"
+    }
+  },
+  "dependencies": {
+    "@keisha/design-system": "*",
+    "@keisha/design-system-icons-react": "*",
+    "@lit-labs/react": "^2.0.1"
+  }
+}
