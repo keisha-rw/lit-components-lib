@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPlayer unit tests should render the video player with the defaults 1`] = `
+"<body>
+  <div>
+    <div
+      id="pds-video-player-container-5027867735001-abc123nowihaveauuid"
+    >
+      <div
+        class="pds-c-video-player"
+        title="This is an optional video title"
+      >
+        <div
+          id="pds-video-player-5027867735001-abc123nowihaveauuid"
+        >
+          <div
+            class="brightcove-react-player-loader"
+          >
+            <video-js
+              class="video-js"
+              controls="controls"
+              data-video-id="5027867735001"
+            />
+          </div>
+        </div>
+        <div
+          class="pds-u-sr-only"
+        >
+          Video duration is
+           
+           
+          minutes and
+           
+          seconds long
+          .
+        </div>
+        <p
+          aria-hidden="true"
+          class="pds-c-video-player__duration"
+          data-happo-hide="true"
+        >
+          <span
+            class="pds-c-video-player__icon"
+          >
+            <pds-icon-clock>
+              <ShadowRoot />
+            </pds-icon-clock>
+          </span>
+          <span />
+        </p>
+        <div>
+          <p
+            aria-hidden="true"
+            class="pds-c-video-player-video-title"
+          >
+            This is an optional video title
+          </p>
+        </div>
+        <div>
+          <pds-text-passage
+            class="pds-c-video-player__description"
+          >
+            <ShadowRoot />
+            <span>
+              This is an optional video description. It should only be added if there is also a video title.
+            </span>
+          </pds-text-passage>
+        </div>
+        <pds-link
+          class="pds-c-video-player__link"
+        >
+          <ShadowRoot />
+          View video transcript
+        </pds-link>
+      </div>
+    </div>
+  </div>
+</body>"
+`;
