@@ -1,0 +1,121 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "ignorePatterns": [
+    "!**/*",
+    "node_modules",
+    "*.d.ts"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "curly": ["error", "all"],
+        "react/function-component-definition": [
+          2,
+          {
+            "namedComponents": "arrow-function",
+            "unnamedComponents": "arrow-function"
+          }
+        ],
+        "react/jsx-props-no-spreading": [
+          "error",
+          {
+            "custom": "ignore"
+          }
+        ]
+      },
+      "extends": ["@keisha/eslint-config-react-typescript"],
+      "parserOptions": {
+        "project": ["packages/react/tsconfig.lib.json"]
+      }
+    },
+    {
+      "files": ["*.spec.tsx"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "curly": ["error", "all"],
+        "react/function-component-definition": [
+          2,
+          {
+            "namedComponents": "arrow-function",
+            "unnamedComponents": "arrow-function"
+          }
+        ],
+        "react/jsx-props-no-spreading": [
+          "error",
+          {
+            "custom": "ignore"
+          }
+        ]
+      },
+      "extends": ["@keisha/eslint-config-react-typescript"],
+      "parserOptions": {
+        "project": ["packages/react/tsconfig.spec.json"]
+      }
+    },
+    {
+      "files": ["*.stories.tsx"],
+      "parserOptions": {
+        "project": ["packages/react/.storybook/tsconfig.json"]
+      },
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "curly": ["error", "all"],
+        "react/function-component-definition": "off",
+        "react/jsx-props-no-spreading": [
+          "error",
+          {
+            "custom": "ignore"
+          }
+        ]
+      },
+      "extends": ["@keisha/eslint-config-react-typescript"]
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": ["@keisha/eslint-config-react-typescript"],
+      "env": {
+        "es6": true
+      },
+      "parserOptions": {
+        "project": ["packages/react/tsconfig.lib.json"],
+        "ecmaVersion": 9,
+        "sourceType": "module"
+      },
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "curly": ["error", "all"],
+        "react/jsx-props-no-spreading": [
+          "error",
+          {
+            "custom": "ignore"
+          }
+        ]
+      }
+    },
+    {
+      "files": [".storybook/*.js"],
+      "rules": {},
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018,
+        "project": ["packages/react/.storybook/tsconfig.json"]
+      }
+    },
+    {
+      "files": ["jest.config.ts"],
+      "parserOptions": {
+        "project": ["packages/react/tsconfig.spec.json"]
+      },
+      "extends": ["@keisha/eslint-config-typescript"],
+      "rules": {
+        "curly": ["error", "all"]
+      }
+    }
+  ]
+}
