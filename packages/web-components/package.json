@@ -1,0 +1,347 @@
+{
+  "name": "@keisha/design-system",
+  "version": "0.0.0",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "require": "./cjs/index.js"
+    },
+    "./pds-styles.min.css": {
+      "import": "./pds-styles.min.css",
+      "require": "./pds-styles.min.css"
+    },
+    "./avatar": {
+      "import": "./es/avatar.js",
+      "require": "./cjs/avatar.js"
+    },
+    "./band": {
+      "import": "./es/band.js",
+      "require": "./cjs/band.js"
+    },
+    "./button": {
+      "import": "./es/button.js",
+      "require": "./cjs/button.js"
+    },
+    "./card": {
+      "import": "./es/card.js",
+      "require": "./cjs/card.js"
+    },
+    "./link": {
+      "import": "./es/link.js",
+      "require": "./cjs/link.js"
+    },
+    "./footer": {
+      "import": "./es/footer.js",
+      "require": "./cjs/footer.js"
+    },
+    "./heading": {
+      "import": "./es/heading.js",
+      "require": "./cjs/heading.js"
+    },
+    "./hr": {
+      "import": "./es/hr.js",
+      "require": "./cjs/hr.js"
+    },
+    "./breadcrumbs": {
+      "import": "./es/breadcrumbs.js",
+      "require": "./cjs/breadcrumbs.js"
+    },
+    "./collapsible": {
+      "import": "./es/collapsible.js",
+      "require": "./cjs/collapsible.js"
+    },
+    "./text-passage": {
+      "import": "./es/text-passage.js",
+      "require": "./cjs/text-passage.js"
+    },
+    "./video-player": {
+      "import": "./es/video-player.js",
+      "require": "./cjs/video-player.js"
+    },
+    "./breadcrumbs-item": {
+      "import": "./es/breadcrumbs-item.js",
+      "require": "./cjs/breadcrumbs-item.js"
+    },
+    "./table": {
+      "import": "./es/table.js",
+      "require": "./cjs/table.js"
+    },
+    "./grid": {
+      "import": "./es/grid.js",
+      "require": "./cjs/grid.js"
+    },
+    "./grid-item": {
+      "import": "./es/grid-item.js",
+      "require": "./cjs/grid-item.js"
+    },
+    "./layout-container": {
+      "import": "./es/layout-container.js",
+      "require": "./cjs/layout-container.js"
+    },
+    "./list": {
+      "import": "./es/list.js",
+      "require": "./cjs/list.js"
+    },
+    "./list-item": {
+      "import": "./es/list-item.js",
+      "require": "./cjs/list-item.js"
+    },
+    "./primary-navigation-main-menu": {
+      "import": "./es/primary-navigation-main-menu.js",
+      "require": "./cjs/primary-navigation-main-menu.js"
+    },
+    "./primary-navigation-main-menu-item": {
+      "import": "./es/primary-navigation-main-menu-item.js",
+      "require": "./cjs/primary-navigation-main-menu-item.js"
+    },
+    "./primary-navigation-container": {
+      "import": "./es/primary-navigation-container.js",
+      "require": "./cjs/primary-navigation-container.js"
+    },
+    "./footnote": {
+      "import": "./es/footnote.js",
+      "require": "./cjs/footnote.js"
+    },
+    "./footnote-item": {
+      "import": "./es/footnote-item.js",
+      "require": "./cjs/footnote-item.js"
+    },
+    "./tag": {
+      "import": "./es/tag.js",
+      "require": "./cjs/tag.js"
+    },
+    "./box-button": {
+      "import": "./es/box-button.js",
+      "require": "./cjs/box-button.js"
+    },
+    "./feature-block": {
+      "import": "./es/feature-block.js",
+      "require": "./cjs/feature-block.js"
+    },
+    "./text-area": {
+      "import": "./es/text-area.js",
+      "require": "./cjs/text-area.js"
+    },
+    "./text-input": {
+      "import": "./text-input.js",
+      "require": "./text-input.js"
+    },
+    "./checkbox": {
+      "import": "./es/checkbox.js",
+      "require": "./cjs/checkbox.js"
+    },
+    "./primary-navigation-utility-menu": {
+      "import": "./es/primary-navigation-utility-menu.js",
+      "require": "./cjs/primary-navigation-utility-menu.js"
+    },
+    "./primary-navigation-utility-menu-item": {
+      "import": "./es/primary-navigation-utility-menu-item.js",
+      "require": "./cjs/primary-navigation-utility-menu-item.js"
+    },
+    "./skeleton-loader": {
+      "import": "./skeleton-loader.js",
+      "require": "./skeleton-loader.js"
+    },
+    "./step-indicator": {
+      "import": "./es/step-indicator.js",
+      "require": "./cjs/step-indicator.js"
+    },
+    "./step-indicator-item": {
+      "import": "./es/step-indicator-item.js",
+      "require": "./cjs/step-indicator-item.js"
+    },
+    "./pagination": {
+      "import": "./es/pagination.js",
+      "require": "./cjs/pagination.js"
+    },
+    "./pagination-item": {
+      "import": "./es/pagination-item.js",
+      "require": "./cjs/pagination-item.js"
+    },
+    "./footer-nav": {
+      "import": "./es/footer-nav.js",
+      "require": "./cjs/footer-nav.js"
+    },
+    "./footer-nav-item": {
+      "import": "./es/footer-nav-item.js",
+      "require": "./es/footer-nav-item.js"
+    },
+    "./support-heading": {
+      "import": "./es/support-heading.js",
+      "require": "./cjs/support-heading.js"
+    },
+    "./primary-navigation-dropdown-link": {
+      "import": "./es/primary-navigation-dropdown-link.js",
+      "require": "./cjs/primary-navigation-dropdown-link.js"
+    },
+    "./select": {
+      "import": "./es/select.js",
+      "require": "./cjs/select.js"
+    },
+    "./logo": {
+      "import": "./es/logo.js",
+      "require": "./cjs/logo.js"
+    },
+    "./linelength-container": {
+      "import": "./es/linelength-container.js",
+      "require": "./cjs/linelength-container.js"
+    },
+    "./decorator": {
+      "import": "./es/decorator.js",
+      "require": "./cjs/decorator.js"
+    },
+    "./action-menu": {
+      "import": "./es/action-menu.js",
+      "require": "./cjs/action-menu.js"
+    },
+    "./action-menu-item": {
+      "import": "./es/action-menu-item.js",
+      "require": "./cjs/action-menu-item.js"
+    },
+    "./radio": {
+      "import": "./es/radio.js",
+      "require": "./cjs/radio.js"
+    },
+    "./radio-group": {
+      "import": "./es/radio-group.js",
+      "require": "./cjs/radio-group.js"
+    },
+    "./file-upload": {
+      "import": "./es/file-upload.js",
+      "require": "./cjs/file-upload.js"
+    },
+    "./date-picker": {
+      "import": "./es/date-picker.js",
+      "require": "./cjs/date-picker.js"
+    },
+    "./modal": {
+      "import": "./es/modal.js",
+      "require": "./cjs/modal.js"
+    },
+    "./alert": {
+      "import": "./es/alert.js",
+      "require": "./cjs/alert.js"
+    },
+    "./tooltip": {
+      "import": "./es/tooltip.js",
+      "require": "./cjs/tooltip.js"
+    },
+    "./sidebar": {
+      "import": "./es/sidebar.js",
+      "require": "./cjs/sidebar.js"
+    },
+    "./primary-navigation": {
+      "import": "./es/primary-navigation.js",
+      "require": "./cjs/primary-navigation.js"
+    },
+    "./show-more": {
+      "import": "./es/show-more.js",
+      "require": "./cjs/show-more.js"
+    },
+    "./secondary-navigation": {
+      "import": "./es/secondary-navigation.js",
+      "require": "./cjs/secondary-navigation.js"
+    },
+    "./secondary-navigation-level-one": {
+      "import": "./es/secondary-navigation-level-one.js",
+      "require": "./cjs/secondary-navigation-level-one.js"
+    },
+    "./secondary-navigation-level-two": {
+      "import": "./es/secondary-navigation-level-two.js",
+      "require": "./cjs/secondary-navigation-level-two.js"
+    },
+    "./secondary-navigation-link": {
+      "import": "./es/secondary-navigation-link.js",
+      "require": "./cjs/secondary-navigation-link.js"
+    },
+    "./data-table": {
+      "import": "./es/data-table.js",
+      "require": "./cjs/data-table.js"
+    },
+    "./data-table-column": {
+      "import": "./es/data-table-column.js",
+      "require": "./cjs/data-table-column.js"
+    },
+    "./data-table-cell": {
+      "import": "./es/data-table-cell.js",
+      "require": "./cjs/data-table-cell.js"
+    },
+    "./data-table-row": {
+      "import": "./es/data-table-row.js",
+      "require": "./cjs/data-table-row.js"
+    },
+    "./data-table-columns": {
+      "import": "./es/data-table-columns.js",
+      "require": "./cjs/data-table-columns.js"
+    },
+    "./data-table-rows": {
+      "import": "./es/data-table-rows.js",
+      "require": "./cjs/data-table-rows.js"
+    },
+    "./session-timer": {
+      "import": "./es/session-timer.js",
+      "require": "./cjs/session-timer.js"
+    },
+    "./data-table-input-column": {
+      "import": "./es/data-table-input-column.js",
+      "require": "./cjs/data-table-input-column.js"
+    },
+    "./footnote-link": {
+      "import": "./es/footnote-link.js",
+      "require": "./cjs/footnote-link.js"
+    },
+    "./session-timer-countdown": {
+      "import": "./es/session-timer-countdown.js",
+      "require": "./cjs/session-timer-countdown.js"
+    },
+    "./status-indicator": {
+      "import": "./es/status-indicator.js",
+      "require": "./cjs/status-indicator.js"
+    },
+    "./switch": {
+      "import": "./es/switch.js",
+      "require": "./cjs/switch.js"
+    },
+    "./date-picker-input": {
+      "import": "./es/date-picker-input.js",
+      "require": "./cjs/date-picker-input.js"
+    },
+    "./error-page": {
+      "import": "./es/error-page.js",
+      "require": "./cjs/error-page.js"
+    },
+    "./logout-page": {
+      "import": "./es/logout-page.js",
+      "require": "./cjs/logout-page.js"
+    },
+    "./loading-page": {
+      "import": "./es/loading-page.js",
+      "require": "./cjs/loading-page.js"
+    },
+    "./segmented-control": {
+      "import": "./es/segmented-control.js",
+      "require": "./cjs/segmented-control.js"
+    },
+    "./segmented-control-item": {
+      "import": "./es/segmented-control-item.js",
+      "require": "./cjs/segmented-control-item.js"
+    },
+    "./footer-contact-link": {
+      "import": "./es/footer-contact-link.js",
+      "require": "./cjs/footer-contact-link.js"
+    },
+    "./phone-number-input": {
+      "import": "./es/phone-number-input.js",
+      "require": "./cjs/phone-number-input.js"
+    }
+  },
+  "dependencies": {
+    "@keisha/design-system-tokens": "*",
+    "@keisha/design-system-icons-web": "*",
+    "@lit/localize": "^0.12.0",
+    "lit": "^3.0.0"
+  }
+}
