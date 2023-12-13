@@ -1,0 +1,373 @@
+{
+  "name": "@keisha/design-system-icons-web",
+  "version": "0.0.0",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "require": "./cjs/index.js"
+    },
+    "./clock": {
+      "import": "./es/clock.js",
+      "require": "./cjs/clock.js"
+    },
+    "./trash": {
+      "import": "./es/trash.js",
+      "require": "./cjs/trash.js"
+    },
+    "./twitter": {
+      "import": "./es/twitter.js",
+      "require": "./cjs/twitter.js"
+    },
+    "./iconGallery": {
+      "import": "./es/iconGallery.js",
+      "require": "./cjs/iconGallery.js"
+    },
+    "./edit": {
+      "import": "./es/edit.js",
+      "require": "./cjs/edit.js"
+    },
+    "./user": {
+      "import": "./es/user.js",
+      "require": "./cjs/user.js"
+    },
+    "./eye": {
+      "import": "./es/eye.js",
+      "require": "./cjs/eye.js"
+    },
+    "./check": {
+      "import": "./es/check.js",
+      "require": "./cjs/check.js"
+    },
+    "./arrow-down": {
+      "import": "./es/arrow-down.js",
+      "require": "./cjs/arrow-down.js"
+    },
+    "./arrow-left": {
+      "import": "./es/arrow-left.js",
+      "require": "./cjs/arrow-left.js"
+    },
+    "./arrow-up": {
+      "import": "./es/arrow-up.js",
+      "require": "./cjs/arrow-up.js"
+    },
+    "./arrow-right": {
+      "import": "./es/arrow-right.js",
+      "require": "./cjs/arrow-right.js"
+    },
+    "./alert-circle": {
+      "import": "./es/alert-circle.js",
+      "require": "./cjs/alert-circle.js"
+    },
+    "./help-circle": {
+      "import": "./es/help-circle.js",
+      "require": "./cjs/help-circle.js"
+    },
+    "./mail": {
+      "import": "./es/mail.js",
+      "require": "./cjs/mail.js"
+    },
+    "./menu": {
+      "import": "./es/menu.js",
+      "require": "./cjs/menu.js"
+    },
+    "./chevron-down": {
+      "import": "./es/chevron-down.js",
+      "require": "./cjs/chevron-down.js"
+    },
+    "./x": {
+      "import": "./es/x.js",
+      "require": "./cjs/x.js"
+    },
+    "./chevron-right": {
+      "import": "./es/chevron-right.js",
+      "require": "./cjs/chevron-right.js"
+    },
+    "./chevron-left": {
+      "import": "./es/chevron-left.js",
+      "require": "./cjs/chevron-left.js"
+    },
+    "./chevron-up": {
+      "import": "./es/chevron-up.js",
+      "require": "./cjs/chevron-up.js"
+    },
+    "./chevrons-left": {
+      "import": "./es/chevrons-left.js",
+      "require": "./cjs/chevrons-left.js"
+    },
+    "./chevrons-right": {
+      "import": "./es/chevrons-right.js",
+      "require": "./cjs/chevrons-right.js"
+    },
+    "./upload": {
+      "import": "./es/upload.js",
+      "require": "./cjs/upload.js"
+    },
+    "./download": {
+      "import": "./es/download.js",
+      "require": "./cjs/download.js"
+    },
+    "./calendar": {
+      "import": "./es/calendar.js",
+      "require": "./cjs/calendar.js"
+    },
+    "./more-horizontal": {
+      "import": "./es/more-horizontal.js",
+      "require": "./cjs/more-horizontal.js"
+    },
+    "./eye-off": {
+      "import": "./es/eye-off.js",
+      "require": "./cjs/eye-off.js"
+    },
+    "./phone": {
+      "import": "./es/phone.js",
+      "require": "./cjs/phone.js"
+    },
+    "./map-pin": {
+      "import": "./es/map-pin.js",
+      "require": "./cjs/map-pin.js"
+    },
+    "./plus": {
+      "import": "./es/plus.js",
+      "require": "./cjs/plus.js"
+    },
+    "./minus": {
+      "import": "./es/minus.js",
+      "require": "./cjs/minus.js"
+    },
+    "./search": {
+      "import": "./es/search.js",
+      "require": "./cjs/search.js"
+    },
+    "./bell": {
+      "import": "./es/bell.js",
+      "require": "./cjs/bell.js"
+    },
+    "./shield": {
+      "import": "./es/shield.js",
+      "require": "./cjs/shield.js"
+    },
+    "./umbrella": {
+      "import": "./es/umbrella.js",
+      "require": "./cjs/umbrella.js"
+    },
+    "./sprout": {
+      "import": "./es/sprout.js",
+      "require": "./cjs/sprout.js"
+    },
+    "./flag": {
+      "import": "./es/flag.js",
+      "require": "./cjs/flag.js"
+    },
+    "./sun": {
+      "import": "./es/sun.js",
+      "require": "./cjs/sun.js"
+    },
+    "./dollar-sign": {
+      "import": "./es/dollar-sign.js",
+      "require": "./cjs/dollar-sign.js"
+    },
+    "./bell-notification": {
+      "import": "./es/bell-notification.js",
+      "require": "./cjs/bell-notification.js"
+    },
+    "./facebook": {
+      "import": "./es/facebook.js",
+      "require": "./cjs/facebook.js"
+    },
+    "./linkedin": {
+      "import": "./es/linkedin.js",
+      "require": "./cjs/linkedin.js"
+    },
+    "./youtube": {
+      "import": "./es/youtube.js",
+      "require": "./cjs/youtube.js"
+    },
+    "./paperclip": {
+      "import": "./es/paperclip.js",
+      "require": "./cjs/paperclip.js"
+    },
+    "./area-chart": {
+      "import": "./es/area-chart.js",
+      "require": "./cjs/area-chart.js"
+    },
+    "./image": {
+      "import": "./es/image.js",
+      "require": "./cjs/image.js"
+    },
+    "./instagram": {
+      "import": "./es/instagram.js",
+      "require": "./cjs/instagram.js"
+    },
+    "./info": {
+      "import": "./es/info.js",
+      "require": "./cjs/info.js"
+    },
+    "./lightbulb": {
+      "import": "./es/lightbulb.js",
+      "require": "./cjs/lightbulb.js"
+    },
+    "./printer": {
+      "import": "./es/printer.js",
+      "require": "./cjs/printer.js"
+    },
+    "./alert-triangle": {
+      "import": "./es/alert-triangle.js",
+      "require": "./cjs/alert-triangle.js"
+    },
+    "./unlock": {
+      "import": "./es/unlock.js",
+      "require": "./cjs/unlock.js"
+    },
+    "./users": {
+      "import": "./es/users.js",
+      "require": "./cjs/users.js"
+    },
+    "./zoom-in": {
+      "import": "./es/zoom-in.js",
+      "require": "./cjs/zoom-in.js"
+    },
+    "./zoom-out": {
+      "import": "./es/zoom-out.js",
+      "require": "./cjs/zoom-out.js"
+    },
+    "./star-half": {
+      "import": "./es/star-half.js",
+      "require": "./cjs/star-half.js"
+    },
+    "./star-full": {
+      "import": "./es/star-full.js",
+      "require": "./cjs/star-full.js"
+    },
+    "./thumbs-up": {
+      "import": "./es/thumbs-up.js",
+      "require": "./cjs/thumbs-up.js"
+    },
+    "./thumbs-down": {
+      "import": "./es/thumbs-down.js",
+      "require": "./cjs/thumbs-down.js"
+    },
+    "./shield-check": {
+      "import": "./es/shield-check.js",
+      "require": "./cjs/shield-check.js"
+    },
+    "./star": {
+      "import": "./es/star.js",
+      "require": "./cjs/star.js"
+    },
+    "./refresh-cw": {
+      "import": "./es/refresh-cw.js",
+      "require": "./cjs/refresh-cw.js"
+    },
+    "./refresh-ccw": {
+      "import": "./es/refresh-ccw.js",
+      "require": "./cjs/refresh-ccw.js"
+    },
+    "./settings": {
+      "import": "./es/settings.js",
+      "require": "./cjs/settings.js"
+    },
+    "./share": {
+      "import": "./es/share.js",
+      "require": "./cjs/share.js"
+    },
+    "./pause-circle": {
+      "import": "./es/pause-circle.js",
+      "require": "./cjs/pause-circle.js"
+    },
+    "./pen-square": {
+      "import": "./es/pen-square.js",
+      "require": "./cjs/pen-square.js"
+    },
+    "./pin": {
+      "import": "./es/pin.js",
+      "require": "./cjs/pin.js"
+    },
+    "./wrench": {
+      "import": "./es/wrench.js",
+      "require": "./cjs/wrench.js"
+    },
+    "./loader": {
+      "import": "./es/loader.js",
+      "require": "./cjs/loader.js"
+    },
+    "./lock": {
+      "import": "./es/lock.js",
+      "require": "./cjs/lock.js"
+    },
+    "./message-square": {
+      "import": "./es/message-square.js",
+      "require": "./cjs/message-square.js"
+    },
+    "./external-link": {
+      "import": "./es/external-link.js",
+      "require": "./cjs/external-link.js"
+    },
+    "./file": {
+      "import": "./es/file.js",
+      "require": "./cjs/file.js"
+    },
+    "./filter": {
+      "import": "./es/filter.js",
+      "require": "./cjs/filter.js"
+    },
+    "./globe": {
+      "import": "./es/globe.js",
+      "require": "./cjs/globe.js"
+    },
+    "./heart": {
+      "import": "./es/heart.js",
+      "require": "./cjs/heart.js"
+    },
+    "./home": {
+      "import": "./es/home.js",
+      "require": "./cjs/home.js"
+    },
+    "./line-chart": {
+      "import": "./es/line-chart.js",
+      "require": "./cjs/line-chart.js"
+    },
+    "./list": {
+      "import": "./es/list.js",
+      "require": "./cjs/list.js"
+    },
+    "./calculator": {
+      "import": "./es/calculator.js",
+      "require": "./cjs/calculator.js"
+    },
+    "./check-circle": {
+      "import": "./es/check-circle.js",
+      "require": "./cjs/check-circle.js"
+    },
+    "./copy": {
+      "import": "./es/copy.js",
+      "require": "./cjs/copy.js"
+    },
+    "./corner-up-left": {
+      "import": "./es/corner-up-left.js",
+      "require": "./cjs/corner-up-left.js"
+    },
+    "./play-circle": {
+      "import": "./es/play-circle.js",
+      "require": "./cjs/play-circle.js"
+    },
+    "./whatsapp": {
+      "import": "./es/whatsapp.js",
+      "require": "./cjs/whatsapp.js"
+    },
+    "./log-out": {
+      "import": "./es/log-out.js",
+      "require": "./cjs/log-out.js"
+    },
+    "./life-buoy": {
+      "import": "./es/life-buoy.js",
+      "require": "./cjs/life-buoy.js"
+    }
+  },
+  "dependencies": {
+    "lit": "^3.0.0",
+    "@keisha/design-system-tokens": "*"
+  }
+}

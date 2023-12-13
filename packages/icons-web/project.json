@@ -1,0 +1,66 @@
+{
+  "name": "icons-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/icons-web/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build:icons-web"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "packages/icons-web/**/*.ts"
+        ]
+      }
+    },
+    "storybook": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run storybook-icons-web-cmd"
+      }
+    },
+    "build-storybook": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build-storybook-icons-web-cmd"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/packages/icons-web"
+      ],
+      "options": {
+        "jestConfig": "packages/icons-web/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
