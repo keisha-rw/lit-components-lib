@@ -1,0 +1,37 @@
+{
+  "name": "@keisha/design-system-tokens",
+  "version": "0.0.0",
+  "author": "Keisha",
+  "main": "dist/es/index.js",
+  "types": "dist/es/index.d.ts",
+  "module": "dist/cjs/index.js",
+  "scripts": {
+    "build": "npm run clean && node build/build.js",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "style-dictionary": "3.9.0"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/es/index.d.ts",
+        "default": "./dist/es/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    },
+    "./default": {
+      "import": {
+        "types": "./dist/es/default/tokens.d.ts",
+        "default": "./dist/es/default/tokens.js"
+      },
+      "require": {
+        "types": "./dist/cjs/default/tokens.d.ts",
+        "default": "./dist/cjs/default/tokens.js"
+      }
+    }
+  }
+}
